@@ -14,7 +14,23 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@heavy-duty-landing/footer": [
+        "libs/landings/heavy-duty/core/components/landing-footer/src/index.ts"
+      ],
+      "@heavy-duty-landing/navbar": [
+        "libs/landings/heavy-duty/core/components/landing-navbar/src/index.ts"
+      ],
+      "@heavy-duty-landing/pages-home": [
+        "libs/landings/heavy-duty/core/pages/home/src/index.ts"
+      ],
+      "@heavy-duty-landing/pages-terms-conditions": [
+        "libs/landings/heavy-duty/core/pages/terms-conditions/src/index.ts"
+      ],
+      "@heavy-duty-landing/shell": [
+        "libs/landings/heavy-duty/shell/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
