@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent],
+  imports: [],
   selector: 'hd-spain-tour-root',
-  template: `<hd-spain-tour-nx-welcome></hd-spain-tour-nx-welcome> `,
+  template: `
+    <h1>Spain Tour Landing</h1>
+  `,
   styles: [''],
 })
 export class AppComponent {
