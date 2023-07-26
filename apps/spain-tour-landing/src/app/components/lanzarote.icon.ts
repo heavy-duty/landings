@@ -14,28 +14,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         style="enable-background:new 0 0 1560 1540;"
         xml:space="preserve"
       >
-        <style type="text/css">
-          .st0 {
-            fill: #8cc63f;
-            stroke: #ffffff;
-            stroke-width: 1.4062;
-            stroke-linecap: round;
-            stroke-linejoin: round;
-            stroke-miterlimit: 10;
-          }
-          .st1 {
-            opacity: 0.75;
-            fill: #f7f7f7;
-          }
-          .st2 {
-            fill: none;
-            stroke: #ffffff;
-            stroke-width: 0.5273;
-            stroke-linecap: round;
-            stroke-linejoin: round;
-            stroke-miterlimit: 10;
-          }
-        </style>
         <g id="XMLID_1_"></g>
         <g id="XMLID_2_">
           <polyline

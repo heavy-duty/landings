@@ -11,8 +11,8 @@ import { Component } from '@angular/core';
         <hd-spain-tour-la-gomera-island-icon class="w-56"></hd-spain-tour-la-gomera-island-icon>
         <hd-spain-tour-fuerteventura-island-icon class="w-56"></hd-spain-tour-fuerteventura-island-icon>
         <hd-spain-tour-gran-canaria-island-icon class="w-56"></hd-spain-tour-gran-canaria-island-icon>
-        <hd-spain-tour-el-hierro-island-icon class="w-56"></hd-spain-tour-el-hierro-island-icon>
         <hd-spain-tour-la-palma-island-icon class="w-56"></hd-spain-tour-la-palma-island-icon>
+        <hd-spain-tour-el-hierro-island-icon class="w-56"></hd-spain-tour-el-hierro-island-icon>
       </div>
     </section>
     <section>

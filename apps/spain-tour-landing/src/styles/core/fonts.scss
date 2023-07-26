@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+@font-face {
+	font-family: 'SunnySunday';
+	src: local('../../assets/fonts/sunny_sunday.ttf'),
+		local('../../assets/fonts/sunny_sunday.ttf'),
+		url(../../assets/fonts/sunny_sunday.ttf) format('opentype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Holtwood';
+	src: local('../../assets/fonts/holtwood.ttf'),
+		local('../../assets/fonts/holtwood.ttf'),
+		url(../../assets/fonts/holtwood.ttf) format('opentype');
+	font-display: swap;
+}
+
+.bp-graffiti-font {
+	font-family: 'SunnySunday' !important;
+}
+
+.bp-heavy-duty {
+	font-family: 'Holtwood' !important;
+}
+
+.bp-landing-font {
+	font-family: 'Montserrat', sans-serif;
+}
