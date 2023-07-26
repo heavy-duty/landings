@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-	selector: 'the-challenger-el-hierro-island-icon',
+	selector: 'hd-spain-tour-el-hierro-island-icon',
 	template: `
     <div class="w-full">
       <svg

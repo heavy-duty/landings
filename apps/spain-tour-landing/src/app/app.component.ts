@@ -1,18 +1,18 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'the-challenger-root',
+  selector: 'hd-spain-tour-root',
   template: `
     <section>
       <h1 class="text-6xl text-center mt-16">Islands Tour</h1>
       <div class="w-full flex mt-32 justify-center gap-6">
-        <the-challenger-tenerife-island-icon class="w-56"></the-challenger-tenerife-island-icon>
-        <the-challenger-lanzarote-island-icon class="w-56"></the-challenger-lanzarote-island-icon>
-        <the-challenger-la-gomera-island-icon class="w-56"></the-challenger-la-gomera-island-icon>
-        <the-challenger-fuerteventura-island-icon class="w-56"></the-challenger-fuerteventura-island-icon>
-        <the-challenger-gran-canaria-island-icon class="w-56"></the-challenger-gran-canaria-island-icon>
-        <the-challenger-el-hierro-island-icon class="w-56"></the-challenger-el-hierro-island-icon>
-        <the-challenger-la-palma-island-icon class="w-56"></the-challenger-la-palma-island-icon>
+        <hd-spain-tour-tenerife-island-icon class="w-56"></hd-spain-tour-tenerife-island-icon>
+        <hd-spain-tour-lanzarote-island-icon class="w-56"></hd-spain-tour-lanzarote-island-icon>
+        <hd-spain-tour-la-gomera-island-icon class="w-56"></hd-spain-tour-la-gomera-island-icon>
+        <hd-spain-tour-fuerteventura-island-icon class="w-56"></hd-spain-tour-fuerteventura-island-icon>
+        <hd-spain-tour-gran-canaria-island-icon class="w-56"></hd-spain-tour-gran-canaria-island-icon>
+        <hd-spain-tour-el-hierro-island-icon class="w-56"></hd-spain-tour-el-hierro-island-icon>
+        <hd-spain-tour-la-palma-island-icon class="w-56"></hd-spain-tour-la-palma-island-icon>
       </div>
     </section>
     <section>
