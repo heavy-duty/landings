@@ -86,7 +86,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 
 			<div class="flex flex-col sm:flex-row px-8 sm:px-0">
 				<div class="bp-disc -rotate-12">
-					<a href="https://university.heavyduty.builders" target="_blank">
+					<a href="#" target="_blank">
 						<img
 							class="sm:w-80"
 							src="assets/images/services/bounty_usa_1.webp"
@@ -99,7 +99,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 
 				<div class="bp-disc rotate-12 sm:mt-0">
 					<a
-						href="https://solana-colombia-hacker-house.heavyduty.builders"
+						href="#"
 						target="_blank"
 					>
 						<img
@@ -113,7 +113,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 				</div>
 
 				<div class="bp-disc -rotate-12 sm:mt-0">
-					<a href="https://lisboa.heavyduty.builders" target="_blank">
+					<a href="#" target="_blank">
 						<img
 							class="sm:w-80"
 							src="assets/images/services/bounty_lisbon.webp"
