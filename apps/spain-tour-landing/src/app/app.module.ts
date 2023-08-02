@@ -9,6 +9,13 @@ import { LaGomeraIslandIconComponent } from './components/la-gomera.icon';
 import { LaPalmaIslandIconComponent } from './components/la-palma.icon';
 import { LanzaroteIslandIconComponent } from './components/lanzarote.icon';
 import { TenerifeIslandIconComponent } from './components/tenerife.icon';
+import { WhaleIconComponent } from './components/whale.icon';
+import { AirscrewIconComponent } from './components/airscrew.icon';
+import { RedDotIconComponent } from './components/red-dot.icon';
+import { BoatIconComponent } from './components/boat.icon';
+import { RedLineIconComponent } from './components/red-line.icon';
+import { SunStickerIconComponent } from './components/sun-sticker.icon';
+import { MainCardIconComponent } from './components/main-card.icon';
 
 @NgModule({
   declarations: [
@@ -19,7 +26,14 @@ import { TenerifeIslandIconComponent } from './components/tenerife.icon';
     FuerteventuraIslandIconComponent,
     GranCanariaIslandIconComponent,
     ElHierroIslandIconComponent,
-    LaPalmaIslandIconComponent
+    LaPalmaIslandIconComponent,
+    WhaleIconComponent,
+    AirscrewIconComponent,
+    RedDotIconComponent,
+    RedLineIconComponent,
+    BoatIconComponent,
+    SunStickerIconComponent,
+    MainCardIconComponent
   ],
   imports: [BrowserModule],
   providers: [],
