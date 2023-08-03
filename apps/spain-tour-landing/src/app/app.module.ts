@@ -16,6 +16,7 @@ import { BoatIconComponent } from './components/boat.icon';
 import { RedLineIconComponent } from './components/red-line.icon';
 import { SunStickerIconComponent } from './components/sun-sticker.icon';
 import { MainCardIconComponent } from './components/main-card.icon';
+import { PostCardIconComponent } from './components/post-card.icon';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { MainCardIconComponent } from './components/main-card.icon';
     RedLineIconComponent,
     BoatIconComponent,
     SunStickerIconComponent,
-    MainCardIconComponent
+    MainCardIconComponent,
+    PostCardIconComponent
   ],
   imports: [BrowserModule],
   providers: [],

@@ -1,7 +1,8 @@
 @import './core/fonts.scss';
 
 .bp-bg-cork-pattern {
-	background-image: url(../assets/images/patterns/cork.png);
+	background-image: url(../assets/images/patterns/cork.webp);
 	background-repeat: repeat;
 	background-color: #d2a56b;
+	background-size: contain;
 }
