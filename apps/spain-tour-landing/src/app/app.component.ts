@@ -5,13 +5,13 @@ import { Component } from '@angular/core';
   template: `
     <!-- Islands -->
     <section class="flex justify-center mb-[2vw] px-[7vw]">
-      <div class="w-full h-[62vw] relative mt-[5vw]">
+      <div class="w-full h-[62vw] relative mt-[8vw]">
         <hd-spain-tour-main-card-icon
           class="absolute w-full"
         ></hd-spain-tour-main-card-icon>
         <div class="px-[2.5vw] pt-[1vw] pb-[2vw]">
           <hd-spain-tour-sun-sticker-icon
-            class="absolute w-[8vw] top-[-2.5vw] right-[1vw]"
+            class="absolute w-[11vw] top-[-3.5vw] right-[1.5vw]"
           ></hd-spain-tour-sun-sticker-icon>
           <div class="relative flex flex-col items-center mb-[1vw]">
             <hd-spain-tour-red-dot-icon
