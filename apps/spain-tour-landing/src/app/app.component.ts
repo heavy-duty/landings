@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-root',
   template: `
+    <!-- Islands -->
     <section class="flex justify-center mb-[2vw] px-[7vw]">
       <div class="w-full h-[62vw] relative mt-[5vw]">
         <hd-spain-tour-main-card-icon
@@ -81,6 +82,11 @@ import { Component } from '@angular/core';
           </div>
 
           <div class="w-full flex justify-center">
+            <img 
+              src="assets/images/logo_heavyduty_pencil.webp"
+              class="block w-[4vw] absolute bottom-[8vw]"
+              alt="Heavy Duty Builders logo in pencil style"
+            />
             <hd-spain-tour-red-dot-icon
               class="block w-[2vw] absolute bottom-[2vw]"
             ></hd-spain-tour-red-dot-icon>
@@ -88,6 +94,8 @@ import { Component } from '@angular/core';
         </div>
       </div>
     </section>
+    
+    <!-- Roadmap and first sponsor -->
     <section class="my-[4vw] px-[7vw]">
       <div class="flex justify-between">
         <div class="relative block w-[22vw]">
@@ -196,9 +204,25 @@ import { Component } from '@angular/core';
 
       <!-- line from first event to second event-->
       <div class="relative w-full h-[22vw]">
+        <div class="relative w-[25vw] mt-[10vw]">
+          <img
+          src="assets/images/folded_paper.webp"
+          class="relative w-full left-[2vw] -rotate-3"
+          alt="white folded paper second sponsor spot"
+          />
+          <img
+            src="assets/images/drago_sticker.webp"
+            class="absolute w-[9vw] -top-[1.5vw] -left-[1vw] rotate-12"
+            alt="Drago tree sticker" 
+          />
+          <hd-spain-tour-red-dot-icon
+            class="absolute block w-[2vw] z-10 top-[2vw] left-[12vw]"
+          ></hd-spain-tour-red-dot-icon>
+        </div>
         <img
-          src="assets/images/arrow_1-2.png"
+          src="assets/images/arrow_1-2.webp"
           class="absolute w-[33vw] right-[1vw] -top-[15vw]"
+          alt="arrow from first postcard event to second postcard event"
         />
       </div>
 
@@ -291,9 +315,25 @@ import { Component } from '@angular/core';
 
       <!-- line from second event to third event-->
       <div class="relative w-full h-[22vw]">
+        <div class="absolute w-[25vw] mt-[10vw] right-0">
+            <img
+            src="assets/images/blue_post_it_3.webp"
+            class="relative w-full left-[2vw] -rotate-3"
+            alt="blue Post-It third sponsor spot"
+            />
+            <img
+              src="assets/images/heavyduty_sticker.webp"
+              class="absolute w-[10vw] -top-[3vw] -left-[1.5vw] -rotate-12"
+              alt="Heavy Duty Builders graffiti sticker" 
+            />
+            <hd-spain-tour-red-dot-icon
+              class="absolute block w-[2vw] z-10 top-[.5vw] left-[13vw]"
+            ></hd-spain-tour-red-dot-icon>
+          </div>
         <img
-          src="assets/images/arrow_2-3.png"
+          src="assets/images/arrow_2-3.webp"
           class="absolute w-[34vw] left-[1vw] -top-[13vw]"
+          alt="arrow from second postcard event to third postcard event"
         />
       </div>
 
@@ -385,8 +425,9 @@ import { Component } from '@angular/core';
       <!-- line from third event to fourth event-->
       <div class="relative w-full h-[22vw]">
         <img
-          src="assets/images/arrow_3-4.png"
+          src="assets/images/arrow_3-4.webp"
           class="absolute w-[34vw] right-[1vw] -top-[13vw]"
+          alt="arrow from third postcard event to fourth postcard event"
         />
       </div>
 
