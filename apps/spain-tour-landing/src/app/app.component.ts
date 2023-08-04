@@ -18,94 +18,29 @@ import { Component } from '@angular/core';
               class="block w-[2vw]"
             ></hd-spain-tour-red-dot-icon>
             <h1 class="text-[3vw] bp-amatic-font text-center font-bold">
-              Tour por las Islas Canarias
+              Tour de Solana por España
             </h1>
             <hd-spain-tour-red-line-icon
               class="block w-[13vw] ml-[12vw] -mt-[1vw]"
             ></hd-spain-tour-red-line-icon>
           </div>
           <div class="bg-[#0ac0ff] w-full h-[38vw] relative">
-            <div class="absolute bottom-[3vw] left-[2vw]">
-              <p class="bp-beach-sunshine-font text-[3vw]">El Hierro</p>
-              <hd-spain-tour-el-hierro-island-icon
-                class="block w-[10vw]"
-              ></hd-spain-tour-el-hierro-island-icon>
-            </div>
-            <div class="absolute top-[3vw] left-[6vw]">
-              <p class="bp-beach-sunshine-font text-[3vw]">La Palma</p>
-              <hd-spain-tour-la-palma-island-icon
-                class="block w-[8vw]"
-              ></hd-spain-tour-la-palma-island-icon>
-            </div>
-            <div
-              class="absolute bottom-[8vw] left-[15vw] flex flex-col items-center"
-            >
-              <hd-spain-tour-la-gomera-island-icon
-                class="block w-[8vw]"
-              ></hd-spain-tour-la-gomera-island-icon>
-              <p class="bp-beach-sunshine-font text-[3vw]">La Gomera</p>
-            </div>
-            <div class="absolute bottom-[11vw] left-[24vw]">
-              <p class="bp-beach-sunshine-font text-[3vw]">Tenerife</p>
-              <hd-spain-tour-tenerife-island-icon
-                class="block w-[17vw]"
-              ></hd-spain-tour-tenerife-island-icon>
-            </div>
-            <div class="absolute bottom-[8vw] left-[44vw] text-right">
-              <p class="bp-beach-sunshine-font text-[3vw]">Gran</p>
-              <p class="bp-beach-sunshine-font text-[3vw] -mt-[1.5vw]">
-                Canaria
-              </p>
-              <hd-spain-tour-gran-canaria-island-icon
-                class="block w-[10vw]"
-              ></hd-spain-tour-gran-canaria-island-icon>
-            </div>
-            <div class="absolute top-[12vw] right-[9vw] z-10">
-              <hd-spain-tour-fuerteventura-island-icon
-                class="block w-[14vw]"
-              ></hd-spain-tour-fuerteventura-island-icon>
-              <p class="bp-beach-sunshine-font text-[3vw]">Fuerteventura</p>
-            </div>
-            <div class="absolute right-[3vw]">
-              <p
-                class="relative bp-beach-sunshine-font text-[3vw] top-[3vw] right-[6vw]"
-              >
-                Lanzarote
-              </p>
-              <hd-spain-tour-lanzarote-island-icon
-                class="block w-[10vw]"
-              ></hd-spain-tour-lanzarote-island-icon>
-              <hd-spain-tour-airscrew-icon
-                class="block absolute w-[2vw] z-20 bottom-[5.1vw] left-[4.3vw]"
-              ></hd-spain-tour-airscrew-icon>
-            </div>
-          </div>
-
-          <div class="w-full flex justify-center">
-            <img 
-              src="assets/images/logo_heavyduty_pencil.webp"
-              class="block w-[4vw] absolute bottom-[8vw]"
-              alt="Heavy Duty Builders logo in pencil style"
-            />
-            <hd-spain-tour-red-dot-icon
-              class="block w-[2vw] absolute bottom-[2vw]"
-            ></hd-spain-tour-red-dot-icon>
           </div>
         </div>
       </div>
     </section>
-    
+
     <!-- Roadmap and first sponsor -->
     <section class="my-[4vw] px-[7vw]">
       <div class="flex justify-between">
-        <div class="relative block w-[22vw]">
+        <div class="relative block w-[28vw]">
           <img
             src="assets/images/road_map.webp"
             alt="roadmap Tour Text image"
             class="w-full"
           />
         </div>
-        <div class="relative flex justify-center w-[18vw] right-[2vw]">
+        <div class="relative flex justify-center w-[20vw] right-[2vw]">
           <hd-spain-tour-red-dot-icon
             class="absolute block w-[2vw] top-[1vw] mr-[2.5vw] z-10"
           ></hd-spain-tour-red-dot-icon>
@@ -204,19 +139,19 @@ import { Component } from '@angular/core';
 
       <!-- line from first event to second event-->
       <div class="relative w-full h-[22vw]">
-        <div class="relative w-[25vw] mt-[10vw]">
+        <div class="relative w-[28vw] mt-[10vw]">
           <img
-          src="assets/images/folded_paper.webp"
-          class="relative w-full left-[2vw] -rotate-3"
-          alt="white folded paper second sponsor spot"
+            src="assets/images/folded_paper.webp"
+            class="relative w-full left-[2vw] -rotate-3"
+            alt="white folded paper second sponsor spot"
           />
           <img
             src="assets/images/drago_sticker.webp"
             class="absolute w-[9vw] -top-[1.5vw] -left-[1vw] rotate-12"
-            alt="Drago tree sticker" 
+            alt="Drago tree sticker"
           />
           <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[2vw] left-[12vw]"
+            class="absolute block w-[2vw] z-10 top-[2vw] left-[13vw]"
           ></hd-spain-tour-red-dot-icon>
         </div>
         <img
@@ -316,20 +251,20 @@ import { Component } from '@angular/core';
       <!-- line from second event to third event-->
       <div class="relative w-full h-[22vw]">
         <div class="absolute w-[25vw] mt-[10vw] right-0">
-            <img
+          <img
             src="assets/images/blue_post_it_3.webp"
             class="relative w-full left-[2vw] -rotate-3"
             alt="blue Post-It third sponsor spot"
-            />
-            <img
-              src="assets/images/heavyduty_sticker.webp"
-              class="absolute w-[10vw] -top-[3vw] -left-[1.5vw] -rotate-12"
-              alt="Heavy Duty Builders graffiti sticker" 
-            />
-            <hd-spain-tour-red-dot-icon
-              class="absolute block w-[2vw] z-10 top-[.5vw] left-[13vw]"
-            ></hd-spain-tour-red-dot-icon>
-          </div>
+          />
+          <img
+            src="assets/images/heavyduty_sticker.webp"
+            class="absolute w-[10vw] -top-[3vw] -left-[1.5vw] -rotate-12"
+            alt="Heavy Duty Builders graffiti sticker"
+          />
+          <hd-spain-tour-red-dot-icon
+            class="absolute block w-[2vw] z-10 top-[.5vw] left-[13vw]"
+          ></hd-spain-tour-red-dot-icon>
+        </div>
         <img
           src="assets/images/arrow_2-3.webp"
           class="absolute w-[34vw] left-[1vw] -top-[13vw]"
@@ -424,6 +359,13 @@ import { Component } from '@angular/core';
 
       <!-- line from third event to fourth event-->
       <div class="relative w-full h-[22vw]">
+        <div class="absolute w-[12vw] mt-[5vw] left-[20vw]">
+          <img
+            src="assets/images/logo_loroparque.webp"
+            class="relative w-full rotate-12"
+            alt="Loro Parque sponsor logo sticker"
+          />
+        </div>
         <img
           src="assets/images/arrow_3-4.webp"
           class="absolute w-[34vw] right-[1vw] -top-[13vw]"
@@ -518,6 +460,67 @@ import { Component } from '@angular/core';
         </div>
       </div>
     </section>
+
+    <footer class="flex justify-between">
+      <!-- Heavy Duty Builders Info-->
+      <div class="relative w-[24vw] h-[23vw] -mt-[5vw] left-[10vw] mb-[5vw] -rotate-12">
+        <img
+          src="assets/images/yellow_post_it_1.webp"
+          class="absolute w-full rotate-3"
+          alt="Yellow sticker with footer information"
+        />
+        <img
+          src="assets/images/logo_heavyduty_beware.webp"
+          class="absolute w-[50%] -top-[2vw] left-[3vw] -rotate-12"
+          alt="Beware Heavy Duty Builders sticker"
+        />
+        <div class="relative flex justify-around top-[6vw] pl-[2vw] px-[2.5vw]">
+          <hd-spain-tour-twitter-icon
+            class="block w-[5vw]"
+          ></hd-spain-tour-twitter-icon>
+          <hd-spain-tour-discord-icon
+            class="block w-[5vw]"
+          ></hd-spain-tour-discord-icon>
+          <hd-spain-tour-github-icon
+            class="block w-[5vw]"
+          ></hd-spain-tour-github-icon>
+        </div>
+        <div class="relative top-[6vw] w-full flex flex-col items-center mt-[1vw]">
+          <div class="relative  w-[80%]">
+            <img
+              src="assets/images/footer_website_text.webp"
+              class="w-full"
+              alt="Heavy Duty Builders link"
+            />
+          </div>
+          <div class="relative w-[60%] mt-[1vw]">
+            <img
+              src="assets/images/footer_terms_text.webp"
+              class="w-full"
+              alt="Heavy Duty Builders terms & conditions link"
+            />
+          </div>
+          <div class="relative w-[55%] mt-[.5vw]">
+            <img
+              src="assets/images/footer_copyleft_text.webp"
+              class="w-full"
+              alt="Heavy Duty Builders copyrights"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Next Hackathon information -->
+      <div class="relative w-[17vw] h-[17vw] top-[2vw] right-[12vw] rotate-6">
+        <a href="https://solana.com/grizzlython" target="_blank">
+          <img 
+            src="assets/images/hackathon_post_it.webp"
+            class="w-full"
+            alt="Next hackathon orange Post-it"
+          />
+        </a>
+      </div>
+    </footer>
   `,
 })
 export class AppComponent {}
