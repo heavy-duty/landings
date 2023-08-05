@@ -6,3 +6,32 @@
 	background-color: #d2a56b;
 	background-size: contain;
 }
+
+.bp-bg-first-event {
+	background-image: url(../assets/images/locations/madrid.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bp-bg-second-event {
+	background-image: url(../assets/images/locations/malaga.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bp-bg-third-event {
+	background-image: url(../assets/images/locations/alicante.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.bp-bg-fourth-event {
+	background-image: url(../assets/images/locations/barcelona.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a:hover * {
+	color: #45abf9;
+}

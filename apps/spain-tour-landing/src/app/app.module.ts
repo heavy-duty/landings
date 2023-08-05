@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { RedDotIconComponent } from './components/red-dot.icon';
+import { PushPinIconComponent } from './components/push-pin.icon';
 import { RedLineIconComponent } from './components/red-line.icon';
 import { SunStickerIconComponent } from './components/sun-sticker.icon';
 import { MainCardIconComponent } from './components/main-card.icon';
@@ -14,7 +14,7 @@ import { TwitterIconComponent } from './components/twitter.icon';
 @NgModule({
   declarations: [
     AppComponent,
-    RedDotIconComponent,
+    PushPinIconComponent,
     RedLineIconComponent,
     SunStickerIconComponent,
     MainCardIconComponent,

@@ -3,47 +3,139 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-root',
   template: `
-    <!-- Islands -->
-    <section class="flex justify-center mb-[2vw] px-[7vw]">
-      <div class="w-full h-[62vw] relative mt-[8vw]">
-        <hd-spain-tour-main-card-icon
-          class="absolute w-full"
-        ></hd-spain-tour-main-card-icon>
-        <div class="px-[2.5vw] pt-[1vw] pb-[2vw]">
-          <hd-spain-tour-sun-sticker-icon
-            class="absolute w-[11vw] top-[-3.5vw] right-[1.5vw]"
-          ></hd-spain-tour-sun-sticker-icon>
-          <div class="relative flex flex-col items-center mb-[1vw]">
-            <hd-spain-tour-red-dot-icon
-              class="block w-[2vw]"
-            ></hd-spain-tour-red-dot-icon>
-            <h1 class="text-[3vw] bp-amatic-font text-center font-bold">
-              Tour de Solana por España
-            </h1>
-            <hd-spain-tour-red-line-icon
-              class="block w-[13vw] ml-[12vw] -mt-[1vw]"
-            ></hd-spain-tour-red-line-icon>
-          </div>
-          <div class="bg-[#0ac0ff] w-full h-[38vw] relative">
-          </div>
+    <!-- Spain map -->
+    <section class="flex flex-col items-center mb-[7vw] px-[7vw] min-h-[62vw] gap-[4vw]">
+      <div class="relative w-full mt-[8vw]">
+        <div class="relative flex items-start w-[72vw] gap-[7vw] mx-auto my-0">
+          <img
+            src="assets/images/main_title_image.png"
+            alt="SOLANA TOUR text"
+            class="w-[60vw]"
+          />
+          <img
+            src="assets/images/main_spain_flag.png"
+            alt="Spain flag Sticker"
+            class="w-[18vw]"
+          />
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[1vw] left-[1.5%] z-10"
+            colorData="purple"
+            [classPrefix]="'eight-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[.5vw] left-[8%] z-10"
+            colorData="green"
+            [classPrefix]="'nine-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[1vw] left-[14.3%] z-10"
+            colorData="red"
+            [classPrefix]="'tenth-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[1vw] left-[22%] z-10"
+            colorData="yellow"
+            [classPrefix]="'eleventh-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[.5vw] left-[28.5%] z-10"
+            colorData="blue"
+            [classPrefix]="'twelve-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[.7vw] left-[34.4%] z-10"
+            colorData="lightBlue"
+            [classPrefix]="'pin-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[.7vw] left-[46.2%] z-10"
+            colorData="purple"
+            [classPrefix]="'eight-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[0vw] left-[52%] z-10"
+            colorData="green"
+            [classPrefix]="'nine-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[1vw] left-[58%] z-10"
+            colorData="red"
+            [classPrefix]="'tenth-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[.5vw] left-[64.5%] z-10"
+            colorData="blue"
+            [classPrefix]="'eee-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[.5vw] left-[81%] z-10"
+            colorData="yellow"
+            [classPrefix]="'fof-pin'"
+          ></hd-spain-tour-push-pin-icon>
+  
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[.5vw] left-[94%] z-10"
+            colorData="red"
+            [classPrefix]="'fif-pin'"
+          ></hd-spain-tour-push-pin-icon>
         </div>
+      </div>
+
+      <div class="relative w-[55vw]">
+        <img
+          src="assets/images/spain_folded_paper.png"
+          alt="Spain Mailand map in a paper"
+          class="block w-full"
+        />
+        <hd-spain-tour-push-pin-icon
+          class="absolute block w-[3vw] top-[43%] left-[43%] z-10"
+          colorData="red"
+          [classPrefix]="'map-madrid-pin'"
+        ></hd-spain-tour-push-pin-icon>
+        <hd-spain-tour-push-pin-icon
+          class="absolute block w-[3vw] bottom-[16%] left-[37%] z-10"
+          colorData="red"
+          [classPrefix]="'map-madrid-pin'"
+        ></hd-spain-tour-push-pin-icon>
+        <hd-spain-tour-push-pin-icon
+          class="absolute block w-[3vw] bottom-[32%] right-[30%] z-10"
+          colorData="red"
+          [classPrefix]="'map-madrid-pin'"
+        ></hd-spain-tour-push-pin-icon>
+        <hd-spain-tour-push-pin-icon
+          class="absolute block w-[3vw] top-[30%] right-[13%] z-10"
+          colorData="red"
+          [classPrefix]="'map-madrid-pin'"
+        ></hd-spain-tour-push-pin-icon>
       </div>
     </section>
 
     <!-- Roadmap and first sponsor -->
     <section class="my-[4vw] px-[7vw]">
       <div class="flex justify-between">
-        <div class="relative block w-[28vw]">
+        <div class="relative block w-[45vw]">
           <img
-            src="assets/images/road_map.webp"
+            src="assets/images/road_map.png"
             alt="roadmap Tour Text image"
             class="w-full"
           />
         </div>
         <div class="relative flex justify-center w-[20vw] right-[2vw]">
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] top-[1vw] mr-[2.5vw] z-10"
-          ></hd-spain-tour-red-dot-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] top-[1vw] mr-[2.5vw] z-10"
+            colorData="purple"
+            [classPrefix]="'seven-pin'"
+          ></hd-spain-tour-push-pin-icon>
           <img
             src="assets/images/green_post_it_2.webp"
             alt="green Post-It first sponsor spot"
@@ -53,14 +145,16 @@ import { Component } from '@angular/core';
       </div>
 
       <!-- first event -->
-      <div class="relative w-full h-[31.3vw] ">
+      <div class="relative w-full h-[31.3vw]">
         <div class="relative bg-white -rotate-3 w-[50vw] h-full p-[2.5vw]">
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[1.5vw] left-[2vw]"
-          ></hd-spain-tour-red-dot-icon>
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[1.5vw] right-[2vw]"
-          ></hd-spain-tour-red-dot-icon>
+          <hd-spain-tour-push-pin-icon
+            colorData="green"
+            [classPrefix]="'fourth-pin'"
+            class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
           <hd-spain-tour-post-card-icon
             [classPrefix]="'-first-event'"
             [firstColor]="'#00c2ff'"
@@ -69,68 +163,81 @@ import { Component } from '@angular/core';
           ></hd-spain-tour-post-card-icon>
 
           <div class="relative w-full h-full flex">
-            <div class="basis-[70%] h-full bg-black"></div>
-            <div class="basis-[30%] h-full  px-[1vw]">
+            <div class="basis-[70%] h-full bp-bg-first-event"></div>
+            <div class="relative basis-[30%] h-full  px-[1vw]">
               <p
                 class="text-[1.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
               >
                 <span class="block">Meeting #1:</span>
-                <span class="block">Conceptos Básicos</span>
+                <span class="block">Conceptos Básicos.</span>
               </p>
+              <a href="https://goo.gl/maps/hnjYbQRoCjn1jmNo6" target="_blank">
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <i class="fal fa-map-marker-alt text-[1vw]"></i>
+                  <p class="bp-landing-font text-[1vw] font-light">
+                    The Shed CoWorking,
+                  </p>
+                </div>
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <div class="basis-[.7vw]"></div>
+                  <p class="bp-landing-font text-[1vw] font-light">
+                    C. de Hermosilla 48,
+                  </p>
+                </div>
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <div class="basis-[.7vw]"></div>
+                  <p class="bp-landing-font text-[1vw] font-light">Madrid.</p>
+                </div>
+              </a>
+
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
-                <i class="fal fa-map-marker-alt text-[1vw]"></i>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Location to be
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
                 </p>
               </div>
+
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">defined</p>
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
+                </p>
               </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
-              </div>
+
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
                 <i class="fal fa-calendar-alt text-[1vw]"></i>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Date to be defined
-                </p>
+                <p class="bp-landing-font text-[1vw] font-light">24/09/2023</p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[2vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
+                <p class="bp-landing-font text-[1vw] font-light ">
+                  14:00 18:00
+                </p>
               </div>
 
-              <div class="relative w-full">
+              <div class="absolute w-full bottom-0 left-0 px-[1vw]">
                 <!-- This is only necessary for max zoom 500% avoid moving-->
-                <button
-                  class="absolute top-0 bp-amatic-font text-[2vw] p-[.3vw] w-full bg-[#98e6ff] border-[.1vw] border-gray-800 hover:bg-[#83dcf7]"
+                <a
+                  href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%231+-+Conceptos+B%C3%A1sicos.&details=Primer+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=The+Shed+CoWorking%2C+C.+de+Hermosilla%2C+48%2C+1%C2%BA+Derecha%2C+28001+Madrid%2C+Spain.&dates=20230924T130000Z%2F20230924T170000Z"
+                  target="_blank"
+                  class="block w-full bp-amatic-font text-[2vw] p-[.3vw]  bg-[#98e6ff] border-[.1vw] border-gray-800 hover:bg-[#83dcf7] text-center font-bold"
                 >
-                  Más detalles
-                </button>
+                  Agendar evento
+                </a>
               </div>
             </div>
           </div>
@@ -150,10 +257,19 @@ import { Component } from '@angular/core';
             class="absolute w-[9vw] -top-[1.5vw] -left-[1vw] rotate-12"
             alt="Drago tree sticker"
           />
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[2vw] left-[13vw]"
-          ></hd-spain-tour-red-dot-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] z-10 top-[2vw] left-[13vw]"
+          ></hd-spain-tour-push-pin-icon>
         </div>
+
+        <div class="absolute w-[18vw] top-[25vw] left-[3vw] z-10">
+          <img
+            src="assets/images/logo_hackershouse_sticker.png"
+            class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+            alt="Solana Hacker House sticker"
+          />
+        </div>
+
         <img
           src="assets/images/arrow_1-2.webp"
           class="absolute w-[33vw] right-[1vw] -top-[15vw]"
@@ -166,12 +282,12 @@ import { Component } from '@angular/core';
         <div
           class="absolute bg-white w-[50vw] rotate-3 h-full p-[2.5vw] right-0"
         >
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[1.5vw] left-[2vw]"
-          ></hd-spain-tour-red-dot-icon>
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[1.5vw] right-[2vw]"
-          ></hd-spain-tour-red-dot-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
           <hd-spain-tour-post-card-icon
             [classPrefix]="'-second-event'"
             [firstColor]="'#00C2FF'"
@@ -180,68 +296,78 @@ import { Component } from '@angular/core';
           ></hd-spain-tour-post-card-icon>
 
           <div class="relative w-full h-full flex">
-            <div class="basis-[70%] h-full bg-black"></div>
-            <div class="basis-[30%] h-full  px-[1vw]">
+            <div class="basis-[70%] h-full bp-bg-second-event"></div>
+            <div class="relative basis-[30%] h-full  px-[1vw]">
               <p
                 class="text-[1.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
               >
                 <span class="block">Meeting #2:</span>
-                <span class="block">Programas en Solana</span>
+                <span class="block">Programas y renta.</span>
               </p>
+              <a href="https://goo.gl/maps/5N33J5ZtjX6FBPgh8" target="_blank">
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <i class="fal fa-map-marker-alt text-[1vw]"></i>
+                  <p class="bp-landing-font text-[1vw] font-light">
+                    Innovation Campus,
+                  </p>
+                </div>
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <div class="basis-[.7vw]"></div>
+                  <p class="bp-landing-font text-[1vw] font-light">
+                    Calle Puerto 14,
+                  </p>
+                </div>
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <div class="basis-[.7vw]"></div>
+                  <p class="bp-landing-font text-[1vw] font-light">Málaga.</p>
+                </div>
+              </a>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
-                <i class="fal fa-map-marker-alt text-[1vw]"></i>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Location to be
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
                 </p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">defined</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
+                </p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
                 <i class="fal fa-calendar-alt text-[1vw]"></i>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Date to be defined
-                </p>
+                <p class="bp-landing-font text-[1vw] font-light">26/09/2023</p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[2vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
+                <p class="bp-landing-font text-[1vw] font-light ">
+                  15:00 - 17:00
+                </p>
               </div>
 
-              <div class="relative w-full">
+              <div class="absolute w-full bottom-0 left-0 px-[1vw]">
                 <!-- This is only necessary for max zoom 500% avoid moving-->
-                <button
-                  class="absolute top-0 bp-amatic-font text-[2vw] p-[.3vw] w-full bg-[#6BFF7D] border-[.1vw] border-gray-800 hover:bg-[#4ff963]"
+                <a
+                  href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%232+-+Programas+en+Solana.&details=Segundo+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=Innovation+Campus+-+Malaga+Terrace+coworking%2C+Calle+Puerto%2C+14%2C+29016+M%C3%A1laga%2C+Spain&dates=20230926T140000Z%2F20230926T160000Z"
+                  target="_blank"
+                  class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#6BFF7D] border-[.1vw] border-gray-800 hover:bg-[#4ff963] text-center font-bold"
                 >
-                  Más detalles
-                </button>
+                  Agendar evento
+                </a>
               </div>
             </div>
           </div>
@@ -261,9 +387,11 @@ import { Component } from '@angular/core';
             class="absolute w-[10vw] -top-[3vw] -left-[1.5vw] -rotate-12"
             alt="Heavy Duty Builders graffiti sticker"
           />
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[.5vw] left-[13vw]"
-          ></hd-spain-tour-red-dot-icon>
+          <hd-spain-tour-push-pin-icon
+            colorData="yellow"
+            [classPrefix]="'fifth-pin'"
+            class="absolute block w-[3vw] z-10 top-[.5vw] left-[13vw]"
+          ></hd-spain-tour-push-pin-icon>
         </div>
         <img
           src="assets/images/arrow_2-3.webp"
@@ -275,12 +403,16 @@ import { Component } from '@angular/core';
       <!-- third event -->
       <div class="relative w-full h-[31.3vw] ">
         <div class="relative bg-white -rotate-3 w-[50vw] h-full p-[2.5vw]">
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[1.5vw] left-[2vw]"
-          ></hd-spain-tour-red-dot-icon>
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[1.5vw] right-[2vw]"
-          ></hd-spain-tour-red-dot-icon>
+          <hd-spain-tour-push-pin-icon
+            colorData="blue"
+            [classPrefix]="'second-pin'"
+            class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
+          <hd-spain-tour-push-pin-icon
+            colorData="green"
+            [classPrefix]="'third-pin'"
+            class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
           <hd-spain-tour-post-card-icon
             [classPrefix]="'-third-event'"
             [firstColor]="'#63FF85'"
@@ -289,68 +421,78 @@ import { Component } from '@angular/core';
           ></hd-spain-tour-post-card-icon>
 
           <div class="relative w-full h-full flex">
-            <div class="basis-[70%] h-full bg-black"></div>
-            <div class="basis-[30%] h-full  px-[1vw]">
+            <div class="basis-[70%] h-full bp-bg-third-event"></div>
+            <div class="relative basis-[30%] h-full  px-[1vw]">
               <p
                 class="text-[1.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
               >
                 <span class="block">Meeting #3:</span>
-                <span class="block">Privates Keys y Wallets</span>
+                <span class="block">Todo sobre "Wallets".</span>
               </p>
+              <a href="https://goo.gl/maps/qy6ob8VkteYCxR428" target="_blank">
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <i class="fal fa-map-marker-alt text-[1vw]"></i>
+                  <p class="bp-landing-font text-[1vw] font-light">
+                    ULab Co-working
+                  </p>
+                </div>
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <div class="basis-[.7vw]"></div>
+                  <p class="bp-landing-font text-[1vw] font-light">
+                    Pl. Sant Cristòfol, 14
+                  </p>
+                </div>
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <div class="basis-[.7vw]"></div>
+                  <p class="bp-landing-font text-[1vw] font-light ">Alicante</p>
+                </div>
+              </a>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
-                <i class="fal fa-map-marker-alt text-[1vw]"></i>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Location to be
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
                 </p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">defined</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
+                </p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
                 <i class="fal fa-calendar-alt text-[1vw]"></i>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Date to be defined
-                </p>
+                <p class="bp-landing-font text-[1vw] font-light">28/09/2023</p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[2vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
+                <p class="bp-landing-font text-[1vw] font-light ">
+                  10:00 - 13:00
+                </p>
               </div>
 
-              <div class="relative w-full">
+              <div class="absolute w-full bottom-0 left-0 px-[1vw]">
                 <!-- This is only necessary for max zoom 500% avoid moving-->
-                <button
-                  class="absolute top-0 bp-amatic-font text-[2vw] p-[.3vw] w-full bg-[#FFBC58] border-[.1vw] border-gray-800 hover:bg-[#f7a93b]"
+                <a
+                  href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%233+-+Privates+Keys+y+Wallets.&details=Tercer+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=ULab%2C+Pl.+Sant+Crist%C3%B2fol%2C+14%2C+03002+Alacant%2C+Alicante%2C+Spain&dates=20230928T090000Z%2F20230928T120000Z"
+                  target="_blank"
+                  class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#FFBC58] border-[.1vw] border-gray-800 hover:bg-[#f7a93b] text-center font-bold"
                 >
-                  Más detalles
-                </button>
+                  Agendar evento
+                </a>
               </div>
             </div>
           </div>
@@ -359,13 +501,27 @@ import { Component } from '@angular/core';
 
       <!-- line from third event to fourth event-->
       <div class="relative w-full h-[22vw]">
-        <div class="absolute w-[12vw] mt-[5vw] left-[20vw]">
-          <img
-            src="assets/images/logo_loroparque.webp"
-            class="relative w-full rotate-12"
-            alt="Loro Parque sponsor logo sticker"
-          />
+
+        <div class="absolute w-[11vw] top-[15vw] left-[3vw] z-10">
+          <a href="https://ultimate.app/" target="_blank">
+            <img
+              src="assets/images/sponsors/logo_ultimate.png"
+              class="relative w-full -rotate-12"
+              alt="Logo Ultimate App Sponsor"
+            />
+          </a>
         </div>
+
+        <div class="absolute w-[12vw] top-[26vw] left-[14vw] z-10">
+          <a href="https://de.superteam.fun/" target="_blank">
+            <img
+              src="assets/images/sponsors/logo_superteam_berlin_sticker.png"
+              class="relative w-full rotate-12"
+              alt="Logo SuperTeam Germany Sponsor"
+            />
+          </a>
+        </div>
+
         <img
           src="assets/images/arrow_3-4.webp"
           class="absolute w-[34vw] right-[1vw] -top-[13vw]"
@@ -378,82 +534,94 @@ import { Component } from '@angular/core';
         <div
           class="absolute bg-white w-[50vw] rotate-3 h-full p-[2.5vw] right-0"
         >
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[1.5vw] left-[2vw]"
-          ></hd-spain-tour-red-dot-icon>
-          <hd-spain-tour-red-dot-icon
-            class="absolute block w-[2vw] z-10 top-[1.5vw] right-[2vw]"
-          ></hd-spain-tour-red-dot-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
+            colorData="green"
+            [classPrefix]="'second-pin'"
+          ></hd-spain-tour-push-pin-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
           <hd-spain-tour-post-card-icon
             [classPrefix]="'-fourth-event'"
-            [firstColor]="'#FF6363'"
-            [secondColor]="'#63FF85'"
+            [firstColor]="'#5C39EA'"
+            [secondColor]="'#FF0B81'"
             class="absolute block w-full top-0 left-0"
           ></hd-spain-tour-post-card-icon>
 
           <div class="relative w-full h-full flex">
-            <div class="basis-[70%] h-full bg-black"></div>
-            <div class="basis-[30%] h-full  px-[1vw]">
+            <div class="basis-[70%] h-full bp-bg-fourth-event"></div>
+            <div class="relative basis-[30%] h-full  px-[1vw]">
               <p
                 class="text-[1.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
               >
                 <span class="block">Meeting #4:</span>
                 <span class="block">¿Qué son los NFTs?</span>
               </p>
+              <a href="https://goo.gl/maps/Z9cpLCyMdjhv8e1h6" target="_blank">
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <i class="fal fa-map-marker-alt text-[1vw]"></i>
+                  <p class="bp-landing-font text-[1vw] font-light">
+                    CREC Coworking
+                  </p>
+                </div>
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <div class="basis-[.7vw]"></div>
+                  <p class="bp-landing-font text-[1vw] font-light">
+                    Carrer de Joaquim 9.
+                  </p>
+                </div>
+                <div
+                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                >
+                  <div class="basis-[.7vw]"></div>
+                  <p class="bp-landing-font text-[1vw] font-light">Barcelona</p>
+                </div>
+              </a>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
-                <i class="fal fa-map-marker-alt text-[1vw]"></i>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Location to be
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
                 </p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">defined</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
+                </p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
               >
                 <i class="fal fa-calendar-alt text-[1vw]"></i>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Date to be defined
-                </p>
+                <p class="bp-landing-font text-[1vw] font-light">29/09/2023</p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-300 mb-[2vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">.</p>
+                <p class="bp-landing-font text-[1vw] font-light">
+                  16:00 - 20:00
+                </p>
               </div>
 
-              <div class="relative w-full">
+              <div class="absolute w-full bottom-0 left-0 px-[1vw]">
                 <!-- This is only necessary for max zoom 500% avoid moving-->
-                <button
-                  class="absolute top-0 bp-amatic-font text-[2vw] p-[.3vw] w-full bg-[#98e6ff] border-[.1vw] border-gray-800 hover:bg-[#83dcf7]"
+                <a
+                  href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%234+-+%C2%BFQu%C3%A9+son+los+NFTs%3F&details=%C3%9Altimo+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=CREC+Coworking+Gr%C3%A0cia+-+Depot+Lab+Barcelona%2C+Carrer+de+Joaquim+Ruyra%2C+9%2C+11%2C+08025+Barcelona%2C+Spain&dates=20230929T150000Z%2F20230929T190000Z"
+                  target="_blank"
+                  class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#EBD738] border-[.1vw] border-gray-800 hover:bg-[#ffe900] text-center font-bold"
                 >
-                  Más detalles
-                </button>
+                  Agendar evento
+                </a>
               </div>
             </div>
           </div>
@@ -463,7 +631,9 @@ import { Component } from '@angular/core';
 
     <footer class="flex justify-between">
       <!-- Heavy Duty Builders Info-->
-      <div class="relative w-[24vw] h-[23vw] -mt-[5vw] left-[10vw] mb-[5vw] -rotate-12">
+      <div
+        class="relative w-[24vw] h-[23vw] -mt-[5vw] left-[10vw] mb-[5vw] -rotate-12"
+      >
         <img
           src="assets/images/yellow_post_it_1.webp"
           class="absolute w-full rotate-3"
@@ -471,7 +641,7 @@ import { Component } from '@angular/core';
         />
         <img
           src="assets/images/logo_heavyduty_beware.webp"
-          class="absolute w-[50%] -top-[2vw] left-[3vw] -rotate-12"
+          class="absolute w-[65%] -top-[3vw] left-[3vw] -rotate-12"
           alt="Beware Heavy Duty Builders sticker"
         />
         <div class="relative flex justify-around top-[6vw] pl-[2vw] px-[2.5vw]">
@@ -485,7 +655,9 @@ import { Component } from '@angular/core';
             class="block w-[5vw]"
           ></hd-spain-tour-github-icon>
         </div>
-        <div class="relative top-[6vw] w-full flex flex-col items-center mt-[1vw]">
+        <div
+          class="relative top-[6vw] w-full flex flex-col items-center mt-[1vw]"
+        >
           <div class="relative  w-[80%]">
             <img
               src="assets/images/footer_website_text.webp"
@@ -513,12 +685,22 @@ import { Component } from '@angular/core';
       <!-- Next Hackathon information -->
       <div class="relative w-[17vw] h-[17vw] top-[2vw] right-[12vw] rotate-6">
         <a href="https://solana.com/grizzlython" target="_blank">
-          <img 
+          <img
             src="assets/images/hackathon_post_it.webp"
             class="w-full"
             alt="Next hackathon orange Post-it"
           />
         </a>
+        <a href="https://solana.com/" target="_blank">
+          <img
+            src="assets/images/logo_solana_sticker.png"
+            class="absolute w-[6vw] -top-[1vw] -left-[1.5vw] -rotate-12"
+            alt="Solana logo sticker"
+          />
+        </a>
+        <hd-spain-tour-push-pin-icon
+          class="absolute block w-[3vw] z-10 top-[0vw] right-[2vw]"
+        ></hd-spain-tour-push-pin-icon>
       </div>
     </footer>
   `,
