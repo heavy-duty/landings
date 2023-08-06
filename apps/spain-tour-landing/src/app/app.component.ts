@@ -4,7 +4,9 @@ import { Component } from '@angular/core';
   selector: 'hd-spain-tour-root',
   template: `
     <!-- Spain map -->
-    <section class="flex flex-col items-center mb-[7vw] px-[7vw] min-h-[62vw] gap-[4vw]">
+    <section
+      class="flex flex-col items-center mb-[7vw] px-[7vw] min-h-[62vw] gap-[4vw]"
+    >
       <div class="relative w-full mt-[8vw]">
         <div class="relative flex items-start w-[72vw] gap-[7vw] mx-auto my-0">
           <img
@@ -22,67 +24,67 @@ import { Component } from '@angular/core';
             colorData="purple"
             [classPrefix]="'eight-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[.5vw] left-[8%] z-10"
             colorData="green"
             [classPrefix]="'nine-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[1vw] left-[14.3%] z-10"
             colorData="red"
             [classPrefix]="'tenth-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[1vw] left-[22%] z-10"
             colorData="yellow"
             [classPrefix]="'eleventh-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[.5vw] left-[28.5%] z-10"
             colorData="blue"
             [classPrefix]="'twelve-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[.7vw] left-[34.4%] z-10"
             colorData="lightBlue"
             [classPrefix]="'pin-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[.7vw] left-[46.2%] z-10"
             colorData="purple"
             [classPrefix]="'eight-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[0vw] left-[52%] z-10"
             colorData="green"
             [classPrefix]="'nine-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[1vw] left-[58%] z-10"
             colorData="red"
             [classPrefix]="'tenth-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[.5vw] left-[64.5%] z-10"
             colorData="blue"
             [classPrefix]="'eee-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[.5vw] left-[81%] z-10"
             colorData="yellow"
             [classPrefix]="'fof-pin'"
           ></hd-spain-tour-push-pin-icon>
-  
+
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[.5vw] left-[94%] z-10"
             colorData="red"
@@ -246,6 +248,29 @@ import { Component } from '@angular/core';
 
       <!-- line from first event to second event-->
       <div class="relative w-full h-[22vw]">
+        <div class="absolute w-[15vw] -top-[35vw] right-[5vw]">
+          <a
+            href="https://drip.haus/"
+            target="_blank"
+            aria-label="Drip official link"
+          >
+            <img
+              src="assets/images/sponsors/drip_photo.png"
+              class="relative w-full rotate-12"
+              alt="Drip Haus logo photo sponsor"
+            />
+          </a>
+          <hd-spain-tour-push-pin-icon
+            colorData="blue"
+            classPrefix="pin-drip"
+            class="absolute block w-[3vw] z-10 -top-[.5vw] left-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
+          <hd-spain-tour-push-pin-icon
+            colorData="blue"
+            classPrefix="pin-drip"
+            class="absolute block w-[3vw] z-10 -bottom-[.5vw] right-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
+        </div>
         <div class="relative w-[28vw] mt-[10vw]">
           <img
             src="assets/images/folded_paper.webp"
@@ -265,7 +290,7 @@ import { Component } from '@angular/core';
         </div>
 
         <div class="absolute w-[18vw] top-[25vw] left-[3vw] z-10">
-          <a 
+          <a
             href="https://solana.com/events"
             aria-label="Official link to Solana Events 2023"
             target="_blank"
@@ -509,23 +534,22 @@ import { Component } from '@angular/core';
 
       <!-- line from third event to fourth event-->
       <div class="relative w-full h-[22vw]">
-
-        <div class="absolute w-[11vw] top-[15vw] left-[3vw] z-10">
-          <a href="https://ultimate.app/" target="_blank">
-            <img
-              src="assets/images/sponsors/logo_ultimate.png"
-              class="relative w-full -rotate-12"
-              alt="Logo Ultimate App Sponsor"
-            />
-          </a>
-        </div>
-
-        <div class="absolute w-[12vw] top-[26vw] left-[14vw] z-10">
+        <div class="absolute w-[12vw] top-[10vw] left-[3vw] z-10">
           <a href="https://de.superteam.fun/" target="_blank">
             <img
               src="assets/images/sponsors/logo_superteam_berlin_sticker.png"
               class="relative w-full rotate-12"
               alt="Logo SuperTeam Germany Sponsor"
+            />
+          </a>
+        </div>
+
+        <div class="absolute w-[11vw] top-[26vw] left-[17vw] z-10">
+          <a href="https://ultimate.app/" target="_blank">
+            <img
+              src="assets/images/sponsors/logo_ultimate.png"
+              class="relative w-full -rotate-12"
+              alt="Logo Ultimate App Sponsor"
             />
           </a>
         </div>
@@ -671,7 +695,7 @@ import { Component } from '@angular/core';
               class="block w-[5vw]"
             ></hd-spain-tour-discord-icon>
           </a>
-          <a 
+          <a
             href="https://github.com/heavy-duty"
             aria-label="Official Github Link"
             target="_blank"
@@ -685,13 +709,15 @@ import { Component } from '@angular/core';
           class="relative top-[6vw] w-full flex flex-col items-center mt-[1vw]"
         >
           <div class="relative  w-[80%]">
-          <a
-            href="https://heavyduty.builders/"
-            aria-labe="Official HeavyDuty Website link"
-            target="_blank"
-          >
-            <hd-spain-tour-website-link-icon class="w-full"></hd-spain-tour-website-link-icon>
-          </a>
+            <a
+              href="https://heavyduty.builders/"
+              aria-labe="Official HeavyDuty Website link"
+              target="_blank"
+            >
+              <hd-spain-tour-website-link-icon
+                class="w-full"
+              ></hd-spain-tour-website-link-icon>
+            </a>
           </div>
           <div class="relative w-[60%] mt-[1vw]">
             <img
@@ -735,6 +761,4 @@ import { Component } from '@angular/core';
     </footer>
   `,
 })
-export class AppComponent {
-
-}
+export class AppComponent {}
