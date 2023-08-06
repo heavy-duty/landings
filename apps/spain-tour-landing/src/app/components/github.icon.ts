@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostListener, Input } from '@angular/core';
 
 @Component({
   selector: 'hd-spain-tour-github-icon',
@@ -4308,7 +4308,19 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class GithubIconComponent {
-  @Input() classPrefix = '-first-icon';
+  @Input() classPrefix = '-github-icon';
   @Input() firstColor = '#202020';
   @Input() secondColor = '#1d1d1d';
+
+  @HostListener('mouseenter') 
+  onMouseEnter() {
+    this.firstColor = '#6b6a6a';
+    this.secondColor = '#4f4f4f';
+  }
+
+  @HostListener('mouseleave') 
+  onMouseLeave() {
+    this.firstColor = '#202020';
+    this.secondColor = '#1d1d1d';
+  }
 }

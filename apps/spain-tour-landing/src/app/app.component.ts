@@ -258,16 +258,24 @@ import { Component } from '@angular/core';
             alt="Drago tree sticker"
           />
           <hd-spain-tour-push-pin-icon
+            colorData="lightBlue"
+            classPrefix="pin-drago"
             class="absolute block w-[3vw] z-10 top-[2vw] left-[13vw]"
           ></hd-spain-tour-push-pin-icon>
         </div>
 
         <div class="absolute w-[18vw] top-[25vw] left-[3vw] z-10">
-          <img
-            src="assets/images/logo_hackershouse_sticker.png"
-            class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-            alt="Solana Hacker House sticker"
-          />
+          <a 
+            href="https://solana.com/events"
+            aria-label="Official link to Solana Events 2023"
+            target="_blank"
+          >
+            <img
+              src="assets/images/logo_hackershouse_sticker.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+              alt="Solana Hacker House sticker"
+            />
+          </a>
         </div>
 
         <img
@@ -645,25 +653,45 @@ import { Component } from '@angular/core';
           alt="Beware Heavy Duty Builders sticker"
         />
         <div class="relative flex justify-around top-[6vw] pl-[2vw] px-[2.5vw]">
-          <hd-spain-tour-twitter-icon
-            class="block w-[5vw]"
-          ></hd-spain-tour-twitter-icon>
-          <hd-spain-tour-discord-icon
-            class="block w-[5vw]"
-          ></hd-spain-tour-discord-icon>
-          <hd-spain-tour-github-icon
-            class="block w-[5vw]"
-          ></hd-spain-tour-github-icon>
+          <a
+            href="https://twitter.com/HeavyDutyBuild"
+            aria-labe="Official Twitter Link"
+            target="_blank"
+          >
+            <hd-spain-tour-twitter-icon
+              class="block w-[5vw]"
+            ></hd-spain-tour-twitter-icon>
+          </a>
+          <a
+            href="https://discord.com/invite/sbjg5YvYfM"
+            aria-labe="Official Discord Link"
+            target="_blank"
+          >
+            <hd-spain-tour-discord-icon
+              class="block w-[5vw]"
+            ></hd-spain-tour-discord-icon>
+          </a>
+          <a 
+            href="https://github.com/heavy-duty"
+            aria-label="Official Github Link"
+            target="_blank"
+          >
+            <hd-spain-tour-github-icon
+              class="block w-[5vw]"
+            ></hd-spain-tour-github-icon>
+          </a>
         </div>
         <div
           class="relative top-[6vw] w-full flex flex-col items-center mt-[1vw]"
         >
           <div class="relative  w-[80%]">
-            <img
-              src="assets/images/footer_website_text.webp"
-              class="w-full"
-              alt="Heavy Duty Builders link"
-            />
+          <a
+            href="https://heavyduty.builders/"
+            aria-labe="Official HeavyDuty Website link"
+            target="_blank"
+          >
+            <hd-spain-tour-website-link-icon class="w-full"></hd-spain-tour-website-link-icon>
+          </a>
           </div>
           <div class="relative w-[60%] mt-[1vw]">
             <img
@@ -699,10 +727,14 @@ import { Component } from '@angular/core';
           />
         </a>
         <hd-spain-tour-push-pin-icon
+          colorData="green"
+          [classPrefix]="'footer-pin'"
           class="absolute block w-[3vw] z-10 top-[0vw] right-[2vw]"
         ></hd-spain-tour-push-pin-icon>
       </div>
     </footer>
   `,
 })
-export class AppComponent {}
+export class AppComponent {
+
+}

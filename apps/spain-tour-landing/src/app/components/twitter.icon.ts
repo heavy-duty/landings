@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostListener, Input } from '@angular/core';
 
 @Component({
   selector: 'hd-spain-tour-twitter-icon',
@@ -3036,7 +3036,19 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TwitterIconComponent {
-  @Input() classPrefix = '-first-icon'
+  @Input() classPrefix = '-twitter-icon'
   @Input() firstColor = '#579ef6'
   @Input() secondColor = '#559df6'
+
+  @HostListener('mouseenter') 
+  onMouseEnter() {
+    this.firstColor = '#2dcaff';
+    this.secondColor = '#3dceff';
+  }
+
+  @HostListener('mouseleave') 
+  onMouseLeave() {
+    this.firstColor = '#579ef6';
+    this.secondColor = '#559df6';
+  }
 }

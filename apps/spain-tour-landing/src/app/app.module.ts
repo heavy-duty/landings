@@ -10,6 +10,7 @@ import { PostCardIconComponent } from './components/post-card.icon';
 import { GithubIconComponent } from './components/github.icon';
 import { DiscordIconComponent } from './components/discord.icon';
 import { TwitterIconComponent } from './components/twitter.icon';
+import { WebsiteLinkIconComponent } from './components/website-url.icon';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TwitterIconComponent } from './components/twitter.icon';
     PostCardIconComponent,
     GithubIconComponent,
     DiscordIconComponent,
-    TwitterIconComponent
+    TwitterIconComponent,
+    WebsiteLinkIconComponent
   ],
   imports: [BrowserModule],
   providers: [],

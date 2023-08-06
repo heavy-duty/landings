@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostListener, Input } from '@angular/core';
 
 @Component({
   selector: 'hd-spain-tour-discord-icon',
@@ -5888,7 +5888,19 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DiscordIconComponent {
-  @Input() classPrefix = '-first-icon';
+  @Input() classPrefix = '-discord-icon';
   @Input() firstColor = '#79489f';
   @Input() secondColor = '#77459d';
+
+  @HostListener('mouseenter') 
+  onMouseEnter() {
+    this.firstColor = '#b26fed';
+    this.secondColor = '#9833ea';
+  }
+
+  @HostListener('mouseleave') 
+  onMouseLeave() {
+    this.firstColor = '#79489f';
+    this.secondColor = '#77459d';
+  }
 }
