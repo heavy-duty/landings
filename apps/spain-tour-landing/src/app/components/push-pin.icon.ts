@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostListener, Input } from '@angular/core';
 
+type PinColors = 'red' | 'blue' | 'yellow' | 'green' | 'purple' | 'lightBlue' | ''
 @Component({
   selector: 'hd-spain-tour-push-pin-icon',
   template: `
@@ -118,7 +119,8 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.Default,
 })
 export class PushPinIconComponent {
-  _colorSet = 'red';
+  _colorSet: PinColors = 'red';
+  _colorSetBack: PinColors = 'red';
   _redColorDataSet = {
     radialGradient: {
       first: '#5c5c5c',
@@ -289,10 +291,29 @@ export class PushPinIconComponent {
   };
   currentColorData = this._redColorDataSet;
   
+  @Input() showHover = false;
   @Input() classPrefix = '-first-pin'
-  @Input() set colorData(color: string) {
+  @Input() set colorData(color: PinColors) {
     this._colorSet = color;
     this._render();
+  }
+
+  @HostListener('mouseenter') 
+  onMouseEnter() {
+    if (this.showHover) {
+      this._colorSetBack = this._colorSet;
+      this._colorSet = 'yellow';
+      this._render();
+    }
+  }
+
+  @HostListener('mouseleave') 
+  onMouseLeave() {
+    if (this.showHover) {
+      this._colorSet = this._colorSetBack;
+      this._colorSetBack = '';
+      this._render();
+    }
   }
 
   _render() {
@@ -312,10 +333,11 @@ export class PushPinIconComponent {
       case 'purple': 
         this.currentColorData = this._purpleColorDataSet;
         break;        
-      case 'lightBlue': 
+      case 'lightBlue':
         this.currentColorData = this._lightBlueColorDataSet;
         break;                
-
+      case '':
+        break;
         
       default:
         break;

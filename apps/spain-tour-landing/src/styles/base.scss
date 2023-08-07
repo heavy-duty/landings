@@ -7,6 +7,16 @@
 	background-size: contain;
 }
 
+.bp-bg-paper-pattern {
+	background-image: url(../assets/images/patterns/paper_texture.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	-webkit-box-shadow: 0.1vw 0.4vw 0.2vw -0.21vw rgba(0,0,0,0.52);
+	-moz-box-shadow: 0.1vw 0.4vw 0.2vw -0.21vw rgba(0,0,0,0.52);
+	box-shadow: 0.1vw 0.4vw 0.2vw -0.21vw rgba(0,0,0,0.52);
+}
+
 .bp-bg-first-event {
 	background-image: url(../assets/images/locations/madrid.jpg);
 	background-repeat: no-repeat;

@@ -5,126 +5,138 @@ import { Component } from '@angular/core';
   template: `
     <!-- Spain map -->
     <section
-      class="flex flex-col items-center mb-[7vw] px-[7vw] min-h-[62vw] gap-[4vw]"
+      class="flex flex-col items-start mb-[10vw] px-[7vw] min-h-[62vw] gap-[10vw]"
     >
-      <div class="relative w-full mt-[8vw]">
-        <div class="relative flex items-start w-[72vw] gap-[7vw] mx-auto my-0">
+      <div class="relative w-full mt-[5vw]">
+        <div class="relative flex items-start w-[74vw] mx-auto my-0">
           <img
             src="assets/images/main_title_image.png"
             alt="SOLANA TOUR text"
-            class="w-[60vw]"
+            class="w-full"
           />
-          <img
-            src="assets/images/main_spain_flag.png"
-            alt="Spain flag Sticker"
-            class="w-[18vw]"
-          />
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[1vw] left-[1.5%] z-10"
-            colorData="purple"
-            [classPrefix]="'eight-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[.5vw] left-[8%] z-10"
-            colorData="green"
-            [classPrefix]="'nine-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[1vw] left-[14.3%] z-10"
-            colorData="red"
-            [classPrefix]="'tenth-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[1vw] left-[22%] z-10"
-            colorData="yellow"
-            [classPrefix]="'eleventh-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[.5vw] left-[28.5%] z-10"
-            colorData="blue"
-            [classPrefix]="'twelve-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[.7vw] left-[34.4%] z-10"
-            colorData="lightBlue"
-            [classPrefix]="'pin-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[.7vw] left-[46.2%] z-10"
-            colorData="purple"
-            [classPrefix]="'eight-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[0vw] left-[52%] z-10"
-            colorData="green"
-            [classPrefix]="'nine-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[1vw] left-[58%] z-10"
-            colorData="red"
-            [classPrefix]="'tenth-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[.5vw] left-[64.5%] z-10"
-            colorData="blue"
-            [classPrefix]="'eee-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[.5vw] left-[81%] z-10"
-            colorData="yellow"
-            [classPrefix]="'fof-pin'"
-          ></hd-spain-tour-push-pin-icon>
-
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[.5vw] left-[94%] z-10"
-            colorData="red"
-            [classPrefix]="'fif-pin'"
-          ></hd-spain-tour-push-pin-icon>
         </div>
       </div>
 
-      <div class="relative w-[55vw]">
-        <img
-          src="assets/images/spain_folded_paper.png"
-          alt="Spain Mailand map in a paper"
-          class="block w-full"
-        />
-        <hd-spain-tour-push-pin-icon
-          class="absolute block w-[3vw] top-[43%] left-[43%] z-10"
-          colorData="red"
-          [classPrefix]="'map-madrid-pin'"
-        ></hd-spain-tour-push-pin-icon>
-        <hd-spain-tour-push-pin-icon
-          class="absolute block w-[3vw] bottom-[16%] left-[37%] z-10"
-          colorData="red"
-          [classPrefix]="'map-madrid-pin'"
-        ></hd-spain-tour-push-pin-icon>
-        <hd-spain-tour-push-pin-icon
-          class="absolute block w-[3vw] bottom-[32%] right-[30%] z-10"
-          colorData="red"
-          [classPrefix]="'map-madrid-pin'"
-        ></hd-spain-tour-push-pin-icon>
-        <hd-spain-tour-push-pin-icon
-          class="absolute block w-[3vw] top-[30%] right-[13%] z-10"
-          colorData="red"
-          [classPrefix]="'map-madrid-pin'"
-        ></hd-spain-tour-push-pin-icon>
+      <div class="relative flex">
+        <!-- spain map with push pins -->
+        <div class="relative w-[50vw]">
+          <img
+            src="assets/images/spain_folded_paper.png"
+            alt="Spain Mailand map in a paper"
+            class="block w-full"
+            width="908"
+            height="807"
+          />
+
+          <img
+            src="assets/images/tape.png"
+            alt="top tape on Mainland map paper"
+            class="absolute -top-[1vw] left-[18vw] w-[13vw] rotate-3"
+          />
+
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] top-[43%] left-[42%] z-10 cursor-pointer"
+            colorData="red"
+            [classPrefix]="'map-madrid-pin'"
+            [showHover]="true"
+          ></hd-spain-tour-push-pin-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] bottom-[15.5%] left-[35.5%] z-10 cursor-pointer"
+            colorData="red"
+            [classPrefix]="'map-malaga-pin'"
+            [showHover]="true"
+          ></hd-spain-tour-push-pin-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] bottom-[31.6%] right-[29.6%] z-10 cursor-pointer"
+            colorData="red"
+            [classPrefix]="'map-alicante-pin'"
+            [showHover]="true"
+          ></hd-spain-tour-push-pin-icon>
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] top-[30%] right-[10.8%] z-10 cursor-pointer"
+            colorData="red"
+            [classPrefix]="'map-barcelona-pin'"
+            [showHover]="true"
+          ></hd-spain-tour-push-pin-icon>
+
+          <div
+            class="absolute w-full flex px-[2vw] -bottom-[11vw] gap-[3vw] items-start"
+          >
+            <img
+              src="assets/images/sponsors/logo_solana_sticker.png"
+              class="block w-[14vw] rotate-6"
+              alt="Solana logo sticker"
+            />
+            <img
+              src="assets/images/sponsors/logo_jump_sticker.png"
+              class="block w-[14vw] -rotate-6"
+              alt="Jump logo sticker"
+            />
+            <img
+              src="assets/images/sponsors/logo_circle_sticker.png"
+              class="block w-[14vw]"
+              alt="Circle logo sticker"
+            />
+          </div>
+        </div>
+        <div class="relative w-[42vw]">
+          <!-- first post-it-->
+          <div class="absolute w-[25vw] top-[1vw] right-[9vw]">
+            <img
+              src="assets/images/blue_post_it_3.webp"
+              class="relative w-full left-[2vw] -rotate-3"
+              alt="blue Post-It third sponsor spot"
+            />
+            <img
+              src="assets/images/heavyduty_sticker.webp"
+              class="absolute w-[10vw] -top-[3vw] -left-[1.5vw] -rotate-12"
+              alt="Heavy Duty Builders graffiti sticker"
+            />
+            <hd-spain-tour-push-pin-icon
+              colorData="yellow"
+              [classPrefix]="'fifth-pin'"
+              class="absolute block w-[3vw] z-10 top-[.5vw] left-[13vw]"
+            ></hd-spain-tour-push-pin-icon>
+          </div>
+
+          <!-- second post-it-->
+          <div
+            class="absolute flex justify-center w-[20vw] top-[23vw] right-[12vw]"
+          >
+            <hd-spain-tour-push-pin-icon
+              class="absolute block w-[3vw] top-[1vw] mr-[2.5vw] z-10"
+              colorData="purple"
+              [classPrefix]="'seven-pin'"
+            ></hd-spain-tour-push-pin-icon>
+            <img
+              src="assets/images/green_post_it_2.webp"
+              alt="green Post-It first sponsor spot"
+              class="w-full -rotate-6"
+            />
+          </div>
+
+          <!-- third post-it-->
+          <div class="absolute w-[28vw] top-[46vw] left-[4vw]">
+            <img
+              src="assets/images/folded_paper.webp"
+              class="relative w-full left-[2vw] -rotate-3"
+              alt="white folded paper second sponsor spot"
+            />
+            <hd-spain-tour-push-pin-icon
+              colorData="lightBlue"
+              classPrefix="pin-drago"
+              class="absolute block w-[3vw] z-10 top-[2vw] left-[13vw]"
+            ></hd-spain-tour-push-pin-icon>
+          </div>
+        </div>
       </div>
+
+      <div class="relative"></div>
     </section>
 
-    <!-- Roadmap and first sponsor -->
     <section class="my-[4vw] px-[7vw]">
-      <div class="flex justify-between">
+      <!-- Roadmap  -->
+      <div class="flex justify-between mb-[4vw]">
         <div class="relative block w-[45vw]">
           <img
             src="assets/images/road_map.png"
@@ -132,23 +144,13 @@ import { Component } from '@angular/core';
             class="w-full"
           />
         </div>
-        <div class="relative flex justify-center w-[20vw] right-[2vw]">
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] top-[1vw] mr-[2.5vw] z-10"
-            colorData="purple"
-            [classPrefix]="'seven-pin'"
-          ></hd-spain-tour-push-pin-icon>
-          <img
-            src="assets/images/green_post_it_2.webp"
-            alt="green Post-It first sponsor spot"
-            class="w-full -rotate-6"
-          />
-        </div>
       </div>
 
       <!-- first event -->
       <div class="relative w-full h-[31.3vw]">
-        <div class="relative bg-white -rotate-3 w-[50vw] h-full p-[2.5vw]">
+        <div
+          class="relative bg-white bp-bg-paper-pattern -rotate-3 w-[50vw] h-full p-[2.5vw]"
+        >
           <hd-spain-tour-push-pin-icon
             colorData="green"
             [classPrefix]="'fourth-pin'"
@@ -175,7 +177,7 @@ import { Component } from '@angular/core';
               </p>
               <a href="https://goo.gl/maps/hnjYbQRoCjn1jmNo6" target="_blank">
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <i class="fal fa-map-marker-alt text-[1vw]"></i>
                   <p class="bp-landing-font text-[1vw] font-light">
@@ -183,7 +185,7 @@ import { Component } from '@angular/core';
                   </p>
                 </div>
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <div class="basis-[.7vw]"></div>
                   <p class="bp-landing-font text-[1vw] font-light">
@@ -191,7 +193,7 @@ import { Component } from '@angular/core';
                   </p>
                 </div>
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <div class="basis-[.7vw]"></div>
                   <p class="bp-landing-font text-[1vw] font-light">Madrid.</p>
@@ -199,7 +201,7 @@ import { Component } from '@angular/core';
               </a>
 
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light text-white">
@@ -208,7 +210,7 @@ import { Component } from '@angular/core';
               </div>
 
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light text-white">
@@ -217,13 +219,13 @@ import { Component } from '@angular/core';
               </div>
 
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <i class="fal fa-calendar-alt text-[1vw]"></i>
                 <p class="bp-landing-font text-[1vw] font-light">24/09/2023</p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[2vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light ">
@@ -248,72 +250,17 @@ import { Component } from '@angular/core';
 
       <!-- line from first event to second event-->
       <div class="relative w-full h-[22vw]">
-        <div class="absolute w-[15vw] -top-[35vw] right-[5vw]">
-          <a
-            href="https://drip.haus/"
-            target="_blank"
-            aria-label="Drip official link"
-          >
-            <img
-              src="assets/images/sponsors/drip_photo.png"
-              class="relative w-full rotate-12"
-              alt="Drip Haus logo photo sponsor"
-            />
-          </a>
-          <hd-spain-tour-push-pin-icon
-            colorData="blue"
-            classPrefix="pin-drip"
-            class="absolute block w-[3vw] z-10 -top-[.5vw] left-[2vw]"
-          ></hd-spain-tour-push-pin-icon>
-          <hd-spain-tour-push-pin-icon
-            colorData="blue"
-            classPrefix="pin-drip"
-            class="absolute block w-[3vw] z-10 -bottom-[.5vw] right-[2vw]"
-          ></hd-spain-tour-push-pin-icon>
-        </div>
-        <div class="relative w-[28vw] mt-[10vw]">
-          <img
-            src="assets/images/folded_paper.webp"
-            class="relative w-full left-[2vw] -rotate-3"
-            alt="white folded paper second sponsor spot"
-          />
-          <img
-            src="assets/images/drago_sticker.webp"
-            class="absolute w-[9vw] -top-[1.5vw] -left-[1vw] rotate-12"
-            alt="Drago tree sticker"
-          />
-          <hd-spain-tour-push-pin-icon
-            colorData="lightBlue"
-            classPrefix="pin-drago"
-            class="absolute block w-[3vw] z-10 top-[2vw] left-[13vw]"
-          ></hd-spain-tour-push-pin-icon>
-        </div>
-
-        <div class="absolute w-[18vw] top-[25vw] left-[3vw] z-10">
-          <a
-            href="https://solana.com/events"
-            aria-label="Official link to Solana Events 2023"
-            target="_blank"
-          >
-            <img
-              src="assets/images/logo_hackershouse_sticker.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Solana Hacker House sticker"
-            />
-          </a>
-        </div>
-
         <img
           src="assets/images/arrow_1-2.webp"
-          class="absolute w-[33vw] right-[1vw] -top-[15vw]"
+          class="absolute w-[33vw] right-[1vw] -top-[5vw]"
           alt="arrow from first postcard event to second postcard event"
         />
       </div>
 
       <!-- second event-->
-      <div class="relative w-full h-[31.3vw]">
+      <div class="relative w-full h-[31.3vw] mt-[11vw]">
         <div
-          class="absolute bg-white w-[50vw] rotate-3 h-full p-[2.5vw] right-0"
+          class="absolute bg-white bp-bg-paper-pattern w-[50vw] rotate-3 h-full p-[2.5vw] right-0"
         >
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
@@ -339,7 +286,7 @@ import { Component } from '@angular/core';
               </p>
               <a href="https://goo.gl/maps/5N33J5ZtjX6FBPgh8" target="_blank">
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <i class="fal fa-map-marker-alt text-[1vw]"></i>
                   <p class="bp-landing-font text-[1vw] font-light">
@@ -347,7 +294,7 @@ import { Component } from '@angular/core';
                   </p>
                 </div>
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <div class="basis-[.7vw]"></div>
                   <p class="bp-landing-font text-[1vw] font-light">
@@ -355,14 +302,14 @@ import { Component } from '@angular/core';
                   </p>
                 </div>
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <div class="basis-[.7vw]"></div>
                   <p class="bp-landing-font text-[1vw] font-light">Málaga.</p>
                 </div>
               </a>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light text-white">
@@ -370,7 +317,7 @@ import { Component } from '@angular/core';
                 </p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light text-white">
@@ -378,13 +325,13 @@ import { Component } from '@angular/core';
                 </p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <i class="fal fa-calendar-alt text-[1vw]"></i>
                 <p class="bp-landing-font text-[1vw] font-light">26/09/2023</p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[2vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light ">
@@ -409,33 +356,75 @@ import { Component } from '@angular/core';
 
       <!-- line from second event to third event-->
       <div class="relative w-full h-[22vw]">
-        <div class="absolute w-[25vw] mt-[10vw] right-0">
+        <div class="absolute w-[20vw] top-[7vw] right-[3vw] z-10">
           <img
-            src="assets/images/blue_post_it_3.webp"
-            class="relative w-full left-[2vw] -rotate-3"
-            alt="blue Post-It third sponsor spot"
+            src="assets/images/sponsors_paper.png"
+            class="relative w-full rotate-12"
+            alt="Sponsor text paper"
           />
-          <img
-            src="assets/images/heavyduty_sticker.webp"
-            class="absolute w-[10vw] -top-[3vw] -left-[1.5vw] -rotate-12"
-            alt="Heavy Duty Builders graffiti sticker"
-          />
+        </div>
+        <div class="absolute w-[16vw] top-[19vw] right-[18vw] z-10">
+          <a
+            href="https://solanamonkey.business/"
+            aria-label="Official link to SMB"
+            target="_blank"
+          >
+            <img
+              src="assets/images/sponsors/logo_smb.webp"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+              alt="SMB sticker"
+            />
+          </a>
+        </div>
+
+        <div class="absolute w-[19vw] top-[22vw] -right-[2vw] z-10">
+          <a
+            href="https://claynosaurz.com/"
+            aria-label="Official link to ClaynoSaurz"
+            target="_blank"
+          >
+            <img
+              src="assets/images/sponsors/logo_claynosaurz.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
+              alt="Claynosaurz sticker"
+            />
+          </a>
+        </div>
+        <div class="absolute w-[15vw] top-[34vw] right-[10vw]">
+          <a
+            href="https://drip.haus/"
+            target="_blank"
+            aria-label="Drip official link"
+          >
+            <img
+              src="assets/images/sponsors/drip_photo.png"
+              class="relative w-full rotate-12"
+              alt="Drip Haus logo photo sponsor"
+            />
+          </a>
           <hd-spain-tour-push-pin-icon
-            colorData="yellow"
-            [classPrefix]="'fifth-pin'"
-            class="absolute block w-[3vw] z-10 top-[.5vw] left-[13vw]"
+            colorData="blue"
+            classPrefix="pin-drip"
+            class="absolute block w-[3vw] z-10 -top-[.5vw] left-[2vw]"
+          ></hd-spain-tour-push-pin-icon>
+          <hd-spain-tour-push-pin-icon
+            colorData="blue"
+            classPrefix="pin-drip"
+            class="absolute block w-[3vw] z-10 -bottom-[.5vw] right-[2vw]"
           ></hd-spain-tour-push-pin-icon>
         </div>
         <img
           src="assets/images/arrow_2-3.webp"
-          class="absolute w-[34vw] left-[1vw] -top-[13vw]"
+          class="absolute w-[34vw] left-[1vw] -top-[6vw]"
           alt="arrow from second postcard event to third postcard event"
         />
       </div>
 
       <!-- third event -->
-      <div class="relative w-full h-[31.3vw] ">
-        <div class="relative bg-white -rotate-3 w-[50vw] h-full p-[2.5vw]">
+      <div class="relative w-full h-[31.3vw] mt-[8vw]">
+        <div
+          class="relative bg-white bp-bg-paper-pattern -rotate-3 w-[50vw] h-full p-[2.5vw]"
+        >
           <hd-spain-tour-push-pin-icon
             colorData="blue"
             [classPrefix]="'second-pin'"
@@ -464,7 +453,7 @@ import { Component } from '@angular/core';
               </p>
               <a href="https://goo.gl/maps/qy6ob8VkteYCxR428" target="_blank">
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <i class="fal fa-map-marker-alt text-[1vw]"></i>
                   <p class="bp-landing-font text-[1vw] font-light">
@@ -472,7 +461,7 @@ import { Component } from '@angular/core';
                   </p>
                 </div>
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <div class="basis-[.7vw]"></div>
                   <p class="bp-landing-font text-[1vw] font-light">
@@ -480,14 +469,14 @@ import { Component } from '@angular/core';
                   </p>
                 </div>
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <div class="basis-[.7vw]"></div>
                   <p class="bp-landing-font text-[1vw] font-light ">Alicante</p>
                 </div>
               </a>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light text-white">
@@ -495,7 +484,7 @@ import { Component } from '@angular/core';
                 </p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light text-white">
@@ -503,13 +492,13 @@ import { Component } from '@angular/core';
                 </p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <i class="fal fa-calendar-alt text-[1vw]"></i>
                 <p class="bp-landing-font text-[1vw] font-light">28/09/2023</p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[2vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light ">
@@ -534,7 +523,15 @@ import { Component } from '@angular/core';
 
       <!-- line from third event to fourth event-->
       <div class="relative w-full h-[22vw]">
-        <div class="absolute w-[12vw] top-[10vw] left-[3vw] z-10">
+        <div class="absolute w-[20vw] top-[7vw] left-[3vw] z-10">
+          <img
+            src="assets/images/sponsors_paper.png"
+            class="relative w-full"
+            alt="Sponsor text paper"
+          />
+        </div>
+
+        <div class="absolute w-[12vw] top-[20vw] left-[3vw] z-10">
           <a href="https://de.superteam.fun/" target="_blank">
             <img
               src="assets/images/sponsors/logo_superteam_berlin_sticker.png"
@@ -544,7 +541,7 @@ import { Component } from '@angular/core';
           </a>
         </div>
 
-        <div class="absolute w-[11vw] top-[26vw] left-[17vw] z-10">
+        <div class="absolute w-[12vw] top-[30vw] left-[17vw] z-10">
           <a href="https://ultimate.app/" target="_blank">
             <img
               src="assets/images/sponsors/logo_ultimate.png"
@@ -554,17 +551,27 @@ import { Component } from '@angular/core';
           </a>
         </div>
 
+        <div class="absolute w-[10vw] top-[36vw] left-[2vw] z-10">
+          <a href="https://mango.markets" target="_blank">
+            <img
+              src="assets/images/sponsors/logo_mango.png"
+              class="relative w-full -rotate-12"
+              alt="Logo Mango App Sponsor"
+            />
+          </a>
+        </div>
+
         <img
           src="assets/images/arrow_3-4.webp"
-          class="absolute w-[34vw] right-[1vw] -top-[13vw]"
+          class="absolute w-[34vw] right-[1vw] -top-[8vw]"
           alt="arrow from third postcard event to fourth postcard event"
         />
       </div>
 
       <!-- fourth event-->
-      <div class="relative w-full h-[31.3vw]">
+      <div class="relative w-full h-[31.3vw] mt-[7vw]">
         <div
-          class="absolute bg-white w-[50vw] rotate-3 h-full p-[2.5vw] right-0"
+          class="absolute bg-white bp-bg-paper-pattern w-[50vw] rotate-3 h-full p-[2.5vw] right-0"
         >
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
@@ -592,7 +599,7 @@ import { Component } from '@angular/core';
               </p>
               <a href="https://goo.gl/maps/Z9cpLCyMdjhv8e1h6" target="_blank">
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <i class="fal fa-map-marker-alt text-[1vw]"></i>
                   <p class="bp-landing-font text-[1vw] font-light">
@@ -600,7 +607,7 @@ import { Component } from '@angular/core';
                   </p>
                 </div>
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <div class="basis-[.7vw]"></div>
                   <p class="bp-landing-font text-[1vw] font-light">
@@ -608,14 +615,14 @@ import { Component } from '@angular/core';
                   </p>
                 </div>
                 <div
-                  class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                  class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
                 >
                   <div class="basis-[.7vw]"></div>
                   <p class="bp-landing-font text-[1vw] font-light">Barcelona</p>
                 </div>
               </a>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light text-white">
@@ -623,7 +630,7 @@ import { Component } from '@angular/core';
                 </p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light text-white">
@@ -631,13 +638,13 @@ import { Component } from '@angular/core';
                 </p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[.3vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <i class="fal fa-calendar-alt text-[1vw]"></i>
                 <p class="bp-landing-font text-[1vw] font-light">29/09/2023</p>
               </div>
               <div
-                class="flex items-center border-b-[.1vw] border-slate-300 mb-[2vw] gap-[1vw]"
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light">
@@ -661,7 +668,7 @@ import { Component } from '@angular/core';
       </div>
     </section>
 
-    <footer class="flex justify-between">
+    <footer class="flex justify-between mt-[10vw]">
       <!-- Heavy Duty Builders Info-->
       <div
         class="relative w-[24vw] h-[23vw] -mt-[5vw] left-[10vw] mb-[5vw] -rotate-12"
@@ -738,6 +745,20 @@ import { Component } from '@angular/core';
 
       <!-- Next Hackathon information -->
       <div class="relative w-[17vw] h-[17vw] top-[2vw] right-[12vw] rotate-6">
+        <div class="absolute w-[11vw] top-[10vw] right-[20vw]">
+          <a
+            href="https://solana.com/events"
+            aria-label="Official link to Solana Events 2023"
+            target="_blank"
+          >
+            <img
+              src="assets/images/logo_hackershouse_sticker.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+              alt="Solana Hacker House sticker"
+            />
+          </a>
+        </div>
+
         <a href="https://solana.com/grizzlython" target="_blank">
           <img
             src="assets/images/hackathon_post_it.webp"
