@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <!-- Spain map -->
     <section
-      class="flex flex-col items-start mb-[10vw] px-[7vw] min-h-[62vw] gap-[10vw]"
+      class="flex flex-col items-start mb-[12vw] px-[7vw] min-h-[62vw] gap-[10vw]"
     >
       <div class="relative w-full mt-[5vw]">
         <div class="relative flex items-start w-[74vw] mx-auto my-0">
@@ -60,21 +60,21 @@ import { Component } from '@angular/core';
           ></hd-spain-tour-push-pin-icon>
 
           <div
-            class="absolute w-full flex px-[2vw] -bottom-[11vw] gap-[3vw] items-start"
+            class="absolute w-full px-[2vw] bottom-0"
           >
             <img
               src="assets/images/sponsors/logo_solana_sticker.png"
-              class="block w-[14vw] rotate-6"
+              class="absolute w-[20vw] top-[1vw] rotate-6"
               alt="Solana logo sticker"
             />
             <img
               src="assets/images/sponsors/logo_jump_sticker.png"
-              class="block w-[14vw] -rotate-6"
+              class="absolute w-[20vw] top-[7vw] left-[14vw] -rotate-6"
               alt="Jump logo sticker"
             />
             <img
               src="assets/images/sponsors/logo_circle_sticker.png"
-              class="block w-[14vw]"
+              class="absolute w-[20vw] top-[1vw] left-[28vw]"
               alt="Circle logo sticker"
             />
           </div>
