@@ -11,6 +11,12 @@ import { GithubIconComponent } from './components/github.icon';
 import { DiscordIconComponent } from './components/discord.icon';
 import { TwitterIconComponent } from './components/twitter.icon';
 import { WebsiteLinkIconComponent } from './components/website-url.icon';
+import { FirstEventComponent } from './components/core/first-event.component';
+import { SecondEventComponent } from './components/core/second-event.component';
+import { ThirdEventComponent } from './components/core/third-event.component';
+import { FourthEventComponent } from './components/core/fourth-event.component';
+import { FooterEventComponent } from './components/core/footer.component';
+import { HeroSectionComponent } from './components/core/hero-section.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +29,13 @@ import { WebsiteLinkIconComponent } from './components/website-url.icon';
     GithubIconComponent,
     DiscordIconComponent,
     TwitterIconComponent,
-    WebsiteLinkIconComponent
+    WebsiteLinkIconComponent,
+    FirstEventComponent,
+    SecondEventComponent,
+    ThirdEventComponent,
+    FourthEventComponent,
+    FooterEventComponent,
+    HeroSectionComponent
   ],
   imports: [BrowserModule],
   providers: [],
