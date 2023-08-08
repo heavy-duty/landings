@@ -4,8 +4,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'hd-spain-tour-hero-section',
   template: `
     <section
-      class="flex flex-col items-start mb-[6vw] px-[7vw] min-h-[62vw] gap-[10vw]"
+      class="flex flex-col items-start mb-[9vw] px-[7vw] min-h-[62vw] gap-[10vw]"
     >
+      <!-- Solana Tour 2023 letters and stickers -->
       <div class="relative w-full mt-[5vw]">
         <div class="relative flex items-start w-[74vw] mx-auto my-0">
           <img
@@ -16,9 +17,18 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
       </div>
 
-      <div class="relative flex">
+      <div class="absolute top-[18vw] right-[25vw]">
+        <div class="w-[13vw] rotate-12">
+          <img
+            src="assets/images/sticker_2023.png"
+            alt="SOLANA TOUR text"
+            class="w-full"
+          />
+        </div>
+      </div>
 
-        <!-- Spain map with push pins and sponsors-->
+      <!-- Spain map with push pins and sponsors-->
+      <div class="relative flex">
         <div class="relative w-[50vw]">
           <div class="relative">
             <!-- paper -->
@@ -94,7 +104,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               alt="blue Post-It third sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
-              colorData="yellow"
+              colorData="blue"
               [classPrefix]="'fifth-pin'"
               class="absolute block w-[3vw] z-10 top-[.5vw] left-[11vw]"
             ></hd-spain-tour-push-pin-icon>
@@ -119,14 +129,14 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- third post-it-->
           <div class="absolute w-[28vw] top-[46vw] left-[4vw]">
             <img
-              src="assets/images/folded_paper.webp"
+              src="assets/images/folded_paper_gracias.png"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
               colorData="lightBlue"
               classPrefix="pin-drago"
-              class="absolute block w-[3vw] z-10 top-[2vw] left-[13vw]"
+              class="absolute block w-[3vw] z-10 top-[2.5vw] left-[14vw]"
             ></hd-spain-tour-push-pin-icon>
           </div>
         </div>

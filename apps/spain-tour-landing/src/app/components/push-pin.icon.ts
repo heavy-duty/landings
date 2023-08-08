@@ -207,21 +207,21 @@ export class PushPinIconComponent {
   };
   _yellowColorDataSet = {
     radialGradient: {
-      first: '#5c5c5c',
-      second: '#535353',
-      third: '#171717'
+      first: '#383838',
+      second: '#101010',
+      third: '#101010'
     },
     radialGradient2: {
-      first: '#D1B90D',
-      second: '#CCBE15',
+      first: '#FCE80D',
+      second: '#EFD720',
     },
     radialGradient3: {
-      first: '#7A7819',
-      second: '#7C7A19',
-      third: '#83801B',
-      fourth: '#8E8B1D',
-      fifth: '#9F9C21',
-      sixth: '#A6A322'
+      first: '#FFED4D',
+      second: '#C1AC1E',
+      third: '#D9C31D',
+      fourth: '#D9C31D',
+      fifth: '#DCCC3C',
+      sixth: '#DCCC3C'
     },
     radialGradient4: {
       first: '#A39400',
