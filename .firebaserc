@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "community-platform-55f52"
+  },
+  "targets": {
+    "community-platform-55f52": {
+      "hosting": {
+        "spain-islands-tour": [
+          "spain-islands-tour"
+        ]
+      }
+    }
+  }
+}

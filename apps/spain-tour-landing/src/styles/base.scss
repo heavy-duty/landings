@@ -1,0 +1,47 @@
+@import './core/fonts.scss';
+
+.bp-bg-cork-pattern {
+	background-image: url(../assets/images/patterns/cork.webp);
+	background-repeat: repeat;
+	background-color: #d2a56b;
+	background-size: contain;
+}
+
+.bp-bg-paper-pattern {
+	background-image: url(../assets/images/patterns/paper_texture.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	-webkit-box-shadow: 0.1vw 0.4vw 0.2vw -0.21vw rgba(0,0,0,0.52);
+	-moz-box-shadow: 0.1vw 0.4vw 0.2vw -0.21vw rgba(0,0,0,0.52);
+	box-shadow: 0.1vw 0.4vw 0.2vw -0.21vw rgba(0,0,0,0.52);
+}
+
+.bp-bg-first-event {
+	background-image: url(../assets/images/locations/madrid.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bp-bg-second-event {
+	background-image: url(../assets/images/locations/malaga.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bp-bg-third-event {
+	background-image: url(../assets/images/locations/alicante.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.bp-bg-fourth-event {
+	background-image: url(../assets/images/locations/barcelona.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a:hover * {
+	color: #1574ef;
+}
