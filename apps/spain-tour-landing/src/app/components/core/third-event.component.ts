@@ -43,7 +43,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               >
                 <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
                 <img
-                  src="assets/images/icons/location.png"
+                  src="assets/images/icons/location.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
                   alt="Calendar icon"
                 />
@@ -84,7 +84,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             >
               <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
               <img
-                src="assets/images/icons/calendar.png"
+                src="assets/images/icons/calendar.webp"
                 class="absolute w-[1.1vw] left-[1.2vw]"
                 alt="Calendar icon"
               />
@@ -117,7 +117,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="assets/images/information_paper.png"
+            src="assets/images/information_paper.webp"
             class="w-full rotate-3"
             alt="Information text on a paper"
           />
@@ -126,7 +126,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] rotate-6">
           <img
-            src="assets/images/green_post_it_2.png"
+            src="assets/images/green_post_it_2.webp"
             alt="green post-it with some information"
             class="relative w-full"
           />
@@ -149,7 +149,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
-          src="assets/images/sponsors_paper.png"
+          src="assets/images/sponsors_paper.webp"
           class="w-full"
           alt="Information text on a paper"
         />
@@ -164,7 +164,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="assets/images/sponsors/logo_ultimate.png"
+              src="assets/images/sponsors/logo_ultimate.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Ultimate Wallet sticker"
             />
@@ -177,7 +177,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="assets/images/sponsors/logo_superteam_berlin_sticker.png"
+              src="assets/images/sponsors/logo_superteam_berlin_sticker.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="SuperTeam Germany sticker"
             />
@@ -190,7 +190,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="assets/images/sponsors/logo_mango.png"
+              src="assets/images/sponsors/logo_mango.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Mango Markets sticker"
             />

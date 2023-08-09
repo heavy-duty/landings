@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
       <div class="flex justify-between mb-[4vw]">
         <div class="relative block w-[45vw]">
           <img
-            src="assets/images/road_map.png"
+            src="assets/images/road_map.webp"
             alt="roadmap Tour Text image"
             class="w-full"
           />

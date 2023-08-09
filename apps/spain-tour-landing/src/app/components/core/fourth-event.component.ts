@@ -41,7 +41,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               >
                 <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
                 <img
-                  src="assets/images/icons/location.png"
+                  src="assets/images/icons/location.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
                   alt="Calendar icon"
                 />
@@ -82,7 +82,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             >
               <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
               <img
-                src="assets/images/icons/calendar.png"
+                src="assets/images/icons/calendar.webp"
                 class="absolute w-[1.1vw] left-[1.2vw]"
                 alt="Calendar icon"
               />
@@ -114,7 +114,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="assets/images/information_paper.png"
+            src="assets/images/information_paper.webp"
             class="w-full -rotate-3"
             alt="Information text on a paper"
           />
@@ -123,7 +123,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] -rotate-6 order-1">
           <img
-            src="assets/images/purple_post_it.png"
+            src="assets/images/purple_post_it.webp"
             alt="green post-it with some information"
             class="relative w-full"
           />

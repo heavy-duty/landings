@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Doubts text -->
       <div class="relative w-full flex justify-center">
         <img
-          src="assets/images/doubts_paper.png"
+          src="assets/images/doubts_paper.webp"
           class="w-[22vw]"
           alt="Doubts text on a paper"
         />
@@ -103,7 +103,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               target="_blank"
             >
               <img
-                src="assets/images/logo_hackershouse_sticker.png"
+                src="assets/images/logo_hackershouse_sticker.webp"
                 class="relative w-full -top-[1.5vw] -left-[1vw] -rotate-12"
                 alt="Solana Hacker House sticker"
               />
@@ -118,7 +118,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               target="_blank"
             >
               <img
-                src="assets/images/sponsors/logo_solana_sticker.png"
+                src="assets/images/sponsors/logo_solana_sticker.webp"
                 class="relative w-full -top-[1.5vw] -left-[1vw] rotate-6"
                 alt="Solana sticker"
               />
@@ -133,7 +133,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               target="_blank"
             >
               <img
-                src="assets/images/sponsors/logo_heavyduty_sticker.png"
+                src="assets/images/sponsors/logo_heavyduty_sticker.webp"
                 class="relative w-full -top-[1.5vw] -left-[1vw] -rotate-6"
                 alt="Heavy Duty Builders sticker"
               />
@@ -151,7 +151,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             </a>
             <a href="https://solana.com/" target="_blank">
               <img
-                src="assets/images/logo_solana_sticker.png"
+                src="assets/images/logo_solana_sticker.webp"
                 class="absolute w-[6vw] -top-[3vw] -left-[1.5vw] -rotate-12"
                 alt="Solana logo sticker"
               />

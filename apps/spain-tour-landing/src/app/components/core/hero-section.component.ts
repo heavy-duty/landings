@@ -10,7 +10,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <div class="relative w-full mt-[5vw]">
         <div class="relative flex items-start w-[74vw] mx-auto my-0">
           <img
-            src="assets/images/main_title_image.png"
+            src="assets/images/main_title_image.webp"
             alt="Solana Tour text"
             class="w-full"
           />
@@ -20,7 +20,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <div class="absolute top-[18vw] right-[25vw]">
         <div class="w-[13vw] rotate-12">
           <img
-            src="assets/images/sticker_2023.png"
+            src="assets/images/sticker_2023.webp"
             alt="2023 sticker"
             class="w-full"
           />
@@ -33,7 +33,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="relative">
             <!-- paper -->
             <img
-              src="assets/images/spain_folded_paper.png"
+              src="assets/images/spain_folded_paper.webp"
               alt="Spain Mailand map in a paper"
               class="block w-full"
               width="908"
@@ -41,7 +41,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             />
             <!-- tape -->
             <img
-              src="assets/images/tape.png"
+              src="assets/images/tape.webp"
               alt="top tape on Mainland map paper"
               class="absolute -top-[1vw] left-[18vw] w-[13vw] rotate-3"
             />
@@ -83,17 +83,17 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- Global Sponsors-->
           <div class="relative w-full px-[2vw] h-[16vw]">
             <img
-              src="assets/images/sponsors/logo_solana_sticker.png"
+              src="assets/images/sponsors/logo_solana_sticker.webp"
               class="absolute w-[20vw] top-[1vw] rotate-6"
               alt="Solana logo sticker"
             />
             <img
-              src="assets/images/sponsors/logo_jump_sticker.png"
+              src="assets/images/sponsors/logo_jump_sticker.webp"
               class="absolute w-[20vw] top-[7vw] left-[14vw] -rotate-6"
               alt="Jump logo sticker"
             />
             <img
-              src="assets/images/sponsors/logo_circle_sticker.png"
+              src="assets/images/sponsors/logo_circle_sticker.webp"
               class="absolute w-[20vw] top-[1vw] left-[28vw]"
               alt="Circle logo sticker"
             />
@@ -136,7 +136,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- third post-it-->
           <div class="absolute w-[28vw] top-[46vw] left-[4vw]">
             <img
-              src="assets/images/folded_paper_gracias.png"
+              src="assets/images/folded_paper_gracias.webp"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />
