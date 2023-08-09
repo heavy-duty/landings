@@ -153,7 +153,5 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeroSectionComponent {
-  constructor() {
-    console.log('E');
-  }
+
 }

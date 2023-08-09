@@ -18,8 +18,6 @@ import { Component, OnInit } from '@angular/core';
 	`,
 	styles: [],
 })
-export class ShellComponent implements OnInit {
-	ngOnInit(): void {
-		console.log('shell works');
-	}
+export class ShellComponent {
+
 }

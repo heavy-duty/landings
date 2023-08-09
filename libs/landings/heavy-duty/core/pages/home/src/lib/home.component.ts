@@ -188,10 +188,8 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 	`,
 	styles: [],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 	@HostBinding('class') class =
 		'flex flex-col text-[#e6e6e6] bp-bg-street-under-two px-4 py-5 items-center bp-min-h-content sm:px-6';
-	ngOnInit(): void {
-		console.log('Testing');
-	}
+
 }

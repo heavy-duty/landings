@@ -145,7 +145,5 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FourthEventComponent {
-  constructor() {
-    console.log('E');
-  }
+
 }

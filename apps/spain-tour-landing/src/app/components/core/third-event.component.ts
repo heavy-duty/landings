@@ -202,7 +202,5 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ThirdEventComponent {
-  constructor() {
-    console.log('E');
-  }
+
 }

@@ -5,10 +5,7 @@ import { Component, OnInit } from '@angular/core';
 	template: ` <router-outlet></router-outlet> `,
 	styles: [],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
 	title = 'heavy-duty-landing-client';
 
-	ngOnInit() {
-		console.log(this.title);
-	}
 }
