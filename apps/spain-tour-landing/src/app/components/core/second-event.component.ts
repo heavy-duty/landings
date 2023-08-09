@@ -33,7 +33,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               <span class="block">Meeting #2:</span>
               <span class="block">Programas y renta.</span>
             </p>
-            <a href="https://goo.gl/maps/5N33J5ZtjX6FBPgh8" target="_blank">
+            <a href="https://goo.gl/maps/5N33J5ZtjX6FBPgh8" target="_blank" aria-label="Link to second event location on google maps">
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
@@ -102,6 +102,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%232+-+Programas+en+Solana.&details=Segundo+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=Innovation+Campus+-+Malaga+Terrace+coworking%2C+Calle+Puerto%2C+14%2C+29016+M%C3%A1laga%2C+Spain&dates=20230926T140000Z%2F20230926T160000Z"
                 target="_blank"
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#6BFF7D] border-[.1vw] border-gray-800 hover:bg-[#4ff963] text-center font-bold"
+                aria-label="Schedule second event action"
               >
                 Agendar evento
               </a>
@@ -128,7 +129,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             alt="green post-it with some information"
             class="relative w-full"
           />
-          <a href="https://lu.ma/m1op9i7b" target="_blank">
+          <a href="https://lu.ma/m1op9i7b" target="_blank" aria-label="Official link to the second tour event">
             <hd-spain-tour-event-more-info-icon
               class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10"
               [classPrefix]="'sixth-event243'"

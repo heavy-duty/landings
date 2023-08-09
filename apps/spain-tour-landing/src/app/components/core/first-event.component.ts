@@ -35,7 +35,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               <span class="block">Meeting #1:</span>
               <span class="block">Conceptos Básicos.</span>
             </p>
-            <a href="https://goo.gl/maps/hnjYbQRoCjn1jmNo6" target="_blank">
+            <a
+              href="https://goo.gl/maps/hnjYbQRoCjn1jmNo6"
+              target="_blank"
+              aria-label="Link to first event location on google maps"
+            >
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
@@ -106,6 +110,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%231+-+Conceptos+B%C3%A1sicos.&details=Primer+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=The+Shed+CoWorking%2C+C.+de+Hermosilla%2C+48%2C+1%C2%BA+Derecha%2C+28001+Madrid%2C+Spain.&dates=20230924T130000Z%2F20230924T170000Z"
                 target="_blank"
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw]  bg-[#98e6ff] border-[.1vw] border-gray-800 hover:bg-[#83dcf7] text-center font-bold"
+                aria-label="Schedule first event action"
               >
                 Agendar evento
               </a>
@@ -135,6 +140,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <a
             href="https://lu.ma/m1op9i7b"
             target="_blank"
+            aria-label="Official link to the first tour event"
           >
             <hd-spain-tour-event-more-info-icon
               class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10"
@@ -207,6 +213,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FirstEventComponent {
-
-}
+export class FirstEventComponent {}

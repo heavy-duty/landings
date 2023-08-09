@@ -34,7 +34,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           >
             <a
               href="https://twitter.com/HeavyDutyBuild"
-              aria-labe="Official Twitter Link"
+              aria-label="Official Twitter Link"
               target="_blank"
             >
               <hd-spain-tour-twitter-icon
@@ -43,7 +43,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             </a>
             <a
               href="https://discord.com/invite/sbjg5YvYfM"
-              aria-labe="Official Discord Link"
+              aria-label="Official Discord Link"
               target="_blank"
             >
               <hd-spain-tour-discord-icon
@@ -68,7 +68,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <div class="relative  w-[80%]">
               <a
                 href="https://heavyduty.builders/"
-                aria-labe="Official HeavyDuty Website link"
+                aria-label="Official HeavyDuty Website link"
                 target="_blank"
               >
                 <hd-spain-tour-website-link-icon
@@ -142,14 +142,22 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
           <!-- Next hackathon post-it -->
           <div class="relative">
-            <a href="https://solana.com/grizzlython" target="_blank">
+            <a
+              href="https://solana.com/grizzlython"
+              target="_blank"
+              aria-label="Official link to Solana Grizzlython Hackathon website"
+            >
               <img
                 src="assets/images/hackathon_post_it.webp"
                 class="w-full rotate-12"
                 alt="Next hackathon orange Post-it"
               />
             </a>
-            <a href="https://solana.com/" target="_blank">
+            <a
+              href="https://solana.com/"
+              target="_blank"
+              aria-label="Official link to Solana website"
+            >
               <img
                 src="assets/images/logo_solana_sticker.webp"
                 class="absolute w-[6vw] -top-[3vw] -left-[1.5vw] -rotate-12"
@@ -168,6 +176,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FooterEventComponent {
-
-}
+export class FooterEventComponent {}
