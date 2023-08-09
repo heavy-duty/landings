@@ -11,7 +11,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <div class="relative flex items-start w-[74vw] mx-auto my-0">
           <img
             src="assets/images/main_title_image.png"
-            alt="SOLANA TOUR text"
+            alt="Solana Tour text"
             class="w-full"
           />
         </div>
@@ -21,7 +21,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <div class="w-[13vw] rotate-12">
           <img
             src="assets/images/sticker_2023.png"
-            alt="SOLANA TOUR text"
+            alt="2023 sticker"
             class="w-full"
           />
         </div>
@@ -39,11 +39,18 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               width="908"
               height="807"
             />
-            <!-- Spain Map -->
+            <!-- tape -->
             <img
               src="assets/images/tape.png"
               alt="top tape on Mainland map paper"
               class="absolute -top-[1vw] left-[18vw] w-[13vw] rotate-3"
+            />
+
+            <!-- Heavy Duty Sticker -->
+            <img
+              src="assets/images/logo_heavyduty_pencil.webp"
+              alt="top tape on Mainland map paper"
+              class="absolute bottom-[4vw] right-[3vw] w-[5vw] rotate-6"
             />
 
             <!-- Push Pins -->

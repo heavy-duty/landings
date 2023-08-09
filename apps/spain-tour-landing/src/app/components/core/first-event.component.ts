@@ -138,11 +138,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           >
             <hd-spain-tour-event-more-info-icon
               class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10"
+              [classPrefix]="'sixth-event0'"
             ></hd-spain-tour-event-more-info-icon>
           </a>
           <hd-spain-tour-push-pin-icon
             colorData="purple"
-            [classPrefix]="'fifth-event-pin'"
+            [classPrefix]="'ff-match-pin'"
             class="absolute block w-[3vw] z-10 top-[.5vw] left-[9.8vw]"
           ></hd-spain-tour-push-pin-icon>
         </div>

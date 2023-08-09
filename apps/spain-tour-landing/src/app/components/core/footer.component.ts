@@ -13,7 +13,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         />
       </div>
 
-      <div class="flex justify-between mt-[10vw]">
+      <div class="flex justify-between mt-[10vw] w-full">
         <!-- Heavy Duty Builders Info-->
         <div
           class="relative w-[24vw] h-[23vw] -mt-[5vw] left-[10vw] mb-[5vw] -rotate-12"
@@ -29,7 +29,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             alt="Beware Heavy Duty Builders sticker"
           />
           <!-- Socials -->
-          <div class="relative flex justify-around top-[6vw] pl-[2vw] px-[2.5vw]">
+          <div
+            class="relative flex justify-around top-[6vw] pl-[2vw] px-[2.5vw]"
+          >
             <a
               href="https://twitter.com/HeavyDutyBuild"
               aria-labe="Official Twitter Link"
@@ -58,7 +60,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               ></hd-spain-tour-github-icon>
             </a>
           </div>
-          
+
           <!-- Links -->
           <div
             class="relative top-[6vw] w-full flex flex-col items-center mt-[1vw]"
@@ -92,7 +94,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
 
         <!-- Next Hackathon information -->
-        <div class="relative w-[17vw] h-[17vw] top-[2vw] right-[12vw] rotate-6">
+        <div class="relative w-[17vw] h-[17vw] top-[2vw] right-[12vw]">
           <!-- HackerHouse Sticker -->
           <div class="absolute w-[11vw] top-[10vw] right-[20vw]">
             <a
@@ -102,32 +104,64 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             >
               <img
                 src="assets/images/logo_hackershouse_sticker.png"
-                class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+                class="relative w-full -top-[1.5vw] -left-[1vw] -rotate-12"
                 alt="Solana Hacker House sticker"
               />
             </a>
           </div>
 
+          <!-- Solana Sticker -->
+          <div class="absolute w-[16vw] top-[2vw] right-[30vw]">
+            <a
+              href="https://solana.com"
+              aria-label="Official link to Solana"
+              target="_blank"
+            >
+              <img
+                src="assets/images/sponsors/logo_solana_sticker.png"
+                class="relative w-full -top-[1.5vw] -left-[1vw] rotate-6"
+                alt="Solana sticker"
+              />
+            </a>
+          </div>
+
+          <!-- Heavy Duty Builders Sticker -->
+          <div class="absolute w-[12vw] top-[7vw] right-[34vw]">
+            <a
+              href="https://heavyduty.builders/"
+              aria-label="Official link to Heavy Duty Builders"
+              target="_blank"
+            >
+              <img
+                src="assets/images/sponsors/logo_heavyduty_sticker.png"
+                class="relative w-full -top-[1.5vw] -left-[1vw] -rotate-6"
+                alt="Heavy Duty Builders sticker"
+              />
+            </a>
+          </div>
+
           <!-- Next hackathon post-it -->
-          <a href="https://solana.com/grizzlython" target="_blank">
-            <img
-              src="assets/images/hackathon_post_it.webp"
-              class="w-full"
-              alt="Next hackathon orange Post-it"
-            />
-          </a>
-          <a href="https://solana.com/" target="_blank">
-            <img
-              src="assets/images/logo_solana_sticker.png"
-              class="absolute w-[6vw] -top-[1vw] -left-[1.5vw] -rotate-12"
-              alt="Solana logo sticker"
-            />
-          </a>
-          <hd-spain-tour-push-pin-icon
-            colorData="green"
-            [classPrefix]="'footer-pin'"
-            class="absolute block w-[3vw] z-10 top-[0vw] right-[2vw]"
-          ></hd-spain-tour-push-pin-icon>
+          <div class="relative">
+            <a href="https://solana.com/grizzlython" target="_blank">
+              <img
+                src="assets/images/hackathon_post_it.webp"
+                class="w-full rotate-12"
+                alt="Next hackathon orange Post-it"
+              />
+            </a>
+            <a href="https://solana.com/" target="_blank">
+              <img
+                src="assets/images/logo_solana_sticker.png"
+                class="absolute w-[6vw] -top-[3vw] -left-[1.5vw] -rotate-12"
+                alt="Solana logo sticker"
+              />
+            </a>
+            <hd-spain-tour-push-pin-icon
+              colorData="green"
+              [classPrefix]="'footer-pin'"
+              class="absolute block w-[3vw] z-10 top-[1vw] right-[1vw]"
+            ></hd-spain-tour-push-pin-icon>
+          </div>
         </div>
       </div>
     </footer>

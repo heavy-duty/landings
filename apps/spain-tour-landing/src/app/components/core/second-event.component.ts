@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-second-event',
   template: `
-    <div class="relative flex gap-[5vw] w-full  mt-[5vw]">
+    <div class="relative flex gap-[5vw] w-full mt-[5vw]">
       <!-- Postcard -->
       <div
         class="relative bg-white bp-bg-paper-pattern rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] -right-[4vw] order-2"
@@ -109,6 +109,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
         </div>
       </div>
+
       <!-- Event Information -->
       <div class="relative">
         <!-- Information text -->
@@ -130,12 +131,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <a href="https://lu.ma/m1op9i7b" target="_blank">
             <hd-spain-tour-event-more-info-icon
               class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10"
-              [classPrefix]="'sixth-event2-pin'"
+              [classPrefix]="'sixth-event243'"
             ></hd-spain-tour-event-more-info-icon>
           </a>
           <hd-spain-tour-push-pin-icon
-            colorData="green"
-            [classPrefix]="'sixth-event2-pin'"
+            colorData="blue"
+            [classPrefix]="'sixth-event22-pin'"
             class="absolute block w-[3vw] z-10 top-[.5vw] left-[9.8vw]"
           ></hd-spain-tour-push-pin-icon>
         </div>

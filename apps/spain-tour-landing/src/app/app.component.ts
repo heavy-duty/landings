@@ -37,7 +37,7 @@ import { Component } from '@angular/core';
       <div class="relative w-full">
         <img
           src="assets/images/arrow_2-3.webp"
-          class="absolute w-[35vw] left-[1vw] -top-[28vw]"
+          class="absolute w-[35vw] -left-[1vw] -top-[25vw]"
           alt="arrow from second postcard event to third postcard event"
         />
       </div>
@@ -46,10 +46,10 @@ import { Component } from '@angular/core';
       <hd-spain-tour-third-event></hd-spain-tour-third-event>
 
       <!-- line from third event to fourth event-->
-      <div class="relative w-full h-[22vw]">
+      <div class="relative w-full ">
         <img
           src="assets/images/arrow_3-4.webp"
-          class="absolute w-[34vw] right-[1vw] -top-[8vw]"
+          class="absolute w-[38vw] right-[1vw] -top-[36vw]"
           alt="arrow from third postcard event to fourth postcard event"
         />
       </div>
