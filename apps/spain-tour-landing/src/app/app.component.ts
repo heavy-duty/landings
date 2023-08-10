@@ -43,7 +43,7 @@ import { Component } from '@angular/core';
       <div class="absolute w-full flex left-0 z-10">
         <div class="absolute w-[70vw] -top-[4vw]">
           <img
-            src="assets/images/zigzag_blue.png"
+            src="assets/images/zigzag_blue.webp"
             class="w-full"
             alt="Blue zigzag divider "
           />
@@ -66,7 +66,7 @@ import { Component } from '@angular/core';
       <div class="absolute w-full flex left-0 z-10">
         <div class="absolute w-[70vw] top-[3vw] -right-[1vw] -rotate-6">
           <img
-            src="assets/images/zigzag_green.png"
+            src="assets/images/zigzag_green.webp"
             class="w-full"
             alt="Green zigzag divider "
           />

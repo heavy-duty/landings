@@ -123,7 +123,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- first post-it-->
           <div class="absolute w-[28vw] top-[2.1vw] right-[7vw]">
             <img
-              src="assets/images/note1.png"
+              src="assets/images/note1.webp"
               class="relative w-full rotate-12"
               alt="blue Post-It third sponsor spot"
             />
@@ -139,7 +139,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             class="absolute flex justify-center w-[25vw] top-[24vw] right-[8vw]"
           >
             <img
-              src="assets/images/note2.png"
+              src="assets/images/note2.webp"
               alt="green Post-It first sponsor spot"
               class="w-full -rotate-6"
             />
@@ -153,7 +153,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- third post-it-->
           <div class="absolute w-[28vw] top-[46vw] left-[4vw]">
             <img
-              src="assets/images/note3.png"
+              src="assets/images/note3.webp"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />

@@ -126,7 +126,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] -rotate-6 order-1">
           <img
-            src="assets/images/post_it_blue.png"
+            src="assets/images/post_it_blue.webp"
             alt="blue post-it with some information"
             class="relative w-full"
           />
@@ -164,7 +164,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="assets/images/sponsors/logo_superteamMX_sticker.png"
+              src="assets/images/sponsors/logo_superteamMX_sticker.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="SuperTeam Mexico sticker"
             />
@@ -190,7 +190,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="assets/images/sponsors/logo_superteamTK_sticker.png"
+              src="assets/images/sponsors/logo_superteamTK_sticker.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
               alt="SuperTeam Turkey sticker"
             />
@@ -216,13 +216,28 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="assets/images/sponsors/logo_helius_sticker.png"
+              src="assets/images/sponsors/logo_helius_sticker.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Helius Lab sticker"
             />
           </a>
         </div>
       </div>
+
+      <!-- Bull Sticker -->
+      <div class="absolute right-[2vw] top-[10vw]">
+        <img 
+          src="assets/images/icons/bull.webp"
+          alt="Drawing bull"
+          class="w-[15vw] rotate-6"
+        />
+        <img 
+          src="assets/images/tape.webp"
+          alt="tape for drawing bull"
+          class="absolute w-[7vw] rotate-[25deg] top-[.7vw] right-[2.5vw]"
+        />
+      </div>
+
     </div>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,

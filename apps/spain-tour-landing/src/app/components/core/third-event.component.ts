@@ -127,7 +127,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] rotate-6">
           <img
-            src="assets/images/post_it_pink.png"
+            src="assets/images/post_it_pink.webp"
             alt="pink post-it with some information"
             class="relative w-full"
           />
