@@ -119,32 +119,32 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
 
         <!-- Posts Sections -->
-        <div class="relative w-[42vw]">
+        <div class="relative w-[40vw]">
           <!-- first post-it-->
-          <div class="absolute w-[25vw] top-[1vw] right-[9vw]">
+          <div class="absolute w-[28vw] top-[2.1vw] right-[7vw]">
             <img
-              src="assets/images/folded_paper.webp"
+              src="assets/images/note1.png"
               class="relative w-full rotate-12"
               alt="blue Post-It third sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
               colorData="red"
               [classPrefix]="'fifth-pin'"
-              class="absolute block w-[3vw] z-10 top-[.5vw] left-[11vw]"
+              class="absolute block w-[3vw] z-10 top-[.8vw] left-[14vw]"
             ></hd-spain-tour-push-pin-icon>
           </div>
 
           <!-- second post-it-->
           <div
-            class="absolute flex justify-center w-[23vw] top-[24vw] right-[12vw]"
+            class="absolute flex justify-center w-[25vw] top-[24vw] right-[8vw]"
           >
             <img
-              src="assets/images/folded_paper.webp"
+              src="assets/images/note2.png"
               alt="green Post-It first sponsor spot"
               class="w-full -rotate-6"
             />
             <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] top-[1vw] mr-[2.5vw] z-10"
+              class="absolute block w-[3vw] top-[0.6vw] mr-[2vw] z-10"
               colorData="red"
               [classPrefix]="'seven-pin'"
             ></hd-spain-tour-push-pin-icon>
@@ -153,14 +153,14 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- third post-it-->
           <div class="absolute w-[28vw] top-[46vw] left-[4vw]">
             <img
-              src="assets/images/folded_paper_gracias.webp"
+              src="assets/images/note3.png"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
               colorData="red"
               classPrefix="pin-drago"
-              class="absolute block w-[3vw] z-10 top-[2.5vw] left-[14vw]"
+              class="absolute block w-[3vw] z-10 top-[1.5vw] left-[15vw]"
             ></hd-spain-tour-push-pin-icon>
           </div>
         </div>

@@ -144,6 +144,86 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
       </div>
     </div>
+    <!-- Event sponsors -->
+    <div class="relative w-full">
+      <!-- Sponsor text -->
+      <div class="relative w-[16vw] mt-[4vw]">
+        <img
+          src="assets/images/sponsors_paper.webp"
+          class="w-full"
+          alt="Information text on a paper"
+        />
+      </div>
+
+      <!-- Sticker logos -->
+      <div class="relative h-[26vw]">
+        <div class="absolute w-[11vw] top-[4vw] left-[8vw] z-10">
+          <a
+            href="https://mx.superteam.fun/"
+            aria-label="Official link to SuperTeam Mexico"
+            target="_blank"
+          >
+            <img
+              src="assets/images/sponsors/logo_superteamMX_sticker.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+              alt="SuperTeam Mexico sticker"
+            />
+          </a>
+        </div>
+        <div class="absolute w-[24vw] top-[20vw] left-[10vw] z-10">
+          <a
+            href="https://exchange.art/"
+            aria-label="Official link to Exchange Art NFT marketplace"
+            target="_blank"
+          >
+            <img
+              src="assets/images/sponsors/logo_exchangeArt_sticker.webp"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
+              alt="Exchange Art NFT marketplace sticker"
+            />
+          </a>
+        </div>
+        <div class="absolute w-[11vw] top-[2vw] left-[39vw] z-10">
+          <a
+            href="https://tr.superteam.fun/"
+            aria-label="Official link to SuperTeam Turkey"
+            target="_blank"
+          >
+            <img
+              src="assets/images/sponsors/logo_superteamTK_sticker.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
+              alt="SuperTeam Turkey sticker"
+            />
+          </a>
+        </div>
+        <div class="absolute w-[9vw] top-[4vw] left-[22vw] z-10">
+          <a
+            href="https://www.quicknode.com/"
+            aria-label="Official link to QuickNode RPC"
+            target="_blank"
+          >
+            <img
+              src="assets/images/sponsors/logo_quickNode_sticker.webp"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+              alt="QuickNode RPC sticker"
+            />
+          </a>
+        </div>
+        <div class="absolute w-[9vw] top-[13vw] left-[32vw] z-10">
+          <a
+            href="https://www.helius.dev/"
+            aria-label="Official link to Helius Lab"
+            target="_blank"
+          >
+            <img
+              src="assets/images/sponsors/logo_helius_sticker.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+              alt="Helius Lab sticker"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

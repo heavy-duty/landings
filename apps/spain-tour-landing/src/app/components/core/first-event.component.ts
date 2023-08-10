@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-first-event',
   template: `
-    <div class="relative flex gap-[5vw] w-full" id="first-event-section">
+    <div class="relative flex gap-[5vw] w-full pt-[5vw]" id="first-event-section">
       <!-- Postcard -->
       <div
         class="relative bg-white bp-bg-paper-pattern -rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] right-0"

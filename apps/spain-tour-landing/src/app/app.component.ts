@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     <hd-spain-tour-hero-section></hd-spain-tour-hero-section>
 
     <!-- Divider & Roadmap -->
-    <div class="w-full relative flex justify-between items-center my-[8vw]">
+    <div class="w-full relative flex justify-between items-center mt-[8vw] mb-[3vw]">
       <div class="relative">
         <img
           src="assets/images/arrows.png"
@@ -36,14 +36,25 @@ import { Component } from '@angular/core';
     </div>
 
     <!-- Events section -->
-    <section class="px-[7vw]">
+    <section class="relative px-[7vw] overflow-hidden pb-[5vw]">
       <hd-spain-tour-first-event></hd-spain-tour-first-event>
 
+      <!-- Blue zigzag divider -->
+      <div class="absolute w-full flex left-0 z-10">
+        <div class="absolute w-[70vw] -top-[4vw]">
+          <img
+            src="assets/images/zigzag_blue.png"
+            class="w-full"
+            alt="Blue zigzag divider "
+          />
+        </div>
+      </div>
+
       <!-- line from first event to second event-->
-      <div class="relative w-full">
+      <div class="relative w-full mb-[16vw]">
         <img
           src="assets/images/arrow_1-2.webp"
-          class="absolute w-[35vw] right-[1vw] -top-[34vw]"
+          class="absolute w-[46vw] right-[0vw] -top-[32vw]"
           alt="arrow from first postcard event to second postcard event"
         />
       </div>
@@ -51,11 +62,22 @@ import { Component } from '@angular/core';
       <!-- second event-->
       <hd-spain-tour-second-event></hd-spain-tour-second-event>
 
+      <!-- Green zigzag divider -->
+      <div class="absolute w-full flex left-0 z-10">
+        <div class="absolute w-[70vw] top-[3vw] -right-[1vw] -rotate-6">
+          <img
+            src="assets/images/zigzag_green.png"
+            class="w-full"
+            alt="Green zigzag divider "
+          />
+        </div>
+      </div>
+
       <!-- line from second event to third event-->
-      <div class="relative w-full">
+      <div class="relative w-full mb-[16vw]">
         <img
           src="assets/images/arrow_2-3.webp"
-          class="absolute w-[35vw] -left-[1vw] -top-[25vw]"
+          class="absolute w-[50vw] -left-[8vw] -top-[28vw]"
           alt="arrow from second postcard event to third postcard event"
         />
       </div>
@@ -63,11 +85,22 @@ import { Component } from '@angular/core';
       <!-- third event -->
       <hd-spain-tour-third-event></hd-spain-tour-third-event>
 
+      <!-- Orange zigzag divider -->
+      <div class="absolute w-full flex left-0 z-10">
+        <div class="absolute w-[70vw] -top-[3vw] -rotate-3">
+          <img
+            src="assets/images/zigzag_orange.png"
+            class="w-full"
+            alt="Orange zigzag divider "
+          />
+        </div>
+      </div>
+
       <!-- line from third event to fourth event-->
-      <div class="relative w-full ">
+      <div class="relative w-full mb-[16vw]">
         <img
           src="assets/images/arrow_3-4.webp"
-          class="absolute w-[38vw] right-[1vw] -top-[36vw]"
+          class="absolute w-[55vw] -right-[4vw] -top-[37vw]"
           alt="arrow from third postcard event to fourth postcard event"
         />
       </div>
@@ -77,7 +110,7 @@ import { Component } from '@angular/core';
     </section>
 
     <!-- Divider & Doubts text -->
-    <div class="w-full relative flex justify-between items-center mt-[10vw] mb-[15vw]">
+    <div class="w-full relative flex justify-between items-center mt-[3vw] mb-[15vw]">
       <div class="relative">
         <img
           src="assets/images/arrows.png"
