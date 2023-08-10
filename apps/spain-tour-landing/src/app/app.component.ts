@@ -89,7 +89,7 @@ import { Component } from '@angular/core';
       <div class="absolute w-full flex left-0 z-10">
         <div class="absolute w-[70vw] -top-[3vw] -rotate-3">
           <img
-            src="assets/images/zigzag_orange.png"
+            src="assets/images/zigzag_orange.webp"
             class="w-full"
             alt="Orange zigzag divider "
           />

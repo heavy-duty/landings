@@ -28,27 +28,33 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               aria-label="Official Twitter Link"
               target="_blank"
             >
-              <hd-spain-tour-twitter-icon
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707710/images/social_icons_twitter_dhwcht.png"
                 class="block w-[5vw]"
-              ></hd-spain-tour-twitter-icon>
+                alt="twitter social logo"
+              />
             </a>
             <a
               href="https://discord.com/invite/sbjg5YvYfM"
               aria-label="Official Discord Link"
               target="_blank"
             >
-              <hd-spain-tour-discord-icon
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707710/images/social_icons_discord_rs9iyc.png"
                 class="block w-[5vw]"
-              ></hd-spain-tour-discord-icon>
+                alt="discord social logo"
+              />
             </a>
             <a
               href="https://github.com/heavy-duty"
               aria-label="Official Github Link"
               target="_blank"
             >
-              <hd-spain-tour-github-icon
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707711/images/social_icons_github_m9txq6.png"
                 class="block w-[5vw]"
-              ></hd-spain-tour-github-icon>
+                alt="github social logo"
+              />
             </a>
           </div>
 
@@ -69,14 +75,14 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             </div>
             <div class="relative w-[60%] mt-[1vw]">
               <img
-                src="assets/images/footer_terms_text.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707713/images/footer_terms_text_x7pjv0.webp"
                 class="w-full"
                 alt="Heavy Duty Builders terms & conditions link"
               />
             </div>
             <div class="relative w-[55%] mt-[.5vw]">
               <img
-                src="assets/images/footer_copyleft_text.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707712/images/footer_copyleft_text_ekofd8.webp"
                 class="w-full"
                 alt="Heavy Duty Builders copyrights"
               />
@@ -94,7 +100,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               target="_blank"
             >
               <img
-                src="assets/images/logo_hackershouse_sticker.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707710/images/logo_hackershouse_sticker_jsteqm.webp"
                 class="relative w-full -top-[1.5vw] -left-[1vw] -rotate-12"
                 alt="Solana Hacker House sticker"
               />
@@ -109,7 +115,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               target="_blank"
             >
               <img
-                src="assets/images/sponsors/logo_solana_sticker.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707715/images/sponsors/logo_solana_sticker_onimz7.webp"
                 class="relative w-full -top-[1.5vw] -left-[1vw] rotate-6"
                 alt="Solana sticker"
               />
@@ -124,7 +130,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               target="_blank"
             >
               <img
-                src="assets/images/sponsors/logo_heavyduty_sticker.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707717/images/sponsors/logo_heavyduty_sticker_tpptvy.webp"
                 class="relative w-full -top-[1.5vw] -left-[1vw] -rotate-6"
                 alt="Heavy Duty Builders sticker"
               />
@@ -139,7 +145,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               aria-label="Official link to Solana Grizzlython Hackathon website"
             >
               <img
-                src="assets/images/hackathon_post_it.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707714/images/hackathon_post_it_oywwpb.webp"
                 class="w-full rotate-12"
                 alt="Next hackathon orange Post-it"
               />
@@ -150,7 +156,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               aria-label="Official link to Solana website"
             >
               <img
-                src="assets/images/logo_solana_sticker.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707712/images/logo_solana_sticker_mq5bru.webp"
                 class="absolute w-[6vw] -top-[3vw] -left-[1.5vw] -rotate-12"
                 alt="Solana logo sticker"
               />
