@@ -3,18 +3,20 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-fourth-event',
   template: `
-    <div class="relative flex gap-[5vw] w-full mt-[5vw]">
+    <div class="relative flex gap-[5vw] w-full pt-[5vw]" id="fourth-event-section">
       <!-- Postcard -->
       <div
         class="relative bg-white bp-bg-paper-pattern rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] -right-[4vw] order-2"
       >
         <hd-spain-tour-push-pin-icon
           class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
-          colorData="yellow"
-          [classPrefix]="'second-event-fourth-pin'"
+          colorData="green"
+          [classPrefix]="'fourth-event-pin-1'"
         ></hd-spain-tour-push-pin-icon>
         <hd-spain-tour-push-pin-icon
           class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
+          colorData="green"
+          [classPrefix]="'fourth-event-pin-2'"
         ></hd-spain-tour-push-pin-icon>
         <hd-spain-tour-post-card-icon
           [classPrefix]="'-fourth-event'"
@@ -124,13 +126,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] -rotate-6 order-1">
           <img
-            src="assets/images/purple_post_it.webp"
-            alt="green post-it with some information"
+            src="assets/images/post_it_blue.png"
+            alt="blue post-it with some information"
             class="relative w-full"
           />
           <a href="https://lu.ma/m1op9i7b" target="_blank" aria-label="Official link to the fourth tour event">
             <hd-spain-tour-event-more-info-icon
-              class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10"
+              class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10 -rotate-3"
               [classPrefix]="'sixth-event2-pin'"
             ></hd-spain-tour-event-more-info-icon>
           </a>

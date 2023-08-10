@@ -6,19 +6,37 @@ import { Component } from '@angular/core';
     <!-- Spain map -->
     <hd-spain-tour-hero-section></hd-spain-tour-hero-section>
 
-    <section class="my-[4vw] px-[7vw]">
-      <!-- Roadmap  -->
-      <div class="flex justify-between mb-[4vw]">
-        <div class="relative block w-[45vw]">
+    <!-- Divider & Roadmap -->
+    <div class="w-full relative flex justify-between items-center my-[8vw]">
+      <div class="relative">
+        <img
+          src="assets/images/arrows.png"
+          alt="divider arrows with spain colors"
+          class="w-[28vw]"
+        />
+      </div>
+
+      <div class="flex justify-between">
+        <div class="relative block w-[40vw] -rotate-6">
           <img
             src="assets/images/road_map.webp"
-            alt="roadmap Tour Text image"
+            alt="Roadmap tour text image"
             class="w-full"
           />
         </div>
       </div>
 
-      <!-- first event -->
+      <div class="relative">
+        <img
+          src="assets/images/arrows.png"
+          alt="divider arrows with spain colors"
+          class="w-[28vw] -scale-x-[1]"
+        />
+      </div>
+    </div>
+
+    <!-- Events section -->
+    <section class="px-[7vw]">
       <hd-spain-tour-first-event></hd-spain-tour-first-event>
 
       <!-- line from first event to second event-->
@@ -57,6 +75,33 @@ import { Component } from '@angular/core';
       <!-- fourth event-->
       <hd-spain-tour-fourth-event></hd-spain-tour-fourth-event>
     </section>
+
+    <!-- Divider & Doubts text -->
+    <div class="w-full relative flex justify-between items-center mt-[10vw] mb-[15vw]">
+      <div class="relative">
+        <img
+          src="assets/images/arrows.png"
+          alt="divider arrows with spain colors"
+          class="w-[28vw]"
+        />
+      </div>
+
+      <div class="relative">
+        <img
+          src="assets/images/doubts_paper.webp"
+          class="w-[22vw] rotate-6"
+          alt="Doubts text on a paper"
+        />
+      </div>
+
+      <div class="relative">
+        <img
+          src="assets/images/arrows.png"
+          alt="divider arrows with spain colors"
+          class="w-[28vw] -scale-x-[1]"
+        />
+      </div>
+    </div>
 
     <hd-spain-tour-footer></hd-spain-tour-footer>
   `,

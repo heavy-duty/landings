@@ -3,15 +3,19 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-second-event',
   template: `
-    <div class="relative flex gap-[5vw] w-full mt-[5vw]">
+    <div class="relative flex gap-[5vw] w-full pt-[5vw]" id="second-event-section">
       <!-- Postcard -->
       <div
         class="relative bg-white bp-bg-paper-pattern rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] -right-[4vw] order-2"
       >
         <hd-spain-tour-push-pin-icon
+          colorData="purple"
+          [classPrefix]="'second-event-pint-1'"
           class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
         ></hd-spain-tour-push-pin-icon>
         <hd-spain-tour-push-pin-icon
+          colorData="purple"
+          [classPrefix]="'second-event-pint-2'"
           class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
         ></hd-spain-tour-push-pin-icon>
         <hd-spain-tour-post-card-icon
@@ -33,7 +37,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               <span class="block">Meeting #2:</span>
               <span class="block">Programas y renta.</span>
             </p>
-            <a href="https://goo.gl/maps/5N33J5ZtjX6FBPgh8" target="_blank" aria-label="Link to second event location on google maps">
+            <a
+              href="https://goo.gl/maps/5N33J5ZtjX6FBPgh8"
+              target="_blank"
+              aria-label="Link to second event location on google maps"
+            >
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
@@ -129,14 +137,18 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             alt="green post-it with some information"
             class="relative w-full"
           />
-          <a href="https://lu.ma/m1op9i7b" target="_blank" aria-label="Official link to the second tour event">
+          <a
+            href="https://lu.ma/m1op9i7b"
+            target="_blank"
+            aria-label="Official link to the second tour event"
+          >
             <hd-spain-tour-event-more-info-icon
               class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10"
               [classPrefix]="'sixth-event243'"
             ></hd-spain-tour-event-more-info-icon>
           </a>
           <hd-spain-tour-push-pin-icon
-            colorData="blue"
+            colorData="purple"
             [classPrefix]="'sixth-event22-pin'"
             class="absolute block w-[3vw] z-10 top-[.5vw] left-[9.8vw]"
           ></hd-spain-tour-push-pin-icon>
@@ -196,13 +208,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             />
           </a>
           <hd-spain-tour-push-pin-icon
-            colorData="blue"
-            classPrefix="pin-drip"
+            colorData="purple"
+            [classPrefix]="'pin-drip-1'"
             class="absolute block w-[3vw] z-10 -top-[.5vw] left-[2vw]"
           ></hd-spain-tour-push-pin-icon>
           <hd-spain-tour-push-pin-icon
-            colorData="blue"
-            classPrefix="pin-drip"
+            colorData="purple"
+            [classPrefix]="'pin-drip-2'"
             class="absolute block w-[3vw] z-10 -bottom-[.5vw] right-[2vw]"
           ></hd-spain-tour-push-pin-icon>
         </div>
@@ -211,6 +223,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SecondEventComponent {
-
-}
+export class SecondEventComponent {}

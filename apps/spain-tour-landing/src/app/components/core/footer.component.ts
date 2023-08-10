@@ -4,15 +4,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'hd-spain-tour-footer',
   template: `
     <footer class="relative mt-[10vw]">
-      <!-- Doubts text -->
-      <div class="relative w-full flex justify-center">
-        <img
-          src="assets/images/doubts_paper.webp"
-          class="w-[22vw]"
-          alt="Doubts text on a paper"
-        />
-      </div>
-
       <div class="flex justify-between mt-[10vw] w-full">
         <!-- Heavy Duty Builders Info-->
         <div
@@ -165,7 +156,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               />
             </a>
             <hd-spain-tour-push-pin-icon
-              colorData="green"
+              colorData="red"
               [classPrefix]="'footer-pin'"
               class="absolute block w-[3vw] z-10 top-[1vw] right-[1vw]"
             ></hd-spain-tour-push-pin-icon>

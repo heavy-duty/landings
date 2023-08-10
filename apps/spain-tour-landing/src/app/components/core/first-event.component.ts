@@ -3,18 +3,20 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-first-event',
   template: `
-    <div class="relative flex gap-[5vw] w-full">
+    <div class="relative flex gap-[5vw] w-full" id="first-event-section">
       <!-- Postcard -->
       <div
         class="relative bg-white bp-bg-paper-pattern -rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] right-0"
       >
         <hd-spain-tour-push-pin-icon
-          colorData="green"
+          colorData="blue"
           [classPrefix]="'fourth-pin'"
           class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
         ></hd-spain-tour-push-pin-icon>
         <hd-spain-tour-push-pin-icon
           class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
+          colorData="blue"
+          [classPrefix]="'first-event-right-pin'"
         ></hd-spain-tour-push-pin-icon>
         <hd-spain-tour-post-card-icon
           [classPrefix]="'-first-event'"
@@ -148,7 +150,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             ></hd-spain-tour-event-more-info-icon>
           </a>
           <hd-spain-tour-push-pin-icon
-            colorData="purple"
+            colorData="blue"
             [classPrefix]="'ff-match-pin'"
             class="absolute block w-[3vw] z-10 top-[.5vw] left-[9.8vw]"
           ></hd-spain-tour-push-pin-icon>

@@ -3,9 +3,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-hero-section',
   template: `
-    <section
-      class="flex flex-col items-start mb-[9vw] px-[7vw] min-h-[62vw] gap-[10vw]"
-    >
+    <section class="flex flex-col items-start px-[7vw] min-h-[62vw] gap-[10vw]">
       <!-- Solana Tour 2023 letters and stickers -->
       <div class="relative w-full mt-[5vw]">
         <div class="relative flex items-start w-[74vw] mx-auto my-0">
@@ -54,32 +52,52 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             />
 
             <!-- Push Pins -->
-            <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] top-[43%] left-[42%] z-10 cursor-pointer"
-              colorData="red"
-              [classPrefix]="'map-madrid-pin'"
-              [showHover]="true"
-            ></hd-spain-tour-push-pin-icon>
-            <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] bottom-[15.5%] left-[35.5%] z-10 cursor-pointer"
-              colorData="red"
-              [classPrefix]="'map-malaga-pin'"
-              [showHover]="true"
-            ></hd-spain-tour-push-pin-icon>
-            <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] bottom-[31.6%] right-[29.6%] z-10 cursor-pointer"
-              colorData="red"
-              [classPrefix]="'map-alicante-pin'"
-              [showHover]="true"
-            ></hd-spain-tour-push-pin-icon>
-            <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] top-[30%] right-[10.8%] z-10 cursor-pointer"
-              colorData="red"
-              [classPrefix]="'map-barcelona-pin'"
-              [showHover]="true"
-            ></hd-spain-tour-push-pin-icon>
+            <a
+              href="#first-event-section"
+              title="Direct link first event section"
+            >
+              <hd-spain-tour-push-pin-icon
+                class="absolute block w-[3vw] top-[43%] left-[42%] z-10 cursor-pointer"
+                colorData="blue"
+                [classPrefix]="'map-madrid-pin'"
+                [showHover]="true"
+              ></hd-spain-tour-push-pin-icon>
+            </a>
+            <a
+              href="#second-event-section"
+              title="Direct link second event section"
+            >
+              <hd-spain-tour-push-pin-icon
+                class="absolute block w-[3vw] bottom-[15.5%] left-[35.5%] z-10 cursor-pointer"
+                colorData="purple"
+                [classPrefix]="'map-malaga-pin'"
+                [showHover]="true"
+              ></hd-spain-tour-push-pin-icon>
+            </a>
+            <a
+              href="#third-event-section"
+              title="Direct link third event section"
+            >
+              <hd-spain-tour-push-pin-icon
+                class="absolute block w-[3vw] bottom-[31.6%] right-[29.6%] z-10 cursor-pointer"
+                colorData="lightBlue"
+                [classPrefix]="'map-alicante-pin'"
+                [showHover]="true"
+              ></hd-spain-tour-push-pin-icon>
+            </a>
+            <a
+              href="#fourth-event-section"
+              title="Direct link fourth event section"
+            >
+              <hd-spain-tour-push-pin-icon
+                class="absolute block w-[3vw] top-[30%] right-[10.8%] z-10 cursor-pointer"
+                colorData="green"
+                [classPrefix]="'map-barcelona-pin'"
+                [showHover]="true"
+              ></hd-spain-tour-push-pin-icon>
+            </a>
           </div>
-          
+
           <!-- Global Sponsors-->
           <div class="relative w-full px-[2vw] h-[16vw]">
             <img
@@ -99,10 +117,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             />
           </div>
         </div>
-        
+
         <!-- Posts Sections -->
         <div class="relative w-[42vw]">
-
           <!-- first post-it-->
           <div class="absolute w-[25vw] top-[1vw] right-[9vw]">
             <img
@@ -111,7 +128,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               alt="blue Post-It third sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
-              colorData="blue"
+              colorData="red"
               [classPrefix]="'fifth-pin'"
               class="absolute block w-[3vw] z-10 top-[.5vw] left-[11vw]"
             ></hd-spain-tour-push-pin-icon>
@@ -128,7 +145,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             />
             <hd-spain-tour-push-pin-icon
               class="absolute block w-[3vw] top-[1vw] mr-[2.5vw] z-10"
-              colorData="purple"
+              colorData="red"
               [classPrefix]="'seven-pin'"
             ></hd-spain-tour-push-pin-icon>
           </div>
@@ -141,7 +158,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               alt="white folded paper second sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
-              colorData="lightBlue"
+              colorData="red"
               classPrefix="pin-drago"
               class="absolute block w-[3vw] z-10 top-[2.5vw] left-[14vw]"
             ></hd-spain-tour-push-pin-icon>
@@ -152,6 +169,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeroSectionComponent {
-
-}
+export class HeroSectionComponent {}

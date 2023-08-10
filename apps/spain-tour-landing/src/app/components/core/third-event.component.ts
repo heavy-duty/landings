@@ -3,18 +3,18 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-third-event',
   template: `
-    <div class="relative flex gap-[5vw] w-full mt-[13vw]">
+    <div class="relative flex gap-[5vw] w-full pt-[13vw]" id="third-event-section">
       <!-- Postcard -->
       <div
         class="relative bg-white bp-bg-paper-pattern -rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] right-0"
       >
         <hd-spain-tour-push-pin-icon
-          colorData="blue"
+          colorData="lightBlue"
           [classPrefix]="'second-pin'"
           class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
         ></hd-spain-tour-push-pin-icon>
         <hd-spain-tour-push-pin-icon
-          colorData="green"
+          colorData="lightBlue"
           [classPrefix]="'third-pin'"
           class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
         ></hd-spain-tour-push-pin-icon>
@@ -127,8 +127,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] rotate-6">
           <img
-            src="assets/images/green_post_it_2.webp"
-            alt="green post-it with some information"
+            src="assets/images/post_it_pink.png"
+            alt="pink post-it with some information"
             class="relative w-full"
           />
           <a href="https://lu.ma/m1op9i7b" target="_blank" aria-label="Official link to the third tour event">
@@ -138,7 +138,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             ></hd-spain-tour-event-more-info-icon>
           </a>
           <hd-spain-tour-push-pin-icon
-            colorData="red"
+            colorData="lightBlue"
             [classPrefix]="'sixth-2-event-pin'"
             class="absolute block w-[3vw] z-10 top-[.5vw] left-[9.8vw]"
           ></hd-spain-tour-push-pin-icon>
