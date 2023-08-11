@@ -43,7 +43,7 @@ import { Component } from '@angular/core';
       <div class="absolute w-full flex left-0 z-10">
         <div class="absolute w-[70vw] -top-[4vw]">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707713/images/zigzag_blue_taamxn.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_1344/v1691707713/images/zigzag_blue_taamxn.webp"
             class="w-full"
             alt="Blue zigzag divider "
           />
@@ -66,7 +66,7 @@ import { Component } from '@angular/core';
       <div class="absolute w-full flex left-0 z-10">
         <div class="absolute w-[70vw] top-[3vw] -right-[1vw] -rotate-6">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707713/images/zigzag_green_xtvnyq.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_1344/v1691707713/images/zigzag_green_xtvnyq.webp"
             class="w-full"
             alt="Green zigzag divider "
           />
@@ -89,7 +89,7 @@ import { Component } from '@angular/core';
       <div class="absolute w-full flex left-0 z-10">
         <div class="absolute w-[70vw] -top-[3vw] -rotate-3">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707714/images/zigzag_orange_tqiwna.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_1344/v1691707714/images/zigzag_orange_tqiwna.webp"
             class="w-full"
             alt="Orange zigzag divider "
           />
