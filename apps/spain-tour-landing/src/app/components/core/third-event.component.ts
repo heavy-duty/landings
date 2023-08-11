@@ -43,7 +43,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               >
                 <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
                 <img
-                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707713/images/icons/location_l31pvh.webp"
+                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/v1691707713/images/icons/location_l31pvh.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
                   alt="Calendar icon"
                 />
@@ -84,7 +84,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             >
               <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707714/images/icons/calendar_zucjxg.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/v1691707714/images/icons/calendar_zucjxg.webp"
                 class="absolute w-[1.1vw] left-[1.2vw]"
                 alt="Calendar icon"
               />
@@ -118,7 +118,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707717/images/information_paper_fvclx1.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/v1691707717/images/information_paper_fvclx1.webp"
             class="w-full rotate-3"
             alt="Information text on a paper"
           />
@@ -127,7 +127,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] rotate-6">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707711/images/post_it_pink_prlmro.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/v1691707711/images/post_it_pink_prlmro.webp"
             alt="pink post-it with some information"
             class="relative w-full"
           />
@@ -150,7 +150,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707713/images/sponsors_paper_z1mjqh.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/v1691707713/images/sponsors_paper_z1mjqh.webp"
           class="w-full"
           alt="Information text on a paper"
         />
@@ -165,7 +165,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707715/images/sponsors/logo_ultimate_oa9aih.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/v1691707715/images/sponsors/logo_ultimate_oa9aih.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Ultimate Wallet sticker"
             />
@@ -178,7 +178,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707716/images/sponsors/logo_superteam_berlin_sticker_vosnkx.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/v1691707716/images/sponsors/logo_superteam_berlin_sticker_vosnkx.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="SuperTeam Germany sticker"
             />
@@ -191,7 +191,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707715/images/sponsors/logo_mango_k7zelw.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_192/v1691707715/images/sponsors/logo_mango_k7zelw.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Mango Markets sticker"
             />
