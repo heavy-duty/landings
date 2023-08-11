@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
     <div class="w-full relative flex justify-between items-center mt-[8vw] mb-[3vw]">
       <div class="relative">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/v1691707712/images/divider_arrows_uannux.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707712/images/divider_arrows_uannux.webp"
           alt="divider arrows with spain colors"
           class="w-[28vw]"
         />
@@ -19,7 +19,7 @@ import { Component } from '@angular/core';
       <div class="flex justify-between">
         <div class="relative block w-[40vw] -rotate-6">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_768/v1691707710/images/road_map_fphuqq.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_768/q_auto/f_auto/v1691707710/images/road_map_fphuqq.webp"
             alt="Roadmap tour text image"
             class="w-full"
           />
@@ -28,7 +28,7 @@ import { Component } from '@angular/core';
 
       <div class="relative">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/v1691707712/images/divider_arrows_uannux.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707712/images/divider_arrows_uannux.webp"
           alt="divider arrows with spain colors"
           class="w-[28vw] -scale-x-[1]"
         />
@@ -43,7 +43,7 @@ import { Component } from '@angular/core';
       <div class="absolute w-full flex left-0 z-10">
         <div class="absolute w-[70vw] -top-[4vw]">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707713/images/zigzag_blue_taamxn.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707713/images/zigzag_blue_taamxn.webp"
             class="w-full"
             alt="Blue zigzag divider "
           />
@@ -53,7 +53,7 @@ import { Component } from '@angular/core';
       <!-- line from first event to second event-->
       <div class="relative w-full mb-[16vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707714/images/arrow_1-2_dmfgl4.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707714/images/arrow_1-2_dmfgl4.webp"
           class="absolute w-[46vw] right-[0vw] -top-[32vw]"
           alt="arrow from first postcard event to second postcard event"
         />
@@ -66,7 +66,7 @@ import { Component } from '@angular/core';
       <div class="absolute w-full flex left-0 z-10">
         <div class="absolute w-[70vw] top-[3vw] -right-[1vw] -rotate-6">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707713/images/zigzag_green_xtvnyq.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707713/images/zigzag_green_xtvnyq.webp"
             class="w-full"
             alt="Green zigzag divider "
           />
@@ -76,7 +76,7 @@ import { Component } from '@angular/core';
       <!-- line from second event to third event-->
       <div class="relative w-full mb-[16vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707711/images/arrow_2-3_pczd47.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707711/images/arrow_2-3_pczd47.webp"
           class="absolute w-[50vw] -left-[8vw] -top-[28vw]"
           alt="arrow from second postcard event to third postcard event"
         />
@@ -89,7 +89,7 @@ import { Component } from '@angular/core';
       <div class="absolute w-full flex left-0 z-10">
         <div class="absolute w-[70vw] -top-[3vw] -rotate-3">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707714/images/zigzag_orange_tqiwna.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707714/images/zigzag_orange_tqiwna.webp"
             class="w-full"
             alt="Orange zigzag divider "
           />
@@ -99,7 +99,7 @@ import { Component } from '@angular/core';
       <!-- line from third event to fourth event-->
       <div class="relative w-full mb-[16vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707714/images/arrow_3-4_hbjenp.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707714/images/arrow_3-4_hbjenp.webp"
           class="absolute w-[55vw] -right-[4vw] -top-[37vw]"
           alt="arrow from third postcard event to fourth postcard event"
         />
@@ -113,7 +113,7 @@ import { Component } from '@angular/core';
     <div class="w-full relative flex justify-between items-center mt-[3vw] mb-[15vw]">
       <div class="relative">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/v1691707712/images/divider_arrows_uannux.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707712/images/divider_arrows_uannux.webp"
           alt="divider arrows with spain colors"
           class="w-[28vw]"
         />
@@ -121,7 +121,7 @@ import { Component } from '@angular/core';
 
       <div class="relative">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707710/images/doubts_paper_qcqsm7.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707710/images/doubts_paper_qcqsm7.webp"
           class="w-[22vw] rotate-6"
           alt="Doubts text on a paper"
         />
@@ -129,7 +129,7 @@ import { Component } from '@angular/core';
 
       <div class="relative">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/v1691707712/images/divider_arrows_uannux.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707712/images/divider_arrows_uannux.webp"
           alt="divider arrows with spain colors"
           class="w-[28vw] -scale-x-[1]"
         />
