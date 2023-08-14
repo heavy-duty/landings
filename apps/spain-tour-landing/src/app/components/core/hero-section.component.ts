@@ -8,7 +8,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <div class="relative w-full mt-[5vw]">
         <div class="relative flex items-start w-[74vw] mx-auto my-0">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_1421/v1691707717/images/main_title_image_cwvimj.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_1421/q_auto/f_auto/v1691707717/images/main_title_image_cwvimj.webp"
             alt="Solana Tour text"
             class="w-full"
           />
@@ -18,7 +18,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <div class="absolute top-[18vw] right-[25vw]">
         <div class="w-[13vw] rotate-12">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_250/v1691707718/images/sticker_2023_zw2ppd.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_250/q_auto/f_auto/v1691707718/images/sticker_2023_zw2ppd.webp"
             alt="2023 sticker"
             class="w-full"
           />
@@ -31,7 +31,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="relative">
             <!-- paper -->
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707710/images/spain_folded_paper_y0crma.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707710/images/spain_folded_paper_y0crma.webp"
               alt="Spain Mailand map in a paper"
               class="block w-full"
               width="908"
@@ -39,16 +39,23 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             />
             <!-- tape -->
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_250/v1691707717/images/tape_ogkfqm.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_250/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
               alt="top tape on Mainland map paper"
               class="absolute -top-[1vw] left-[18vw] w-[13vw] rotate-3"
             />
 
             <!-- Heavy Duty Sticker -->
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_96/v1691707717/images/logo_heavyduty_pencil_dyy1dm.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_96/q_auto/f_auto/v1691707717/images/logo_heavyduty_pencil_dyy1dm.webp"
               alt="top tape on Mainland map paper"
               class="absolute bottom-[4vw] right-[3vw] w-[5vw] rotate-6"
+            />
+
+            <!-- Solana Sticker -->
+            <img
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1692022432/logo_solana_drawing_fnixsc.webp"
+              alt="top tape on Mainland map paper"
+              class="absolute top-[2vw] right-[4vw] w-[3vw] -rotate-6"
             />
 
             <!-- Push Pins -->
@@ -63,6 +70,15 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 [showHover]="true"
               ></hd-spain-tour-push-pin-icon>
             </a>
+            <!-- line from madrid to malaga -->
+            <div class="absolute w-[19vw] top-[20vw] left-[11.5vw] -rotate-1">
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022342/red_thread_M-M_wegday.webp"
+                alt="connector between Madrid push pin to Malaga push pin"
+                class="w-full"
+              />
+            </div>
+            <!-- -->
             <a
               href="#second-event-section"
               title="Direct link second event section"
@@ -74,6 +90,15 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 [showHover]="true"
               ></hd-spain-tour-push-pin-icon>
             </a>
+            <!-- line from Málaga to Alicante -->
+            <div class="absolute w-[15.5vw] bottom-[3.8vw] right-[15.3vw] -rotate-1">
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022341/red_thread_M-A_nyqlwp.webp"
+                alt="connector between Madrid push pin to Malaga push pin"
+                class="w-full"
+              />
+            </div>
+            <!-- -->
             <a
               href="#third-event-section"
               title="Direct link third event section"
@@ -85,6 +110,15 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 [showHover]="true"
               ></hd-spain-tour-push-pin-icon>
             </a>
+            <!-- line from Alicante to Barcelona -->
+            <div class="absolute w-[16vw] top-[14vw] right-[3vw] -rotate-2">
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022341/red_thread_A-B_bflpbb.webp"
+                alt="connector between Madrid push pin to Malaga push pin"
+                class="w-full"
+              />
+            </div>
+            <!-- -->
             <a
               href="#fourth-event-section"
               title="Direct link fourth event section"
@@ -101,17 +135,17 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- Global Sponsors-->
           <div class="relative w-full px-[2vw] h-[16vw]">
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/v1691707715/images/sponsors/logo_solana_sticker_onimz7.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707715/images/sponsors/logo_solana_sticker_onimz7.webp"
               class="absolute w-[20vw] top-[1vw] rotate-6"
               alt="Solana logo sticker"
             />
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384//v1691707715/images/sponsors/logo_jump_sticker_rezipk.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707715/images/sponsors/logo_jump_sticker_rezipk.webp"
               class="absolute w-[20vw] top-[7vw] left-[14vw] -rotate-6"
               alt="Jump logo sticker"
             />
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384//v1691707716/images/sponsors/logo_circle_sticker_t5hzje.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707716/images/sponsors/logo_circle_sticker_t5hzje.webp"
               class="absolute w-[20vw] top-[1vw] left-[28vw]"
               alt="Circle logo sticker"
             />
@@ -123,7 +157,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- first post-it-->
           <div class="absolute w-[28vw] top-[2.1vw] right-[7vw]">
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/v1691707714/images/note1_len8m9.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707714/images/note1_len8m9.webp"
               class="relative w-full rotate-12"
               alt="blue Post-It third sponsor spot"
             />
@@ -139,7 +173,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             class="absolute flex justify-center w-[25vw] top-[24vw] right-[8vw]"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_480/v1691707710/images/note2_kjpyk3.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_480/q_auto/f_auto/v1691707710/images/note2_kjpyk3.webp"
               alt="green Post-It first sponsor spot"
               class="w-full -rotate-6"
             />
@@ -153,7 +187,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- third post-it-->
           <div class="absolute w-[28vw] top-[46vw] left-[4vw]">
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/v1691707711/images/folded_paper_gracias_gresls.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707711/images/folded_paper_gracias_gresls.webp"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />

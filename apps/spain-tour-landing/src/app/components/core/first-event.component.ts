@@ -47,7 +47,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               >
                 <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
                 <img
-                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/v1691707713/images/icons/location_l31pvh.webp"
+                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
                   alt="Calendar icon"
                 />
@@ -91,7 +91,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             >
               <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/v1691707714/images/icons/calendar_zucjxg.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1691707714/images/icons/calendar_zucjxg.webp"
                 class="absolute w-[1.1vw] left-[1.2vw]"
                 alt="Calendar icon"
               />
@@ -126,7 +126,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/v1691707717/images/information_paper_fvclx1.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1691707717/images/information_paper_fvclx1.webp"
             class="w-full rotate-3"
             alt="Information text on a paper"
           />
@@ -163,7 +163,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/v1691707713/images/sponsors_paper_z1mjqh.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1691707713/images/sponsors_paper_z1mjqh.webp"
           class="w-full"
           alt="Information text on a paper"
         />
@@ -178,7 +178,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/v1691707716/images/sponsors/logo_phantom_sticker_cxu7mf.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1691707716/images/sponsors/logo_phantom_sticker_cxu7mf.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Phatom Wallet sticker"
             />
@@ -191,7 +191,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/v1691707715/images/sponsors/logo_exchangeArt_sticker_jvtejt.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1691707715/images/sponsors/logo_exchangeArt_sticker_jvtejt.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Exchange Art NFT marketplace sticker"
             />
@@ -204,7 +204,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/v1691707716/images/sponsors/logo_quickNode_sticker_g0xdrv.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1691707716/images/sponsors/logo_quickNode_sticker_g0xdrv.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="QuickNode RPC sticker"
             />

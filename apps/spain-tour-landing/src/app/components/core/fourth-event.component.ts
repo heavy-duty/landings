@@ -43,7 +43,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               >
                 <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
                 <img
-                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/v1691707713/images/icons/location_l31pvh.webp"
+                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
                   alt="Calendar icon"
                 />
@@ -84,7 +84,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             >
               <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/v1691707714/images/icons/calendar_zucjxg.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1691707714/images/icons/calendar_zucjxg.webp"
                 class="absolute w-[1.1vw] left-[1.2vw]"
                 alt="Calendar icon"
               />
@@ -117,16 +117,15 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/v1691707717/images/information_paper_fvclx1.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1691707717/images/information_paper_fvclx1.webp"
             class="w-full -rotate-3"
             alt="Information text on a paper"
           />
         </div>
-
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] -rotate-6 order-1">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/v1691707711/images/post_it_blue_sp57sj.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692022361/post_it_blue_dhdpxp.webp"
             alt="blue post-it with some information"
             class="relative w-full"
           />
@@ -149,7 +148,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/v1691707713/images/sponsors_paper_z1mjqh.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1691707713/images/sponsors_paper_z1mjqh.webp"
           class="w-full"
           alt="Information text on a paper"
         />
@@ -164,7 +163,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/v1691707716/images/sponsors/logo_superteamMX_sticker_plvxuz.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1691707716/images/sponsors/logo_superteamMX_sticker_plvxuz.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="SuperTeam Mexico sticker"
             />
@@ -177,7 +176,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/v1691707715/images/sponsors/logo_exchangeArt_sticker_jvtejt.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1691707715/images/sponsors/logo_exchangeArt_sticker_jvtejt.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
               alt="Exchange Art NFT marketplace sticker"
             />
@@ -190,7 +189,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/v1691707716/images/sponsors/logo_superteamTK_sticker_rkfzen.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1691707716/images/sponsors/logo_superteamTK_sticker_rkfzen.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
               alt="SuperTeam Turkey sticker"
             />
@@ -203,7 +202,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/v1691707716/images/sponsors/logo_quickNode_sticker_g0xdrv.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1691707716/images/sponsors/logo_quickNode_sticker_g0xdrv.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="QuickNode RPC sticker"
             />
@@ -216,7 +215,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/v1691707714/images/sponsors/logo_helius_sticker_xsxqcb.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1691707714/images/sponsors/logo_helius_sticker_xsxqcb.webp"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Helius Lab sticker"
             />
@@ -227,12 +226,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Bull Sticker -->
       <div class="absolute right-[2vw] top-[10vw]">
         <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_288/v1691707714/images/icons/bull_bsyz0y.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_288/q_auto/f_auto/v1691707714/images/icons/bull_bsyz0y.webp"
           alt="Drawing bull"
           class="w-[15vw] rotate-6"
         />
         <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_134/v1691707717/images/tape_ogkfqm.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
           alt="tape for drawing bull"
           class="absolute w-[7vw] rotate-[25deg] top-[.7vw] right-[2.5vw]"
         />
