@@ -122,11 +122,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             alt="Information text on a paper"
           />
         </div>
-
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] -rotate-6 order-1">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692020336/post_it_blue_1_i3wxu2.png"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692022361/post_it_blue_dhdpxp.webp"
             alt="blue post-it with some information"
             class="relative w-full"
           />
