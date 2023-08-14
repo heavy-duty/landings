@@ -51,6 +51,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               class="absolute bottom-[4vw] right-[3vw] w-[5vw] rotate-6"
             />
 
+            <!-- Solana Sticker -->
+            <img
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1692022432/logo_solana_drawing_fnixsc.webp"
+              alt="top tape on Mainland map paper"
+              class="absolute top-[2vw] right-[4vw] w-[3vw] -rotate-6"
+            />
+
             <!-- Push Pins -->
             <a
               href="#first-event-section"
@@ -66,7 +73,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <!-- line from madrid to malaga -->
             <div class="absolute w-[19vw] top-[20vw] left-[11.5vw] -rotate-1">
               <img
-                src="assets/images/red_thread_M-M.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022342/red_thread_M-M_wegday.webp"
                 alt="connector between Madrid push pin to Malaga push pin"
                 class="w-full"
               />
@@ -86,7 +93,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <!-- line from Málaga to Alicante -->
             <div class="absolute w-[15.5vw] bottom-[3.8vw] right-[15.3vw] -rotate-1">
               <img
-                src="assets/images/red_thread_M-A.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022341/red_thread_M-A_nyqlwp.webp"
                 alt="connector between Madrid push pin to Malaga push pin"
                 class="w-full"
               />
@@ -106,7 +113,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <!-- line from Alicante to Barcelona -->
             <div class="absolute w-[16vw] top-[14vw] right-[3vw] -rotate-2">
               <img
-                src="assets/images/red_thread_A-B.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022341/red_thread_A-B_bflpbb.webp"
                 alt="connector between Madrid push pin to Malaga push pin"
                 class="w-full"
               />
