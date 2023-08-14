@@ -63,6 +63,15 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 [showHover]="true"
               ></hd-spain-tour-push-pin-icon>
             </a>
+            <!-- line from madrid to malaga -->
+            <div class="absolute w-[19vw] top-[20vw] left-[11.5vw] -rotate-1">
+              <img
+                src="assets/images/red_thread_M-M.webp"
+                alt="connector between Madrid push pin to Malaga push pin"
+                class="w-full"
+              />
+            </div>
+            <!-- -->
             <a
               href="#second-event-section"
               title="Direct link second event section"
@@ -74,6 +83,15 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 [showHover]="true"
               ></hd-spain-tour-push-pin-icon>
             </a>
+            <!-- line from Málaga to Alicante -->
+            <div class="absolute w-[15.5vw] bottom-[3.8vw] right-[15.3vw] -rotate-1">
+              <img
+                src="assets/images/red_thread_M-A.webp"
+                alt="connector between Madrid push pin to Malaga push pin"
+                class="w-full"
+              />
+            </div>
+            <!-- -->
             <a
               href="#third-event-section"
               title="Direct link third event section"
@@ -85,6 +103,15 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 [showHover]="true"
               ></hd-spain-tour-push-pin-icon>
             </a>
+            <!-- line from Alicante to Barcelona -->
+            <div class="absolute w-[16vw] top-[14vw] right-[3vw] -rotate-2">
+              <img
+                src="assets/images/red_thread_A-B.webp"
+                alt="connector between Madrid push pin to Malaga push pin"
+                class="w-full"
+              />
+            </div>
+            <!-- -->
             <a
               href="#fourth-event-section"
               title="Direct link fourth event section"
