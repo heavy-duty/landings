@@ -1,14 +1,14 @@
 @import './core/fonts.scss';
 
 .bp-bg-cork-pattern {
-	background-image: url(../assets/images/patterns/cork.webp);
+	background-image: url(https://res.cloudinary.com/pwcaguerrero/image/upload/v1691707712/images/patterns/cork_wd86xu.webp);
 	background-repeat: repeat;
 	background-color: #d2a56b;
 	background-size: contain;
 }
 
 .bp-bg-paper-pattern {
-	background-image: url(../assets/images/patterns/paper_texture.png);
+	background-image: url(https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707713/images/patterns/paper_texture_xnz73k.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	
@@ -18,26 +18,26 @@
 }
 
 .bp-bg-first-event {
-	background-image: url(../assets/images/locations/madrid.jpg);
+	background-image: url(https://res.cloudinary.com/pwcaguerrero/image/upload/w_1000/q_auto/f_auto/v1691707711/images/locations/madrid_hvvnrv.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .bp-bg-second-event {
-	background-image: url(../assets/images/locations/malaga.jpg);
+	background-image: url(https://res.cloudinary.com/pwcaguerrero/image/upload/w_1000/q_auto/f_auto/v1691707711/images/locations/malaga_e3rllu.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .bp-bg-third-event {
-	background-image: url(../assets/images/locations/alicante.jpg);
+	background-image: url(https://res.cloudinary.com/pwcaguerrero/image/upload/w_1000/q_auto/f_auto/v1691707711/images/locations/alicante_egvsls.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 
 .bp-bg-fourth-event {
-	background-image: url(../assets/images/locations/barcelona.jpg);
+	background-image: url(https://res.cloudinary.com/pwcaguerrero/image/upload/w_1000/q_auto/f_auto/v1691707711/images/locations/barcelona_zwf6gj.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -45,3 +45,25 @@
 a:hover * {
 	color: #1574ef;
 }
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: .8vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #242424;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+/**/

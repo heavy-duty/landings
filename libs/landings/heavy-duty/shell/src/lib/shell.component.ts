@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'heavy-duty-shell',
@@ -18,8 +18,6 @@ import { Component, OnInit } from '@angular/core';
 	`,
 	styles: [],
 })
-export class ShellComponent implements OnInit {
-	ngOnInit(): void {
-		console.log('shell works');
-	}
+export class ShellComponent {
+
 }

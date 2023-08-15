@@ -1,14 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'heavy-duty-root',
 	template: ` <router-outlet></router-outlet> `,
 	styles: [],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
 	title = 'heavy-duty-landing-client';
 
-	ngOnInit() {
-		console.log(this.title);
-	}
 }

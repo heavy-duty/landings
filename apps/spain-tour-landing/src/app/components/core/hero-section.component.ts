@@ -3,15 +3,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-hero-section',
   template: `
-    <section
-      class="flex flex-col items-start mb-[9vw] px-[7vw] min-h-[62vw] gap-[10vw]"
-    >
+    <section class="flex flex-col items-start px-[7vw] min-h-[62vw] gap-[10vw]">
       <!-- Solana Tour 2023 letters and stickers -->
       <div class="relative w-full mt-[5vw]">
         <div class="relative flex items-start w-[74vw] mx-auto my-0">
           <img
-            src="assets/images/main_title_image.png"
-            alt="SOLANA TOUR text"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_1421/q_auto/f_auto/v1691707717/images/main_title_image_cwvimj.webp"
+            alt="Solana Tour text"
             class="w-full"
           />
         </div>
@@ -20,8 +18,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <div class="absolute top-[18vw] right-[25vw]">
         <div class="w-[13vw] rotate-12">
           <img
-            src="assets/images/sticker_2023.png"
-            alt="SOLANA TOUR text"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_250/q_auto/f_auto/v1691707718/images/sticker_2023_zw2ppd.webp"
+            alt="2023 sticker"
             class="w-full"
           />
         </div>
@@ -33,95 +31,155 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="relative">
             <!-- paper -->
             <img
-              src="assets/images/spain_folded_paper.png"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707710/images/spain_folded_paper_y0crma.webp"
               alt="Spain Mailand map in a paper"
               class="block w-full"
               width="908"
               height="807"
             />
-            <!-- Spain Map -->
+            <!-- tape -->
             <img
-              src="assets/images/tape.png"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_250/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
               alt="top tape on Mainland map paper"
               class="absolute -top-[1vw] left-[18vw] w-[13vw] rotate-3"
             />
 
+            <!-- Heavy Duty Sticker -->
+            <img
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_96/q_auto/f_auto/v1691707717/images/logo_heavyduty_pencil_dyy1dm.webp"
+              alt="top tape on Mainland map paper"
+              class="absolute bottom-[4vw] right-[3vw] w-[5vw] rotate-6"
+            />
+
+            <!-- Solana Sticker -->
+            <img
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1692022432/logo_solana_drawing_fnixsc.webp"
+              alt="top tape on Mainland map paper"
+              class="absolute top-[2vw] right-[4vw] w-[3vw] -rotate-6"
+            />
+
             <!-- Push Pins -->
-            <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] top-[43%] left-[42%] z-10 cursor-pointer"
-              colorData="red"
-              [classPrefix]="'map-madrid-pin'"
-              [showHover]="true"
-            ></hd-spain-tour-push-pin-icon>
-            <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] bottom-[15.5%] left-[35.5%] z-10 cursor-pointer"
-              colorData="red"
-              [classPrefix]="'map-malaga-pin'"
-              [showHover]="true"
-            ></hd-spain-tour-push-pin-icon>
-            <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] bottom-[31.6%] right-[29.6%] z-10 cursor-pointer"
-              colorData="red"
-              [classPrefix]="'map-alicante-pin'"
-              [showHover]="true"
-            ></hd-spain-tour-push-pin-icon>
-            <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] top-[30%] right-[10.8%] z-10 cursor-pointer"
-              colorData="red"
-              [classPrefix]="'map-barcelona-pin'"
-              [showHover]="true"
-            ></hd-spain-tour-push-pin-icon>
+            <a
+              href="#first-event-section"
+              title="Direct link first event section"
+            >
+              <hd-spain-tour-push-pin-icon
+                class="absolute block w-[3vw] top-[43%] left-[42%] z-10 cursor-pointer"
+                colorData="blue"
+                [classPrefix]="'map-madrid-pin'"
+                [showHover]="true"
+              ></hd-spain-tour-push-pin-icon>
+            </a>
+            <!-- line from madrid to malaga -->
+            <div class="absolute w-[19vw] top-[20vw] left-[11.5vw] -rotate-1">
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022342/red_thread_M-M_wegday.webp"
+                alt="connector between Madrid push pin to Malaga push pin"
+                class="w-full"
+              />
+            </div>
+            <!-- -->
+            <a
+              href="#second-event-section"
+              title="Direct link second event section"
+            >
+              <hd-spain-tour-push-pin-icon
+                class="absolute block w-[3vw] bottom-[15.5%] left-[35.5%] z-10 cursor-pointer"
+                colorData="purple"
+                [classPrefix]="'map-malaga-pin'"
+                [showHover]="true"
+              ></hd-spain-tour-push-pin-icon>
+            </a>
+            <!-- line from Málaga to Alicante -->
+            <div class="absolute w-[15.5vw] bottom-[3.8vw] right-[15.3vw] -rotate-1">
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022341/red_thread_M-A_nyqlwp.webp"
+                alt="connector between Madrid push pin to Malaga push pin"
+                class="w-full"
+              />
+            </div>
+            <!-- -->
+            <a
+              href="#third-event-section"
+              title="Direct link third event section"
+            >
+              <hd-spain-tour-push-pin-icon
+                class="absolute block w-[3vw] bottom-[31.6%] right-[29.6%] z-10 cursor-pointer"
+                colorData="lightBlue"
+                [classPrefix]="'map-alicante-pin'"
+                [showHover]="true"
+              ></hd-spain-tour-push-pin-icon>
+            </a>
+            <!-- line from Alicante to Barcelona -->
+            <div class="absolute w-[16vw] top-[14vw] right-[3vw] -rotate-2">
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022341/red_thread_A-B_bflpbb.webp"
+                alt="connector between Madrid push pin to Malaga push pin"
+                class="w-full"
+              />
+            </div>
+            <!-- -->
+            <a
+              href="#fourth-event-section"
+              title="Direct link fourth event section"
+            >
+              <hd-spain-tour-push-pin-icon
+                class="absolute block w-[3vw] top-[30%] right-[10.8%] z-10 cursor-pointer"
+                colorData="green"
+                [classPrefix]="'map-barcelona-pin'"
+                [showHover]="true"
+              ></hd-spain-tour-push-pin-icon>
+            </a>
           </div>
-          
+
           <!-- Global Sponsors-->
           <div class="relative w-full px-[2vw] h-[16vw]">
             <img
-              src="assets/images/sponsors/logo_solana_sticker.png"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707715/images/sponsors/logo_solana_sticker_onimz7.webp"
               class="absolute w-[20vw] top-[1vw] rotate-6"
               alt="Solana logo sticker"
             />
             <img
-              src="assets/images/sponsors/logo_jump_sticker.png"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707715/images/sponsors/logo_jump_sticker_rezipk.webp"
               class="absolute w-[20vw] top-[7vw] left-[14vw] -rotate-6"
               alt="Jump logo sticker"
             />
             <img
-              src="assets/images/sponsors/logo_circle_sticker.png"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707716/images/sponsors/logo_circle_sticker_t5hzje.webp"
               class="absolute w-[20vw] top-[1vw] left-[28vw]"
               alt="Circle logo sticker"
             />
           </div>
         </div>
-        
-        <!-- Posts Sections -->
-        <div class="relative w-[42vw]">
 
+        <!-- Posts Sections -->
+        <div class="relative w-[40vw]">
           <!-- first post-it-->
-          <div class="absolute w-[25vw] top-[1vw] right-[9vw]">
+          <div class="absolute w-[28vw] top-[2.1vw] right-[7vw]">
             <img
-              src="assets/images/folded_paper.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707714/images/note1_len8m9.webp"
               class="relative w-full rotate-12"
               alt="blue Post-It third sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
-              colorData="blue"
+              colorData="red"
               [classPrefix]="'fifth-pin'"
-              class="absolute block w-[3vw] z-10 top-[.5vw] left-[11vw]"
+              class="absolute block w-[3vw] z-10 top-[.8vw] left-[14vw]"
             ></hd-spain-tour-push-pin-icon>
           </div>
 
           <!-- second post-it-->
           <div
-            class="absolute flex justify-center w-[23vw] top-[24vw] right-[12vw]"
+            class="absolute flex justify-center w-[25vw] top-[24vw] right-[8vw]"
           >
             <img
-              src="assets/images/folded_paper.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_480/q_auto/f_auto/v1691707710/images/note2_kjpyk3.webp"
               alt="green Post-It first sponsor spot"
               class="w-full -rotate-6"
             />
             <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] top-[1vw] mr-[2.5vw] z-10"
-              colorData="purple"
+              class="absolute block w-[3vw] top-[0.6vw] mr-[2vw] z-10"
+              colorData="red"
               [classPrefix]="'seven-pin'"
             ></hd-spain-tour-push-pin-icon>
           </div>
@@ -129,14 +187,14 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- third post-it-->
           <div class="absolute w-[28vw] top-[46vw] left-[4vw]">
             <img
-              src="assets/images/folded_paper_gracias.png"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707711/images/folded_paper_gracias_gresls.webp"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
-              colorData="lightBlue"
+              colorData="red"
               classPrefix="pin-drago"
-              class="absolute block w-[3vw] z-10 top-[2.5vw] left-[14vw]"
+              class="absolute block w-[3vw] z-10 top-[1.5vw] left-[15vw]"
             ></hd-spain-tour-push-pin-icon>
           </div>
         </div>
@@ -145,8 +203,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeroSectionComponent {
-  constructor() {
-    console.log('E');
-  }
-}
+export class HeroSectionComponent {}
