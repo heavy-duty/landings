@@ -3,7 +3,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-second-event',
   template: `
-    <div class="relative flex gap-[5vw] w-full pt-[5vw]" id="second-event-section">
+    <div
+      class="relative flex gap-[5vw] w-full pt-[5vw]"
+      id="second-event-section"
+    >
       <!-- Postcard -->
       <div
         class="relative bg-white bp-bg-paper-pattern rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] -right-[4vw] order-2"
@@ -35,42 +38,20 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               class="text-[1.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
             >
               <span class="block">Meeting #2:</span>
-              <span class="block">Programas y renta.</span>
+              <span class="block">Programs & Rent.</span>
             </p>
-            <a
-              href="https://goo.gl/maps/5N33J5ZtjX6FBPgh8"
-              target="_blank"
-              aria-label="Link to second event location on google maps"
+            <div
+              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
-              >
-                <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
-                <img
-                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
-                  class="absolute w-[1.5vw] left-[1vw]"
-                  alt="Calendar icon"
-                />
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Innovation Campus,
-                </p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Calle Puerto 14,
-                </p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">Málaga.</p>
-              </div>
-            </a>
+              <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
+                class="absolute w-[1.5vw] left-[1vw]"
+                alt="Calendar icon"
+              />
+              <div class="basis-[.7vw]"></div>
+              <p class="bp-landing-font text-[1vw] font-light">TBD</p>
+            </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
@@ -93,15 +74,27 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 alt="Calendar icon"
               />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">26/09/2023</p>
+              <p class="bp-landing-font text-[1vw] font-light">09/29/2023</p>
             </div>
             <div
-              class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
+              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
               <p class="bp-landing-font text-[1vw] font-light ">
                 15:00 - 17:00
               </p>
+            </div>
+            <div
+              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+            >
+              <div class="basis-[.7vw]"></div>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
+            </div>
+            <div
+              class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
+            >
+              <div class="basis-[.7vw]"></div>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
 
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
@@ -112,7 +105,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#6BFF7D] border-[.1vw] border-gray-800 hover:bg-[#4ff963] text-center font-bold"
                 aria-label="Schedule second event action"
               >
-                Agendar evento
+                Schedule Event
               </a>
             </div>
           </div>
@@ -124,7 +117,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1691707717/images/information_paper_fvclx1.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1692122853/information_grxkq0.png"
             class="w-full -rotate-3"
             alt="Information text on a paper"
           />
@@ -133,12 +126,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] -rotate-6 order-1">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1691707710/images/purple_post_it_dnst2l.webp"
-            alt="green post-it with some information"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692122853/post_it_purple_l8klxb.png"
+            alt="purple post-it with some information"
             class="relative w-full"
           />
           <a
-            href="https://lu.ma/m1op9i7b"
+            href="https://lu.ma/xh84ikcr"
             target="_blank"
             aria-label="Official link to the second tour event"
           >

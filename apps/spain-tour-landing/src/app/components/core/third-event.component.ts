@@ -3,7 +3,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'hd-spain-tour-third-event',
   template: `
-    <div class="relative flex gap-[5vw] w-full pt-[13vw]" id="third-event-section">
+    <div
+      class="relative flex gap-[5vw] w-full pt-[13vw]"
+      id="third-event-section"
+    >
       <!-- Postcard -->
       <div
         class="relative bg-white bp-bg-paper-pattern -rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] right-0"
@@ -35,38 +38,21 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               class="text-[1.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
             >
               <span class="block">Meeting #3:</span>
-              <span class="block">Todo sobre "Wallets".</span>
+              <span class="block">All about "Wallets".</span>
             </p>
-            <a href="https://goo.gl/maps/qy6ob8VkteYCxR428" target="_blank" aria-label="Link to third event location on google maps">
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
-              >
-                <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
-                <img
-                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
-                  class="absolute w-[1.5vw] left-[1vw]"
-                  alt="Calendar icon"
-                />
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  ULab Co-working
-                </p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  Pl. Sant Cristòfol, 14
-                </p>
-              </div>
-              <div
-                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
-              >
-                <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">Alicante</p>
-              </div>
-            </a>
+
+            <div
+              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+            >
+              <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
+                class="absolute w-[1.5vw] left-[1vw]"
+                alt="Calendar icon"
+              />
+              <div class="basis-[.7vw]"></div>
+              <p class="bp-landing-font text-[1vw] font-light">TBD</p>
+            </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
@@ -89,17 +75,28 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 alt="Calendar icon"
               />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">28/09/2023</p>
+              <p class="bp-landing-font text-[1vw] font-light">10/04/2023</p>
+            </div>
+            <div
+              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+            >
+              <div class="basis-[.7vw]"></div>
+              <p class="bp-landing-font text-[1vw] font-light ">
+                19:00 - 21:30
+              </p>
+            </div>
+            <div
+              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+            >
+              <div class="basis-[.7vw]"></div>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light ">
-                10:00 - 13:00
-              </p>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
-
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
               <!-- This is only necessary for max zoom 500% avoid moving-->
               <a
@@ -108,7 +105,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#FFBC58] border-[.1vw] border-gray-800 hover:bg-[#f7a93b] text-center font-bold"
                 aria-label="Schedule third event action"
               >
-                Agendar evento
+                Schedule Event
               </a>
             </div>
           </div>
@@ -118,7 +115,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1691707717/images/information_paper_fvclx1.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1692122853/information_grxkq0.png"
             class="w-full rotate-3"
             alt="Information text on a paper"
           />
@@ -126,11 +123,15 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] rotate-6">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692022362/post_it_pink_jz0own.webp"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692122853/post_it_pink_yxogdj.png"
             alt="pink post-it with some information"
             class="relative w-full"
           />
-          <a href="https://lu.ma/m1op9i7b" target="_blank" aria-label="Official link to the third tour event">
+          <a
+            href="https://lu.ma/30c49le6"
+            target="_blank"
+            aria-label="Official link to the third tour event"
+          >
             <hd-spain-tour-event-more-info-icon
               class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10"
               [classPrefix]="'sixth-event3'"
@@ -201,6 +202,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ThirdEventComponent {
-
-}
+export class ThirdEventComponent {}
