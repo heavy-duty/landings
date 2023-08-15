@@ -140,7 +140,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             aria-label="Official link to the first tour event"
           >
             <hd-spain-tour-event-more-info-icon
-              class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10"
+              class="absolute w-[14vw] left-[4.6vw] bottom-[4vw] z-10"
               [classPrefix]="'sixth-event0'"
             ></hd-spain-tour-event-more-info-icon>
           </a>

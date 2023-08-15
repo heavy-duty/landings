@@ -123,7 +123,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] rotate-6">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692122853/post_it_pink_yxogdj.png"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692128530/post_it_pink_szk8xz.png"
             alt="pink post-it with some information"
             class="relative w-full"
           />
@@ -133,7 +133,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             aria-label="Official link to the third tour event"
           >
             <hd-spain-tour-event-more-info-icon
-              class="absolute w-[13vw] left-[4.3vw] bottom-[4.5vw] z-10"
+              class="absolute w-[14vw] left-[4.3vw] bottom-[4vw] z-10"
               [classPrefix]="'sixth-event3'"
             ></hd-spain-tour-event-more-info-icon>
           </a>
