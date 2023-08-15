@@ -35,10 +35,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- Postcard info section -->
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p
-              class="text-[1.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
+              class="text-[2.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
             >
               <span class="block">Meeting #1:</span>
-              <span class="block">Basic Concept</span>
+              <span class="block">Basic Concepts</span>
             </p>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -61,13 +61,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
-              <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
-            </div>
-
-            <div
-              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
-            >
               <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
               <img
                 src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1691707714/images/icons/calendar_zucjxg.webp"
@@ -87,6 +80,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               </p>
             </div>
             <div
+              class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
+            >
+              <div class="basis-[.7vw]"></div>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
+            </div>
+            <!-- <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
@@ -98,7 +97,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             >
               <div class="basis-[.7vw]"></div>
               <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
-            </div>
+            </div> -->
 
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
               <!-- This is only necessary for max zoom 500% avoid moving-->
