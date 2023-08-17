@@ -86,7 +86,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               <div class="basis-[.7vw]"></div>
               <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
-            <!-- <div
+            <!-- 
+            <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
@@ -159,44 +160,57 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[11vw] top-[4vw] left-[6vw] z-10">
+        <!-- <div class="absolute w-[11vw] top-[4vw] left-[6vw] z-10">
           <a
-            href="https://ultimate.app/"
-            aria-label="Official link to Ultimate Wallet"
+            href="#"
+            aria-label="Official Event 3 Sponsor 1 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1691707715/images/sponsors/logo_ultimate_oa9aih.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692275529/logo_ultimate_aoq0bz.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Ultimate Wallet sticker"
+              alt="Event 3 Sponsor 1 logo sticker"
             />
           </a>
         </div>
         <div class="absolute w-[11vw] top-[14vw] left-[16vw] z-10">
           <a
-            href="https://de.superteam.fun"
-            aria-label="Official link to SuperTeam Germany"
+            href="#"
+            aria-label="Official Event 3 Sponsor 2 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1691707716/images/sponsors/logo_superteam_berlin_sticker_vosnkx.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692275603/stberlin_sticker_ad5lig.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="SuperTeam Germany sticker"
+              alt="Event 3 Sponsor 2 logo sticker"
             />
           </a>
         </div>
         <div class="absolute w-[10vw] top-[3vw] left-[27vw] z-10">
           <a
-            href="https://mango.markets/"
-            aria-label="Official link to Mango Markets"
+            href="#"
+            aria-label="Official Event 3 Sponsor 3 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_192/q_auto/f_auto/v1691707715/images/sponsors/logo_mango_k7zelw.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_192/q_auto/f_auto/v1692275730/mango_x6iehv.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Mango Markets sticker"
+              alt="Event 3 Sponsor 3 logo sticker"
             />
           </a>
+        </div>
+      </div> -->
+        <div class="absolute w-[19vw] top-[4.5vw] left-[12vw] z-10">
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[1.3vw] left-[6.8vw] z-10"
+            colorData="lightBlue"
+            [classPrefix]="'seven-event14-pin'"
+          ></hd-spain-tour-push-pin-icon>
+          <img
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279501/Your_Logo_Small_1_u5caqj.png"
+            class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-3"
+            alt="Event 3 Sponsors note"
+          />
         </div>
       </div>
     </div>

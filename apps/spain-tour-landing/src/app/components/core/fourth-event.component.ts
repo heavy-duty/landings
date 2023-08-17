@@ -160,84 +160,125 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[11vw] top-[4vw] left-[8vw] z-10">
+        <!-- <div class="absolute w-[11vw] top-[4vw] left-[8vw] z-10">
           <a
-            href="https://mx.superteam.fun/"
-            aria-label="Official link to SuperTeam Mexico"
+            href="#"
+            aria-label="Official Event 4 Sponsor 1 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1691707716/images/sponsors/logo_superteamMX_sticker_plvxuz.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692275893/sticker_superteamMX_lndnk8.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="SuperTeam Mexico sticker"
+              alt="Event 4 Sponsor 1 logo sticker"
             />
           </a>
         </div>
         <div class="absolute w-[24vw] top-[20vw] left-[10vw] z-10">
           <a
-            href="https://exchange.art/"
-            aria-label="Official link to Exchange Art NFT marketplace"
+            href="#"
+            aria-label="Official Event 4 Sponsor 2 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1691707715/images/sponsors/logo_exchangeArt_sticker_jvtejt.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1692273423/sticker_exchangeArt_hsprre.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
-              alt="Exchange Art NFT marketplace sticker"
+              alt="Event 4 Sponsor 2 logo sticker"
             />
           </a>
         </div>
         <div class="absolute w-[11vw] top-[2vw] left-[39vw] z-10">
           <a
-            href="https://tr.superteam.fun/"
-            aria-label="Official link to SuperTeam Turkey"
+            href="#"
+            aria-label="Official Event 4 Sponsor 3 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1691707716/images/sponsors/logo_superteamTK_sticker_rkfzen.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692275897/sticker_superteamTK_n3dhav.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
-              alt="SuperTeam Turkey sticker"
+              alt="Event 4 Sponsor 3 logo sticker"
             />
           </a>
         </div>
         <div class="absolute w-[9vw] top-[4vw] left-[22vw] z-10">
           <a
-            href="https://www.quicknode.com/"
-            aria-label="Official link to QuickNode RPC"
+            href="#"
+            aria-label="Official Event 4 Sponsor 4 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1691707716/images/sponsors/logo_quickNode_sticker_g0xdrv.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1692273357/sticker_quickNode_ughr0b.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="QuickNode RPC sticker"
+              alt="Event 4 Sponsor 4 logo sticker"
             />
           </a>
         </div>
         <div class="absolute w-[9vw] top-[13vw] left-[32vw] z-10">
           <a
-            href="https://www.helius.dev/"
-            aria-label="Official link to Helius Lab"
+            href="#"
+            aria-label="Official Event 4 Sponsor 5 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1691707714/images/sponsors/logo_helius_sticker_xsxqcb.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1692276155/sticker_helius_josvfc.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Helius Lab sticker"
+              alt="Event 4 Sponsor 5 logo sticker"
             />
           </a>
+        </div> -->
+        <div class="absolute w-[19vw] top-[6vw] left-[12vw] z-10">
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[1.3vw] left-[6vw] z-10"
+            colorData="green"
+            [classPrefix]="'seven-event13-pin'"
+          ></hd-spain-tour-push-pin-icon>
+          <img
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279501/Your_Logo_Small_1_u5caqj.png"
+            class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
+            alt="Event 2 Sponsors note"
+          />
         </div>
       </div>
 
-      <!-- Bull Sticker -->
-      <div class="absolute right-[2vw] top-[10vw]">
+      
+      <!-- Ballerina Sticker -->
+      <div class="absolute right-[1vw] top-[2vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_288/q_auto/f_auto/v1691707714/images/icons/bull_bsyz0y.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692280284/Ballerina_f1euu4.png"
           alt="Drawing bull"
           class="w-[15vw] rotate-6"
         />
         <img
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
+          alt="tape for drawing ballerina"
+          class="absolute w-[5vw] -rotate-[10deg] -top-[1vw] right-[5.7vw]"
+        />
+      </div>
+
+      <!-- Bull Sticker -->
+      <div class="absolute right-[22vw] top-[5vw]">
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_488/q_auto/f_auto/v1691707714/images/icons/bull_bsyz0y.webp"
+          alt="Drawing bull"
+          class="w-[20vw] rotate-6"
+        />
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
           alt="tape for drawing bull"
-          class="absolute w-[7vw] rotate-[25deg] top-[.7vw] right-[2.5vw]"
+          class="absolute w-[7vw] rotate-[25deg] top-[1.3vw] right-[5vw]"
+        />
+      </div>
+
+      <!-- Wine -->
+      <div class="absolute right-[2vw] top-[20vw]">
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1692282122/Wine_ltvjuk.png"
+          alt="Drawing bull"
+          class="w-[10vw]"
+        />
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
+          alt="tape for drawing wine"
+          class="absolute w-[5vw] top-[.3vw] right-[3.5vw]"
         />
       </div>
     </div>

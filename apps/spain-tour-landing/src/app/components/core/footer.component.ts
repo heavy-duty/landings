@@ -91,24 +91,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
 
         <!-- Next Hackathon information -->
-        <div class="relative w-[17vw] h-[17vw] top-[2vw] right-[12vw]">
-          <!-- HackerHouse Sticker -->
-          <div class="absolute w-[11vw] top-[10vw] right-[20vw]">
-            <a
-              href="https://solana.com/events"
-              aria-label="Official link to Solana Events 2023"
-              target="_blank"
-            >
-              <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1691707710/images/logo_hackershouse_sticker_jsteqm.webp"
-                class="relative w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-                alt="Solana Hacker House sticker"
-              />
-            </a>
-          </div>
+        <div class="relative w-[17vw] h-[17vw] top-[2vw] right-[10vw]">
 
           <!-- Solana Sticker -->
-          <div class="absolute w-[16vw] top-[2vw] right-[30vw]">
+          <div class="absolute w-[16vw] top-[7vw] right-[20vw]">
             <a
               href="https://solana.com"
               aria-label="Official link to Solana"
@@ -123,7 +109,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
 
           <!-- Heavy Duty Builders Sticker -->
-          <div class="absolute w-[12vw] top-[7vw] right-[34vw]">
+          <div class="absolute w-[12vw] top-[4vw] right-[38vw]">
             <a
               href="https://heavyduty.builders/"
               aria-label="Official link to Heavy Duty Builders"

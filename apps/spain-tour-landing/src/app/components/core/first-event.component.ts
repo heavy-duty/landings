@@ -165,44 +165,57 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[11vw] top-[8vw] left-[8vw] z-10">
+        <!-- <div class="absolute w-[11vw] top-[8vw] left-[8vw] z-10">
           <a
-            href="https://phantom.app/"
-            aria-label="Official link to Phatom wallet"
+            href="#"
+            aria-label="Official Event 1 Sponsor 1 link to website"
             target="_blank"
           >
+          
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1691707716/images/sponsors/logo_phantom_sticker_cxu7mf.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692273312/sticker_phantom_t9vxbg.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Phatom Wallet sticker"
+              alt="Event 1 Sponsor 1 logo sticker"
             />
           </a>
         </div>
         <div class="absolute w-[24vw] top-[16vw] left-[16vw] z-10">
           <a
-            href="https://exchange.art/"
-            aria-label="Official link to Exchange Art NFT marketplace"
+            href="#"
+            aria-label="Official Event 1 Sponsor 2 link to website"
             target="_blank"
-          >
+          >         
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1691707715/images/sponsors/logo_exchangeArt_sticker_jvtejt.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1692273423/sticker_exchangeArt_hsprre.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Exchange Art NFT marketplace sticker"
+              alt="Event 1 Sponsor 2 logo sticker"
             />
           </a>
         </div>
         <div class="absolute w-[9vw] top-[4vw] left-[22vw] z-10">
           <a
-            href="https://www.quicknode.com/"
-            aria-label="Official link to QuickNode RPC"
+            href="#"
+            aria-label="Official Event 1 Sponsor 3 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1691707716/images/sponsors/logo_quickNode_sticker_g0xdrv.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1692273357/sticker_quickNode_ughr0b.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="QuickNode RPC sticker"
+              alt="Event 1 Sponsor 3 logo sticker"
             />
           </a>
+        </div> -->
+        <div class="absolute w-[19vw] top-[4.5vw] left-[12vw] z-10">
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[1.3vw] left-[6.8vw] z-10"
+            colorData="blue"
+            [classPrefix]="'seven-event1-pin'"
+          ></hd-spain-tour-push-pin-icon>
+          <img
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279501/Your_Logo_Small_1_u5caqj.png"
+            class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-3"
+            alt="Event 1 Sponsors note"
+          />
         </div>
       </div>
     </div>
