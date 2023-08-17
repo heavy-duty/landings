@@ -15,10 +15,22 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
       </div>
 
+      <!-- 2023 Sticker -->
       <div class="absolute top-[18vw] right-[25vw]">
         <div class="w-[13vw] rotate-12">
           <img
             src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_250/q_auto/f_auto/v1691707718/images/sticker_2023_zw2ppd.webp"
+            alt="2023 sticker"
+            class="w-full"
+          />
+        </div>
+      </div>
+
+      <!-- Spain Sticker -->
+      <div class="absolute top-[16vw] right-[45vw]">
+        <div class="w-[13vw] -rotate-12">
+          <img
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_250/q_auto/f_auto/v1692124514/spain_ihsaw2.png"
             alt="2023 sticker"
             class="w-full"
           />
@@ -155,16 +167,17 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Posts Sections -->
         <div class="relative w-[40vw]">
           <!-- first post-it-->
-          <div class="absolute w-[28vw] top-[2.1vw] right-[7vw]">
+          <div class="absolute w-[26vw] top-[2.1vw] right-[7vw]">
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707714/images/note1_len8m9.webp"
+                   
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1692122853/small_folded_paper2_y8vbis.png"
               class="relative w-full rotate-12"
               alt="blue Post-It third sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
               colorData="red"
               [classPrefix]="'fifth-pin'"
-              class="absolute block w-[3vw] z-10 top-[.8vw] left-[14vw]"
+              class="absolute block w-[3vw] z-10 top-[.2vw] left-[13vw]"
             ></hd-spain-tour-push-pin-icon>
           </div>
 
@@ -173,28 +186,29 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             class="absolute flex justify-center w-[25vw] top-[24vw] right-[8vw]"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_480/q_auto/f_auto/v1691707710/images/note2_kjpyk3.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_480/q_auto/f_auto/v1692122854/small_folded_paper3_e8u2os.png"
               alt="green Post-It first sponsor spot"
               class="w-full -rotate-6"
             />
             <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] top-[0.6vw] mr-[2vw] z-10"
+              class="absolute block w-[3vw] top-[0.4vw] mr-[2vw] z-10"
               colorData="red"
               [classPrefix]="'seven-pin'"
             ></hd-spain-tour-push-pin-icon>
           </div>
 
           <!-- third post-it-->
-          <div class="absolute w-[28vw] top-[46vw] left-[4vw]">
+          <div class="absolute w-[28vw] top-[48vw] left-[4vw]">
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707711/images/folded_paper_gracias_gresls.webp"
+            
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1692122853/small_folded_paper1_oqmbhs.png"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
               colorData="red"
               classPrefix="pin-drago"
-              class="absolute block w-[3vw] z-10 top-[1.5vw] left-[15vw]"
+              class="absolute block w-[3vw] z-10 top-[.5vw] left-[14.5vw]"
             ></hd-spain-tour-push-pin-icon>
           </div>
         </div>

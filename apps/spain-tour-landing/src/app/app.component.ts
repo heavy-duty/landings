@@ -121,7 +121,7 @@ import { Component } from '@angular/core';
 
       <div class="relative">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707710/images/doubts_paper_qcqsm7.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_587/q_auto/f_auto/v1692122853/questions_qkolgf.png"
           class="w-[22vw] rotate-6"
           alt="Doubts text on a paper"
         />

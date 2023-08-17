@@ -145,7 +145,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               aria-label="Official link to Solana Grizzlython Hackathon website"
             >
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_326/q_auto/f_auto/v1691707714/images/hackathon_post_it_oywwpb.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_326/q_auto/f_auto/v1692124821/post_it_orange_gyllqo.png"
                 class="w-full rotate-12"
                 alt="Next hackathon orange Post-it"
               />
