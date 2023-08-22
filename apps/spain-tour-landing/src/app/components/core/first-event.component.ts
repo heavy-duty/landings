@@ -165,20 +165,20 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <!-- <div class="absolute w-[11vw] top-[8vw] left-[8vw] z-10">
+        <div class="absolute w-[14vw] top-[6vw] left-[2vw] z-40">
           <a
-            href="#"
-            aria-label="Official Event 1 Sponsor 1 link to website"
+            href="https://w3blab.io/"
+            aria-label="Web3Labs Madrid - Official Link "
             target="_blank"
           >
-          
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692273312/sticker_phantom_t9vxbg.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Event 1 Sponsor 1 logo sticker"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1692737035/web3Lab-madrid_vjkagh.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-3"
+              alt="Web3Labs Madrid logo sticker"
             />
           </a>
         </div>
+        <!-- 
         <div class="absolute w-[24vw] top-[16vw] left-[16vw] z-10">
           <a
             href="#"
@@ -205,7 +205,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             />
           </a>
         </div> -->
-        <div class="absolute w-[19vw] top-[4.5vw] left-[12vw] z-10">
+        <div class="absolute w-[19vw] top-[4.5vw] left-[18vw] z-10">
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[1.3vw] left-[6.8vw] z-10"
             colorData="blue"
