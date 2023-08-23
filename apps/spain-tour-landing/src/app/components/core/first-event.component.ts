@@ -165,14 +165,14 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[14vw] top-[6vw] left-[2vw] z-40">
+        <div class="absolute w-[22vw] top-[6vw] left-[17vw] z-40">
           <a
             href="https://w3blab.io/"
             aria-label="Web3Labs Madrid - Official Link "
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1692737035/web3Lab-madrid_vjkagh.png"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_511/q_auto/f_auto/v1692737035/web3Lab-madrid_vjkagh.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-3"
               alt="Web3Labs Madrid logo sticker"
             />
@@ -205,7 +205,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             />
           </a>
         </div> -->
-        <div class="absolute w-[19vw] top-[4.5vw] left-[18vw] z-10">
+        <!-- <div class="absolute w-[19vw] top-[4.5vw] left-[25vw] z-10">
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[1.3vw] left-[6.8vw] z-10"
             colorData="blue"
@@ -213,10 +213,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           ></hd-spain-tour-push-pin-icon>
           <img
             src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279501/Your_Logo_Small_1_u5caqj.png"
-            class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-3"
+            class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-3"
             alt="Event 1 Sponsors note"
           />
-        </div>
+        </div> -->
       </div>
     </div>
   `,

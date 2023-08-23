@@ -162,20 +162,21 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <!-- <div class="absolute w-[14vw] top-[15vw] right-[14vw] z-10">
+        <div class="absolute w-[22vw] top-[12.5vw] right-[13vw] z-10">
           <a
-            href="#"
-            aria-label="Official Event 2 Sponsor 1 link to website"
+            href="https://blockchainmalaga.es/"
+            aria-label="Official Blockchain Málaga link to website"
             target="_blank"
           >
+          
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_269/q_auto/f_auto/v1692275193/smb_qybyfk.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Event 2 Sponsor 1 logo sticker"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_500/q_auto/f_auto/v1692813667/big_logo_rr94mf.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
+              alt="Blockchain Málaga logo sticker"
             />
           </a>
         </div>
-        <div class="absolute w-[17vw] top-[10vw] right-[26vw] z-10">
+        <!-- <div class="absolute w-[17vw] top-[10vw] right-[26vw] z-10">
           <a
             href="#"
             aria-label="Official Event 2 Sponsor 2 link to website"
@@ -212,7 +213,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             class="absolute block w-[3vw] z-10 -bottom-[.5vw] right-[2vw]"
           ></hd-spain-tour-push-pin-icon>
         </div> -->
-        <div class="absolute w-[19vw] top-[13vw] right-[12vw] z-10">
+        <!-- <div class="absolute w-[19vw] top-[13vw] right-[24vw] z-10">
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[1.3vw] left-[7.5vw] z-10"
             colorData="purple"
@@ -220,10 +221,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           ></hd-spain-tour-push-pin-icon>
           <img
             src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279501/Your_Logo_Small_1_u5caqj.png"
-            class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
+            class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
             alt="Event 2 Sponsors note"
           />
-        </div>
+        </div> -->
       </div>
     </div>
   `,

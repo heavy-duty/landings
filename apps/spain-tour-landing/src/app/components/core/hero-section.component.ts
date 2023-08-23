@@ -164,7 +164,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               alt="Global Sponsor 3 logo sticker"
             />
           </div> -->
-          <div
+          <!-- <div
             class="relative w-[27vw] px-[2vw] h-[16vw] top-[2vw] left-[10vw]"
           >
             <hd-spain-tour-push-pin-icon
@@ -177,13 +177,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               class="absolute w-full  -rotate-6"
               alt="Global Sponsors note"
             />
-          </div>
+          </div> -->
         </div>
 
         <!-- Posts Sections -->
         <div class="relative w-[40vw]">
           <!-- first post-it-->
-          <div class="absolute w-[26vw] top-[2.1vw] right-[7vw]">
+          <div class="absolute w-[26vw] top-[4vw] right-[7vw]">
             <img
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1692122853/small_folded_paper2_y8vbis.png"
               class="relative w-full rotate-12"
@@ -198,7 +198,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
           <!-- second post-it-->
           <div
-            class="absolute flex justify-center w-[25vw] top-[24vw] right-[8vw]"
+            class="absolute flex justify-center w-[25vw] top-[29vw] right-[8vw]"
           >
             <img
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_480/q_auto/f_auto/v1692122854/small_folded_paper3_e8u2os.png"
@@ -213,7 +213,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
 
           <!-- third post-it-->
-          <div class="absolute w-[28vw] top-[48vw] left-[4vw]">
+          <!-- <div class="absolute w-[28vw] top-[48vw] left-[4vw]">
             <img
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1692122853/small_folded_paper1_oqmbhs.png"
               class="relative w-full left-[2vw] rotate-3"
@@ -224,7 +224,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               classPrefix="pin-drago"
               class="absolute block w-[3vw] z-10 top-[.5vw] left-[14.5vw]"
             ></hd-spain-tour-push-pin-icon>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
