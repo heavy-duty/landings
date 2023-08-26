@@ -152,7 +152,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1691707713/images/sponsors_paper_z1mjqh.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
           class="w-full"
           alt="Information text on a paper"
         />
@@ -160,19 +160,20 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <!-- <div class="absolute w-[11vw] top-[4vw] left-[8vw] z-10">
+        <div class="absolute w-[15vw] top-[7vw] left-[12vw] z-10">
           <a
             href="#"
-            aria-label="Official Event 4 Sponsor 1 link to website"
+            aria-label="Official IRL Barcelona link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692275893/sticker_superteamMX_lndnk8.png"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1692888385/IRL-logo_ryb3ui.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Event 4 Sponsor 1 logo sticker"
+              alt="IRL Barcelona logo sticker"
             />
           </a>
         </div>
+        <!-- 
         <div class="absolute w-[24vw] top-[20vw] left-[10vw] z-10">
           <a
             href="#"
@@ -225,7 +226,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             />
           </a>
         </div> -->
-        <div class="absolute w-[19vw] top-[6vw] left-[12vw] z-10">
+        <!-- <div class="absolute w-[19vw] top-[6vw] left-[12vw] z-10">
           <hd-spain-tour-push-pin-icon
             class="absolute block w-[3vw] -top-[1.3vw] left-[6vw] z-10"
             colorData="green"
@@ -236,7 +237,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
             alt="Event 2 Sponsors note"
           />
-        </div>
+        </div> -->
       </div>
 
       

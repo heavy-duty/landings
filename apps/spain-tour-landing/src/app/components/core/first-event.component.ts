@@ -154,10 +154,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
     <!-- Event sponsors -->
     <div class="relative w-full">
-      <!-- Sponsor text -->
+      <!-- Parthers text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1691707713/images/sponsors_paper_z1mjqh.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
           class="w-full"
           alt="Information text on a paper"
         />
