@@ -103,7 +103,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               ></hd-spain-tour-push-pin-icon>
             </a>
             <!-- line from Málaga to Alicante -->
-            <div class="absolute w-[15.5vw] bottom-[3.8vw] right-[15.3vw] -rotate-1">
+            <div
+              class="absolute w-[15.5vw] bottom-[3.8vw] right-[15.3vw] -rotate-1"
+            >
               <img
                 src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022341/red_thread_M-A_nyqlwp.webp"
                 alt="connector between Madrid push pin to Malaga push pin"
@@ -145,31 +147,44 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
 
           <!-- Global Sponsors-->
-          <div class="relative w-full px-[2vw] h-[16vw]">
+          <!-- <div class="relative w-full px-[2vw] h-[16vw]">
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707715/images/sponsors/logo_solana_sticker_onimz7.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1692270751/solana_logo_sticker_bnumc9.png"
               class="absolute w-[20vw] top-[1vw] rotate-6"
-              alt="Solana logo sticker"
+              alt="Global Sponsor 1 logo sticker"
             />
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707715/images/sponsors/logo_jump_sticker_rezipk.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1692270916/sticker_jump_n3cgzo.png"
               class="absolute w-[20vw] top-[7vw] left-[14vw] -rotate-6"
-              alt="Jump logo sticker"
+              alt="Global Sponsor 2 logo sticker"
             />
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707716/images/sponsors/logo_circle_sticker_t5hzje.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1692270865/sticker_circle_rt1zlb.png"
               class="absolute w-[20vw] top-[1vw] left-[28vw]"
-              alt="Circle logo sticker"
+              alt="Global Sponsor 3 logo sticker"
             />
-          </div>
+          </div> -->
+          <!-- <div
+            class="relative w-[27vw] px-[2vw] h-[16vw] top-[2vw] left-[10vw]"
+          >
+            <hd-spain-tour-push-pin-icon
+              class="absolute block w-[3vw] -top-[0.1vw] left-[13.5vw] z-10"
+              colorData="red"
+              [classPrefix]="'seven-pin'"
+            ></hd-spain-tour-push-pin-icon>
+            <img
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279270/Your_Logo_1_dqjlzh.png"
+              class="absolute w-full  -rotate-6"
+              alt="Global Sponsors note"
+            />
+          </div> -->
         </div>
 
         <!-- Posts Sections -->
         <div class="relative w-[40vw]">
           <!-- first post-it-->
-          <div class="absolute w-[26vw] top-[2.1vw] right-[7vw]">
+          <div class="absolute w-[26vw] top-[4vw] right-[7vw]">
             <img
-                   
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1692122853/small_folded_paper2_y8vbis.png"
               class="relative w-full rotate-12"
               alt="blue Post-It third sponsor spot"
@@ -183,7 +198,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
           <!-- second post-it-->
           <div
-            class="absolute flex justify-center w-[25vw] top-[24vw] right-[8vw]"
+            class="absolute flex justify-center w-[25vw] top-[29vw] right-[8vw]"
           >
             <img
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_480/q_auto/f_auto/v1692122854/small_folded_paper3_e8u2os.png"
@@ -198,9 +213,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
 
           <!-- third post-it-->
-          <div class="absolute w-[28vw] top-[48vw] left-[4vw]">
+          <!-- <div class="absolute w-[28vw] top-[48vw] left-[4vw]">
             <img
-            
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1692122853/small_folded_paper1_oqmbhs.png"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
@@ -210,7 +224,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               classPrefix="pin-drago"
               class="absolute block w-[3vw] z-10 top-[.5vw] left-[14.5vw]"
             ></hd-spain-tour-push-pin-icon>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

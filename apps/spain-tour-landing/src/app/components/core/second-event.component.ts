@@ -154,7 +154,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1691707713/images/sponsors_paper_z1mjqh.webp"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
           class="w-full"
           alt="Information text on a paper"
         />
@@ -162,42 +162,44 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[14vw] top-[15vw] right-[14vw] z-10">
+        <div class="absolute w-[22vw] top-[12.5vw] right-[13vw] z-10">
           <a
-            href="https://solanamonkey.business/"
-            aria-label="Official link to SMB"
+            href="https://blockchainmalaga.es/"
+            aria-label="Official Blockchain Málaga link to website"
             target="_blank"
           >
+          
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_269/q_auto/f_auto/v1691707715/images/sponsors/logo_smb_bg7zmg.webp"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="SMB sticker"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_500/q_auto/f_auto/v1692813667/big_logo_rr94mf.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
+              alt="Blockchain Málaga logo sticker"
             />
           </a>
         </div>
-        <div class="absolute w-[17vw] top-[10vw] right-[26vw] z-10">
+        <!-- <div class="absolute w-[17vw] top-[10vw] right-[26vw] z-10">
           <a
-            href="https://claynosaurz.com/"
-            aria-label="Official link to ClaynoSaurz"
+            href="#"
+            aria-label="Official Event 2 Sponsor 2 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_326/q_auto/f_auto/v1691707715/images/sponsors/logo_claynosaurz_icgqo3.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_326/q_auto/f_auto/v1692274752/ClaynoSaurz_cr1gen.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
-              alt="Claynosaurz sticker"
+              alt="Event 2 Sponsor 2 logo sticker"
             />
           </a>
         </div>
         <div class="absolute w-[12vw] top-[14vw] right-[2vw] z-10">
           <a
-            href="https://drip.haus/"
+            href="#"
+            aria-label="Official Event 2 Sponsor 3 link to website"
             target="_blank"
-            aria-label="Drip official link"
           >
+          
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_230/q_auto/f_auto/v1691707715/images/sponsors/drip_photo_a6tv8q.webp"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_230/q_auto/f_auto/v1692275087/drip_photo_nxdgfy.png"
               class="relative w-full rotate-12"
-              alt="Drip Haus logo photo sponsor"
+              alt="Event 2 Sponsor 3 logo sticker"
             />
           </a>
           <hd-spain-tour-push-pin-icon
@@ -210,7 +212,19 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             [classPrefix]="'pin-drip-2'"
             class="absolute block w-[3vw] z-10 -bottom-[.5vw] right-[2vw]"
           ></hd-spain-tour-push-pin-icon>
-        </div>
+        </div> -->
+        <!-- <div class="absolute w-[19vw] top-[13vw] right-[24vw] z-10">
+          <hd-spain-tour-push-pin-icon
+            class="absolute block w-[3vw] -top-[1.3vw] left-[7.5vw] z-10"
+            colorData="purple"
+            [classPrefix]="'seven-event12-pin'"
+          ></hd-spain-tour-push-pin-icon>
+          <img
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279501/Your_Logo_Small_1_u5caqj.png"
+            class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
+            alt="Event 2 Sponsors note"
+          />
+        </div> -->
       </div>
     </div>
   `,
