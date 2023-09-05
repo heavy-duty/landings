@@ -57,7 +57,7 @@ import { Component, HostBinding } from '@angular/core';
 				>
 					We're a group of devs that believe in the power of OSS to facilitate
 					people's lives and don't care about chewing glass in the process. We
-					want to unite forces with more builders like us in the Solana
+					want to unite forces with more builders like us in the Blockchain
 					ecosystem, call it a DAO if you want, but we mean so much more.
 				</p>
 			</div>
@@ -73,7 +73,7 @@ import { Component, HostBinding } from '@angular/core';
 			</h2>
 			<div class="lg:float-none relative top-10 max-w-[700px] mb-32">
 				<p class="md:text-xl mb-4">
-					Basically a bunch of challenges to learn and earn in Solana. Imagine
+					Basically a bunch of challenges to learn about Blockchains. Imagine
 					earning reputation points and Proof-of-Work(s) as a beginner or pro of
 					web3.
 				</p>
