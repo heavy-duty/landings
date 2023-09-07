@@ -35,31 +35,43 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- Postcard info section -->
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p
-              class="text-[2.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
+              class="text-[3.8vw] bp-amatic-font text-left font-bold mb-[0vw]"
             >
-              <span class="block">Meeting #4:</span>
-              <span class="block">What are NFTs?</span>
+              <span class="block">Barcelona</span>
             </p>
 
-            <div
-              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
-            >
-              <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
-              <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
-                class="absolute w-[1.5vw] left-[1vw]"
-                alt="Calendar icon"
-              />
-              <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">TBD</p>
-            </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
               <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
-
+            <a href="https://goo.gl/maps/L9MtSjAMpZoov5N66" target="_blank">
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
+                <img
+                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
+                  class="absolute w-[1.5vw] left-[1vw]"
+                  alt="Calendar icon"
+                />
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light">C d'Albert Einstein,</p>
+              </div>
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light">11, 08042 Barcelona.</p>
+              </div>
+            </a>
+            <div
+              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+            >
+              <div class="basis-[.7vw]"></div>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
+            </div>
 
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -71,19 +83,24 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 alt="Calendar icon"
               />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">10/06/2023</p>
+              <p class="bp-landing-font text-[1vw] font-light">10/11/2023</p>
             </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">19:00 - 21:30</p>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
             >
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1694100214/Clock_dcuean.png"
+                class="absolute w-[1.1vw] left-[1.2vw]"
+                alt="Calendar icon"
+              />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
+              <p class="bp-landing-font text-[1vw] font-light">TBD</p>
             </div>
             <!-- <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -106,7 +123,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#EBD738] border-[.1vw] border-gray-800 hover:bg-[#ffe900] text-center font-bold"
                 aria-label="Schedule fourth event action"
               >
-                Schedule Event
+                Join us!
               </a>
             </div>
           </div>
@@ -160,7 +177,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[15vw] top-[7vw] left-[12vw] z-10">
+        <div class="absolute w-[13vw] top-[7vw] left-[2vw] z-10">
           <a
             href="#"
             aria-label="Official IRL Barcelona link to website"
@@ -170,6 +187,20 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1692888385/IRL-logo_ryb3ui.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="IRL Barcelona logo sticker"
+            />
+          </a>
+        </div>
+
+        <div class="absolute w-[22vw] top-[14vw] left-[20vw] z-10">
+          <a
+            href="#"
+            aria-label="Official 42 Barcelona link to website"
+            target="_blank"
+          >
+            <img
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1694112133/42-barcelona-sticker_ceo6ih.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
+              alt="42 Barcelona logo sticker"
             />
           </a>
         </div>
@@ -260,12 +291,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <img
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_488/q_auto/f_auto/v1691707714/images/icons/bull_bsyz0y.webp"
           alt="Drawing bull"
-          class="w-[20vw] rotate-6"
+          class="w-[17vw] rotate-6"
         />
         <img
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
           alt="tape for drawing bull"
-          class="absolute w-[7vw] rotate-[25deg] top-[1.3vw] right-[5vw]"
+          class="absolute w-[7vw] rotate-[25deg] top-[1.3vw] right-[3vw]"
         />
       </div>
 

@@ -59,6 +59,16 @@ import { Component } from '@angular/core';
         />
       </div>
 
+      <!-- plane icon -->
+      <div class="absolute w-full mb-[16vw]">
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022453/airplane_rjo8jo.webp"
+          class="absolute w-[11.5vw] right-[14vw] -top-[28vw] rotate-12"
+          alt="plane sticker"
+        />
+      </div>
+      
+
       <!-- second event-->
       <hd-spain-tour-second-event></hd-spain-tour-second-event>
 
@@ -79,6 +89,15 @@ import { Component } from '@angular/core';
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707711/images/arrow_2-3_pczd47.webp"
           class="absolute w-[50vw] -left-[8vw] -top-[28vw]"
           alt="arrow from second postcard event to third postcard event"
+        />
+      </div>
+      
+      <!-- train icon -->
+      <div class="absolute w-full mb-[16vw]">
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
+          class="absolute w-[16vw] left-[6vw] -top-[12vw] rotate-12 scale-x-[-1]"
+          alt="train sticker"
         />
       </div>
 
@@ -102,6 +121,15 @@ import { Component } from '@angular/core';
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707714/images/arrow_3-4_hbjenp.webp"
           class="absolute w-[55vw] -right-[4vw] -top-[37vw]"
           alt="arrow from third postcard event to fourth postcard event"
+        />
+      </div>
+
+      <!-- train icon -->
+      <div class="absolute w-full mb-[16vw]">
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
+          class="absolute w-[16vw] right-[18vw] -top-[42vw] -rotate-[30deg] scale-x-[-1]"
+          alt="train sticker"
         />
       </div>
 

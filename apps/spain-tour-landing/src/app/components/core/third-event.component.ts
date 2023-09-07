@@ -35,24 +35,44 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- Postcard info section -->
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p
-              class="text-[2.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
+              class="text-[3.8vw] bp-amatic-font text-left font-bold mb-[0vw]"
             >
-              <span class="block">Meeting #3:</span>
-              <span class="block">Wallets</span>
+              <span class="block">Alicante</span>
             </p>
 
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
-              <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
-              <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
-                class="absolute w-[1.5vw] left-[1vw]"
-                alt="Calendar icon"
-              />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">TBD</p>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
+            
+            <a href="https://goo.gl/maps/r6RXedhp2ke8d7KN8" target="_blank">
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
+                <img
+                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
+                  class="absolute w-[1.5vw] left-[1vw]"
+                  alt="Calendar icon"
+                />
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light">ULab, Pl.</p>
+              </div>
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light">Sant Cristòfol, 14,</p>
+              </div>
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light"> 03002 Alacant.</p>
+              </div>
+            </a>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
@@ -70,21 +90,26 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 alt="Calendar icon"
               />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">10/04/2023</p>
+              <p class="bp-landing-font text-[1vw] font-light">10/09/2023</p>
             </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light ">
-                19:00 - 21:30
-              </p>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
             >
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1694100214/Clock_dcuean.png"
+                class="absolute w-[1.1vw] left-[1.2vw]"
+                alt="Calendar icon"
+              />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
+              <p class="bp-landing-font text-[1vw] font-light ">
+                18:00 - 20:30
+              </p>
             </div>
             <!-- 
             <div
@@ -107,7 +132,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#FFBC58] border-[.1vw] border-gray-800 hover:bg-[#f7a93b] text-center font-bold"
                 aria-label="Schedule third event action"
               >
-                Schedule Event
+                Join us!
               </a>
             </div>
           </div>
@@ -125,7 +150,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] rotate-6">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692128530/post_it_pink_szk8xz.png"
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1694104288/post_it_pink_lokhcq.png"
             alt="pink post-it with some information"
             class="relative w-full"
           />
@@ -135,7 +160,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             aria-label="Official link to the third tour event"
           >
             <hd-spain-tour-event-more-info-icon
-              class="absolute w-[14vw] left-[4.3vw] bottom-[4vw] z-10"
+              class="absolute w-[16vw] left-[3.4vw] bottom-[3vw] z-10"
               [classPrefix]="'sixth-event3'"
             ></hd-spain-tour-event-more-info-icon>
           </a>
@@ -160,57 +185,31 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <!-- <div class="absolute w-[11vw] top-[4vw] left-[6vw] z-10">
+        <div class="absolute w-[17vw] top-[4vw] left-[6vw] z-10">
           <a
             href="#"
             aria-label="Official Event 3 Sponsor 1 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692275529/logo_ultimate_aoq0bz.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1694101554/ulab-sticker-02_cpn0sm.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
               alt="Event 3 Sponsor 1 logo sticker"
             />
           </a>
         </div>
-        <div class="absolute w-[11vw] top-[14vw] left-[16vw] z-10">
+        <div class="absolute w-[18.5vw] top-[9vw] left-[27vw] z-10">
           <a
             href="#"
             aria-label="Official Event 3 Sponsor 2 link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692275603/stberlin_sticker_ad5lig.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1694104748/alicante-tech-sticker_wk5dvo.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
               alt="Event 3 Sponsor 2 logo sticker"
             />
           </a>
-        </div>
-        <div class="absolute w-[10vw] top-[3vw] left-[27vw] z-10">
-          <a
-            href="#"
-            aria-label="Official Event 3 Sponsor 3 link to website"
-            target="_blank"
-          >
-            <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_192/q_auto/f_auto/v1692275730/mango_x6iehv.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="Event 3 Sponsor 3 logo sticker"
-            />
-          </a>
-        </div>
-      </div> -->
-        <div class="absolute w-[19vw] top-[4.5vw] left-[12vw] z-10">
-          <hd-spain-tour-push-pin-icon
-            class="absolute block w-[3vw] -top-[1.3vw] left-[6.8vw] z-10"
-            colorData="lightBlue"
-            [classPrefix]="'seven-event14-pin'"
-          ></hd-spain-tour-push-pin-icon>
-          <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279501/Your_Logo_Small_1_u5caqj.png"
-            class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-3"
-            alt="Event 3 Sponsors note"
-          />
         </div>
       </div>
     </div>
