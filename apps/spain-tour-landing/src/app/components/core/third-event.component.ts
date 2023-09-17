@@ -127,7 +127,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
               <!-- This is only necessary for max zoom 500% avoid moving-->
               <a
-                href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%233+-+Privates+Keys+y+Wallets.&details=Tercer+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=ULab%2C+Pl.+Sant+Crist%C3%B2fol%2C+14%2C+03002+Alacant%2C+Alicante%2C+Spain&dates=20230928T090000Z%2F20230928T120000Z"
+                href="https://lu.ma/30c49le6"
                 target="_blank"
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#FFBC58] border-[.1vw] border-gray-800 hover:bg-[#f7a93b] text-center font-bold"
                 aria-label="Schedule third event action"
@@ -187,7 +187,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <div class="relative h-[26vw]">
         <div class="absolute w-[17vw] top-[4vw] left-[6vw] z-10">
           <a
-            href="#"
+            href="https://ulab.es/"
             aria-label="Official Event 3 Sponsor 1 link to website"
             target="_blank"
           >
@@ -200,7 +200,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
         <div class="absolute w-[18.5vw] top-[9vw] left-[27vw] z-10">
           <a
-            href="#"
+            href="https://www.meetup.com/alicantetech/"
             aria-label="Official Event 3 Sponsor 2 link to website"
             target="_blank"
           >

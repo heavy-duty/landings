@@ -208,7 +208,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="absolute w-[22vw] top-[8vw] left-[5vw] z-40">
           <a
-            href="https://w3blab.io/"
+            href="https://www.42madrid.com/"
             aria-label="Web3Labs Madrid - Official Link "
             target="_blank"
           >

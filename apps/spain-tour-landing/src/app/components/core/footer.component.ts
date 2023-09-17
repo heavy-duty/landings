@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <div class="flex justify-between mt-[10vw] w-full">
         <!-- Heavy Duty Builders Info-->
         <div
-          class="relative w-[24vw] h-[23vw] -mt-[5vw] left-[10vw] mb-[5vw] -rotate-12"
+          class="relative w-[24vw] h-[23vw] -mt-[13vw] left-[10vw] mb-[5vw] -rotate-12"
         >
           <img
             src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707714/images/yellow_post_it_1_pncwoj.webp"
@@ -90,6 +90,15 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
         </div>
 
+        <!-- Solana Spain Tour Logo -->
+        <div class="absolute w-[22vw] h-[23vw] -top-[17vw] left-[44vw] rotate-3">
+          <img
+            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1694972535/solana_spain_tour_logo-03_1_xccest.png"
+            class="absolute w-full rotate-3"
+            alt="Solana Spain Tour logo"
+          />
+        </div>
+
         <!-- Next Hackathon information -->
         <div class="relative w-[17vw] h-[17vw] top-[2vw] right-[10vw]">
 
@@ -101,7 +110,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               target="_blank"
             >
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1691707715/images/sponsors/logo_solana_sticker_onimz7.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_400/q_auto/f_auto/v1691707715/images/sponsors/logo_solana_sticker_onimz7.webp"
                 class="relative w-full -top-[1.5vw] -left-[1vw] rotate-6"
                 alt="Solana sticker"
               />
@@ -109,14 +118,14 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
 
           <!-- Heavy Duty Builders Sticker -->
-          <div class="absolute w-[12vw] top-[4vw] right-[38vw]">
+          <div class="absolute w-[15vw] top-[4vw] right-[38vw]">
             <a
               href="https://heavyduty.builders/"
               aria-label="Official link to Heavy Duty Builders"
               target="_blank"
             >
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_230/q_auto/f_auto/v1691707717/images/sponsors/logo_heavyduty_sticker_tpptvy.webp"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_380/q_auto/f_auto/v1691707717/images/sponsors/logo_heavyduty_sticker_tpptvy.webp"
                 class="relative w-full -top-[1.5vw] -left-[1vw] -rotate-6"
                 alt="Heavy Duty Builders sticker"
               />

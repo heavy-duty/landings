@@ -100,7 +100,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 alt="Calendar icon"
               />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">TBD</p>
+              <p class="bp-landing-font text-[1vw] font-light">15:00 - 18:00</p>
             </div>
             <!-- <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -118,7 +118,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
               <!-- This is only necessary for max zoom 500% avoid moving-->
               <a
-                href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%234+-+%C2%BFQu%C3%A9+son+los+NFTs%3F&details=%C3%9Altimo+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=CREC+Coworking+Gr%C3%A0cia+-+Depot+Lab+Barcelona%2C+Carrer+de+Joaquim+Ruyra%2C+9%2C+11%2C+08025+Barcelona%2C+Spain&dates=20230929T150000Z%2F20230929T190000Z"
+                href="https://lu.ma/1jccph9h"
                 target="_blank"
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#EBD738] border-[.1vw] border-gray-800 hover:bg-[#ffe900] text-center font-bold"
                 aria-label="Schedule fourth event action"
@@ -179,7 +179,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <div class="relative h-[26vw]">
         <div class="absolute w-[13vw] top-[7vw] left-[2vw] z-10">
           <a
-            href="#"
+            href="https://twitter.com/IRLeventsES"
             aria-label="Official IRL Barcelona link to website"
             target="_blank"
           >
@@ -193,7 +193,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="absolute w-[22vw] top-[14vw] left-[20vw] z-10">
           <a
-            href="#"
+            href="https://www.42barcelona.com/es"
             aria-label="Official 42 Barcelona link to website"
             target="_blank"
           >

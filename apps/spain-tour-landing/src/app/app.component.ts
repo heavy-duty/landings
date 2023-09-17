@@ -138,7 +138,7 @@ import { Component } from '@angular/core';
     </section>
 
     <!-- Divider & Doubts text -->
-    <div class="w-full relative flex justify-between items-center mt-[3vw] mb-[15vw]">
+    <div class="w-full relative flex justify-between items-center mt-[3vw] mb-[20vw]">
       <div class="relative">
         <img
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707712/images/divider_arrows_uannux.webp"
@@ -150,7 +150,7 @@ import { Component } from '@angular/core';
       <div class="relative">
         <img
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_587/q_auto/f_auto/v1692122853/questions_qkolgf.png"
-          class="w-[22vw] rotate-6"
+          class="w-[28vw] rotate-6"
           alt="Doubts text on a paper"
         />
       </div>

@@ -128,7 +128,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
               <!-- This is only necessary for max zoom 500% avoid moving-->
               <a
-                href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%232+-+Programas+en+Solana.&details=Segundo+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=Innovation+Campus+-+Malaga+Terrace+coworking%2C+Calle+Puerto%2C+14%2C+29016+M%C3%A1laga%2C+Spain&dates=20230926T140000Z%2F20230926T160000Z"
+                href="https://lu.ma/xh84ikcr"
                 target="_blank"
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#6BFF7D] border-[.1vw] border-gray-800 hover:bg-[#4ff963] text-center font-bold"
                 aria-label="Schedule second event action"
@@ -206,7 +206,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
         <div class="absolute w-[17vw] top-[15vw] right-[3vw] z-10">
           <a
-            href="https://www.uma.es/"
+            href="https://www.link.uma.es/"
             aria-label="Official Malaga university link to website"
             target="_blank"
           >
