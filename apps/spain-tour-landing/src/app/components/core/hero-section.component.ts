@@ -147,37 +147,29 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
 
           <!-- Global Sponsors-->
-          <!-- <div class="relative w-full px-[2vw] h-[16vw]">
-            <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1692270751/solana_logo_sticker_bnumc9.png"
-              class="absolute w-[20vw] top-[1vw] rotate-6"
-              alt="Global Sponsor 1 logo sticker"
-            />
-            <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1692270916/sticker_jump_n3cgzo.png"
-              class="absolute w-[20vw] top-[7vw] left-[14vw] -rotate-6"
-              alt="Global Sponsor 2 logo sticker"
-            />
-            <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1692270865/sticker_circle_rt1zlb.png"
-              class="absolute w-[20vw] top-[1vw] left-[28vw]"
-              alt="Global Sponsor 3 logo sticker"
-            />
-          </div> -->
-          <!-- <div
-            class="relative w-[27vw] px-[2vw] h-[16vw] top-[2vw] left-[10vw]"
-          >
-            <hd-spain-tour-push-pin-icon
-              class="absolute block w-[3vw] -top-[0.1vw] left-[13.5vw] z-10"
-              colorData="red"
-              [classPrefix]="'seven-pin'"
-            ></hd-spain-tour-push-pin-icon>
-            <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279270/Your_Logo_1_dqjlzh.png"
-              class="absolute w-full  -rotate-6"
-              alt="Global Sponsors note"
-            />
-          </div> -->
+          <div class="relative w-full px-[2vw] h-[16vw]">
+            <a href="https://solana.com/" target="_blank" aria-label="Official link to Solana website">
+              <img            
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707715/images/sponsors/logo_solana_sticker_onimz7.webp"
+                class="absolute w-[22vw] top-[3vw] rotate-6"
+                alt="Solana logo sticker"
+              />
+            </a>
+            <a href="https://heavyduty.builders/" target="_blank" aria-label="Official link to Heavy Duty Builders website">
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707712/images/logo_heavyduty_beware_ttafdg.webp"
+                class="absolute w-[21vw] top-[10vw] left-[14vw] -rotate-6"
+                alt="Heavy Duty Builders logo sticker"
+              />
+            </a>
+            <a href="https://web3islandmakers.com/" target="_blank" aria-label="Official link to Web3 Island Maker website">
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1695147243/WIM_sticker_horizontal_jlsna2.png"
+                class="absolute w-[20vw] top-[2.5vw] left-[28vw] -rotate-6"
+                alt="Web3 Island Maker logo sticker"
+              />
+            </a>
+          </div>
         </div>
 
         <!-- Posts Sections -->
@@ -213,7 +205,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
 
           <!-- third post-it-->
-          <!-- <div class="absolute w-[28vw] top-[48vw] left-[4vw]">
+          <div class="absolute w-[28vw] top-[50vw] left-[4vw]">
             <img
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1692122853/small_folded_paper1_oqmbhs.png"
               class="relative w-full left-[2vw] rotate-3"
@@ -224,7 +216,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               classPrefix="pin-drago"
               class="absolute block w-[3vw] z-10 top-[.5vw] left-[14.5vw]"
             ></hd-spain-tour-push-pin-icon>
-          </div> -->
+          </div>
         </div>
       </div>
     </section>
