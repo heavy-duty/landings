@@ -35,23 +35,46 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- Postcard info section -->
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p
-              class="text-[2.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
+              class="text-[3.8vw] bp-amatic-font text-left font-bold mb-[0vw]"
             >
-              <span class="block">Meeting #2:</span>
-              <span class="block">Programs</span>
+              <span class="block">Málaga</span>
             </p>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
-              <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
-              <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
-                class="absolute w-[1.5vw] left-[1vw]"
-                alt="Calendar icon"
-              />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">TBD</p>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
+            <a href="https://goo.gl/maps/11bzGmCxsc7xrR8d7" target="_blank">
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
+                <img
+                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
+                  class="absolute w-[1.5vw] left-[1vw]"
+                  alt="Calendar icon"
+                />
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light">The Green Ray,</p>
+              </div>
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light ">
+                  Bulevar Louis Pasteur
+                </p>
+              </div>
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light ">
+                  29590 Málaga.
+                </p>
+              </div>
+            </a>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
@@ -68,21 +91,26 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 alt="Calendar icon"
               />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">09/29/2023</p>
+              <p class="bp-landing-font text-[1vw] font-light">09/28/2023</p>
             </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light ">
-                15:00 - 17:00
-              </p>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
             >
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1694100214/Clock_dcuean.png"
+                class="absolute w-[1.1vw] left-[1.2vw]"
+                alt="Calendar icon"
+              />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
+              <p class="bp-landing-font text-[1vw] font-light ">
+                17:00 - 21:30
+              </p>
             </div>
             <!-- <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -100,12 +128,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
               <!-- This is only necessary for max zoom 500% avoid moving-->
               <a
-                href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%232+-+Programas+en+Solana.&details=Segundo+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=Innovation+Campus+-+Malaga+Terrace+coworking%2C+Calle+Puerto%2C+14%2C+29016+M%C3%A1laga%2C+Spain&dates=20230926T140000Z%2F20230926T160000Z"
+                href="https://lu.ma/xh84ikcr"
                 target="_blank"
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#6BFF7D] border-[.1vw] border-gray-800 hover:bg-[#4ff963] text-center font-bold"
                 aria-label="Schedule second event action"
               >
-                Schedule Event
+                Join us!
               </a>
             </div>
           </div>
@@ -162,7 +190,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[22vw] top-[12.5vw] right-[13vw] z-10">
+        <div class="absolute w-[22vw] top-[12.5vw] right-[25vw] z-10">
           <a
             href="https://blockchainmalaga.es/"
             aria-label="Official Blockchain Málaga link to website"
@@ -171,11 +199,25 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           
             <img
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_500/q_auto/f_auto/v1692813667/big_logo_rr94mf.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
               alt="Blockchain Málaga logo sticker"
             />
           </a>
         </div>
+        <div class="absolute w-[17vw] top-[15vw] right-[3vw] z-10">
+          <a
+            href="https://www.link.uma.es/"
+            aria-label="Official Malaga university link to website"
+            target="_blank"
+          >
+            <img
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_500/q_auto/f_auto/v1694101554/Universidad-malaga-sticker_xcqtib.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
+              alt="Malaga university Sticker"
+            />
+          </a>
+        </div>
+        
         <!-- <div class="absolute w-[17vw] top-[10vw] right-[26vw] z-10">
           <a
             href="#"

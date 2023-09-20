@@ -35,23 +35,43 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <!-- Postcard info section -->
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p
-              class="text-[2.8vw] bp-amatic-font text-left font-bold mb-[2.5vw]"
+              class="text-[3.8vw] bp-amatic-font text-left font-bold mb-[0vw]"
             >
-              <span class="block">Meeting #1:</span>
-              <span class="block">Basic Concepts</span>
+              <span class="block">Madrid</span>
             </p>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
-              <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
-              <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
-                class="absolute w-[1.5vw] left-[1vw]"
-                alt="Calendar icon"
-              />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">TBD</p>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
+            <a href="https://goo.gl/maps/c6ommE8EtMuZdcsE9" target="_blank">
+              
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
+                <img
+                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
+                  class="absolute w-[1.5vw] left-[1vw]"
+                  alt="Calendar icon"
+                />
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light">Distrito Telefónica,</p>
+              </div>
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light">Edificio Norte 1,</p>
+              </div>
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <div class="basis-[.7vw]"></div>
+                <p class="bp-landing-font text-[1vw] font-light">28050, Madrid.</p>
+              </div>
+            </a>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
@@ -75,16 +95,23 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light ">
-                19:00 - 21:30
-              </p>
+              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
+
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
             >
+              <img
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1694100214/Clock_dcuean.png"
+                class="absolute w-[1.1vw] left-[1.2vw]"
+                alt="Calendar icon"
+              />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
+              <p class="bp-landing-font text-[1vw] font-light ">
+                18:00 - 21:00
+              </p>
             </div>
+
             <!-- <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
@@ -103,12 +130,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               <!-- This is only necessary for max zoom 500% avoid moving-->
 
               <a
-                href="https://www.google.com/calendar/render?action=TEMPLATE&text=Meeting+%231+-+Conceptos+B%C3%A1sicos.&details=Primer+evento+del+Tour+por+espa%C3%B1a+de+Solana.&location=The+Shed+CoWorking%2C+C.+de+Hermosilla%2C+48%2C+1%C2%BA+Derecha%2C+28001+Madrid%2C+Spain.&dates=20230924T130000Z%2F20230924T170000Z"
+                href="https://lu.ma/q4f98ei5"
                 target="_blank"
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw]  bg-[#98e6ff] border-[.1vw] border-gray-800 hover:bg-[#83dcf7] text-center font-bold"
                 aria-label="Schedule first event action"
               >
-                Schedule Event
+                Join us!
               </a>
             </div>
           </div>
@@ -165,7 +192,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[22vw] top-[6vw] left-[17vw] z-40">
+        <div class="absolute w-[22vw] top-[2vw] left-[27vw] z-40">
           <a
             href="https://w3blab.io/"
             aria-label="Web3Labs Madrid - Official Link "
@@ -174,6 +201,20 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <img
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_511/q_auto/f_auto/v1692737035/web3Lab-madrid_vjkagh.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-3"
+              alt="Web3Labs Madrid logo sticker"
+            />
+          </a>
+        </div>
+
+        <div class="absolute w-[22vw] top-[8vw] left-[5vw] z-40">
+          <a
+            href="https://www.42madrid.com/"
+            aria-label="Web3Labs Madrid - Official Link "
+            target="_blank"
+          >
+            <img
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_511/q_auto/f_auto/v1694093991/42-madrid-sticker_mnw41q.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
               alt="Web3Labs Madrid logo sticker"
             />
           </a>

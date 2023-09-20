@@ -59,6 +59,16 @@ import { Component } from '@angular/core';
         />
       </div>
 
+      <!-- plane icon -->
+      <div class="absolute w-full mb-[16vw]">
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022453/airplane_rjo8jo.webp"
+          class="absolute w-[11.5vw] right-[14vw] -top-[28vw] rotate-12"
+          alt="plane sticker"
+        />
+      </div>
+      
+
       <!-- second event-->
       <hd-spain-tour-second-event></hd-spain-tour-second-event>
 
@@ -79,6 +89,15 @@ import { Component } from '@angular/core';
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1691707711/images/arrow_2-3_pczd47.webp"
           class="absolute w-[50vw] -left-[8vw] -top-[28vw]"
           alt="arrow from second postcard event to third postcard event"
+        />
+      </div>
+      
+      <!-- train icon -->
+      <div class="absolute w-full mb-[16vw]">
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
+          class="absolute w-[16vw] left-[6vw] -top-[12vw] rotate-12 scale-x-[-1]"
+          alt="train sticker"
         />
       </div>
 
@@ -105,12 +124,21 @@ import { Component } from '@angular/core';
         />
       </div>
 
+      <!-- train icon -->
+      <div class="absolute w-full mb-[16vw]">
+        <img
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
+          class="absolute w-[16vw] right-[18vw] -top-[42vw] -rotate-[30deg] scale-x-[-1]"
+          alt="train sticker"
+        />
+      </div>
+
       <!-- fourth event-->
       <hd-spain-tour-fourth-event></hd-spain-tour-fourth-event>
     </section>
 
     <!-- Divider & Doubts text -->
-    <div class="w-full relative flex justify-between items-center mt-[3vw] mb-[15vw]">
+    <div class="w-full relative flex justify-between items-center mt-[3vw] mb-[20vw]">
       <div class="relative">
         <img
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1691707712/images/divider_arrows_uannux.webp"
@@ -122,7 +150,7 @@ import { Component } from '@angular/core';
       <div class="relative">
         <img
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_587/q_auto/f_auto/v1692122853/questions_qkolgf.png"
-          class="w-[22vw] rotate-6"
+          class="w-[28vw] rotate-6"
           alt="Doubts text on a paper"
         />
       </div>
