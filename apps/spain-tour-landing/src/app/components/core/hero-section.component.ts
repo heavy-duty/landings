@@ -205,16 +205,16 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           </div>
 
           <!-- third post-it-->
-          <div class="absolute w-[28vw] top-[50vw] left-[4vw]">
+          <div class="absolute w-[24vw] top-[50vw] left-[6vw]">
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_538/q_auto/f_auto/v1692122853/small_folded_paper1_oqmbhs.png"
+              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1695237212/support_note_cdnahy.png"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />
             <hd-spain-tour-push-pin-icon
               colorData="red"
               classPrefix="pin-drago"
-              class="absolute block w-[3vw] z-10 top-[.5vw] left-[14.5vw]"
+              class="absolute block w-[3vw] z-10 top-[.5vw] left-[12.5vw]"
             ></hd-spain-tour-push-pin-icon>
           </div>
         </div>
