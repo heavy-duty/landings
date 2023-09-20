@@ -150,22 +150,22 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="relative w-full px-[2vw] h-[16vw]">
             <a href="https://solana.com/" target="_blank" aria-label="Official link to Solana website">
               <img            
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707715/images/sponsors/logo_solana_sticker_onimz7.webp"
-                class="absolute w-[22vw] top-[3vw] rotate-6"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1695149182/Solana_sticker_1_pdpppt.png"
+                class="absolute w-[14vw] top-[3vw] left-[3vw] -rotate-12"
                 alt="Solana logo sticker"
               />
             </a>
             <a href="https://heavyduty.builders/" target="_blank" aria-label="Official link to Heavy Duty Builders website">
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1691707712/images/logo_heavyduty_beware_ttafdg.webp"
-                class="absolute w-[21vw] top-[10vw] left-[14vw] -rotate-6"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1695149182/HDB_sticker_1_ibjklb.png"
+                class="absolute w-[14.5vw] top-[7vw] left-[18vw] rotate-12"
                 alt="Heavy Duty Builders logo sticker"
               />
             </a>
             <a href="https://web3islandmakers.com/" target="_blank" aria-label="Official link to Web3 Island Maker website">
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_384/q_auto/f_auto/v1695147243/WIM_sticker_horizontal_jlsna2.png"
-                class="absolute w-[20vw] top-[2.5vw] left-[28vw] -rotate-6"
+                src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1695149182/WIM_sticker_1_ttvbcu.png"
+                class="absolute w-[12vw] top-[3vw] left-[34vw] -rotate-6"
                 alt="Web3 Island Maker logo sticker"
               />
             </a>
