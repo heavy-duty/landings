@@ -90,7 +90,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 alt="Calendar icon"
               />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">10/09/2023</p>
+              <p class="bp-landing-font text-[1vw] font-light">10/10/2023</p>
             </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
