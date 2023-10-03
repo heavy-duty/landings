@@ -45,7 +45,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               <div class="basis-[.7vw]"></div>
               <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
-            <a href="https://goo.gl/maps/c6ommE8EtMuZdcsE9" target="_blank">
+            <a href="https://maps.app.goo.gl/1EgDVTzCkfBD9xmv7" target="_blank">
               
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -63,7 +63,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">Edificio Norte 1,</p>
+                <p class="bp-landing-font text-[1vw] font-light">Edificio Norte 3,</p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
