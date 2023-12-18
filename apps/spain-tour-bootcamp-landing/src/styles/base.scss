@@ -1,0 +1,27 @@
+@import './core/fonts.scss';
+
+body {
+  background-color: antiquewhite;
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: .8vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #242424;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+/**/
