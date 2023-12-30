@@ -4,6 +4,17 @@ body {
   background-color: antiquewhite;
 }
 
+
+.bp-bg-wall {
+  background-image: url("https://res.cloudinary.com/pwcaguerrero/image/upload/v1703951770/wall_no_shadow_mpdgoc.png");
+  background-repeat: repeat;
+  overflow: hidden;
+  width: 99.2vw;
+  height: 99.2vh;
+  position: absolute;
+  opacity: 0.25;
+}
+
 /* Scroll bar */
 /* width */
 ::-webkit-scrollbar {
