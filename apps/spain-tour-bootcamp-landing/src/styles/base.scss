@@ -15,10 +15,13 @@ body {
   opacity: 0.25;
 }
 
+#desktop-main-frame {
+  min-height: 110vh;
+}
 
 @media screen and (max-height: 890px) {
   #desktop-main-frame {
-    min-height: 990px !important;
+    min-height: 65vw !important;
   }
 }
 
@@ -44,3 +47,13 @@ body {
   background: #666;
 }
 /**/
+
+/** Animations */
+
+#bookshelf-books-up > a > img {
+  transition: all 0.1s ease-in;
+}
+
+#bookshelf-books-up > a > img:hover {
+  top: -1vw;
+}
