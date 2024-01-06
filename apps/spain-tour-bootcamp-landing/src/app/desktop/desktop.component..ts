@@ -13,6 +13,22 @@ import { Component } from '@angular/core';
           />
       </div>
 
+      <div id="official-calendar" class="absolute right-[6vw] bottom-[24.5vw]">
+        <img 
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1704401964/Poster_Febrero_1_zmxv1n.png"
+          alt="Vintage calendar february pixel art"
+          class="w-[23vw]"
+        />
+      </div>
+
+      <div id="main-art-welcome" class="absolute right-[34.5vw] bottom-[47.5vw]">
+        <img 
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704143728/Small_Sign_qgu8np.png"
+          alt="Vintage welcome bootcamp painting pixel art"
+          class="w-[30vw]"
+        />
+      </div>
+
       <div id="desktop-table" class="absolute bottom-[0vw] h-[23.5vw] w-[100vw] overflow-hidden">
         <img 
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1702928477/table_xwe3xs.png"
@@ -36,7 +52,7 @@ import { Component } from '@angular/core';
 
       <div id="ashtray" class="absolute bottom-[7vw] left-[15.4vw]">
         <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704402636/Ashtray_1_x1uxiq.png"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704465247/Ashtray_2_y7wyub.png"
           alt="Vintage ashtray pixel art"
           class="w-[7vw]"
         />
@@ -145,21 +161,6 @@ import { Component } from '@angular/core';
         />
       </div>
 
-      <div id="official-calendar" class="absolute right-[6vw] bottom-[24.5vw]">
-        <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1704401964/Poster_Febrero_1_zmxv1n.png"
-          alt="Vintage calendar february pixel art"
-          class="w-[23vw]"
-        />
-      </div>
-
-      <div id="main-art-welcome" class="absolute right-[34.5vw] bottom-[47.5vw]">
-        <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704143728/Small_Sign_qgu8np.png"
-          alt="Vintage welcome bootcamp painting pixel art"
-          class="w-[30vw]"
-        />
-      </div>
 
       <div id="computer-speaker-left" class="absolute bottom-[19.65vw] left-[29.8vw]">
         <img 

@@ -25,6 +25,12 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .bp-bg-wall {
+    background-size: 220vw;
+  }
+}
+
 
 /* Scroll bar */
 /* width */
