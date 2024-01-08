@@ -10,6 +10,23 @@ import { Component } from '@angular/core';
           alt="Vintage welcome bootcamp painting pixel art"
           class="w-[90vw]"
         />
+
+        <div class="absolute text-center bp-font-retro-computer">
+          <h1 class="text-[3.5vw] mt-[8vw] mb-[4vw]">
+            BIENVENIDO AL BOOT CAMP:
+          </h1>
+          <h1 class="text-[4.5vw]">
+            INTRODUCCION A LAS 
+          </h1>
+          <h1 class="text-[4.5vw]">
+            DAPPS EN SOLANA
+          </h1>
+
+          <div class="mt-[4vw]">
+            <button class="bg-[#6A4CB1] px-[4vw] py-[1.5vw] text-white text-[3.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">REGISTRARME</button>
+          </div>
+        </div>
+
       </div>
 
       <div id="official-calendar" class="relative flex justify-center mt-[13vw]">
@@ -72,18 +89,18 @@ import { Component } from '@angular/core';
           />
         </div>
 
-        <div id="cup-coffee" class="absolute -top-[17.5vw] right-[1vw] z-30">
+        <div id="cup-coffee" class="absolute -top-[15.5vw] right-[1vw] z-30">
           <img 
             src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1703957915/Smoke_Dark_hzsnah.gif"
             alt="Vintage coffee smoke gif pixel art"
-            class="w-[13vw] absolute top-[-6.3vw] right-[0.3vw] opacity-25"
+            class="w-[11vw] absolute top-[-6.3vw] right-[0.3vw] opacity-25"
           />
         
           <a href="https://solana.com" target="_blank">
             <img 
               src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704136782/Coffee_1_f1esg4.png"
               alt="Vintage solana cup of coffee pixel art"
-              class="w-[13vw]"
+              class="w-[11vw]"
             />
           </a>  
         </div>
