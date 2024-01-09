@@ -21,12 +21,21 @@ import { Component } from '@angular/core';
         />
       </div>
 
-      <div id="main-art-welcome" class="absolute right-[34.5vw] bottom-[47.5vw]">
+      <div id="main-art-welcome" class="absolute w-[30vw] right-[34.5vw] bottom-[47.5vw]">
         <img 
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704143728/Small_Sign_qgu8np.png"
           alt="Vintage welcome bootcamp painting pixel art"
           class="w-[30vw]"
         />
+
+        <div class="absolute top-[2.6vw] w-[30vw] left-[0vw] flex justify-center bp-font-retro-computer">
+          <div class="relative">
+            <h2 class="text-[1.3vw] text-black">
+              Bienvenido al Boot Camp
+            </h2>
+          </div>
+        </div>
+
       </div>
 
       <div id="desktop-table" class="absolute bottom-[0vw] h-[23.5vw] w-[100vw] overflow-hidden">
@@ -176,6 +185,17 @@ import { Component } from '@angular/core';
           alt="Vintage computer monitor pixel art"
           class="w-[35vw]"
         />
+
+        <div class="absolute top-[9vw] flex justify-center bp-font-retro-computer">
+            <div class="text-left relative left-[5.5vw]">
+              <h2 class="text-[1.4vw] text-[#00E805]">
+                > INTRODUCCION <br/>
+                A LAS DAPPS <br/>
+                EN SOLANA
+              </h2>
+              <button class="bg-[#00E805] mt-[1.5vw] px-[1vw] py-[0.5vw] text-black text-[1.1vw]" aria-label="Botón de registro">REGISTRARME</button>
+            </div>
+          </div>
       </div>
 
       <div id="computer-speaker-right" class="absolute bottom-[19.65vw] right-[26.8vw]">

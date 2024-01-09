@@ -12,16 +12,13 @@ import { Component } from '@angular/core';
         />
 
         <div class="absolute text-center bp-font-retro-computer">
-          <h1 class="text-[3.5vw] mt-[8vw] mb-[4vw]">
+          <h2 class="text-[3.5vw] mt-[8vw] mb-[4vw]">
             BIENVENIDO AL BOOT CAMP:
-          </h1>
+          </h2>
           <h1 class="text-[4.5vw]">
-            INTRODUCCION A LAS 
-          </h1>
-          <h1 class="text-[4.5vw]">
+            INTRODUCCION A LAS <br />
             DAPPS EN SOLANA
           </h1>
-
           <div class="mt-[4vw]">
             <button class="bg-[#6A4CB1] px-[4vw] py-[1.5vw] text-white text-[3.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">REGISTRARME</button>
           </div>
@@ -69,6 +66,17 @@ import { Component } from '@angular/core';
             alt="Vintage computer monitor pixel art"
             class="w-[85vw] ml-[16.5vw]"
           />
+
+          <div class="absolute top-[22vw] w-[100vw] flex justify-center bp-font-retro-computer">
+            <div class="text-left relative -left-[1vw]">
+              <h2 class="text-[3vw] text-[#00E805]">
+                > INTRODUCCION <br/>
+                A LAS DAPPS <br/>
+                EN SOLANA
+              </h2>
+              <button class="bg-[#00E805] mt-[4vw] px-[4vw] py-[1.5vw] text-black text-[2.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">REGISTRARME</button>
+            </div>
+          </div>
         </div>
 
         <div id="computer-speaker-right" class="absolute right-[0vw] bottom-[15vw] z-30">
@@ -124,7 +132,7 @@ import { Component } from '@angular/core';
             <div class="w-[7vw] h-[3vw] absolute right-[3vw] bottom-[2.4vw] -rotate-[2deg] opacity-0"></div>
           </a>
         </div>
-        <div id="computer-mouse" class="absolute bottom-[7vw] right-[8vw] z-10">
+        <div id="computer-mouse" class="absolute bottom-[7vw] right-[8vw] z-20">
           <img 
             src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1704509525/Mobile_Mouse_fjeob2.png"
             alt="Vintage computer mouse pixel art"
