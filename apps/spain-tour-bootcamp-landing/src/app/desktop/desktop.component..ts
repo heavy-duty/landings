@@ -13,11 +13,11 @@ import { Component } from '@angular/core';
           />
       </div>
 
-      <div id="official-calendar" class="absolute right-[6vw] bottom-[24.5vw]">
+      <div id="official-calendar" class="absolute right-[4vw] bottom-[23.5vw]">
         <img 
           src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1704401964/Poster_Febrero_1_zmxv1n.png"
           alt="Vintage calendar february pixel art"
-          class="w-[23vw]"
+          class="w-[24vw]"
         />
       </div>
 

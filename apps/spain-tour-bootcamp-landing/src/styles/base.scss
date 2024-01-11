@@ -21,7 +21,13 @@ body {
 
 @media screen and (max-height: 890px) {
   #desktop-main-frame {
-    min-height: 65vw !important;
+    min-height: 60vw !important;
+  }
+}
+
+@media screen and (min-height: 910px) {
+  #desktop-main-frame {
+    min-height: 120vh !important;
   }
 }
 

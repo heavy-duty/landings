@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { AppDesktopComponent } from './desktop/desktop.component.';
 import { AppMobileComponent } from './mobile/mobile.component.';
 import { CommonModule } from '@angular/common';
@@ -7,6 +7,7 @@ import {
   BreakpointObserver,
   BreakpointState
 } from '@angular/cdk/layout';
+import { UpdateSubscriptionService } from './components/core';
 
 @Component({
   standalone: true,
@@ -28,6 +29,7 @@ import {
 export class AppComponent implements OnInit {
   constructor(private breakpointObserver: BreakpointObserver) { }
 
+  private readonly _updateSubscriptionService = inject(UpdateSubscriptionService);
   readonly breakpoint$ = this.breakpointObserver;
   showMobile = false;
 
@@ -42,4 +44,5 @@ export class AppComponent implements OnInit {
         }
       });
   }
+
 }
