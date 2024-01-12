@@ -1,7 +1,7 @@
 @import './core/fonts.scss';
 
 body {
-  background-color: antiquewhite;
+  background-color: #faebd7;
 }
 
 .bp-bg-wall {
@@ -37,6 +37,21 @@ body {
   }
 }
 
+
+// External form kit (cover kit)
+.formkit-close {
+  right: 0vw !important;
+  color: black !important;
+  font-size: 4vw !important;
+}
+
+.formkit-guarantee {
+  text-align: left !important;
+}
+
+.seva-modal.formkit-modal {
+  font-family: 'Retro Computer';
+}
 
 /* Scroll bar */
 /* width */

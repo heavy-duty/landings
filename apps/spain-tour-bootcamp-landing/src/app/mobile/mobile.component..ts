@@ -20,7 +20,11 @@ import { Component } from '@angular/core';
             DAPPS EN SOLANA
           </h1>
           <div class="mt-[4vw]">
-            <button class="bg-[#6A4CB1] px-[4vw] py-[1.5vw] text-white text-[3.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">REGISTRARME</button>
+            <button class="bg-[#6A4CB1] px-[4vw] py-[1.5vw] text-white text-[3.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">
+              <a data-formkit-toggle="ec6cdd2569" href="https://discoprotocol.ck.page/ec6cdd2569">
+                REGISTRARME
+              </a>  
+            </button>
           </div>
         </div>
 
@@ -28,7 +32,7 @@ import { Component } from '@angular/core';
 
       <div id="official-calendar" class="relative flex justify-center mt-[13vw]">
         <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1704401964/Poster_Febrero_1_zmxv1n.png"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1705014352/Poster_Febrero_wdbqgo.png"
           alt="Vintage calendar february pixel art"
           class="relative w-[80vw] left-[1vw]"
         />
@@ -74,7 +78,11 @@ import { Component } from '@angular/core';
                 A LAS DAPPS <br/>
                 EN SOLANA
               </h2>
-              <button class="bg-[#00E805] mt-[4vw] px-[4vw] py-[1.5vw] text-black text-[2.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">REGISTRARME</button>
+              <button class="bg-[#00E805] mt-[4vw] px-[4vw] py-[1.5vw] text-black text-[2.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">
+                <a data-formkit-toggle="ec6cdd2569" href="https://discoprotocol.ck.page/ec6cdd2569">
+                  REGISTRARME
+                </a>
+              </button>
             </div>
           </div>
         </div>

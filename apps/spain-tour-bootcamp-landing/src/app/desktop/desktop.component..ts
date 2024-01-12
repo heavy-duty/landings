@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
 
       <div id="official-calendar" class="absolute right-[4vw] bottom-[23.5vw]">
         <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1704401964/Poster_Febrero_1_zmxv1n.png"
+          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1705014352/Poster_Febrero_wdbqgo.png"
           alt="Vintage calendar february pixel art"
           class="w-[24vw]"
         />
@@ -187,15 +187,19 @@ import { Component } from '@angular/core';
         />
 
         <div class="absolute top-[9vw] flex justify-center bp-font-retro-computer">
-            <div class="text-left relative left-[5.5vw]">
-              <h2 class="text-[1.4vw] text-[#00E805]">
-                > INTRODUCCION <br/>
-                A LAS DAPPS <br/>
-                EN SOLANA
-              </h2>
-              <button class="bg-[#00E805] mt-[1.5vw] px-[1vw] py-[0.5vw] text-black text-[1.1vw]" aria-label="Botón de registro">REGISTRARME</button>
-            </div>
+          <div class="text-left relative left-[5.5vw]">
+            <h2 class="text-[1.4vw] text-[#00E805]">
+              > INTRODUCCION <br/>
+              A LAS DAPPS <br/>
+              EN SOLANA
+            </h2>
+            <button class="bg-[#00E805] mt-[1.5vw] px-[1vw] py-[0.5vw] text-black text-[1.1vw]" aria-label="Botón de registro">
+              <a data-formkit-toggle="ec6cdd2569" href="https://discoprotocol.ck.page/ec6cdd2569">
+                REGISTRARME
+              </a>
+            </button>
           </div>
+        </div>
       </div>
 
       <div id="computer-speaker-right" class="absolute bottom-[19.65vw] right-[26.8vw]">
