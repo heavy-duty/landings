@@ -3,10 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'bootcamp-app-mobile-component',
   template: `
-    <div id="mobile-main-frame" class="relative">
+    <div id="mobile-main-frame" class="relative overflow-x-hidden">
       <div id="main-art-welcome" class="relative flex justify-center top-[6vw]">
         <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704465536/Sign_yicmjg.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704465536/Sign_yicmjg.png"
           alt="Vintage welcome bootcamp painting pixel art"
           class="w-[90vw]"
         />
@@ -32,7 +32,7 @@ import { Component } from '@angular/core';
 
       <div id="official-calendar" class="relative flex justify-center mt-[13vw]">
         <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1705014352/Poster_Febrero_wdbqgo.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705014352/Poster_Febrero_wdbqgo.png"
           alt="Vintage calendar february pixel art"
           class="relative w-[80vw] left-[1vw]"
         />
@@ -42,7 +42,7 @@ import { Component } from '@angular/core';
 
         <div id="desktop-table" class="absolute top-[54.1vw]">
           <img 
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1702928477/table_xwe3xs.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1702928477/table_xwe3xs.png"
           alt="Desktop wood table pixel art"
           class="w-[99.9vw] h-[60vw]"
           />
@@ -50,7 +50,7 @@ import { Component } from '@angular/core';
 
         <div id="wall-shadow" class="absolute top-[23.4vw]  z-10">
           <img 
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704135252/shadow_ztxbuz.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704135252/shadow_ztxbuz.png"
               alt="Shadow on the wall pixel art"
               class="w-[100vw]"
             />
@@ -58,7 +58,7 @@ import { Component } from '@angular/core';
 
         <div id="computer-speaker-left" class="absolute left-[5vw] bottom-[15vw]  z-10">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1703956343/Stereo_c3sfcm.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703956343/Stereo_c3sfcm.png"
             alt="Vintage computer left speaker pixel art"
             class="w-[18vw]"
           />
@@ -66,7 +66,7 @@ import { Component } from '@angular/core';
 
         <div id="computer-monitor" class="z-20 relative mt-[0.4vw]">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1702928464/screen_vpremv.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1702928464/screen_vpremv.png"
             alt="Vintage computer monitor pixel art"
             class="w-[85vw] ml-[16.5vw]"
           />
@@ -89,7 +89,7 @@ import { Component } from '@angular/core';
 
         <div id="computer-speaker-right" class="absolute right-[0vw] bottom-[15vw] z-30">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1703956343/Stereo_c3sfcm.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703956343/Stereo_c3sfcm.png"
             alt="Vintage computer right speaker pixel art"
             class="w-[18vw]"
           />
@@ -99,7 +99,7 @@ import { Component } from '@angular/core';
       <div class="relative">
         <div id="computer-keyboard" class="relative mt-[2vw]">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1702928472/keyboard_r0owce.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1702928472/keyboard_r0owce.png"
             alt="Vintage computer keyboard pixel art"
             class="relative w-[70vw] rotate-3 left-[1vw]"
           />
@@ -107,14 +107,14 @@ import { Component } from '@angular/core';
 
         <div id="cup-coffee" class="absolute -top-[15.5vw] right-[1vw] z-30">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1703957915/Smoke_Dark_hzsnah.gif"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703957915/Smoke_Dark_hzsnah.gif"
             alt="Vintage coffee smoke gif pixel art"
             class="w-[11vw] absolute top-[-6.3vw] right-[0.3vw] opacity-25"
           />
         
           <a href="https://solana.com" target="_blank">
             <img 
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704136782/Coffee_1_f1esg4.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704136782/Coffee_1_f1esg4.png"
               alt="Vintage solana cup of coffee pixel art"
               class="w-[11vw]"
             />
@@ -123,7 +123,7 @@ import { Component } from '@angular/core';
 
         <div id="ashtray" class="absolute -top-[10.5vw] left-[4vw]">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704465247/Ashtray_2_y7wyub.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704465247/Ashtray_2_y7wyub.png"
             alt="Vintage ashtray pixel art"
             class="w-[12vw]"
           />
@@ -131,7 +131,7 @@ import { Component } from '@angular/core';
 
         <div id="computer-mousepad" class="absolute bottom-[4vw] -right-[1.5vw]">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1703956344/Mousepad_ua5xde.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703956344/Mousepad_ua5xde.png"
             alt="Heavy duty builders mousepad pixel art"
             class="w-[33vw] -rotate-1"
           />
@@ -142,7 +142,7 @@ import { Component } from '@angular/core';
         </div>
         <div id="computer-mouse" class="absolute bottom-[7vw] right-[8vw] z-20">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1704509525/Mobile_Mouse_fjeob2.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/v1704509525/Mobile_Mouse_fjeob2.png"
             alt="Vintage computer mouse pixel art"
             class="w-[20vw] -rotate-3"
           />
@@ -152,7 +152,7 @@ import { Component } from '@angular/core';
       <div class="relative mt-[10vw]">
         <div id="bookshelf" class="relative -left-[37vw] z-30">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704138687/Books_Shell_1_q13cdi.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704138687/Books_Shell_1_q13cdi.png"
             alt="Vintage bookshelf pixel art"
             class="w-[100vw]"
           />
@@ -162,28 +162,28 @@ import { Component } from '@angular/core';
         <div id="bookshelf-books-up" class="absolute top-[6vw] left-[7vw] w-[40vw] h-[12.5vw] z-40">
           <a href="https://www.soldev.app/" target="_blank" >
             <img  
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704289333/Blue_Book_qogwrt.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289333/Blue_Book_qogwrt.png"
               alt="Vintage blue book pixel art"
               class="w-[7.3vw] absolute z-10 top-[0vw]"
             />
           </a>
           <a href="https://www.soldev.app/" target="_blank" >
             <img 
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704289333/Red_Book_ui9oqa.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289333/Red_Book_ui9oqa.png"
               alt="Vintage red book pixel art"
               class="w-[6.7vw] absolute z-10 left-[4.5vw] top-[1.8vw]"
             />
           </a>
           <a href="https://www.soldev.app/" target="_blank" >
             <img 
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704289332/Green_Book_wfxtwg.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289332/Green_Book_wfxtwg.png"
               alt="Vintage green book pixel art"
               class="w-[7.1vw] absolute z-10 left-[9vw] top-[0.3vw]"
             />
           </a>
           <a href="https://www.soldev.app/" target="_blank" >
             <img 
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704289332/Pink_Book_wuxdpf.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289332/Pink_Book_wuxdpf.png"
               alt="Vintage green book pixel art"
               class="w-[7vw] absolute z-10 left-[13.5vw] top-[0.7vw]"
             />        
@@ -192,37 +192,37 @@ import { Component } from '@angular/core';
 
         <div id="bookshelf-books-down" class="absolute bottom-[0vw] left-[7vw] w-[6vw] h-[27vw] z-[30]">
           <img  
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704402554/Yellow_Simple_Book__xl7bko.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Yellow_Simple_Book__xl7bko.png"
             alt="Vintage yellow book pixel art"
             class="w-[4.9vw] absolute z-10 top-[0vw] -left-[1.1vw]"
           />  
           <img  
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704402554/White_Simple_Book__qqytug.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/White_Simple_Book__qqytug.png"
             alt="Vintage white book pixel art"
             class="w-[4.9vw] absolute z-10 top-[0vw] left-[3.6vw]"
           />
           <img  
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704402554/Blue_Simple_Book__foovlc.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Blue_Simple_Book__foovlc.png"
             alt="Vintage blue book pixel art"
             class="w-[4.9vw] absolute z-10 top-[0vw] left-[8.6vw]"
           />
           <img  
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704402554/Green_Simple_Book_lcseet.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Green_Simple_Book_lcseet.png"
             alt="Vintage green book pixel art"
             class="w-[4.9vw] absolute z-10 top-[0vw] left-[13vw]"
           />
           <img  
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704402554/Purple_Simple_Book_apk2zp.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Purple_Simple_Book_apk2zp.png"
             alt="Vintage purple book pixel art"
             class="w-[4.9vw] absolute z-10 top-[0vw] left-[17.5vw]"
           />
           <img  
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704402554/Yellow_Simple_Book__xl7bko.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Yellow_Simple_Book__xl7bko.png"
             alt="Vintage yellow book pixel art"
             class="w-[4.9vw] absolute z-10 top-[0vw] left-[22vw]"
           />  
           <img  
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704402554/Red_Simple_Book__fwzsq5.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Red_Simple_Book__fwzsq5.png"
             alt="Vintage red book pixel art"
             class="w-[4.9vw] absolute z-10 top-[0vw] left-[26.5vw]"
           />
@@ -232,7 +232,7 @@ import { Component } from '@angular/core';
 
         <div id="wall-shadow-room" class="absolute bottom-[8vw] -right-[3vw]  z-10">
           <img 
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704135252/shadow_ztxbuz.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704135252/shadow_ztxbuz.png"
               alt="Shadow on the wall pixel art"
               class="w-[100vw]"
             />
@@ -240,7 +240,7 @@ import { Component } from '@angular/core';
 
         <div id="trash-can" class="absolute z-10 -right-[2vw] bottom-0">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704654302/Trash_Can_vjrqps.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704654302/Trash_Can_vjrqps.png"
             alt="Trash can pixel art"
             class="w-[25vw]"
           />
@@ -253,7 +253,7 @@ import { Component } from '@angular/core';
       <div id="funko-builder" class="absolute bottom-[32vw] left-[28.5vw] z-[40]">
         <a href="https://heavyduty.builders" target="_blank">
           <img 
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1704138873/Builder_l1fch8.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704138873/Builder_l1fch8.png"
             alt="Vintage funko builder pixel art"
             class="w-[15vw]"
           />

@@ -53,7 +53,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               >
                 <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
                 <img
-                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
+                  src="https://res.cloudinary.com/andresmgsl/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
                   alt="Calendar icon"
                 />
@@ -85,7 +85,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             >
               <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1691707714/images/icons/calendar_zucjxg.webp"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/w_21/q_auto/f_auto/v1691707714/images/icons/calendar_zucjxg.webp"
                 class="absolute w-[1.1vw] left-[1.2vw]"
                 alt="Calendar icon"
               />
@@ -102,7 +102,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
             >
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1694100214/Clock_dcuean.png"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/w_21/q_auto/f_auto/v1694100214/Clock_dcuean.png"
                 class="absolute w-[1.1vw] left-[1.2vw]"
                 alt="Calendar icon"
               />
@@ -142,7 +142,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1692122853/information_grxkq0.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/w_461/q_auto/f_auto/v1692122853/information_grxkq0.png"
             class="w-full rotate-3"
             alt="Information text on a paper"
           />
@@ -150,7 +150,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] rotate-6">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1694104288/post_it_pink_lokhcq.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/w_422/q_auto/f_auto/v1694104288/post_it_pink_lokhcq.png"
             alt="pink post-it with some information"
             class="relative w-full"
           />
@@ -177,7 +177,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
           class="w-full"
           alt="Information text on a paper"
         />
@@ -192,7 +192,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1694101554/ulab-sticker-02_cpn0sm.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694101554/ulab-sticker-02_cpn0sm.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
               alt="Event 3 Sponsor 1 logo sticker"
             />
@@ -205,7 +205,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1694104748/alicante-tech-sticker_wk5dvo.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694104748/alicante-tech-sticker_wk5dvo.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
               alt="Event 3 Sponsor 2 logo sticker"
             />
