@@ -21,6 +21,40 @@ import { Component } from '@angular/core';
         />
       </div>
 
+      
+      <div id="partners-cork" class="absolute left-[1vw] bottom-[34vw]">
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Cork_2_jwnr5s.png"
+          alt="Vintage cork with partners stickers"
+          class="w-[32vw] relative"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
+          alt="Vintage  partners stickers"
+          class="w-[7vw] absolute z-30 top-[3vw] right-[8vw]"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
+          alt="Vintage  partners stickers"
+          class="w-[6vw] absolute z-30 top-[10vw] right-[4vw] -rotate-[15deg]"
+        />
+
+        <!-- PIN -->
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+          alt="Vintage  partners stickers"
+          class="w-[1.5vw] absolute z-30 top-[9.8vw] right-[6.4vw] -rotate-[15deg]"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+          alt="Vintage  partners stickers"
+          class="w-[1.5vw] absolute z-30 top-[2.7vw] right-[10.6vw] -rotate-[15deg]"
+        />
+      </div>
+
       <div id="main-art-welcome" class="absolute w-[30vw] right-[34.5vw] bottom-[47.5vw]">
         <img 
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704143728/Small_Sign_qgu8np.png"
@@ -113,7 +147,7 @@ import { Component } from '@angular/core';
         />        
       </div>
 
-      <div id="bookshelf-books-up" class="absolute bottom-[31.5vw] left-[2.5vw] w-[6vw] h-[12.5vw]">
+      <!-- <div id="bookshelf-books-up" class="absolute bottom-[31.5vw] left-[2.5vw] w-[6vw] h-[12.5vw]">
         <a href="https://www.soldev.app/" target="_blank" >
           <img  
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289333/Blue_Book_qogwrt.png"
@@ -142,9 +176,26 @@ import { Component } from '@angular/core';
             class="w-[2.8vw] absolute z-10 left-[5vw] top-[0.55vw]"
           />        
         </a>
+      </div> -->
+
+      <div id="terms-and-policies" class="absolute bottom-[31vw] left-[2.5vw] z-20">
+        <a href="https://solanaspain.dev/assets/privacy_policies.pdf" target="_blank" aria-label="privacy policies">
+          <img 
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705165055/Green_PP_Book_f37ljf.png"
+            alt="Vintage drink can pixel art"
+            class="w-[16vw] absolute -top-[1.8vw]"
+          />
+        </a>
+        <a href="https://solanaspain.dev/assets/terms_and_conditions.pdf" target="_blank" aria-label="privacy policies">
+          <img 
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705165055/Blue_TC_Book_ojknbe.png"
+            alt="Vintage drink can pixel art"
+            class="w-[16vw]"
+          />
+        </a>  
       </div>
 
-      <div id="funko-builder" class="absolute bottom-[32vw] left-[12.5vw]">
+      <div id="funko-builder" class="absolute bottom-[35.4vw] left-[8vw] z-[50]">
         <a href="https://heavyduty.builders" target="_blank">
           <img 
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704138873/Builder_l1fch8.png"
@@ -191,7 +242,7 @@ import { Component } from '@angular/core';
             <h2 class="text-[1.4vw] text-[#00E805]">
               > INTRODUCCION <br/>
               A LAS DAPPS <br/>
-              EN SOLANA
+              EN SOLANA <span class="terminal-cursor-desktop"></span>
             </h2>
             <button class="bg-[#00E805] mt-[1.5vw] px-[1vw] py-[0.5vw] text-black text-[1.1vw]" aria-label="Botón de registro">
               <a data-formkit-toggle="ec6cdd2569" href="https://discoprotocol.ck.page/ec6cdd2569">
@@ -234,13 +285,7 @@ import { Component } from '@angular/core';
         />
       </div>
 
-      <div id="terms-and-policies">
-        <img 
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704394177/Beer_1_oue2db.png"
-          alt="Vintage drink can pixel art"
-          class="w-[4vw]"
-        />
-      </div>
+
 
       <div id="cup-coffee" class="absolute bottom-[6.5vw] right-[6vw]">
         <img 

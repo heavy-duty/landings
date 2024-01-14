@@ -38,7 +38,40 @@ import { Component } from '@angular/core';
         />
       </div>
 
-      <div class="relative flex justify-center mt-[10vw]">
+      <div id="partners-cork" class="relative flex justify-center mt-[5vw]">
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Cork_2_jwnr5s.png"
+          alt="Vintage cork with partners stickers"
+          class="w-[90vw] relative"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
+          alt="Vintage  partners stickers"
+          class="w-[22vw] absolute z-30 top-[4vw] right-[28vw]"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
+          alt="Vintage  partners stickers"
+          class="w-[20vw] absolute z-30 top-[30vw] right-[15vw] -rotate-[15deg]"
+        />
+
+        <!-- PIN -->
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+          alt="Vintage  partners stickers"
+          class="w-[4vw] absolute z-30 top-[30vw] right-[23.5vw] -rotate-[15deg]"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+          alt="Vintage  partners stickers"
+          class="w-[4vw] absolute z-30 top-[3.5vw] right-[36.5vw] -rotate-[15deg]"
+        />
+      </div>
+
+      <div class="relative flex justify-center mt-[6vw]">
 
         <div id="desktop-table" class="absolute top-[54.1vw]">
           <img 
@@ -77,6 +110,8 @@ import { Component } from '@angular/core';
                 > INTRODUCCION <br/>
                 A LAS DAPPS <br/>
                 EN SOLANA
+
+                <span class="terminal-cursor-mobile"></span>
               </h2>
               <button class="bg-[#00E805] mt-[4vw] px-[4vw] py-[1.5vw] text-black text-[2.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">
                 <a data-formkit-toggle="ec6cdd2569" href="https://discoprotocol.ck.page/ec6cdd2569">
@@ -159,7 +194,24 @@ import { Component } from '@angular/core';
         </div>
 
 
-        <div id="bookshelf-books-up" class="absolute top-[6vw] left-[7vw] w-[40vw] h-[12.5vw] z-40">
+        <div id="bookshelf-books-up" class="absolute top-[27vw] left-[7vw] w-[40vw] h-[10vw] z-[60]">
+          <a href="https://solanaspain.dev/assets/privacy_policies.pdf" target="_blank" aria-label="privacy policies">
+            <img 
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705165055/Green_PP_Book_f37ljf.png"
+              alt="Vintage drink can pixel art"
+              class="w-[46vw] absolute -top-[4vw]"
+            />
+          </a>
+          <a href="https://solanaspain.dev/assets/terms_and_conditions.pdf" target="_blank" aria-label="privacy policies">
+            <img 
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705165055/Blue_TC_Book_ojknbe.png"
+              alt="Vintage drink can pixel art"
+              class="w-[46vw]"
+            />
+          </a>  
+        </div>
+
+        <!-- <div id="bookshelf-books-up" class="absolute top-[6vw] left-[7vw] w-[40vw] h-[12.5vw] z-40">
           <a href="https://www.soldev.app/" target="_blank" >
             <img  
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289333/Blue_Book_qogwrt.png"
@@ -188,7 +240,7 @@ import { Component } from '@angular/core';
               class="w-[7vw] absolute z-10 left-[13.5vw] top-[0.7vw]"
             />        
           </a>
-        </div>
+        </div> -->
 
         <div id="bookshelf-books-down" class="absolute bottom-[0vw] left-[7vw] w-[6vw] h-[27vw] z-[30]">
           <img  
@@ -250,7 +302,7 @@ import { Component } from '@angular/core';
         <div id="room-floor" class="absolute w-[100vw] bg-[#faebd7] h-[8.5vw] bottom-[0vw]"></div>
       </div>
 
-      <div id="funko-builder" class="absolute bottom-[32vw] left-[28.5vw] z-[40]">
+      <div id="funko-builder" class="absolute bottom-[41vw] left-[21vw] z-[70]">
         <a href="https://heavyduty.builders" target="_blank">
           <img 
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704138873/Builder_l1fch8.png"
