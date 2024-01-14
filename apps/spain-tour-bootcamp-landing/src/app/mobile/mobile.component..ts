@@ -185,28 +185,28 @@ import { Component } from '@angular/core';
       </div>
 
       <div class="relative mt-[10vw]">
-        <div id="bookshelf" class="relative -left-[37vw] z-30">
+        <div id="bookshelf" class="relative -left-[49.5vw] z-30 w-[130vw]">
           <img 
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704138687/Books_Shell_1_q13cdi.png"
             alt="Vintage bookshelf pixel art"
-            class="w-[100vw]"
+            class="w-[130vw]"
           />
         </div>
 
 
-        <div id="bookshelf-books-up" class="absolute top-[27vw] left-[7vw] w-[40vw] h-[10vw] z-[60]">
+        <div id="bookshelf-books-up" class="absolute top-[36vw] left-[8vw] w-[50vw] h-[10vw] z-[60]">
           <a href="https://solanaspain.dev/assets/privacy_policies.pdf" target="_blank" aria-label="privacy policies">
             <img 
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705165055/Green_PP_Book_f37ljf.png"
               alt="Vintage drink can pixel art"
-              class="w-[46vw] absolute -top-[4vw]"
+              class="w-[50vw] absolute -top-[4vw]"
             />
           </a>
           <a href="https://solanaspain.dev/assets/terms_and_conditions.pdf" target="_blank" aria-label="privacy policies">
             <img 
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705165055/Blue_TC_Book_ojknbe.png"
               alt="Vintage drink can pixel art"
-              class="w-[46vw]"
+              class="w-[50vw]"
             />
           </a>  
         </div>
@@ -242,41 +242,51 @@ import { Component } from '@angular/core';
           </a>
         </div> -->
 
-        <div id="bookshelf-books-down" class="absolute bottom-[0vw] left-[7vw] w-[6vw] h-[27vw] z-[30]">
+        <div id="bookshelf-books-down" class="absolute bottom-[0vw] left-[7vw] w-[6vw] h-[34vw] z-[30]">
           <img  
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Yellow_Simple_Book__xl7bko.png"
             alt="Vintage yellow book pixel art"
-            class="w-[4.9vw] absolute z-10 top-[0vw] -left-[1.1vw]"
+            class="w-[7.4vw] absolute z-10 top-[0vw] -left-[1.1vw]"
           />  
           <img  
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/White_Simple_Book__qqytug.png"
             alt="Vintage white book pixel art"
-            class="w-[4.9vw] absolute z-10 top-[0vw] left-[3.6vw]"
+            class="w-[7.4vw] absolute z-10 top-[0vw] left-[3.6vw]"
           />
           <img  
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Blue_Simple_Book__foovlc.png"
             alt="Vintage blue book pixel art"
-            class="w-[4.9vw] absolute z-10 top-[0vw] left-[8.6vw]"
+            class="w-[7.4vw] absolute z-10 top-[0vw] left-[8.6vw]"
           />
           <img  
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Green_Simple_Book_lcseet.png"
             alt="Vintage green book pixel art"
-            class="w-[4.9vw] absolute z-10 top-[0vw] left-[13vw]"
+            class="w-[7.4vw] absolute z-10 top-[0vw] left-[13vw]"
           />
           <img  
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Purple_Simple_Book_apk2zp.png"
             alt="Vintage purple book pixel art"
-            class="w-[4.9vw] absolute z-10 top-[0vw] left-[17.5vw]"
+            class="w-[7.4vw] absolute z-10 top-[0vw] left-[17.5vw]"
           />
           <img  
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Yellow_Simple_Book__xl7bko.png"
             alt="Vintage yellow book pixel art"
-            class="w-[4.9vw] absolute z-10 top-[0vw] left-[22vw]"
+            class="w-[7.4vw] absolute z-10 top-[0vw] left-[22vw]"
           />  
           <img  
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Red_Simple_Book__fwzsq5.png"
             alt="Vintage red book pixel art"
-            class="w-[4.9vw] absolute z-10 top-[0vw] left-[26.5vw]"
+            class="w-[7.4vw] absolute z-10 top-[0vw] left-[26.5vw]"
+          />
+          <img  
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Blue_Simple_Book__foovlc.png"
+            alt="Vintage blue book pixel art"
+            class="w-[7.4vw] absolute z-10 top-[0vw] left-[31.6vw]"
+          />
+          <img  
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Green_Simple_Book_lcseet.png"
+            alt="Vintage green book pixel art"
+            class="w-[7.4vw] absolute z-10 top-[0vw] left-[36.5vw]"
           />
         </div>
 
@@ -290,11 +300,11 @@ import { Component } from '@angular/core';
             />
         </div> 
 
-        <div id="trash-can" class="absolute z-10 -right-[2vw] bottom-0">
+        <div id="trash-can" class="absolute z-40 -right-[7vw] bottom-0">
           <img 
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704654302/Trash_Can_vjrqps.png"
             alt="Trash can pixel art"
-            class="w-[25vw]"
+            class="w-[35vw]"
           />
         </div>
         
@@ -302,12 +312,12 @@ import { Component } from '@angular/core';
         <div id="room-floor" class="absolute w-[100vw] bg-[#faebd7] h-[8.5vw] bottom-[0vw]"></div>
       </div>
 
-      <div id="funko-builder" class="absolute bottom-[41vw] left-[21vw] z-[70]">
+      <div id="funko-builder" class="absolute bottom-[52vw] left-[23vw] z-[70]">
         <a href="https://heavyduty.builders" target="_blank">
           <img 
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704138873/Builder_l1fch8.png"
             alt="Vintage funko builder pixel art"
-            class="w-[15vw]"
+            class="w-[20vw]"
           />
         </a>
       </div>
