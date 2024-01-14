@@ -51,23 +51,29 @@ import { Component } from '@angular/core';
           class="w-[90vw] relative"
         />
 
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
-          alt="Vintage Solana Hub partners stickers"
-          class="w-[22vw] absolute z-30 top-[4vw] right-[28vw]"
-        />
+        <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
+            alt="Vintage Solana Hub partners stickers"
+            class="w-[22vw] absolute z-30 top-[4vw] right-[28vw]"
+          />
+        </a>
 
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
-          alt="Vintage Shyft partners stickers"
-          class="w-[20vw] absolute z-30 top-[30vw] right-[15vw] -rotate-[15deg]"
-        />
+        <a href="https://shyft.to/" target="_blank" aria-label="link to Shyft RPC">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
+            alt="Vintage Shyft partners stickers"
+            class="w-[20vw] absolute z-30 top-[30vw] right-[15vw] -rotate-[15deg]"
+          />
+        </a>
 
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Cointelegraph_rrsref.png"
-          alt="Vintage Cointelegraph partners stickers"
-          class="w-[24vw] absolute z-30 top-[28vw] right-[43vw] rotate-[15deg]"
-        />
+        <a href="https://cointelegraph.com/" target="_blank" aria-label="link to CoinTelegraph">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Cointelegraph_rrsref.png"
+            alt="Vintage Cointelegraph partners stickers"
+            class="w-[24vw] absolute z-30 top-[28vw] right-[43vw] rotate-[15deg]"
+          />
+        </a>
 
         <a href="https://solanacookbook.com/" target="_blank" arial-label="Solana Cookbook link">
           <img
@@ -226,20 +232,26 @@ import { Component } from '@angular/core';
         </div>
 
 
-        <div id="bookshelf-books-up" class="absolute top-[36vw] left-[8vw] w-[50vw] h-[10vw] z-[60]">
+        <div id="bookshelf-books-up" class="absolute top-[36vw] left-[9vw] w-[50vw] h-[10vw] z-[60] bp-font-retro-computer">
           <a href="https://solanaspain.dev/assets/privacy_policies.pdf" target="_blank" aria-label="privacy policies">
             <img 
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705165055/Green_PP_Book_f37ljf.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705267989/Pp_Book_gjjftl.png"
               alt="Vintage drink can pixel art"
               class="w-[50vw] absolute -top-[4vw]"
             />
+            <p class="absolute mt-[4.2vw] ml-[3vw] text-[1.8vw]">
+              Politicas de privacidad
+            </p>
           </a>
           <a href="https://solanaspain.dev/assets/terms_and_conditions.pdf" target="_blank" aria-label="privacy policies">
             <img 
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705165055/Blue_TC_Book_ojknbe.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705267989/Tc_Book_lrptrw.png"
               alt="Vintage drink can pixel art"
               class="w-[50vw]"
             />
+            <p class="absolute top-[9vw] ml-[3.5vw] text-[1.8vw]">
+              Terminos y condiciones
+            </p>
           </a>  
         </div>
 
