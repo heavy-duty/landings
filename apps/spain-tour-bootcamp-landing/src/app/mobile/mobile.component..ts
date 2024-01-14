@@ -53,27 +53,53 @@ import { Component } from '@angular/core';
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
-          alt="Vintage  partners stickers"
+          alt="Vintage Solana Hub partners stickers"
           class="w-[22vw] absolute z-30 top-[4vw] right-[28vw]"
         />
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
-          alt="Vintage  partners stickers"
+          alt="Vintage Shyft partners stickers"
           class="w-[20vw] absolute z-30 top-[30vw] right-[15vw] -rotate-[15deg]"
         />
 
-        <!-- PIN -->
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Cointelegraph_rrsref.png"
+          alt="Vintage Cointelegraph partners stickers"
+          class="w-[24vw] absolute z-30 top-[28vw] right-[43vw] rotate-[15deg]"
+        />
+
+        <a href="https://solanacookbook.com/" target="_blank" arial-label="Solana Cookbook link">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Post-it_jcuxkl.png"
+            alt="Vintage post-it purple message"
+            class="w-[24vw] absolute z-30 top-[8vw] right-[69vw] rotate-[15deg]"
+          />
+        </a>
+
+        <!-- PINs -->
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage  partners stickers"
-          class="w-[4vw] absolute z-30 top-[30vw] right-[23.5vw] -rotate-[15deg]"
+          alt="Vintage cork pin"
+          class="w-[4vw] absolute z-30 top-[30vw] right-[24.5vw] -rotate-[15deg]"
         />
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage  partners stickers"
+          alt="Vintage cork pin"
           class="w-[4vw] absolute z-30 top-[3.5vw] right-[36.5vw] -rotate-[15deg]"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+          alt="Vintage cork pin"
+          class="w-[4vw] absolute z-30 top-[28.5vw] right-[51.5vw] -rotate-[15deg]"
+        />
+        
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Pin2_zcum7b.png"
+          alt="Vintage cork pin"
+          class="w-[4vw] absolute z-30 top-[8.5vw] right-[77.5vw] -rotate-[15deg]"
         />
       </div>
 
@@ -250,7 +276,7 @@ import { Component } from '@angular/core';
 
         <div id="bookshelf-books-down" class="absolute bottom-[0vw] left-[7vw] w-[6vw] h-[34vw] z-[30]">
           <img  
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Yellow_Simple_Book__xl7bko.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Red_Simple_Book__fwzsq5.png"
             alt="Vintage yellow book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] -left-[1.1vw]"
           />  

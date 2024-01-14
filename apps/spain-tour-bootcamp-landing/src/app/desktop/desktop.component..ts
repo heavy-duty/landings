@@ -37,27 +37,53 @@ import { Component } from '@angular/core';
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
-          alt="Vintage  partners stickers"
+          alt="Vintage Solana Hub partners stickers"
           class="w-[7vw] absolute z-30 top-[3vw] right-[8vw]"
         />
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
-          alt="Vintage  partners stickers"
+          alt="Vintage Shyft partners stickers"
           class="w-[6vw] absolute z-30 top-[10vw] right-[4vw] -rotate-[15deg]"
         />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Cointelegraph_rrsref.png"
+          alt="Vintage Cointelegraph partners stickers"
+          class="w-[7vw] absolute z-30 top-[11vw] right-[12vw] rotate-[15deg]"
+        />
+
+        <a href="https://solanacookbook.com/" target="_blank" arial-label="Solana Cookbook link">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Post-it_jcuxkl.png"
+            alt="Vintage post-it purple message"
+            class="w-[7.5vw] absolute z-30 top-[3vw] right-[19vw] rotate-[15deg]"
+          />
+        </a>
 
         <!-- PIN -->
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage  partners stickers"
+          alt="Vintage cork pin"
           class="w-[1.5vw] absolute z-30 top-[9.8vw] right-[6.4vw] -rotate-[15deg]"
         />
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage  partners stickers"
+          alt="Vintage cork pin"
           class="w-[1.5vw] absolute z-30 top-[2.7vw] right-[10.6vw] -rotate-[15deg]"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+          alt="Vintage cork pin"
+          class="w-[1.5vw] absolute z-30 top-[11.3vw] right-[14.2vw] -rotate-[15deg]"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Pin2_zcum7b.png"
+          alt="Vintage cork pin"
+          class="w-[1.5vw] absolute z-30 top-[3.3vw] right-[21.3vw] -rotate-[15deg]"
         />
       </div>
 
