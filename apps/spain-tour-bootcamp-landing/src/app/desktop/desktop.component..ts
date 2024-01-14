@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
 
 @Component({
   selector: 'bootcamp-app-desktop-component',
@@ -282,17 +283,17 @@ import { Component } from '@angular/core';
         />
 
         <div class="absolute top-[9vw] flex justify-center bp-font-retro-computer">
-          <div class="text-left relative left-[5.5vw]">
+          <div class="text-left relative left-[5.5vw] max-w-[16vw]">
             <h2 class="text-[1.4vw] text-[#00E805]">
-              > INTRODUCCION <br/>
-              A LAS DAPPS <br/>
-              EN SOLANA <span class="terminal-cursor-desktop"></span>
+              > {{isFromEmail ?  successText : introText}} <span class="terminal-cursor-desktop"></span>
             </h2>
-            <button class="bg-[#00E805] mt-[1.5vw] px-[1vw] py-[0.5vw] text-black text-[1.1vw]" aria-label="Botón de registro">
-              <a data-formkit-toggle="ec6cdd2569" href="https://discoprotocol.ck.page/ec6cdd2569">
-                REGISTRARME
-              </a>
-            </button>
+            @if (!isFromEmail) {
+              <button class="bg-[#00E805] mt-[1.5vw] px-[1vw] py-[0.5vw] text-black text-[1.1vw]" aria-label="Botón de registro">
+                <a data-formkit-toggle="ec6cdd2569" href="https://discoprotocol.ck.page/ec6cdd2569">
+                  REGISTRARME
+                </a>
+              </button>
+            }
           </div>
         </div>
       </div>
@@ -372,4 +373,9 @@ import { Component } from '@angular/core';
   standalone: true,
   styles: []
 })
-export class AppDesktopComponent { }
+export class AppDesktopComponent { 
+  @Input() isFromEmail = false;
+
+  introText = INTRO_TEXT;
+  successText = SUCCESS_INSCRIPTION_TEXT;
+}

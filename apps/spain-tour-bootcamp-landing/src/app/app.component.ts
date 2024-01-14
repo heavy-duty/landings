@@ -8,6 +8,7 @@ import {
   BreakpointState
 } from '@angular/cdk/layout';
 import { UpdateSubscriptionService } from './components/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   standalone: true,
@@ -16,10 +17,10 @@ import { UpdateSubscriptionService } from './components/core';
     <div class="bp-bg-wall"></div>
 
     <div *ngIf="!showMobile">
-      <bootcamp-app-desktop-component></bootcamp-app-desktop-component> 
+      <bootcamp-app-desktop-component [isFromEmail]="isFromEmail"></bootcamp-app-desktop-component> 
     </div>
     <div *ngIf="showMobile">
-      <bootcamp-app-mobile-component></bootcamp-app-mobile-component> 
+      <bootcamp-app-mobile-component [isFromEmail]="isFromEmail"></bootcamp-app-mobile-component> 
     </div>  
   `,
   imports: [AppDesktopComponent, AppMobileComponent, CommonModule],
@@ -30,8 +31,12 @@ export class AppComponent implements OnInit {
   constructor(private breakpointObserver: BreakpointObserver) { }
 
   private readonly _updateSubscriptionService = inject(UpdateSubscriptionService);
+  private readonly _route = inject(ActivatedRoute);
   readonly breakpoint$ = this.breakpointObserver;
+
   showMobile = false;
+  isFromEmail: boolean = false;
+
 
   ngOnInit(): void {
     this.breakpoint$
@@ -43,6 +48,18 @@ export class AppComponent implements OnInit {
           this.showMobile = true;
         }
       });
+
+      
+      
+      this._route.queryParamMap.subscribe(
+        (params) => {
+          console.log("Getting_Data", params.get('isFromEmail'));
+          this.isFromEmail = params.get('isFromEmail') ? true : false;
+        }
+      )
+
   }
 
+
+  
 }

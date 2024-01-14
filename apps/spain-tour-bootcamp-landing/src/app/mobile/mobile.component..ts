@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
 
 @Component({
   selector: 'bootcamp-app-mobile-component',
@@ -143,19 +144,17 @@ import { Component } from '@angular/core';
           />
 
           <div class="absolute top-[22vw] w-[100vw] flex justify-center bp-font-retro-computer">
-            <div class="text-left relative -left-[1vw]">
+            <div class="text-left relative -left-[1vw] w-[34vw]">
               <h2 class="text-[3vw] text-[#00E805]">
-                > INTRODUCCION <br/>
-                A LAS DAPPS <br/>
-                EN SOLANA
-
-                <span class="terminal-cursor-mobile"></span>
+                > {{isFromEmail ?  successText : introText}} <span class="terminal-cursor-mobile"></span>
               </h2>
+              @if (!isFromEmail) {
               <button class="bg-[#00E805] mt-[4vw] px-[4vw] py-[1.5vw] text-black text-[2.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">
                 <a data-formkit-toggle="ec6cdd2569" href="https://discoprotocol.ck.page/ec6cdd2569">
                   REGISTRARME
                 </a>
               </button>
+              }
             </div>
           </div>
         </div>
@@ -372,4 +371,9 @@ import { Component } from '@angular/core';
   standalone: true,
   styles: []
 })
-export class AppMobileComponent {}
+export class AppMobileComponent {
+  @Input() isFromEmail = false;
+
+  introText = INTRO_TEXT;
+  successText = SUCCESS_INSCRIPTION_TEXT;
+}
