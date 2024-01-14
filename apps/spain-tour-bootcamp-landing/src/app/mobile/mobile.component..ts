@@ -36,6 +36,12 @@ import { Component } from '@angular/core';
           alt="Vintage calendar february pixel art"
           class="relative w-[80vw] left-[1vw]"
         />
+
+        <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Solana+Boot+Camp+Espa%C3%B1a&details=El+primer+boot+camp+de+solana+en+espa%C3%B1a&location=Online&dates=20240205T200000Z%2F20240205T220000Z" alt="Add event to Google calendar" target="_blank">
+          <div class="add-calendar-event" class="absolute top-[56.5vw] left-[27vw] w-[8.5vw] h-[7.5vw]">
+
+          </div>
+        </a>
       </div>
 
       <div id="partners-cork" class="relative flex justify-center mt-[5vw]">
