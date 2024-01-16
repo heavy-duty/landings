@@ -38,9 +38,17 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
 
         <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
           <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
+            alt="Vintage collaborators title stickers"
+            class="w-[16vw] absolute z-30 top-[2vw] right-[2.5vw]"
+          />
+        </a>
+
+        <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
             alt="Vintage Solana Hub partners stickers"
-            class="w-[7vw] absolute z-30 top-[3vw] right-[8vw]"
+            class="w-[7vw] absolute z-30 top-[5.5vw] right-[6vw]"
           />
         </a>
 
@@ -48,7 +56,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
             alt="Vintage Shyft partners stickers"
-            class="w-[6vw] absolute z-30 top-[10vw] right-[4vw] -rotate-[15deg]"
+            class="w-[6vw] absolute z-30 top-[12.5vw] right-[4vw] -rotate-[15deg]"
           />
         </a>
 
@@ -72,13 +80,13 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
           alt="Vintage cork pin"
-          class="w-[1.5vw] absolute z-30 top-[9.8vw] right-[6.4vw] -rotate-[15deg]"
+          class="w-[1.5vw] absolute z-30 top-[12.5vw] right-[6.4vw] -rotate-[15deg]"
         />
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
           alt="Vintage cork pin"
-          class="w-[1.5vw] absolute z-30 top-[2.7vw] right-[10.6vw] -rotate-[15deg]"
+          class="w-[1.5vw] absolute z-30 top-[5.2vw] right-[8.6vw] -rotate-[15deg]"
         />
 
         <img

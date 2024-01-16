@@ -54,9 +54,17 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
 
         <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
           <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
+            alt="Vintage collaborators title stickers"
+            class="w-[55vw] absolute z-30 top-[4.5vw] right-[11vw]"
+          />
+        </a>
+
+        <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
             alt="Vintage Solana Hub partners stickers"
-            class="w-[22vw] absolute z-30 top-[4vw] right-[28vw]"
+            class="w-[22vw] absolute z-30 top-[15vw] right-[28vw]"
           />
         </a>
 
@@ -64,7 +72,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
             alt="Vintage Shyft partners stickers"
-            class="w-[20vw] absolute z-30 top-[30vw] right-[15vw] -rotate-[15deg]"
+            class="w-[20vw] absolute z-30 top-[32vw] right-[10vw] -rotate-[15deg]"
           />
         </a>
 
@@ -72,7 +80,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Cointelegraph_rrsref.png"
             alt="Vintage Cointelegraph partners stickers"
-            class="w-[24vw] absolute z-30 top-[28vw] right-[43vw] rotate-[15deg]"
+            class="w-[24vw] absolute z-30 top-[33vw] right-[43vw] rotate-[15deg]"
           />
         </a>
 
@@ -88,19 +96,19 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
           alt="Vintage cork pin"
-          class="w-[4vw] absolute z-30 top-[30vw] right-[24.5vw] -rotate-[15deg]"
+          class="w-[4vw] absolute z-30 top-[32vw] right-[19.5vw] -rotate-[15deg]"
         />
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
           alt="Vintage cork pin"
-          class="w-[4vw] absolute z-30 top-[3.5vw] right-[36.5vw] -rotate-[15deg]"
+          class="w-[4vw] absolute z-30 top-[14vw] right-[36.5vw] -rotate-[15deg]"
         />
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
           alt="Vintage cork pin"
-          class="w-[4vw] absolute z-30 top-[28.5vw] right-[51.5vw] -rotate-[15deg]"
+          class="w-[4vw] absolute z-30 top-[34.5vw] right-[50.5vw] -rotate-[15deg]"
         />
         
         <img
@@ -350,7 +358,6 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
             class="w-[35vw]"
           />
         </div>
-        
 
         <div id="room-floor" class="absolute w-[100vw] bg-[#faebd7] h-[8.5vw] bottom-[0vw]"></div>
       </div>
