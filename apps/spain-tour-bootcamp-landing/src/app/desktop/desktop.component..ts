@@ -228,17 +228,17 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
       <div id="terms-and-policies" class="absolute bottom-[31vw] left-[2.5vw] z-20 bp-font-retro-computer">
         <a href="https://solanaspain.dev/assets/privacy_policies.pdf" target="_blank" aria-label="privacy policies">
           <img 
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705267989/Pp_Book_gjjftl.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705447193/Pp_Book_1_u9q485.png"
             alt="Vintage drink can pixel art"
-            class="w-[16vw] absolute -top-[1.8vw]"
+            class="w-[16vw] absolute -top-[2.1vw] left-[0.4vw]"
           />
-          <p class="absolute top-[0.8vw] left-[1vw] text-[0.58vw]">
+          <p class="absolute top-[0.5vw] left-[1.3vw] text-[0.58vw]">
             Politicas de privacidad
           </p>
         </a>
         <a href="https://solanaspain.dev/assets/terms_and_conditions.pdf" target="_blank" aria-label="privacy policies">
           <img 
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705267989/Tc_Book_lrptrw.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705446722/Tc_Book_1_c3w8cr.png"
             alt="Vintage drink can pixel art"
             class="w-[16vw]"
           />

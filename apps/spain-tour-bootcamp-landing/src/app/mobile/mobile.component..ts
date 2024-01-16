@@ -242,21 +242,21 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         <div id="bookshelf-books-up" class="absolute top-[36vw] left-[9vw] w-[50vw] h-[10vw] z-[60] bp-font-retro-computer">
           <a href="https://solanaspain.dev/assets/privacy_policies.pdf" target="_blank" aria-label="privacy policies">
             <img 
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705267989/Pp_Book_gjjftl.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705447193/Pp_Book_1_u9q485.png"
               alt="Vintage drink can pixel art"
-              class="w-[50vw] absolute -top-[4vw]"
+              class="w-[50vw] absolute -top-[6vw] left-[1.2vw]"
             />
-            <p class="absolute mt-[4.2vw] ml-[3vw] text-[1.8vw]">
+            <p class="absolute top-[2vw] ml-[4vw] text-[1.8vw]">
               Politicas de privacidad
             </p>
           </a>
           <a href="https://solanaspain.dev/assets/terms_and_conditions.pdf" target="_blank" aria-label="privacy policies">
             <img 
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705267989/Tc_Book_lrptrw.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705446722/Tc_Book_1_c3w8cr.png"
               alt="Vintage drink can pixel art"
               class="w-[50vw]"
             />
-            <p class="absolute top-[9vw] ml-[3.5vw] text-[1.8vw]">
+            <p class="absolute top-[8.3vw] ml-[3.5vw] text-[1.8vw]">
               Terminos y condiciones
             </p>
           </a>  
