@@ -238,7 +238,6 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           />
         </div>
 
-
         <div id="bookshelf-books-up" class="absolute top-[36vw] left-[9vw] w-[50vw] h-[10vw] z-[60] bp-font-retro-computer">
           <a href="https://solanaspain.dev/assets/privacy_policies.pdf" target="_blank" aria-label="privacy policies">
             <img 
