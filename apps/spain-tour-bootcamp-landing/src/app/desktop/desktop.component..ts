@@ -26,6 +26,10 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
 
           </div>
         </a>
+
+        <a href="https://solana.com" target="_blank">
+          <div class="absolute opacity-0 w-[19.7vw] h-[7.8vw] z-40 top-[2.9vw] left-[1.9vw]"></div>
+        </a>
       </div>
 
       

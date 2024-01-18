@@ -39,9 +39,11 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         />
 
         <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Solana+Boot+Camp+Espa%C3%B1a&details=El+primer+boot+camp+de+solana+en+espa%C3%B1a&location=Online&dates=20240205T200000Z%2F20240205T220000Z" alt="Add event to Google calendar" target="_blank">
-          <div class="add-calendar-event" class="absolute top-[56.5vw] left-[27vw] w-[8.5vw] h-[7.5vw]">
+          <div class="add-calendar-event" class="absolute top-[56.5vw] left-[27vw] w-[8.5vw] h-[7.5vw]"></div>
+        </a>
 
-          </div>
+        <a href="https://solana.com" target="_blank">
+          <div class="absolute opacity-0 w-[65.5vw] h-[26vw] z-40 top-[9.6vw] left-[17.6vw]"></div>
         </a>
       </div>
 
