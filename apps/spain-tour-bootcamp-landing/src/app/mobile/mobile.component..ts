@@ -342,7 +342,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           />
         </div>
 
-        <div id="wall-shadow-desktop" class="absolute w-[100vw] h-[70vw] bg-black -top-[7.2vw] opacity-30"></div>
+        <div id="wall-shadow-desktop" class="absolute w-[100vw] h-[90vw] bg-black -top-[7.2vw] opacity-30"></div>
 
         <div id="wall-shadow-room" class="absolute bottom-[8vw] -right-[3vw]  z-10">
           <img 
@@ -352,12 +352,14 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
             />
         </div> 
 
-        <div id="trash-can" class="absolute z-40 -right-[7vw] bottom-0">
-          <img 
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704654302/Trash_Can_vjrqps.png"
-            alt="Trash can pixel art"
-            class="w-[35vw]"
-          />
+        <div id="red-backpack" class="absolute z-40 -right-[4vw] bottom-0">
+          <a href="https://backpack.app/" target="_blank" aria-label="Link to Backpack official website">
+            <img 
+              src="https://res.cloudinary.com/andresmgsl/image/upload/v1705699000/Back-pack_l5p1nc.png"
+              alt="Vintage backpack red pixel art"
+              class="w-[35vw]"
+            />
+          </a>  
         </div>
 
         <div id="room-floor" class="absolute w-[100vw] bg-[#faebd7] h-[8.5vw] bottom-[0vw]"></div>

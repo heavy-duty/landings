@@ -14,7 +14,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
           />
       </div>
 
-      <div id="official-calendar" class="absolute right-[4vw] bottom-[23.5vw]">
+      <div id="official-calendar" class="absolute right-[4vw] bottom-[24.8vw]">
         <img 
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705014352/Poster_Febrero_wdbqgo.png"
           alt="Vintage calendar february pixel art"
@@ -33,7 +33,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
       </div>
 
       
-      <div id="partners-cork" class="absolute left-[1vw] bottom-[34vw]">
+      <div id="partners-cork" class="absolute left-[1vw] bottom-[35.7vw]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Cork_2_jwnr5s.png"
           alt="Vintage cork with partners stickers"
@@ -262,12 +262,14 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         </a>
       </div>
 
-      <div id="globe-decoration" class="absolute bottom-[19vw] left-[20.5vw]">
-        <img 
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704394177/Decoration_uydlqs.png"
-          alt="Vintage random globe decoration pixel art"
-          class="w-[8vw]"
-        />
+      <div id="red-backpack" class="absolute bottom-[18.6vw] left-[19vw] z-10">
+        <a href="https://backpack.app/" target="_blank" aria-label="Link to Backpack official website">
+          <img 
+            src="https://res.cloudinary.com/andresmgsl/image/upload/v1705699000/Back-pack_l5p1nc.png"
+            alt="Vintage backpack red pixel art"
+            class="w-[14vw]"
+          />
+        </a>
       </div>
 
       <div id="lamp" class="absolute bottom-[5.5vw] left-[0.5vw] z-10">
@@ -278,8 +280,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         />
       </div>
 
-
-      <div id="computer-speaker-left" class="absolute bottom-[19.65vw] left-[29.8vw]">
+      <div id="computer-speaker-left" class="absolute bottom-[19.65vw] left-[31.2vw] z-[15]">
         <img 
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703956343/Stereo_c3sfcm.png"
           alt="Vintage computer left speaker pixel art"
@@ -287,7 +288,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         />
       </div>
 
-      <div id="computer-monitor" class="absolute bottom-[13.8vw] left-[36vw]">
+      <div id="computer-monitor" class="absolute bottom-[13.8vw] left-[36vw] z-[16]">
         <img 
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1702928464/screen_vpremv.png"
           alt="Vintage computer monitor pixel art"
@@ -310,7 +311,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         </div>
       </div>
 
-      <div id="computer-speaker-right" class="absolute bottom-[19.65vw] right-[26.8vw]">
+      <div id="computer-speaker-right" class="absolute bottom-[19.65vw] right-[28.5vw] z-[17]">
         <img 
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703956343/Stereo_c3sfcm.png"
           alt="Vintage computer right speaker pixel art"
@@ -372,7 +373,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         </a>
       </div>
 
-      <div id="computer-mouse" class="absolute bottom-[9vw] right-[23.5vw]">
+      <div id="computer-mouse" class="absolute bottom-[9vw] right-[23.5vw] z-[18]">
         <img 
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704394177/Desktop_Mouse_1_wrdno3.png"
           alt="Vintage computer mouse pixel art"
