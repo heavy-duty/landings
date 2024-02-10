@@ -54,7 +54,7 @@
       ]
     },
     {
-      "target": "spain-bootcamp",
+      "target": "bootcamp-heavyduty",
       "public": "dist/apps/spain-tour-bootcamp-landing",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [

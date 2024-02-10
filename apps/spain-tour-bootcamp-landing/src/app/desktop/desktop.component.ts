@@ -262,7 +262,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         </a>
       </div>
 
-      <div id="red-backpack" class="absolute bottom-[18.6vw] left-[19vw] z-10">
+      <div id="red-backpack" class="absolute bottom-[18.6vw] left-[19vw] z-[14]">
         <a href="https://backpack.app/" target="_blank" aria-label="Link to Backpack official website">
           <img 
             src="https://res.cloudinary.com/andresmgsl/image/upload/v1705699000/Back-pack_l5p1nc.png"

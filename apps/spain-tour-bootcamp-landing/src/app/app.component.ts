@@ -1,13 +1,12 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { AppDesktopComponent } from './desktop/desktop.component.';
-import { AppMobileComponent } from './mobile/mobile.component.';
+import { AppDesktopComponent } from './desktop/desktop.component';
+import { AppMobileComponent } from './mobile/mobile.component';
 import { CommonModule } from '@angular/common';
 
 import {
   BreakpointObserver,
   BreakpointState
 } from '@angular/cdk/layout';
-import { UpdateSubscriptionService } from './components/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -28,11 +27,9 @@ import { ActivatedRoute } from '@angular/router';
   
 })
 export class AppComponent implements OnInit {
-  constructor(private breakpointObserver: BreakpointObserver) { }
-
-  private readonly _updateSubscriptionService = inject(UpdateSubscriptionService);
+  private readonly _breakpointObserver = inject(BreakpointObserver);
   private readonly _route = inject(ActivatedRoute);
-  readonly breakpoint$ = this.breakpointObserver;
+  readonly breakpoint$ = this._breakpointObserver;
 
   showMobile = false;
   isFromEmail: boolean = false;
@@ -53,7 +50,6 @@ export class AppComponent implements OnInit {
       
       this._route.queryParamMap.subscribe(
         (params) => {
-          console.log("Getting_Data", params.get('isFromEmail'));
           this.isFromEmail = params.get('isFromEmail') ? true : false;
         }
       )
