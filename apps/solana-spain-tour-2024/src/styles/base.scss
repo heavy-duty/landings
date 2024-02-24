@@ -1,0 +1,70 @@
+@import './core/fonts.scss';
+
+.bp-bg-cork-pattern {
+	background-image: url(https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708738081/bg_cork_huypey.png);
+	background-repeat: repeat;
+	background-color: #d2a56b;
+	background-size: contain;
+}
+
+.bp-bg-paper-pattern {
+	background-image: url(https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707713/images/patterns/paper_texture_xnz73k.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	-webkit-box-shadow: 0.1vw 0.4vw 0.2vw -0.21vw rgba(0,0,0,0.52);
+	-moz-box-shadow: 0.1vw 0.4vw 0.2vw -0.21vw rgba(0,0,0,0.52);
+	box-shadow: 0.1vw 0.4vw 0.2vw -0.21vw rgba(0,0,0,0.52);
+}
+
+.bp-bg-first-event {
+	background-image: url(https://res.cloudinary.com/andresmgsl/image/upload/w_1000/q_auto/f_auto/v1694094941/42_madrid_nzzcib.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.bp-bg-second-event {
+	background-image: url(https://res.cloudinary.com/andresmgsl/image/upload/w_1000/q_auto/f_auto/v1694099096/malaga_ef8bfo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bp-bg-third-event {
+	background-image: url(https://res.cloudinary.com/andresmgsl/image/upload/w_1000/q_auto/f_auto/v1694101554/ulab-b_zq2hut.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.bp-bg-fourth-event {
+	background-image: url(https://res.cloudinary.com/andresmgsl/image/upload/w_1000/q_auto/f_auto/v1694113051/42-b_uf3zsb.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a:hover * {
+	color: #1574ef;
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: .8vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #242424;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+/**/
