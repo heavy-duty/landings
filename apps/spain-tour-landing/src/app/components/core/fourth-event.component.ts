@@ -52,7 +52,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               >
                 <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
                 <img
-                  src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
+                  src="https://res.cloudinary.com/andresmgsl/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
                   alt="Calendar icon"
                 />
@@ -78,7 +78,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             >
               <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1691707714/images/icons/calendar_zucjxg.webp"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/w_21/q_auto/f_auto/v1691707714/images/icons/calendar_zucjxg.webp"
                 class="absolute w-[1.1vw] left-[1.2vw]"
                 alt="Calendar icon"
               />
@@ -95,7 +95,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
             >
               <img
-                src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_21/q_auto/f_auto/v1694100214/Clock_dcuean.png"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/w_21/q_auto/f_auto/v1694100214/Clock_dcuean.png"
                 class="absolute w-[1.1vw] left-[1.2vw]"
                 alt="Calendar icon"
               />
@@ -134,7 +134,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1692122853/information_grxkq0.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/w_461/q_auto/f_auto/v1692122853/information_grxkq0.png"
             class="w-full -rotate-3"
             alt="Information text on a paper"
           />
@@ -142,7 +142,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <!-- Post-it information -->
         <div class="relative w-[22vw] mt-[2vw] ml-[5vw] -rotate-6 order-1">
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_422/q_auto/f_auto/v1692128530/post_it_blue_ysugzq.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/w_422/q_auto/f_auto/v1692128530/post_it_blue_ysugzq.png"
             alt="blue post-it with some information"
             class="relative w-full"
           />
@@ -169,7 +169,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
           class="w-full"
           alt="Information text on a paper"
         />
@@ -184,7 +184,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1692888385/IRL-logo_ryb3ui.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1692888385/IRL-logo_ryb3ui.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="IRL Barcelona logo sticker"
             />
@@ -198,7 +198,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_411/q_auto/f_auto/v1694112133/42-barcelona-sticker_ceo6ih.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694112133/42-barcelona-sticker_ceo6ih.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
               alt="42 Barcelona logo sticker"
             />
@@ -212,7 +212,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_461/q_auto/f_auto/v1692273423/sticker_exchangeArt_hsprre.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_461/q_auto/f_auto/v1692273423/sticker_exchangeArt_hsprre.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
               alt="Event 4 Sponsor 2 logo sticker"
             />
@@ -225,7 +225,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_211/q_auto/f_auto/v1692275897/sticker_superteamTK_n3dhav.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_211/q_auto/f_auto/v1692275897/sticker_superteamTK_n3dhav.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
               alt="Event 4 Sponsor 3 logo sticker"
             />
@@ -238,7 +238,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1692273357/sticker_quickNode_ughr0b.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_173/q_auto/f_auto/v1692273357/sticker_quickNode_ughr0b.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Event 4 Sponsor 4 logo sticker"
             />
@@ -251,7 +251,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_173/q_auto/f_auto/v1692276155/sticker_helius_josvfc.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_173/q_auto/f_auto/v1692276155/sticker_helius_josvfc.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
               alt="Event 4 Sponsor 5 logo sticker"
             />
@@ -264,7 +264,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             [classPrefix]="'seven-event13-pin'"
           ></hd-spain-tour-push-pin-icon>
           <img
-            src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692279501/Your_Logo_Small_1_u5caqj.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692279501/Your_Logo_Small_1_u5caqj.png"
             class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
             alt="Event 2 Sponsors note"
           />
@@ -275,12 +275,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Ballerina Sticker -->
       <div class="absolute right-[1vw] top-[2vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/q_auto/f_auto/v1692280284/Ballerina_f1euu4.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692280284/Ballerina_f1euu4.png"
           alt="Drawing bull"
           class="w-[15vw] rotate-6"
         />
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
           alt="tape for drawing ballerina"
           class="absolute w-[5vw] -rotate-[10deg] -top-[1vw] right-[5.7vw]"
         />
@@ -289,12 +289,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Bull Sticker -->
       <div class="absolute right-[22vw] top-[5vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_488/q_auto/f_auto/v1691707714/images/icons/bull_bsyz0y.webp"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_488/q_auto/f_auto/v1691707714/images/icons/bull_bsyz0y.webp"
           alt="Drawing bull"
           class="w-[17vw] rotate-6"
         />
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
           alt="tape for drawing bull"
           class="absolute w-[7vw] rotate-[25deg] top-[1.3vw] right-[3vw]"
         />
@@ -303,12 +303,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Wine -->
       <div class="absolute right-[2vw] top-[20vw]">
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/v1692282122/Wine_ltvjuk.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/v1692282122/Wine_ltvjuk.png"
           alt="Drawing bull"
           class="w-[10vw]"
         />
         <img
-          src="https://res.cloudinary.com/pwcaguerrero/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
           alt="tape for drawing wine"
           class="absolute w-[5vw] top-[.3vw] right-[3.5vw]"
         />

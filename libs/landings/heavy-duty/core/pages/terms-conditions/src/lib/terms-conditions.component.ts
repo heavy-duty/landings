@@ -282,7 +282,7 @@ import { Component, HostBinding } from '@angular/core';
 				problems on the website, please let us know immediately so we can
 				rectify these accordingly. Your help in this regard is greatly
 				appreciated! You can write to us at this address
-				<a href="mailto:team@heavyduty.builders">team@heavyduty.builders</a>.
+				<a href="mailto:team@heavyduty.builders">team&#64;heavyduty.builders</a>.
 			</p>
 
 			<p>

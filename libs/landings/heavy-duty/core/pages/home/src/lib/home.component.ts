@@ -155,7 +155,7 @@ import { Component, HostBinding } from '@angular/core';
 						<p class="md:text-xl">
 							Looking for web3 consultants? Send us a email here
 							<a href="mailto:team@heavyduty.builders"
-								>team@heavyduty.builders</a
+								>team&#64;heavyduty.builders</a
 							>
 						</p>
 					</div>
@@ -181,7 +181,7 @@ import { Component, HostBinding } from '@angular/core';
 
 				<p class="md:text-xl">
 					Looking for web3 consultants? Send us a email here
-					<a href="mailto:team@heavyduty.builders">team@heavyduty.builders</a>
+					<a href="mailto:team@heavyduty.builders">team&#64;heavyduty.builders</a>
 				</p>
 			</div>
 		</section>

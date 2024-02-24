@@ -53,10 +53,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "browserTarget": "heavy-duty-landing:build:production"
+          "buildTarget": "heavy-duty-landing:build:production"
         },
         "development": {
-          "browserTarget": "heavy-duty-landing:build:development"
+          "buildTarget": "heavy-duty-landing:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -64,31 +64,18 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "browserTarget": "heavy-duty-landing:build"
+        "buildTarget": "heavy-duty-landing:build"
       }
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": [
-          "apps/heavy-duty-landing/**/*.ts",
-          "apps/heavy-duty-landing/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
     },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/heavy-duty-landing/jest.config.ts",
-        "passWithNoTests": true
-      },
-      "configurations": {
-        "ci": {
-          "ci": true,
-          "codeCoverage": true
-        }
+        "jestConfig": "apps/heavy-duty-landing/jest.config.ts"
       }
     },
     "serve-static": {

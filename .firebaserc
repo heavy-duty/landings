@@ -7,8 +7,12 @@
       "hosting": {
         "spain-islands-tour": [
           "spain-islands-tour"
+        ],
+        "bootcamp-heavyduty": [
+          "bootcamp-heavyduty"
         ]
       }
     }
-  }
+  },
+  "etags": {}
 }
