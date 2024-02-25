@@ -27,7 +27,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           [classPrefix]="'fourth-event-pin-2'"
         ></spain-tour-push-pin-icon>
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708810792/postcard_madrid_bda1f0.gif" />
+        <img class="w-full" src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708810792/postcard_madrid_bda1f0.gif" />
         <!-- <spain-tour-post-card-icon
           [classPrefix]="'-fourth-event'"
           [firstColor]="'#46ea69'"

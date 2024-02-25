@@ -27,7 +27,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           class="absolute block w-[3vw] z-10 top-[2vw] right-[3vw]"
         ></spain-tour-push-pin-icon>
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708828576/postcard_barcelona-min_fjzpjc.gif" />
+        <img class="w-full" src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708828576/postcard_barcelona-min_fjzpjc.gif" />
 
         <!-- <spain-tour-post-card-icon
           [classPrefix]="'-third-event'"
