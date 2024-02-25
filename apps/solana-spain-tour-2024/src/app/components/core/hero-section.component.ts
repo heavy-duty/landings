@@ -46,11 +46,11 @@ import { PushPinIconComponent } from '../push-pin.icon';
           <div class="relative">
             <!-- paper -->
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707710/images/spain_folded_paper_y0crma.webp"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708814502/spain-folded-blue_gjbqib.png"
               alt="Spain Mailand map in a paper"
               class="block w-full"
-              width="908"
-              height="807"
+              width="1008"
+              height="907"
             />
             <!-- tape -->
             <img
@@ -62,14 +62,14 @@ import { PushPinIconComponent } from '../push-pin.icon';
             <!-- Heavy Duty Sticker -->
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/w_96/q_auto/f_auto/v1691707717/images/logo_heavyduty_pencil_dyy1dm.webp"
-              alt="top tape on Mainland map paper"
+              alt="heavy duty sticker top tape on Mainland map paper"
               class="absolute bottom-[4vw] right-[3vw] w-[5vw] rotate-6"
             />
 
             <!-- Solana Sticker -->
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/v1692022432/logo_solana_drawing_fnixsc.webp"
-              alt="top tape on Mainland map paper"
+              alt="solana sticker top tape on Mainland map paper"
               class="absolute top-[2vw] right-[4vw] w-[3vw] -rotate-6"
             />
 
@@ -80,13 +80,13 @@ import { PushPinIconComponent } from '../push-pin.icon';
             >
               <spain-tour-push-pin-icon
                 class="absolute block w-[3vw] top-[43%] left-[42%] z-10 cursor-pointer"
-                colorData="blue"
+                colorData="purple"
                 [classPrefix]="'map-madrid-pin'"
                 [showHover]="true"
               ></spain-tour-push-pin-icon>
             </a>
-            <!-- line from madrid to barcelona -->
-            <div class="absolute w-[23vw] top-[7vw] left-[21.5vw] rotate-[61deg]">
+            <!-- line from barcelona to madrid -->
+            <div class="absolute w-[23vw] top-[6vw] left-[21.5vw] rotate-[62deg]">
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022342/red_thread_M-M_wegday.webp"
                 alt="connector between Madrid push pin to Malaga push pin"
@@ -112,24 +112,32 @@ import { PushPinIconComponent } from '../push-pin.icon';
             <a href="https://solana.com/" target="_blank" aria-label="Official link to Solana website">
               <img            
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1695149182/Solana_sticker_1_pdpppt.png"
-                class="absolute w-[14vw] top-[3vw] left-[2vw] -rotate-12"
+                class="absolute w-[14vw] top-[2.5vw] left-[0vw] -rotate-12"
                 alt="Solana logo sticker"
               />
             </a>
             <a href="https://heavyduty.builders/" target="_blank" aria-label="Official link to Heavy Duty Builders website">
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1695149182/HDB_sticker_1_ibjklb.png"
-                class="absolute w-[14.5vw] top-[6vw] left-[18vw] rotate-12"
+                class="absolute w-[14.5vw] top-[6vw] left-[13.5vw] rotate-12"
                 alt="Heavy Duty Builders logo sticker"
               />
             </a>           
             <a href="https://backpack.app/" target="_blank" aria-label="Official link to Backpack website">
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708738704/Backpack_sticker_jafsjt.png"
-                class="absolute w-[11vw] top-[6vw] left-[36vw] -rotate-12"
+                class="absolute w-[11vw] top-[2vw] left-[28vw] rotate-6"
                 alt="Backpack logo sticker"
               />
             </a>
+            <a href="https://shyft.to/" target="_blank" aria-label="Official link to Shyft RPC">
+              <img
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708739504/Shyft_sticker_axpjak.png"
+                class="absolute w-[11vw] top-[7vw] left-[40vw] -rotate-12"
+                alt="Shyft RPC logo sticker"
+              />
+            </a>
+
           </div>
         </div>
 
@@ -168,7 +176,7 @@ import { PushPinIconComponent } from '../push-pin.icon';
           <!-- third post-it-->
           <div class="absolute w-[24vw] top-[50vw] left-[6vw]">
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1695237212/support_note_cdnahy.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708796076/suport_note_desktop_1_ywmnzp.png"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />

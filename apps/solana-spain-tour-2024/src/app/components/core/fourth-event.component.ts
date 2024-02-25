@@ -14,19 +14,21 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
     >
       <!-- Postcard -->
       <div
-        class="relative bg-white bp-bg-paper-pattern rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] -right-[4vw] order-2"
+        class="relative rotate-3 w-[60vw] h-[31.3vw] p-[2.5vw] -right-[4vw] order-2"
       >
         <spain-tour-push-pin-icon
-          class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
+          class="absolute block w-[3vw] z-10 top-[3vw] left-[3vw]"
           colorData="green"
           [classPrefix]="'fourth-event-pin-1'"
         ></spain-tour-push-pin-icon>
         <spain-tour-push-pin-icon
-          class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
+          class="absolute block w-[3vw] z-10 top-[3vw] right-[3vw]"
           colorData="green"
           [classPrefix]="'fourth-event-pin-2'"
         ></spain-tour-push-pin-icon>
-        <spain-tour-post-card-icon
+
+        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708810792/postcard_madrid_bda1f0.gif" />
+        <!-- <spain-tour-post-card-icon
           [classPrefix]="'-fourth-event'"
           [firstColor]="'#46ea69'"
           [secondColor]="'#14b4e5'"
@@ -34,10 +36,9 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         ></spain-tour-post-card-icon>
 
         <div class="relative w-full h-full flex">
-          <!-- Postcard image section-->
+
           <div class="basis-[70%] h-full bp-bg-fourth-event"></div>
 
-          <!-- Postcard info section -->
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p
               class="text-[3.8vw] bp-amatic-font text-left font-bold mb-[0vw]"
@@ -55,7 +56,6 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
-                <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
                 <img
                   src="https://res.cloudinary.com/andresmgsl/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
@@ -81,7 +81,6 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
-              <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/w_21/q_auto/f_auto/v1691707714/images/icons/calendar_zucjxg.webp"
                 class="absolute w-[1.1vw] left-[1.2vw]"
@@ -109,7 +108,6 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
             </div>
 
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
-              <!-- This is only necessary for max zoom 500% avoid moving-->
               <a
                 href="https://lu.ma/1jccph9h"
                 target="_blank"
@@ -120,8 +118,9 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
+
       <!-- Event Information -->
       <div class="relative">
         <!-- Information text -->
