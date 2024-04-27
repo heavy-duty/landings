@@ -94,7 +94,7 @@ import { EventMoreInfoIconComponent } from './components/event-more-info.icon';
     <div class="absolute w-full mb-[16vw]">
       <img
         src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
-        class="absolute w-[16vw] right-[18vw] -top-[42vw] -rotate-[30deg] scale-x-[-1]"
+        class="absolute w-[16vw] right-[18vw] -top-[22vw] -rotate-[320deg]"
         alt="train sticker"
       />
     </div>

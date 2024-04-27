@@ -169,7 +169,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
     <!-- Event sponsors -->
     <div class="relative w-full">
       <!-- Sponsor text -->
-      <div class="relative w-[16vw] mt-[4vw]">
+      <div class="relative w-[19vw] mt-[4vw]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
           class="w-full"
@@ -179,29 +179,16 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[17vw] top-[4vw] left-[6vw] z-10">
+        <div class="absolute w-[22vw] top-[6vw] left-[2vw] z-10">
           <a
-            href="https://ulab.es/"
-            aria-label="Official Event 3 Sponsor 1 link to website"
+            href="https://www.42barcelona.com/es"
+            aria-label="Official 42 Barcelona link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694101554/ulab-sticker-02_cpn0sm.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
-              alt="Event 3 Sponsor 1 logo sticker"
-            />
-          </a>
-        </div>
-        <div class="absolute w-[18.5vw] top-[9vw] left-[27vw] z-10">
-          <a
-            href="https://www.meetup.com/alicantetech/"
-            aria-label="Official Event 3 Sponsor 2 link to website"
-            target="_blank"
-          >
-            <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694104748/alicante-tech-sticker_wk5dvo.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
-              alt="Event 3 Sponsor 2 logo sticker"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694112133/42-barcelona-sticker_ceo6ih.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
+              alt="42 Barcelona logo sticker"
             />
           </a>
         </div>
