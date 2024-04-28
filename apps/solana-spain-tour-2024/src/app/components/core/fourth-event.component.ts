@@ -27,7 +27,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           [classPrefix]="'fourth-event-pin-2'"
         ></spain-tour-push-pin-icon>
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708810792/postcard_madrid_bda1f0.gif" />
+        <img class="w-full" src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708810792/postcard_madrid_bda1f0.gif" />
         <!-- <spain-tour-post-card-icon
           [classPrefix]="'-fourth-event'"
           [firstColor]="'#46ea69'"
@@ -159,7 +159,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
     <!-- Event sponsors -->
     <div class="relative w-full">
       <!-- Sponsor text -->
-      <div class="relative w-[16vw] mt-[4vw]">
+      <div class="relative w-[19vw] mt-[4vw]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
           class="w-full"
@@ -169,33 +169,21 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[13vw] top-[7vw] left-[2vw] z-10">
+        <div class="absolute w-[23vw] top-[8vw] left-[4vw] z-10">
           <a
-            href="https://twitter.com/IRLeventsES"
-            aria-label="Official IRL Barcelona link to website"
+            href="https://www.42madrid.com/"
+            aria-label="Official 42 Madrid link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1692888385/IRL-logo_ryb3ui.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_511/q_auto/f_auto/v1694093991/42-madrid-sticker_mnw41q.png"
               class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-12"
-              alt="IRL Barcelona logo sticker"
+              alt="42 Madrid logo sticker"
             />
           </a>
         </div>
 
-        <div class="absolute w-[22vw] top-[14vw] left-[20vw] z-10">
-          <a
-            href="https://www.42barcelona.com/es"
-            aria-label="Official 42 Barcelona link to website"
-            target="_blank"
-          >
-            <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694112133/42-barcelona-sticker_ceo6ih.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
-              alt="42 Barcelona logo sticker"
-            />
-          </a>
-        </div>
+
       </div>
       
       <!-- Ballerina Sticker -->
