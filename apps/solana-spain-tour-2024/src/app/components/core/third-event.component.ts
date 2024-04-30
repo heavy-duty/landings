@@ -9,24 +9,27 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
   standalone: true,
   template: `
     <div
-      class="relative flex gap-[5vw] w-full pt-[13vw]"
+      class="relative flex gap-[5vw] w-full pt-[2vw] pb-[4vw]"
       id="third-event-section"
     >
       <!-- Postcard -->
       <div
-        class="relative bg-white bp-bg-paper-pattern -rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] right-0"
+        class="relative -rotate-3 w-[60vw] h-[31.3vw] p-[2.5vw] right-0"
       >
         <spain-tour-push-pin-icon
           colorData="lightBlue"
           [classPrefix]="'second-pin'"
-          class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
+          class="absolute block w-[3vw] z-10 top-[2vw] left-[3vw]"
         ></spain-tour-push-pin-icon>
         <spain-tour-push-pin-icon
           colorData="lightBlue"
           [classPrefix]="'third-pin'"
-          class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
+          class="absolute block w-[3vw] z-10 top-[2vw] right-[3vw]"
         ></spain-tour-push-pin-icon>
-        <spain-tour-post-card-icon
+
+        <img class="w-full" src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708828576/postcard_barcelona-min_fjzpjc.gif" />
+
+        <!-- <spain-tour-post-card-icon
           [classPrefix]="'-third-event'"
           [firstColor]="'#7e64ef'"
           [secondColor]="'#fc55a6'"
@@ -34,10 +37,10 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         ></spain-tour-post-card-icon>
 
         <div class="relative w-full h-full flex">
-          <!-- Postcard image section-->
+
           <div class="basis-[70%] h-full bp-bg-third-event"></div>
 
-          <!-- Postcard info section -->
+
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p
               class="text-[3.8vw] bp-amatic-font text-left font-bold mb-[0vw]"
@@ -56,7 +59,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
-                <!-- <i class="fal fa-map-marker-alt text-[1vw]"></i> -->
+
                 <img
                   src="https://res.cloudinary.com/andresmgsl/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
@@ -88,7 +91,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
-              <!-- <i class="fal fa-calendar-alt text-[1vw]"></i> -->
+
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/w_21/q_auto/f_auto/v1691707714/images/icons/calendar_zucjxg.webp"
                 class="absolute w-[1.1vw] left-[1.2vw]"
@@ -117,7 +120,6 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               </p>
             </div>
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
-              <!-- This is only necessary for max zoom 500% avoid moving-->
               <a
                 href="https://lu.ma/30c49le6"
                 target="_blank"
@@ -128,7 +130,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="relative">
         <!-- Information text -->
@@ -167,7 +169,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
     <!-- Event sponsors -->
     <div class="relative w-full">
       <!-- Sponsor text -->
-      <div class="relative w-[16vw] mt-[4vw]">
+      <div class="relative w-[19vw] mt-[4vw]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
           class="w-full"
@@ -177,29 +179,16 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
 
       <!-- Sticker logos -->
       <div class="relative h-[26vw]">
-        <div class="absolute w-[17vw] top-[4vw] left-[6vw] z-10">
+        <div class="absolute w-[22vw] top-[6vw] left-[2vw] z-10">
           <a
-            href="https://ulab.es/"
-            aria-label="Official Event 3 Sponsor 1 link to website"
+            href="https://www.42barcelona.com/es"
+            aria-label="Official 42 Barcelona link to website"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694101554/ulab-sticker-02_cpn0sm.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-6"
-              alt="Event 3 Sponsor 1 logo sticker"
-            />
-          </a>
-        </div>
-        <div class="absolute w-[18.5vw] top-[9vw] left-[27vw] z-10">
-          <a
-            href="https://www.meetup.com/alicantetech/"
-            aria-label="Official Event 3 Sponsor 2 link to website"
-            target="_blank"
-          >
-            <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694104748/alicante-tech-sticker_wk5dvo.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
-              alt="Event 3 Sponsor 2 logo sticker"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694112133/42-barcelona-sticker_ceo6ih.png"
+              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-12"
+              alt="42 Barcelona logo sticker"
             />
           </a>
         </div>

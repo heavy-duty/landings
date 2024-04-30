@@ -46,7 +46,7 @@ import { EventMoreInfoIconComponent } from './components/event-more-info.icon';
     </div>
 
     <div class="flex justify-between">
-      <div class="relative block w-[40vw] -rotate-6">
+      <div class="relative block w-[40vw] -rotate-3">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/w_768/q_auto/f_auto/v1691707710/images/road_map_fphuqq.webp"
           alt="Roadmap tour text image"
@@ -94,7 +94,7 @@ import { EventMoreInfoIconComponent } from './components/event-more-info.icon';
     <div class="absolute w-full mb-[16vw]">
       <img
         src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
-        class="absolute w-[16vw] right-[18vw] -top-[42vw] -rotate-[30deg] scale-x-[-1]"
+        class="absolute w-[16vw] right-[18vw] -top-[22vw] -rotate-[320deg]"
         alt="train sticker"
       />
     </div>
@@ -116,7 +116,7 @@ import { EventMoreInfoIconComponent } from './components/event-more-info.icon';
     <div class="relative">
       <img
         src="https://res.cloudinary.com/andresmgsl/image/upload/w_587/q_auto/f_auto/v1692122853/questions_qkolgf.png"
-        class="w-[28vw] rotate-6"
+        class="w-[28vw] -rotate-6"
         alt="Doubts text on a paper"
       />
     </div>
