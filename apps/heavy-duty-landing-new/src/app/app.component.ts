@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
-
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [RouterModule],
   selector: 'hdb-root',
-  template: `<hdb-nx-welcome></hdb-nx-welcome> <router-outlet></router-outlet>`,
+  template: `
+    <h1>EPALE</h1>
+  
+    
+    <!-- <router-outlet></router-outlet> -->
+    `,
   styles: ``,
 })
 export class AppComponent {
