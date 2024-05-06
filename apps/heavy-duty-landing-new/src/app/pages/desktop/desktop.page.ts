@@ -17,7 +17,6 @@ import { FooterDesktopComponent } from '../../components/core/footer.desktop';
   ],
   selector: 'hdb-app-desktop',
   template: `
-    {{ text }}
     <!-- Navbar -->
     <hdb-navbar-desktop></hdb-navbar-desktop>
 
