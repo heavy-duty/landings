@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
+import { ShowOnHoverDirective } from '../utils/hover.directive';
 
 @Component({
   selector: 'bootcamp-app-desktop-component',
@@ -51,6 +52,12 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
             alt="Vintage Solana logo stickers"
             class="w-[6.3vw] absolute z-30 top-[5vw] right-[6.3vw]"
           />
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716762639/Solana_Hover_vkiune.png"
+            alt="Vintage Solana logo stickers hover"
+            class="w-[6.3vw] absolute z-30 top-[5vw] right-[6.3vw]"
+            bootcampShowOnHover
+          />
         </a>
 
         <a href="https://www.rust-lang.org/" target="_blank" aria-label="link to Rust official website">
@@ -59,6 +66,12 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
             alt="Vintage Rust logo stickers"
             class="w-[6.5vw] absolute z-30 top-[12vw] right-[3.6vw] -rotate-[15deg]"
           />
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716762639/Rust_Hover_pohmc8.png"
+            alt="Vintage Rust logo stickers hover"
+            class="w-[6.5vw] absolute z-30 top-[12vw] right-[3.6vw] -rotate-[15deg]"
+            bootcampShowOnHover
+          />          
         </a>
 
         <a href="https://github.com/coral-xyz/anchor" target="_blank" aria-label="link to CoinTelegraph">
@@ -66,6 +79,12 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Anchord_lq2jid.png"
             alt="Vintage Anchor logo stickers"
             class="w-[6.5vw] absolute z-30 top-[11vw] right-[12.3vw] rotate-[15deg]"
+          />
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716762511/Anchord_Hover_taqodq.png"
+            alt="Vintage Anchor logo stickers hover"
+            class="w-[6.5vw] absolute z-30 top-[11vw] right-[12.3vw] rotate-[15deg]"
+            bootcampShowOnHover
           />
         </a>
 
@@ -75,6 +94,12 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
             alt="Vintage post-it purple message"
             class="w-[7.5vw] absolute z-30 top-[3vw] right-[19vw] rotate-[15deg]"
           />
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716762792/Post-it-hover_rii1zo.png"
+            alt="Vintage post-it purple message hover"
+            class="w-[7.5vw] absolute z-30 top-[3vw] right-[19vw] rotate-[15deg]"
+            bootcampShowOnHover
+          />          
         </a>
 
         <!-- PIN -->
@@ -231,9 +256,15 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
           <img 
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705447193/Pp_Book_1_u9q485.png"
             alt="Privacy Politics book pixel art"
-            class="w-[16vw] absolute -top-[2.1vw] left-[0.4vw]"
+            class="w-[16vw] absolute -top-[2.1vw] left-[0.4vw] z-[80]"
           />
-          <p class="absolute top-[0.5vw] left-[1.3vw] text-[0.58vw]">
+          <img 
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716763184/Pp_Book_Hover_na0osw.png"
+            alt="Privacy Politics book pixel art hover"
+            class="w-[16vw] absolute -top-[2.8vw] -left-[0.1vw] z-[90]"
+            bootcampShowOnHover
+          />          
+          <p class="absolute top-[0.5vw] left-[1.3vw] text-[0.58vw] z-[95]">
             Politicas de privacidad
           </p>
         </a>
@@ -242,6 +273,12 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705446722/Tc_Book_1_c3w8cr.png"
             alt="Terms and conditions book pixel art"
             class="w-[16vw]"
+          />
+          <img 
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716763632/TC_Book_Hover_dqky3v.png"
+            alt="Terms and conditions book pixel art hover"
+            class="absolute top-[0vw] w-[16vw]"
+            bootcampShowOnHover
           />
           <p class="absolute top-[2.6vw] left-[1vw] text-[0.6vw]">
             Terminos y condiciones
@@ -256,6 +293,12 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
             alt="Vintage Bob funko builder pixel art"
             class="w-[6vw]"
           />
+          <img 
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716762887/Builder_Hover_btl00s.png"
+            alt="Vintage Bob funko builder pixel art hover"
+            class="absolute top-[0vw] w-[6vw]"
+            bootcampShowOnHover
+          />
         </a>
       </div>
 
@@ -265,6 +308,13 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
             src="https://res.cloudinary.com/andresmgsl/image/upload/v1705699000/Back-pack_l5p1nc.png"
             alt="Vintage backpack red pixel art"
             class="w-[14vw]"
+          />
+          <img 
+            id="red-backpack-image"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/v1716759970/Back-pack-hover_lpdl9m.png"
+            alt="Vintage backpack red pixel art hover"
+            class="absolute w-[14vw] top-[0vw]"
+            bootcampShowOnHover
           />
         </a>
       </div>
@@ -324,7 +374,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         />
       </div>
 
-      <div id="drink-can-one" class="absolute bottom-[19.5vw] right-[17vw]">
+      <div id="drink-can-one" class="absolute bottom-[19.5vw] right-[7vw]">
         <img 
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704394177/Beer_1_oue2db.png"
           alt="Vintage drink can pixel art"
@@ -332,7 +382,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         />
       </div>
 
-      <div id="drink-can-two" class="absolute bottom-[18.5vw] right-[15vw]">
+      <div id="drink-can-two" class="absolute bottom-[18.5vw] right-[5vw]">
         <img 
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704394177/Beer_1_oue2db.png"
           alt="Vintage drink can pixel art"
@@ -341,13 +391,19 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
       </div>
 
 
-      <div id="funko-builder-girl" class="absolute bottom-[14.5vw] right-[7vw] z-[50]">
+      <div id="funko-builder-girl" class="absolute bottom-[16.5vw] right-[14vw] z-[50]">
         <a href="https://heavyduty.builders" target="_blank">
           <img 
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716676126/Alice_Builder_V2_iazyzw.png"
             alt="Vintage Alice funko builder pixel art"
-            class="w-[7.5vw]"
+            class="w-[7.7vw]"
           />
+          <img 
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716763632/Alice_Hover_alt9td.png"
+            alt="Vintage Alice funko builder pixel art"
+            class="absolute top-[0vw] w-[7.7vw]"
+            bootcampShowOnHover
+          />          
         </a>
       </div>
 
@@ -356,7 +412,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
         <img 
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703957915/Smoke_Dark_hzsnah.gif"
           alt="Vintage coffee smoke gif pixel art"
-          class="w-[6vw] absolute top-[-3.3vw] right-[0.3vw] opacity-25"
+          class="w-[6vw] absolute top-[-3.3vw] right-[0.3vw] opacity-25 z-[100]"
         />
       
         <a href="https://solana.com" target="_blank">
@@ -364,6 +420,12 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704136782/Coffee_1_f1esg4.png"
             alt="Vintage solana cup of coffee pixel art"
             class="w-[6vw]"
+          />
+          <img 
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716762965/Coffee_Hover_wskdwi.png"
+            alt="Vintage solana cup of coffee pixel art hover"
+            class="absolute top-[0vw] w-[6vw]"
+            bootcampShowOnHover
           />
         </a>  
       </div>
@@ -391,7 +453,8 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
     </div>
   `,
   standalone: true,
-  styles: []
+  styles: [],
+  imports: [ShowOnHoverDirective]
 })
 export class AppDesktopComponent { 
 
