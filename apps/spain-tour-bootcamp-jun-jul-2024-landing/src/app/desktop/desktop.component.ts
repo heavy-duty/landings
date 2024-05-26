@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
 
 @Component({
@@ -31,16 +31,15 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
           <div class="absolute opacity-0 w-[19.7vw] h-[7.8vw] z-40 top-[2.9vw] left-[1.9vw]"></div>
         </a>
       </div>
-
       
-      <div id="partners-cork" class="absolute left-[1vw] bottom-[35.7vw]">
+      <div id="resources-cork" class="absolute left-[1vw] bottom-[35.7vw]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Cork_2_jwnr5s.png"
-          alt="Vintage cork with partners stickers"
+          alt="Vintage cork with resources stickers"
           class="w-[32vw] relative"
         />
 
-        <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
+        <a href="#" target="_blank" aria-label="collaborators text">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
             alt="Vintage collaborators title stickers"
@@ -48,33 +47,33 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
           />
         </a>
 
-        <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
+        <a href="https://solana.com/" target="_blank" aria-label="link to solana oficial page">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
-            alt="Vintage Solana Hub partners stickers"
-            class="w-[7vw] absolute z-30 top-[5.5vw] right-[6vw]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Solana_rctkla.png"
+            alt="Vintage Solana logo stickers"
+            class="w-[6.3vw] absolute z-30 top-[5vw] right-[6.3vw]"
           />
         </a>
 
-        <a href="https://shyft.to/" target="_blank" aria-label="link to Shyft RPC">
+        <a href="https://www.rust-lang.org/" target="_blank" aria-label="link to Rust official website">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
-            alt="Vintage Shyft partners stickers"
-            class="w-[6vw] absolute z-30 top-[12.5vw] right-[4vw] -rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Rust_eqvvrp.png"
+            alt="Vintage Rust logo stickers"
+            class="w-[6.5vw] absolute z-30 top-[12vw] right-[3.6vw] -rotate-[15deg]"
           />
         </a>
 
-        <a href="https://cointelegraph.com/" target="_blank" aria-label="link to CoinTelegraph">
+        <a href="https://github.com/coral-xyz/anchor" target="_blank" aria-label="link to CoinTelegraph">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Cointelegraph_rrsref.png"
-            alt="Vintage Cointelegraph partners stickers"
-            class="w-[7vw] absolute z-30 top-[11vw] right-[12vw] rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Anchord_lq2jid.png"
+            alt="Vintage Anchor logo stickers"
+            class="w-[6.5vw] absolute z-30 top-[11vw] right-[12.3vw] rotate-[15deg]"
           />
         </a>
 
-        <a href="https://solanacookbook.com/" target="_blank" arial-label="Solana Cookbook link">
+        <a href="https://discord.com/invite/sbjg5YvYfM" target="_blank" arial-label="Solana Cookbook link">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Post-it_jcuxkl.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Post-it_ity4kn.png"
             alt="Vintage post-it purple message"
             class="w-[7.5vw] absolute z-30 top-[3vw] right-[19vw] rotate-[15deg]"
           />
@@ -302,7 +301,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
             </h2>
             @if (true) {
               <button class="bg-[#00E805] mt-[1.5vw] px-[1vw] py-[0.5vw] text-black text-[1.1vw]" aria-label="Botón de registro">
-                <a  href="#">
+                <a  href="https://forms.gle/tUYkF43kQ6pQF9eU9" target="_blank">
                   REGISTRARME
                 </a>
               </button>
