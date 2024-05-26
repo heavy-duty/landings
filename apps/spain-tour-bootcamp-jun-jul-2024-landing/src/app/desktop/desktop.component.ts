@@ -21,10 +21,8 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
           class="w-[24vw]"
         />
 
-        <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Solana+Boot+Camp+Espa%C3%B1a&details=El+primer+boot+camp+de+solana+en+espa%C3%B1a&location=Online&dates=20240205T200000Z%2F20240205T220000Z" alt="Add event to Google calendar" target="_blank">
-          <div class="add-calendar-event" class="absolute top-[17vw] left-[4.8vw] w-[2.6vw] h-[2.25vw]">
-
-          </div>
+        <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Heavy+Duty+Camp&details=Heavy+Duty+Camp+te+explica+acerca+de+Solana&location=Online&dates=20240617T180000Z%2F20240617T190000Z" alt="Add event to Google calendar" target="_blank">
+          <div class="add-calendar-event" class="absolute top-[21.2vw] left-[2.3vw] w-[2.6vw] h-[2.55vw]"></div>
         </a>
 
         <a href="https://solana.com" target="_blank">

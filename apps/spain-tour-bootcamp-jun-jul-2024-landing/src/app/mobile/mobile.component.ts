@@ -36,8 +36,8 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           class="relative w-[80vw] left-[1vw]"
         />
 
-        <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Solana+Boot+Camp+Espa%C3%B1a&details=El+primer+boot+camp+de+solana+en+espa%C3%B1a&location=Online&dates=20240205T200000Z%2F20240205T220000Z" alt="Add event to Google calendar" target="_blank">
-          <div class="add-calendar-event" class="absolute top-[56.5vw] left-[27vw] w-[8.5vw] h-[7.5vw]"></div>
+        <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Heavy+Duty+Camp&details=Heavy+Duty+Camp+te+explica+acerca+de+Solana&location=Online&dates=20240617T180000Z%2F20240617T190000Z" alt="Add event to Google calendar" target="_blank">
+          <div class="add-calendar-event" class="absolute top-[71.5vw] left-[18.5vw] w-[8.5vw] h-[7.5vw]"></div>
         </a>
 
         <a href="https://solana.com" target="_blank">
@@ -54,9 +54,9 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
 
         <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
-            alt="Vintage collaborators title stickers"
-            class="w-[55vw] absolute z-30 top-[4.5vw] right-[11vw]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716755306/Colaboradores_aqc4xc.png"
+            alt="Vintage resources title stickers"
+            class="w-[35vw] absolute z-30 top-[4.5vw] right-[17vw]"
           />
         </a>
 
