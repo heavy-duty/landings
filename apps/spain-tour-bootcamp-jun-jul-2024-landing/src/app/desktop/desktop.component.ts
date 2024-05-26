@@ -39,11 +39,11 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
           class="w-[32vw] relative"
         />
 
-        <a href="#" target="_blank" aria-label="collaborators text">
+        <a href="#" target="_blank" aria-label="resources text">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
-            alt="Vintage collaborators title stickers"
-            class="w-[16vw] absolute z-30 top-[2vw] right-[2.5vw]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716755306/Colaboradores_aqc4xc.png"
+            alt="Vintage resources title stickers"
+            class="w-[12.5vw] absolute z-30 top-[1.8vw] right-[3.5vw]"
           />
         </a>
 
@@ -71,7 +71,7 @@ import {INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT} from '../utils';
           />
         </a>
 
-        <a href="https://discord.com/invite/sbjg5YvYfM" target="_blank" arial-label="Solana Cookbook link">
+        <a href="https://discord.com/invite/sbjg5YvYfM" target="_blank" arial-label="Heavy Duty Builders discord link">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Post-it_ity4kn.png"
             alt="Vintage post-it purple message"

@@ -21,13 +21,12 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           </h1>
           <div class="mt-[4vw]">
             <button class="bg-[#6A4CB1] px-[4vw] py-[1.5vw] text-white text-[3.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">
-              <a href="#">
+              <a href="https://forms.gle/tUYkF43kQ6pQF9eU9" target="_blank">
                 REGISTRARME
               </a>  
             </button>
           </div>
         </div>
-
       </div>
 
       <div id="official-calendar" class="relative flex justify-center mt-[13vw]">
@@ -61,33 +60,33 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           />
         </a>
 
-        <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
+        <a href="https://solana.com/" target="_blank" aria-label="link to solana oficial page">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Solana_Hub_j84bqc.png"
-            alt="Vintage Solana Hub partners stickers"
-            class="w-[22vw] absolute z-30 top-[15vw] right-[28vw]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Solana_rctkla.png"
+            alt="Vintage Solana logo stickers"
+            class="w-[20vw] absolute z-30 top-[13vw] right-[29vw]"
           />
         </a>
 
-        <a href="https://shyft.to/" target="_blank" aria-label="link to Shyft RPC">
+        <a href="https://www.rust-lang.org/" target="_blank" aria-label="link to Rust official website">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
-            alt="Vintage Shyft partners stickers"
-            class="w-[20vw] absolute z-30 top-[32vw] right-[10vw] -rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Rust_eqvvrp.png"
+            alt="Vintage Rust logo stickers"
+            class="w-[22vw] absolute z-30 top-[30vw] right-[9.5vw] -rotate-[15deg]"
           />
         </a>
 
-        <a href="https://cointelegraph.com/" target="_blank" aria-label="link to CoinTelegraph">
+        <a href="https://github.com/coral-xyz/anchor" target="_blank" aria-label="link to CoinTelegraph">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Cointelegraph_rrsref.png"
-            alt="Vintage Cointelegraph partners stickers"
-            class="w-[24vw] absolute z-30 top-[33vw] right-[43vw] rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Anchord_lq2jid.png"
+            alt="Vintage Anchor logo stickers"
+            class="w-[21vw] absolute z-30 top-[33vw] right-[43.5vw] rotate-[15deg]"
           />
         </a>
 
-        <a href="https://solanacookbook.com/" target="_blank" arial-label="Solana Cookbook link">
+        <a href="https://discord.com/invite/sbjg5YvYfM" target="_blank" arial-label="Heavy Duty Builders discord link">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Post-it_jcuxkl.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Post-it_ity4kn.png"
             alt="Vintage post-it purple message"
             class="w-[24vw] absolute z-30 top-[8vw] right-[69vw] rotate-[15deg]"
           />
@@ -159,7 +158,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
               </h2>
               @if (!isFromEmail) {
               <button class="bg-[#00E805] mt-[4vw] px-[4vw] py-[1.5vw] text-black text-[2.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">
-                <a data-formkit-toggle="ec6cdd2569" href="https://discoprotocol.ck.page/ec6cdd2569">
+                <a href="https://forms.gle/tUYkF43kQ6pQF9eU9" target="_blank">
                   REGISTRARME
                 </a>
               </button>
