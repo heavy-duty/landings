@@ -107,7 +107,7 @@
       ]
     },
     {
-      "target": "bootcamp-heavyduty-jun-jul-2024",
+      "target": "spain-bootcamp",
       "public": "dist/apps/spain-tour-bootcamp-jun-jul-2024-landing/browser",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
