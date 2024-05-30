@@ -17,6 +17,7 @@ import { Component } from '@angular/core';
           class="relative w-[33vw] z-10"
           alt="Letrero"
         />
+        <p class="absolute text-[2.5vw] top-[7.8vw] z-[20]">CONTACT US</p>
       </div>
 
       <div class="relative flex gap-1 -mt-[4vw]">
