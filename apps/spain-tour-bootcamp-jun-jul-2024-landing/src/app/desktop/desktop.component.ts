@@ -323,7 +323,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716763632/TC_Book_Hover_dqky3v.png"
             alt="Terms and conditions book pixel art hover"
-            class="absolute top-[0vw] w-[16vw] opacity-0"
+            class="absolute top-[0vw] left-[0.1vw] w-[16vw] opacity-0"
           />
           <p class="absolute top-[2.6vw] left-[1vw] text-[0.6vw]">
             Terminos y condiciones
