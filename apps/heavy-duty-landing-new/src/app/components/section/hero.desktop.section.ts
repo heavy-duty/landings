@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     <section class="relative py-[3vw] px-[3vw] mb-[12vw]">
       <h1 class="text-[4vw] mb-[1.5vw]">HEAVY DUTY <br/> BUILDERS<br/> COMMUNITY<br/></h1>
       <p class="text-[1vw] mb-[1.5vw] opacity-0">Lets fucking go</p>
-      <a href="https://solanaspain.dev" class=" bg-pixel-purple py-[0.4vw] px-[2.2vw] border-[0.2vw] border-black text-white text-[2vw]">JOIN THE BOOT CAMP</a>
+      <a href="https://solanaspain.dev" class=" bg-pixel-purple py-[0.4vw] px-[2.2vw] border-[0.2vw] border-black text-white text-[2vw]" target="_blank">JOIN THE BOOT CAMP</a>
 
       <img src="https://res.cloudinary.com/andresmgsl/image/upload/w_600/q_auto/f_auto/v1714505817/Bricks_Blocks_Hero_jagbqi.png" alt="Bloques a la mitad" class="absolute w-[48vw] top-[1vw] right-[3vw]" />
 
