@@ -35,6 +35,13 @@ import { Component } from '@angular/core';
             class="relative w-[45.7vw]"
             alt="Globo de chat de Alice"
           />
+          <p
+            class="absolute top-[1.6vw] left-[2vw] w-[40vw] text-[1.2vw] text-justify leading-relaxed"
+          >
+            If you're a developers seeking a friendly and supportive community
+            to join or looking for some support for your project, you've come to
+            the right place!
+          </p>
         </div>
 
         <div class="ml-[60vw]">
@@ -43,6 +50,45 @@ import { Component } from '@angular/core';
             class="absolute w-[10vw] top-[14.5vw] right-[5vw] z-10"
             alt="Alice"
           />
+        </div>
+
+        <div
+          class="absolute -bottom-[3vw] -bottom-[2vw] flex justify-center  gap-[1.5vw] left-[43vw] w-[20vw] z-[20]"
+        >
+          <div
+            class="flex justify-center items-center bg-pixel-purple w-[5vw] h-[5vw] border-[0.3vw] border-black"
+          >
+            <a href="https://x.com/heavydutybuild" target="_blank">
+              <img
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717190449/X_icon_nltmhx.png"
+                class="w-[4vw]"
+                alt="Twitter logo"
+              />
+            </a>
+          </div>
+
+          <div
+            class="flex justify-center items-center bg-pixel-purple w-[5vw] h-[5vw] border-[0.3vw] border-black"
+          >
+            <a href="https://discord.com/invite/sbjg5YvYfM" target="_blank">
+              <img
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717190449/Discord_icon_iurmeu.png"
+                class="w-[4vw]"
+                alt="Discord logo"
+              />
+            </a>
+          </div>
+          <div
+            class="flex justify-center items-center bg-pixel-purple w-[5vw] h-[5vw] border-[0.3vw] border-black"
+          >
+            <a href="https://www.linkedin.com/company/heavyduty-builders" target="_blank">
+              <img
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717190451/LinkedIn_icon_yw8v3p.png"
+                class="w-[4vw]"
+                alt="LinkedIn logo"
+              />
+            </a>
+          </div>
         </div>
       </div>
       <div

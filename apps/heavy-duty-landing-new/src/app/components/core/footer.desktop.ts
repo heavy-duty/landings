@@ -11,7 +11,6 @@ import { Component } from '@angular/core';
       </div>
 
     </footer>
-  
     `,
   styles: ``,
 })
