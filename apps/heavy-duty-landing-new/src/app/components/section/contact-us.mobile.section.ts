@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   selector: 'hdb-contact-us-mobile',
   template: `
     {{text}}
-  
     `,
   styles: ``,
 })

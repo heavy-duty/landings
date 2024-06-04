@@ -17,7 +17,6 @@ import { FooterMobileComponent } from '../../components/core/footer.mobile';
   ],
   selector: 'hdb-app-mobile',
   template: `
-    {{ text }}
     <!-- Navbar -->
     <hdb-navbar-mobile></hdb-navbar-mobile>
 
