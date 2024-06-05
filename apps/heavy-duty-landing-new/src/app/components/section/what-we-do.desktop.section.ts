@@ -30,7 +30,7 @@ import { ShowOnHoverDirective } from '../../utils';
           />
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076013/tools_frame_color_tvgtvw.png"
-            alt="tools picture black and white"
+            alt="tools picture colorful hover"
             class="w-[42vw] absolute top-[0vw] opacity-0"
           />
         </a>
@@ -43,21 +43,21 @@ import { ShowOnHoverDirective } from '../../utils';
           />
           <img 
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076012/bootcamp_frame_color_dtdhyt.png" 
-            alt="bootcamp picture black and white" 
+            alt="bootcamp picture colorful hover" 
             class="w-[42vw] absolute top-[0vw] opacity-0"
           />
         </a>
       </div>
 
       <div class="relative flex gap-1 mt-[1.5vw]">
-        <div class="relative left-[2.7vw] w-[41.5vw] h-[12vw] bg-white border-[0.3vw] border-black p-[1.4vw]">
-          <h2 class="mb-[1.2vw] text-center text-[1.3vw]">Solana Spain Tour</h2>
-          <p class="leading-loose">A tour around Spain to facilitate the initiation and building of our fellow devs in the Solana ecosystem. Feedback is always welcome!</p>
+        <div class="relative left-[2.7vw] w-[41.5vw] bg-white border-[0.3vw] border-black p-[1.4vw]">
+          <h2 class="mb-[1.2vw] text-center text-[1.6vw]">Solana Spain Tour</h2>
+          <p class="leading-loose text-[1.2vw]">A tour around Spain to facilitate the initiation and building of our fellow devs in the Solana ecosystem. Feedback is always welcome!</p>
         </div>
 
-        <div class="relative left-[7.8vw] w-[41.5vw] h-[12vw] bg-white border-[0.3vw] border-black p-[1.4vw]">
-          <h2 class="mb-[1.2vw] text-center text-[1.3vw]">Heavy Duty Camp</h2> 
-          <p class="leading-loose">Join thousands of devs around the world looking to become a heavy-duty builders in this exciting learning adventure!</p>
+        <div class="relative left-[7.8vw] w-[41.5vw] bg-white border-[0.3vw] border-black p-[1.4vw]">
+          <h2 class="mb-[1.2vw] text-center text-[1.6vw]">Heavy Duty Camp</h2> 
+          <p class="leading-loose text-[1.2vw]">Join thousands of devs around the world looking to become a heavy-duty builders in this exciting learning adventure!</p>
         </div>
       </div>
     </section>

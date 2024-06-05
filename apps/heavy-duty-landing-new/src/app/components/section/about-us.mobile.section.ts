@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   imports: [],
   selector: 'hdb-about-us-mobile',
   template: `
-    <section class="relative mb-[12vw]">
+    <section class="relative mb-[25vw]">
       <img
         src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717527611/section_1_mobile_iy5k9r.png"
         alt="Bloques completos"
