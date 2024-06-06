@@ -38,7 +38,7 @@ import { Component } from '@angular/core';
           <p
             class="absolute top-[1.6vw] left-[2vw] w-[40vw] text-[1.2vw] text-justify leading-relaxed"
           >
-            If you're a developers seeking a friendly and supportive community
+            If you're a developer seeking a friendly and supportive community
             to join or looking for some support for your project, you've come to
             the right place!
           </p>
