@@ -28,8 +28,8 @@ import { ShowOnHoverDirective } from '../../utils';
           target="_blank"
         >
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076013/tools_frame_color_tvgtvw.png"
-            alt="tools picture black and white"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717677852/Tour_frame_color_l3p6ww.png"
+            alt="spain tour picture colorful"
             class="w-[82vw]"
           />
         </a>

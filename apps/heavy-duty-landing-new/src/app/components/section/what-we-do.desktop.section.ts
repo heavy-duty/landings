@@ -24,13 +24,13 @@ import { ShowOnHoverDirective } from '../../utils';
       <div class="relative flex gap-1 mt-[6.5vw]">
         <a href="https://solanaspain.tours" class="relative left-[2.5vw]" target="_blank" hdbShowOnHover>
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076013/tools_frame_bw_ttak7c.png"
-            alt="tools picture black and white"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717677852/Tour_frame_bw_gp81et.png"
+            alt="spain tour picture black and white"
             class="w-[42vw]"
           />
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076013/tools_frame_color_tvgtvw.png"
-            alt="tools picture colorful hover"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717677852/Tour_frame_color_l3p6ww.png"
+            alt="spain tour picture colorful hover"
             class="w-[42vw] absolute top-[0vw] opacity-0"
           />
         </a>
