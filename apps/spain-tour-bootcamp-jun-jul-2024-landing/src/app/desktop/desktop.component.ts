@@ -48,9 +48,9 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
 
         <a href="#" target="_blank" aria-label="resources text">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716755306/Colaboradores_aqc4xc.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
             alt="Vintage resources title stickers"
-            class="w-[12.5vw] absolute z-30 top-[1.8vw] right-[3.5vw]"
+            class="w-[16.5vw] absolute z-30 top-[1.8vw] right-[2vw]"
           />
         </a>
 
@@ -73,37 +73,37 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
         </a>
 
         <a
-          href="https://www.rust-lang.org/"
+          href="https://solana.fm/"
           target="_blank"
-          aria-label="link to Rust official website"
+          aria-label="link to SolanaFM official website"
           bootcampShowOnHover
         >
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Rust_eqvvrp.png"
-            alt="Vintage Rust logo stickers"
-            class="w-[6.5vw] absolute z-30 top-[12vw] right-[3.6vw] -rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Solana_FM_rkwx20.png"
+            alt="Vintage SolanaFM logo stickers"
+            class="w-[4.5vw] absolute z-30 top-[12vw] right-[4.6vw] -rotate-[15deg]"
           />
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717014249/Rust_Hover_vbmwku.png"
-            alt="Vintage Rust logo stickers hover"
-            class="w-[6.5vw] absolute z-30 top-[12vw] right-[4.4vw] rotate-[15deg] opacity-0"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Solana_FM_Hover_gruima.png"
+            alt="Vintage SolanaFM logo stickers hover"
+            class="w-[4.5vw] absolute z-30 top-[12vw] right-[5vw] rotate-[15deg] opacity-0"
           />
         </a>
 
         <a
-          href="https://github.com/coral-xyz/anchor"
+          href="https://shyft.to/"
           target="_blank"
-          aria-label="link to CoinTelegraph"
+          aria-label="link to shyft official website"
           bootcampShowOnHover
         >
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Anchord_lq2jid.png"
-            alt="Vintage Anchor logo stickers"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
+            alt="Vintage Shyft logo stickers"
             class="w-[6.5vw] absolute z-30 top-[11vw] right-[12.3vw] rotate-[15deg]"
           />
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717014249/Anchord_Hover_wf9jxu.png"
-            alt="Vintage Anchor logo stickers hover"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Shyft_Hover_hipjxv.png"
+            alt="Vintage Shyft logo stickers hover"
             class="w-[6.5vw] absolute z-30 top-[11vw] right-[11.3vw] -rotate-[15deg] opacity-0"
           />
         </a>
@@ -194,14 +194,6 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704136206/Game_qd0yag.png"
           alt="Vintage game controller pixel art"
           class="w-[10vw]"
-        />
-      </div>
-
-      <div id="ashtray" class="absolute bottom-[7vw] left-[15.4vw]">
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704465247/Ashtray_2_y7wyub.png"
-          alt="Vintage ashtray pixel art"
-          class="w-[7vw]"
         />
       </div>
 
@@ -446,25 +438,74 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
         />
       </div>
 
-      <div id="drink-can-one" class="absolute bottom-[19.5vw] right-[7vw]">
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704394177/Beer_1_oue2db.png"
-          alt="Vintage drink can pixel art"
-          class="w-[4vw]"
-        />
-      </div>
+      <div id="resources-books" class="absolute bottom-[16.5vw] right-[7vw]">
+        <div class="relative top-[4vw] z-[20] -left-[0.3vw">
+          <a
+            href="https://www.rust-lang.org/"
+            target="_blank"
+            aria-label="Link to Backpack official website"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/v1717679736/Rust_Book_e0hrhf.png"
+              alt="Vintage backpack red pixel art"
+              class="w-[14vw]"
+            />
+            <img
+              id="red-backpack-image"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/v1717679736/Rust_Book_Hover_qnimjy.png"
+              alt="Vintage backpack red pixel art hover"
+              class="absolute w-[14vw] top-[0.1vw] opacity-0"
+            />
+          </a>
+        </div>
 
-      <div id="drink-can-two" class="absolute bottom-[18.5vw] right-[5vw]">
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704394177/Beer_1_oue2db.png"
-          alt="Vintage drink can pixel art"
-          class="w-[4vw]"
-        />
+        <div class="relative top-[1.9vw] z-[10] left-[0.3vw]">
+          <a
+            href="https://github.com/coral-xyz/anchor"
+            target="_blank"
+            aria-label="Link to Backpack official website"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679737/Anchor_Book_wu4kra.png"
+              alt="Vintage backpack red pixel art"
+              class="w-[14vw]"
+            />
+            <img
+              id="red-backpack-image"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679736/Anchor_Book_Hover_ifekxq.png"
+              alt="Vintage backpack red pixel art hover"
+              class="absolute w-[14vw] top-[0.1vw] opacity-0"
+            />
+          </a>
+        </div>
+
+        <div class="relative">
+          <a
+            href="https://solanacookbook.com/"
+            target="_blank"
+            aria-label="Link to Backpack official website"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679736/Solana_Book_liou5a.png"
+              alt="Vintage backpack red pixel art"
+              class="w-[14vw]"
+            />
+            <img
+              id="red-backpack-image"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679736/Solana_Book_Hover_ex3feg.png"
+              alt="Vintage backpack red pixel art hover"
+              class="absolute w-[14vw] top-[0.1vw] opacity-0"
+            />
+          </a>
+        </div>
       </div>
 
       <div
         id="funko-builder-girl"
-        class="absolute bottom-[16.5vw] right-[14vw] z-[50]"
+        class="absolute bottom-[7vw] left-[13.4vw] z-[50]"
       >
         <a
           href="https://heavyduty.builders"
@@ -474,12 +515,12 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716910387/Alice_V2_1_rxxbc1.png"
             alt="Vintage Alice funko builder pixel art"
-            class="w-[7.7vw]"
+            class="w-[9.7vw]"
           />
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716896550/Alice_Hover_zohjwy.png"
             alt="Vintage Alice funko builder pixel art hover"
-            class="absolute top-[0vw] w-[7.7vw] opacity-0"
+            class="absolute top-[0vw] w-[9.7vw] opacity-0"
           />
         </a>
       </div>
