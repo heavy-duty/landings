@@ -53,7 +53,7 @@ import { Component } from '@angular/core';
         </div>
 
         <div
-          class="absolute -bottom-[3vw] -bottom-[2vw] flex justify-center  gap-[1.5vw] left-[43vw] w-[20vw] z-[20]"
+          class="absolute -bottom-[2vw] flex justify-center  gap-[1.5vw] left-[43vw] w-[20vw] z-[20]"
         >
           <div
             class="flex justify-center items-center bg-pixel-purple w-[5vw] h-[5vw] border-[0.3vw] border-black"

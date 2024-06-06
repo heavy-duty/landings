@@ -26,17 +26,11 @@ import { ShowOnHoverDirective } from '../../utils';
           href="https://solanaspain.tours"
           class="relative"
           target="_blank"
-          hdbShowOnHover
         >
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076013/tools_frame_bw_ttak7c.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076013/tools_frame_color_tvgtvw.png"
             alt="tools picture black and white"
             class="w-[82vw]"
-          />
-          <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076013/tools_frame_color_tvgtvw.png"
-            alt="tools picture colorful hover"
-            class="w-[82vw] absolute top-[0vw] opacity-0"
           />
         </a>
 
@@ -51,17 +45,11 @@ import { ShowOnHoverDirective } from '../../utils';
           href="https://solanaspain.tours"
           class="relative"
           target="_blank"
-          hdbShowOnHover
         >
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076012/bootcamp_frame_bw_ydmp60.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076012/bootcamp_frame_color_dtdhyt.png"
             alt="bootcamp picture black and white" 
             class="w-[82vw]"
-          />
-          <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717076012/bootcamp_frame_color_dtdhyt.png"
-            alt="bootcamp picture colorful hover" 
-            class="w-[82vw] absolute top-[0vw] opacity-0"
           />
         </a>
 
@@ -70,8 +58,6 @@ import { ShowOnHoverDirective } from '../../utils';
           <p class="leading-loose text-[2.5vw] text-justify">A tour around Spain to facilitate the initiation and building of our fellow devs in the Solana ecosystem. Feedback is always welcome!</p>
         </div> 
       </div>
-
-      <div></div>
     </section>
   `,
   styles: ``,

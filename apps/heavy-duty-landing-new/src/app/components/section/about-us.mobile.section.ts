@@ -24,8 +24,16 @@ import { Component } from '@angular/core';
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717528054/bob_dialog_mobile_epavgq.png"
           alt="Globo de chat de bob"
-          class="w-[80vw]"
+          class="w-[85vw]"
         />
+        <p
+          class="absolute top-[4.5vw] left-[12.5vw] w-[75vw] text-[2.4vw] text-justify leading-relaxed"
+        >
+        Welcome to Heavy Duty Builders! We are a vibrant international family of developers passionately dedicated to the world of OSS and supporting our fellow software enthusiasts. Since 2021, we've united to create this community, connecting builders in the Solana ecosystem as we grow together. Our mission is to foster educational resources in the field of web3 development.
+        <br />
+        <br />
+        Dive in with us, and let's create, share, and build on this exciting journey!
+        </p>
       </div>
       <div
         class="gradient absolute w-full h-[10vw] left-0 bottom-[1vw] z-[10]"
