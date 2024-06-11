@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Pixel Sans';
+	src: local('../../assets/fonts/Pixel_Sans_Serif.ttf'),
+		local('../../assets/fonts/Pixel_Sans_Serif.ttf'),
+		url(../../assets/fonts/Pixel_Sans_Serif.ttf) format('truetype');
+	font-display: swap;
+}
+
+
+.bp-font-pixel {
+  font-family: 'Pixel Sans';
+}

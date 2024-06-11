@@ -107,8 +107,114 @@
       ]
     },
     {
+      "target": "spain-bootcamp",
+      "public": "dist/apps/spain-tour-bootcamp-jun-jul-2024-landing/browser",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "max-age=30672000"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(js|css)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=30672000"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(jpg|jpeg|gif|png|webp|svg)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=30672000"
+            }
+          ]
+        },
+        {
+          "source": "404.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=300"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "target": "bootcamp-heavyduty",
       "public": "dist/apps/spain-tour-bootcamp-landing",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "max-age=30672000"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(js|css)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=30672000"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(jpg|jpeg|gif|png|webp|svg)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=30672000"
+            }
+          ]
+        },
+        {
+          "source": "404.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=300"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "heavy-duty-builders-new-landing",
+      "public": "dist/apps/heavy-duty-landing-new",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
         {

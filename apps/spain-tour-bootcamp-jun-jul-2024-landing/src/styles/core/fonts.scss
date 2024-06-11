@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap');
+
+@font-face {
+	font-family: 'Retro Computer';
+	src: local('../../assets/fonts/retro_computer.ttf'),
+		local('../../assets/fonts/retro_computer.ttf'),
+		url(../../assets/fonts/retro_computer.ttf) format('truetype');
+	font-display: swap;
+}
+
+
+.bp-font-retro-computer {
+  font-family: 'Retro Computer';
+}

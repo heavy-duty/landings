@@ -1,0 +1,10 @@
+@import './core/fonts.scss';
+
+body {
+  font-family: 'Pixel Sans';
+  background-color: #FEF6E5;
+}
+
+.gradient {
+  background: linear-gradient(360deg, rgba(254, 246, 229, 0.5) 0%, rgba(252, 244, 229, 0.5) 0.01%, rgba(171, 145, 94, 0.5) 100%);
+}
