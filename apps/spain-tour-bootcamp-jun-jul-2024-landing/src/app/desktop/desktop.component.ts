@@ -39,6 +39,26 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
         </a>
       </div>
 
+      <div class="absolute right-[28.5vw]  bottom-[38.5vw] z-[100]">
+        <a
+          href="https://discord.com/invite/sbjg5YvYfM"
+          target="_blank"
+          arial-label="Heavy Duty Builders discord link"
+          bootcampShowOnHover
+        >
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Post-it_ity4kn.png"
+            alt="Vintage post-it purple message"
+            class="w-[7.5vw] z-30 top-[3vw] right-[19vw] rotate-[15deg]"
+          />
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717014833/Post-it-hover._png_q0qzzs.png"
+            alt="Vintage post-it purple message hover"
+            class="w-[7.5vw] absolute z-30 top-[0.2vw] opacity-0 rotate-[15deg]"
+          />
+        </a>
+      </div>
+
       <div id="resources-cork" class="absolute left-[1vw] bottom-[35.7vw]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Cork_2_jwnr5s.png"
@@ -109,20 +129,20 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
         </a>
 
         <a
-          href="https://discord.com/invite/sbjg5YvYfM"
+          href="https://aquasave.io/"
           target="_blank"
-          arial-label="Heavy Duty Builders discord link"
+          arial-label="Aqua Save website link"
           bootcampShowOnHover
         >
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Post-it_ity4kn.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718226360/Aquasave_cnnlmu.png"
             alt="Vintage post-it purple message"
-            class="w-[7.5vw] absolute z-30 top-[3vw] right-[19vw] rotate-[15deg]"
+            class="w-[5.5vw] absolute z-30 top-[3vw] right-[20vw] rotate-[15deg]"
           />
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717014833/Post-it-hover._png_q0qzzs.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718226360/Aquasave_Hover_ui252o.png"
             alt="Vintage post-it purple message hover"
-            class="w-[7.5vw] absolute z-30 top-[3vw] right-[17.6vw] opacity-0 -rotate-[15deg]"
+            class="w-[5.5vw] absolute z-30 top-[3.2vw] right-[19.2vw] opacity-0 -rotate-[5deg]"
           />
         </a>
 
