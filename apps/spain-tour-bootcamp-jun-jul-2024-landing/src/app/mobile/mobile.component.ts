@@ -6,7 +6,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
   template: `
     <div id="mobile-main-frame" class="relative overflow-x-hidden">
       <div id="main-art-welcome" class="relative flex justify-center top-[6vw]">
-        <img 
+        <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704465536/Sign_yicmjg.png"
           alt="Vintage welcome bootcamp painting pixel art"
           class="w-[90vw]"
@@ -17,31 +17,46 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
             Bienvenido al Heavy Duty Camp:
           </h2>
           <h1 class="text-[4.5vw] w-[72vw]">
-            {{introText}}
+            {{ introText }}
           </h1>
           <div class="mt-[4vw]">
-            <button class="bg-[#6A4CB1] px-[4vw] py-[1.5vw] text-white text-[3.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">
+            <button
+              class="bg-[#6A4CB1] px-[4vw] py-[1.5vw] text-white text-[3.5vw] border-black border-[0.5vw]"
+              aria-label="Botón de registro"
+            >
               <a href="https://forms.gle/tUYkF43kQ6pQF9eU9" target="_blank">
                 REGISTRARME
-              </a>  
+              </a>
             </button>
           </div>
         </div>
       </div>
 
-      <div id="official-calendar" class="relative flex justify-center mt-[13vw]">
-        <img 
+      <div
+        id="official-calendar"
+        class="relative flex justify-center mt-[13vw]"
+      >
+        <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716673552/Poster_Junio_stjug5.png"
           alt="Vintage calendar june pixel art"
           class="relative w-[80vw] left-[1vw]"
         />
 
-        <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Heavy+Duty+Camp&details=Heavy+Duty+Camp+te+explica+acerca+de+Solana&location=Online&dates=20240617T180000Z%2F20240617T190000Z" alt="Add event to Google calendar" target="_blank">
-          <div class="add-calendar-event" class="absolute top-[71.5vw] left-[18.5vw] w-[8.5vw] h-[7.5vw]"></div>
+        <a
+          href="https://www.google.com/calendar/render?action=TEMPLATE&text=Heavy+Duty+Camp&details=Heavy+Duty+Camp+te+explica+acerca+de+Solana&location=Online&dates=20240617T180000Z%2F20240617T190000Z"
+          alt="Add event to Google calendar"
+          target="_blank"
+        >
+          <div
+            class="add-calendar-event"
+            class="absolute top-[71.5vw] left-[18.5vw] w-[8.5vw] h-[7.5vw]"
+          ></div>
         </a>
 
         <a href="https://solana.com" target="_blank">
-          <div class="absolute opacity-0 w-[65.5vw] h-[26vw] z-40 top-[9.6vw] left-[17.6vw]"></div>
+          <div
+            class="absolute opacity-0 w-[65.5vw] h-[26vw] z-40 top-[9.6vw] left-[17.6vw]"
+          ></div>
         </a>
       </div>
 
@@ -52,112 +67,208 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           class="w-[90vw] relative"
         />
 
-        <a href="https://www.solanahub.app/" target="_blank" aria-label="link to solana hub">
+        <a href="#" aria-label="collaborators text">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716755306/Colaboradores_aqc4xc.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
             alt="Vintage resources title stickers"
-            class="w-[35vw] absolute z-30 top-[4.5vw] right-[17vw]"
+            class="w-[55vw] absolute z-30 top-[4.5vw] right-[20vw]"
           />
         </a>
 
-        <a href="https://solana.com/" target="_blank" aria-label="link to solana oficial page">
+        <!-- Solana -->
+        <div class="absolute z-30 top-[13vw] right-[25vw]">
+          <a
+            href="https://solana.com/"
+            target="_blank"
+            aria-label="link to Solana oficial page"
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Solana_rctkla.png"
+              alt="Vintage Solana logo stickers"
+              class="w-[20vw] relative"
+            />
+          </a>
+
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Solana_rctkla.png"
-            alt="Vintage Solana logo stickers"
-            class="w-[20vw] absolute z-30 top-[13vw] right-[29vw]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[4vw] absolute z-30 top-[2vw] right-[7.5vw]"
           />
-        </a>
+        </div>
 
-        <a href="https://www.rust-lang.org/" target="_blank" aria-label="link to Rust official website">
+        <!-- Solana FM  -->
+        <div class="absolute z-30 bottom-[8vw] right-[11vw] ">
+          <a
+            href="https://solana.fm/"
+            target="_blank"
+            aria-label="link to SolanaFM official website"
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Solana_FM_rkwx20.png"
+              alt="Vintage SolanaFM logo stickers"
+              class="w-[15vw] relative -rotate-[15deg]"
+            />
+          </a>
+
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Rust_eqvvrp.png"
-            alt="Vintage Rust logo stickers"
-            class="w-[22vw] absolute z-30 top-[30vw] right-[9.5vw] -rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[4vw] absolute z-30 top-[0.5vw] right-[6vw] -rotate-[15deg]"
           />
-        </a>
+        </div>
 
-        <a href="https://github.com/coral-xyz/anchor" target="_blank" aria-label="link to CoinTelegraph">
+        <!-- Rug Radio ES  -->
+        <div class="absolute z-30 bottom-[3.5vw] right-[32.5vw]">
+          <a
+            href="https://twitter.com/RugRadioES"
+            target="_blank"
+            aria-label="link to Rug radio ES official X account"
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718484312/RugRadio_qwrrh7.png"
+              alt="Vintage Rug Radio logo stickers"
+              class="w-[18vw] realtive rotate-[15deg]"
+            />
+          </a>
+
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Anchord_lq2jid.png"
-            alt="Vintage Anchor logo stickers"
-            class="w-[21vw] absolute z-30 top-[33vw] right-[43.5vw] rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[4vw] absolute top-[1.5vw] right-[5.2vw]"
           />
-        </a>
+        </div>
 
-        <a href="https://discord.com/invite/sbjg5YvYfM" target="_blank" arial-label="Heavy Duty Builders discord link">
+        <!-- Shyft Radio ES  -->
+        <div class="absolute z-30 bottom-[5.5vw] left-[27.5vw]">
+          <a
+            href="https://shyft.to/"
+            target="_blank"
+            aria-label="link to shyft official website"
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
+              alt="Vintage Shyft logo stickers"
+              class="w-[18vw] realtive rotate-[15deg]"
+            />
+          </a>
+
           <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Post-it_ity4kn.png"
-            alt="Vintage post-it purple message"
-            class="w-[24vw] absolute z-30 top-[8vw] right-[69vw] rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[4vw] absolute top-[1.5vw] right-[5.2vw]"
           />
-        </a>
+        </div>
 
-        <!-- PINs -->
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage cork pin"
-          class="w-[4vw] absolute z-30 top-[32vw] right-[19.5vw] -rotate-[15deg]"
-        />
+        <!-- Cryptoconexion  -->
+        <div class="absolute z-30 top-[15.5vw] left-[31vw]">
+          <a
+            href="https://cryptoconexion.com/"
+            target="_blank"
+            arial-label="Crypto Conexion website link"
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718473550/Cryptoconexion_lstp2z.png"
+              alt="Vintage Crypto conexion purple message"
+              class="w-[16vw] realtive rotate-[15deg]"
+            />
+          </a>
 
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage cork pin"
-          class="w-[4vw] absolute z-30 top-[14vw] right-[36.5vw] -rotate-[15deg]"
-        />
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[4vw] absolute top-[1.5vw] right-[5.2vw]"
+          />
+        </div>
 
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage cork pin"
-          class="w-[4vw] absolute z-30 top-[34.5vw] right-[50.5vw] -rotate-[15deg]"
-        />
-        
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Pin2_zcum7b.png"
-          alt="Vintage cork pin"
-          class="w-[4vw] absolute z-30 top-[8.5vw] right-[77.5vw] -rotate-[15deg]"
-        />
+        <!-- Aqua Save  -->
+        <div class="absolute z-30 top-[18.5vw] left-[9.5vw]">
+          <a
+            href="https://aquasave.io/"
+            target="_blank"
+            arial-label="Aqua Save website link"
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718226360/Aquasave_cnnlmu.png"
+              alt="Vintage Aqua Save purple message"
+              class="w-[16vw] realtive -rotate-[5deg]"
+            />
+          </a>
+
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[4vw] absolute top-[1.5vw] left-[6vw]"
+          />
+        </div>
       </div>
 
       <div class="relative flex justify-center mt-[6vw]">
+        <!-- Join our discord -->
+        <div class="absolute z-10 top-[8vw] left-[0vw]">
+          <a
+            href="https://discord.com/invite/sbjg5YvYfM"
+            target="_blank"
+            arial-label="Heavy Duty Builders discord link"
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Post-it_ity4kn.png"
+              alt="Vintage post-it purple message"
+              class="w-[20vw] relative rotate-[15deg]"
+            />
+          </a>
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Pin2_zcum7b.png"
+            alt="Vintage cork pin"
+            class="w-[4vw] absolute top-[1.2vw] left-[10vw] -rotate-[15deg]"
+          />
+        </div>
 
         <div id="desktop-table" class="absolute top-[54.1vw]">
-          <img 
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1702928477/table_xwe3xs.png"
-          alt="Desktop wood table pixel art"
-          class="w-[99.9vw] h-[60vw]"
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1702928477/table_xwe3xs.png"
+            alt="Desktop wood table pixel art"
+            class="w-[99.9vw] h-[60vw]"
           />
         </div>
 
         <div id="wall-shadow" class="absolute top-[23.4vw]  z-10">
-          <img 
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704135252/shadow_ztxbuz.png"
-              alt="Shadow on the wall pixel art"
-              class="w-[100vw]"
-            />
-        </div> 
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704135252/shadow_ztxbuz.png"
+            alt="Shadow on the wall pixel art"
+            class="w-[100vw]"
+          />
+        </div>
 
-        <div id="computer-speaker-left" class="absolute left-[5vw] bottom-[15vw]  z-10">
-          <img 
+        <div
+          id="computer-speaker-left"
+          class="absolute left-[5vw] bottom-[15vw]  z-10"
+        >
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703956343/Stereo_c3sfcm.png"
             alt="Vintage computer left speaker pixel art"
             class="w-[18vw]"
           />
-        </div>  
+        </div>
 
         <div id="computer-monitor" class="z-20 relative mt-[0.4vw]">
-          <img 
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1702928464/screen_vpremv.png"
             alt="Vintage computer monitor pixel art"
             class="w-[85vw] ml-[16.5vw]"
           />
 
-          <div class="absolute top-[22vw] w-[100vw] flex justify-center bp-font-retro-computer">
+          <div
+            class="absolute top-[22vw] w-[100vw] flex justify-center bp-font-retro-computer"
+          >
             <div class="text-left relative -left-[1vw] w-[34vw]">
               <h2 class="text-[3vw] text-[#00E805]">
-                > {{introText}} <span class="terminal-cursor-mobile"></span>
+                > {{ introText }} <span class="terminal-cursor-mobile"></span>
               </h2>
               @if (!isFromEmail) {
-              <button class="bg-[#00E805] mt-[4vw] px-[4vw] py-[1.5vw] text-black text-[2.5vw] border-black border-[0.5vw]" aria-label="Botón de registro">
+              <button
+                class="bg-[#00E805] mt-[4vw] px-[4vw] py-[1.5vw] text-black text-[2.5vw] border-black border-[0.5vw]"
+                aria-label="Botón de registro"
+              >
                 <a href="https://forms.gle/tUYkF43kQ6pQF9eU9" target="_blank">
                   REGISTRARME
                 </a>
@@ -167,8 +278,11 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           </div>
         </div>
 
-        <div id="computer-speaker-right" class="absolute right-[0vw] bottom-[15vw] z-30">
-          <img 
+        <div
+          id="computer-speaker-right"
+          class="absolute right-[0vw] bottom-[15vw] z-30"
+        >
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703956343/Stereo_c3sfcm.png"
             alt="Vintage computer right speaker pixel art"
             class="w-[18vw]"
@@ -178,7 +292,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
 
       <div class="relative">
         <div id="computer-keyboard" class="relative mt-[2vw]">
-          <img 
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1702928472/keyboard_r0owce.png"
             alt="Vintage computer keyboard pixel art"
             class="relative w-[70vw] rotate-3 left-[1vw]"
@@ -186,24 +300,27 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         </div>
 
         <div id="cup-coffee" class="absolute -top-[15.5vw] right-[1vw] z-30">
-          <img 
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703957915/Smoke_Dark_hzsnah.gif"
             alt="Vintage coffee smoke gif pixel art"
             class="w-[11vw] absolute top-[-6.3vw] right-[0.3vw] opacity-25"
           />
-        
+
           <a href="https://solana.com" target="_blank">
-            <img 
+            <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704136782/Coffee_1_f1esg4.png"
               alt="Vintage solana cup of coffee pixel art"
               class="w-[11vw]"
             />
-          </a>  
+          </a>
         </div>
 
-        <div id="funko-builder-girl" class="absolute -top-[21.5vw] -left-[1vw] z-[70]">
+        <div
+          id="funko-builder-girl"
+          class="absolute -top-[21.5vw] -left-[1vw] z-[70]"
+        >
           <a href="https://heavyduty.builders" target="_blank">
-            <img 
+            <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716676126/Alice_Builder_V2_iazyzw.png"
               alt="Vintage Alice funko builder pixel art"
               class="w-[19vw]"
@@ -211,19 +328,24 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           </a>
         </div>
 
-        <div id="computer-mousepad" class="absolute bottom-[4vw] -right-[1.5vw]">
-          <img 
+        <div
+          id="computer-mousepad"
+          class="absolute bottom-[4vw] -right-[1.5vw]"
+        >
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703956344/Mousepad_ua5xde.png"
             alt="Heavy duty builders mousepad pixel art"
             class="w-[33vw] -rotate-1"
           />
 
           <a href="https://heavyduty.builders" target="_blank">
-            <div class="w-[7vw] h-[3vw] absolute right-[3vw] bottom-[2.4vw] -rotate-[2deg] opacity-0"></div>
+            <div
+              class="w-[7vw] h-[3vw] absolute right-[3vw] bottom-[2.4vw] -rotate-[2deg] opacity-0"
+            ></div>
           </a>
         </div>
         <div id="computer-mouse" class="absolute bottom-[7vw] right-[8vw] z-20">
-          <img 
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/v1704509525/Mobile_Mouse_fjeob2.png"
             alt="Vintage computer mouse pixel art"
             class="w-[20vw] -rotate-3"
@@ -233,16 +355,23 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
 
       <div class="relative mt-[10vw]">
         <div id="bookshelf" class="relative -left-[49.5vw] z-30 w-[130vw]">
-          <img 
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704138687/Books_Shell_1_q13cdi.png"
             alt="Vintage bookshelf pixel art"
             class="w-[130vw]"
           />
         </div>
 
-        <div id="bookshelf-books-up" class="absolute top-[36vw] left-[9vw] w-[50vw] h-[10vw] z-[60] bp-font-retro-computer">
-          <a href="https://solanaspain.dev/assets/privacy_policies.pdf" target="_blank" aria-label="privacy policies">
-            <img 
+        <div
+          id="bookshelf-books-up"
+          class="absolute top-[36vw] left-[9vw] w-[50vw] h-[10vw] z-[60] bp-font-retro-computer"
+        >
+          <a
+            href="https://solanaspain.dev/assets/privacy_policies.pdf"
+            target="_blank"
+            aria-label="privacy policies"
+          >
+            <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705447193/Pp_Book_1_u9q485.png"
               alt="Vintage drink can pixel art"
               class="w-[50vw] absolute -top-[6vw] left-[1.2vw]"
@@ -251,8 +380,12 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
               Politicas de privacidad
             </p>
           </a>
-          <a href="https://solanaspain.dev/assets/terms_and_conditions.pdf" target="_blank" aria-label="privacy policies">
-            <img 
+          <a
+            href="https://solanaspain.dev/assets/terms_and_conditions.pdf"
+            target="_blank"
+            aria-label="privacy policies"
+          >
+            <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705446722/Tc_Book_1_c3w8cr.png"
               alt="Vintage drink can pixel art"
               class="w-[50vw]"
@@ -260,126 +393,109 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
             <p class="absolute top-[8.3vw] ml-[3.5vw] text-[1.8vw]">
               Terminos y condiciones
             </p>
-          </a>  
+          </a>
         </div>
 
-        <!-- <div id="bookshelf-books-up" class="absolute top-[6vw] left-[7vw] w-[40vw] h-[12.5vw] z-40">
-          <a href="https://www.soldev.app/" target="_blank" >
-            <img  
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289333/Blue_Book_qogwrt.png"
-              alt="Vintage blue book pixel art"
-              class="w-[7.3vw] absolute z-10 top-[0vw]"
-            />
-          </a>
-          <a href="https://www.soldev.app/" target="_blank" >
-            <img 
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289333/Red_Book_ui9oqa.png"
-              alt="Vintage red book pixel art"
-              class="w-[6.7vw] absolute z-10 left-[4.5vw] top-[1.8vw]"
-            />
-          </a>
-          <a href="https://www.soldev.app/" target="_blank" >
-            <img 
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289332/Green_Book_wfxtwg.png"
-              alt="Vintage green book pixel art"
-              class="w-[7.1vw] absolute z-10 left-[9vw] top-[0.3vw]"
-            />
-          </a>
-          <a href="https://www.soldev.app/" target="_blank" >
-            <img 
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289332/Pink_Book_wuxdpf.png"
-              alt="Vintage green book pixel art"
-              class="w-[7vw] absolute z-10 left-[13.5vw] top-[0.7vw]"
-            />        
-          </a>
-        </div> -->
-
-        <div id="bookshelf-books-down" class="absolute bottom-[0vw] left-[7vw] w-[6vw] h-[34vw] z-[30]">
-          <img  
+        <div
+          id="bookshelf-books-down"
+          class="absolute bottom-[0vw] left-[7vw] w-[6vw] h-[34vw] z-[30]"
+        >
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Red_Simple_Book__fwzsq5.png"
             alt="Vintage yellow book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] -left-[1.1vw]"
-          />  
-          <img  
+          />
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/White_Simple_Book__qqytug.png"
             alt="Vintage white book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] left-[3.6vw]"
           />
-          <img  
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Blue_Simple_Book__foovlc.png"
             alt="Vintage blue book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] left-[8.6vw]"
           />
-          <img  
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Green_Simple_Book_lcseet.png"
             alt="Vintage green book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] left-[13vw]"
           />
-          <img  
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Purple_Simple_Book_apk2zp.png"
             alt="Vintage purple book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] left-[17.5vw]"
           />
-          <img  
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Yellow_Simple_Book__xl7bko.png"
             alt="Vintage yellow book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] left-[22vw]"
-          />  
-          <img  
+          />
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Red_Simple_Book__fwzsq5.png"
             alt="Vintage red book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] left-[26.5vw]"
           />
-          <img  
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Blue_Simple_Book__foovlc.png"
             alt="Vintage blue book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] left-[31.6vw]"
           />
-          <img  
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704402554/Green_Simple_Book_lcseet.png"
             alt="Vintage green book pixel art"
             class="w-[7.4vw] absolute z-10 top-[0vw] left-[36.5vw]"
           />
         </div>
 
-        <div id="wall-shadow-desktop" class="absolute w-[100vw] h-[90vw] bg-black -top-[7.2vw] opacity-30"></div>
+        <div
+          id="wall-shadow-desktop"
+          class="absolute w-[100vw] h-[90vw] bg-black -top-[7.2vw] opacity-30"
+        ></div>
 
-        <div id="wall-shadow-room" class="absolute bottom-[8vw] -right-[3vw]  z-10">
-          <img 
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704135252/shadow_ztxbuz.png"
-              alt="Shadow on the wall pixel art"
-              class="w-[100vw]"
-            />
-        </div> 
+        <div
+          id="wall-shadow-room"
+          class="absolute bottom-[8vw] -right-[3vw]  z-10"
+        >
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704135252/shadow_ztxbuz.png"
+            alt="Shadow on the wall pixel art"
+            class="w-[100vw]"
+          />
+        </div>
 
         <div id="red-backpack" class="absolute z-40 -right-[4vw] bottom-0">
-          <a href="https://backpack.app/" target="_blank" aria-label="Link to Backpack official website">
-            <img 
+          <a
+            href="https://backpack.app/"
+            target="_blank"
+            aria-label="Link to Backpack official website"
+          >
+            <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/v1705699000/Back-pack_l5p1nc.png"
               alt="Vintage backpack red pixel art"
               class="w-[35vw]"
             />
-          </a>  
+          </a>
         </div>
 
-        <div id="room-floor" class="absolute w-[100vw] bg-[#faebd7] h-[8.5vw] bottom-[0vw]"></div>
+        <div
+          id="room-floor"
+          class="absolute w-[100vw] bg-[#faebd7] h-[8.5vw] bottom-[0vw]"
+        ></div>
       </div>
 
       <div id="funko-builder" class="absolute bottom-[54vw] left-[26vw] z-[70]">
         <a href="https://heavyduty.builders" target="_blank">
-          <img 
+          <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704138873/Builder_l1fch8.png"
             alt="Vintage funko builder pixel art"
             class="w-[20vw]"
           />
         </a>
       </div>
-
-
     </div>
   `,
   standalone: true,
-  styles: []
+  styles: [],
 })
 export class AppMobileComponent {
   @Input() isFromEmail = false;

@@ -16,19 +16,7 @@ body {
 }
 
 #desktop-main-frame {
-  min-height: 110vh;
-}
-
-@media screen and (max-height: 890px) {
-  #desktop-main-frame {
-    min-height: 60vw !important;
-  }
-}
-
-@media screen and (min-height: 910px) {
-  #desktop-main-frame {
-    min-height: 120vh !important;
-  }
+  min-height: 113vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -96,7 +84,7 @@ body {
 /* Scroll bar */
 /* width */
 ::-webkit-scrollbar {
-  width: .8vw;
+  width: 0.5vw;
 }
 
 /* Track */

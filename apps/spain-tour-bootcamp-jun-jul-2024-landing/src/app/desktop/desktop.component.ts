@@ -66,110 +66,175 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
           class="w-[32vw] relative"
         />
 
-        <a href="#" target="_blank" aria-label="resources text">
+        <a href="#" aria-label="collaborators text">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
             alt="Vintage resources title stickers"
-            class="w-[16.5vw] absolute z-30 top-[1.8vw] right-[2vw]"
+            class="w-[16.5vw] absolute z-30 top-[1.8vw] right-[7vw]"
           />
         </a>
 
-        <a
-          href="https://solana.com/"
-          target="_blank"
-          aria-label="link to solana oficial page"
-          bootcampShowOnHover
-        >
-          <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Solana_rctkla.png"
-            alt="Vintage Solana logo stickers"
-            class="w-[6.3vw] absolute z-30 top-[5vw] right-[6.3vw]"
-          />
-          <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717014249/Solana_Hover_jirt5k.png"
-            alt="Vintage Solana logo stickers hover"
-            class="w-[6.3vw] absolute z-30 top-[5vw] right-[6vw] -rotate-[10deg] opacity-0"
-          />
-        </a>
+        <!-- Solana -->
+        <div class="absolute z-30 top-[5vw] right-[4vw]">
+          <a
+            href="https://solana.com/"
+            target="_blank"
+            aria-label="link to solana oficial page"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Solana_rctkla.png"
+              alt="Vintage Solana logo stickers"
+              class="w-[6.3vw] realtive z-30 right-[6.3vw]"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717014249/Solana_Hover_jirt5k.png"
+              alt="Vintage Solana logo stickers hover"
+              class="w-[6.3vw] absolute top-[0vw] -rotate-[10deg] opacity-0"
+            />
+          </a>
 
-        <a
-          href="https://solana.fm/"
-          target="_blank"
-          aria-label="link to SolanaFM official website"
-          bootcampShowOnHover
-        >
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Solana_FM_rkwx20.png"
-            alt="Vintage SolanaFM logo stickers"
-            class="w-[4.5vw] absolute z-30 top-[12vw] right-[4.6vw] -rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[1.5vw] absolute top-[0.5vw] right-[2.3vw] -rotate-[15deg]"
           />
+        </div>
+
+        <!-- Solana FM  -->
+        <div class="absolute z-30 top-[12vw] right-[2vw]">
+          <a
+            href="https://solana.fm/"
+            target="_blank"
+            aria-label="link to SolanaFM official website"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Solana_FM_rkwx20.png"
+              alt="Vintage SolanaFM logo stickers"
+              class="w-[4.5vw] relative -rotate-[15deg]"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Solana_FM_Hover_gruima.png"
+              alt="Vintage SolanaFM logo stickers hover"
+              class="w-[4.5vw] absolute z-30 top-[0vw] right-[0.8vw] rotate-[15deg] opacity-0"
+            />
+          </a>
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Solana_FM_Hover_gruima.png"
-            alt="Vintage SolanaFM logo stickers hover"
-            class="w-[4.5vw] absolute z-30 top-[12vw] right-[5vw] rotate-[15deg] opacity-0"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[1.5vw] absolute z-30 top-[0vw] right-[1.8vw] -rotate-[15deg]"
           />
-        </a>
+        </div>
 
-        <a
-          href="https://shyft.to/"
-          target="_blank"
-          aria-label="link to shyft official website"
-          bootcampShowOnHover
-        >
+        <!-- Shyft  -->
+        <div class="absolute z-30 top-[12vw] right-[15vw]">
+          <a
+            href="https://shyft.to/"
+            target="_blank"
+            aria-label="link to shyft official website"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
+              alt="Vintage Shyft logo stickers"
+              class="w-[5.7vw] relative rotate-[15deg]"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Shyft_Hover_hipjxv.png"
+              alt="Vintage Shyft logo stickers hover"
+              class="w-[5.7vw] absolute top-[0vw] -right-[1vw] -rotate-[15deg] opacity-0"
+            />
+          </a>
+
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
-            alt="Vintage Shyft logo stickers"
-            class="w-[6.5vw] absolute z-30 top-[11vw] right-[12.3vw] rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[1.5vw] absolute z-30 top-[0.3vw] right-[1.4vw] -rotate-[15deg]"
           />
+        </div>
+
+        <!-- Rug Radio ES  -->
+        <div class="absolute z-30 bottom-[3vw] right-[8vw]">
+          <a
+            href="https://twitter.com/RugRadioES"
+            target="_blank"
+            aria-label="link to Rug radio ES official X account"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718484312/RugRadio_qwrrh7.png"
+              alt="Vintage Rug Radio logo stickers"
+              class="w-[5.3vw] relative -rotate-[0deg]"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718484312/RugRadio_Hover_dxafju.png"
+              alt="Vintage Rug Radio logo stickers hover"
+              class="w-[5.3vw] absolute top-[0vw] -right-[0.3vw] -rotate-[10deg] opacity-0"
+            />
+          </a>
+
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Shyft_Hover_hipjxv.png"
-            alt="Vintage Shyft logo stickers hover"
-            class="w-[6.5vw] absolute z-30 top-[11vw] right-[11.3vw] -rotate-[15deg] opacity-0"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
+            alt="Vintage cork pin"
+            class="w-[1.5vw] absolute z-30 top-[0.3vw] right-[1.8vw] -rotate-[15deg]"
           />
-        </a>
+        </div>
 
-        <a
-          href="https://aquasave.io/"
-          target="_blank"
-          arial-label="Aqua Save website link"
-          bootcampShowOnHover
-        >
+        <!-- Aqua Save  -->
+        <div class="absolute absolute z-30 top-[6vw] left-[4.5vw]">
+          <a
+            href="https://aquasave.io/"
+            target="_blank"
+            arial-label="Aqua Save website link"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718226360/Aquasave_cnnlmu.png"
+              alt="Vintage Aqua Save purple message"
+              class="w-[5.5vw] relative rotate-[15deg]"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718226360/Aquasave_Hover_ui252o.png"
+              alt="Vintage Aqua Save purple message hover"
+              class="w-[5.5vw] absolute z-30 top-[0vw] -right-[1.1vw] opacity-0 -rotate-[5deg]"
+            />
+          </a>
+
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718226360/Aquasave_cnnlmu.png"
-            alt="Vintage post-it purple message"
-            class="w-[5.5vw] absolute z-30 top-[3vw] right-[20vw] rotate-[15deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Pin2_zcum7b.png"
+            alt="Vintage cork pin"
+            class="w-[1.5vw] absolute z-30 top-[0vw] right-[1.1vw] -rotate-[15deg]"
           />
+        </div>
+
+        <!-- Cryptoconexion  -->
+        <div class="absolute absolute z-30 top-[5vw] left-[13.2vw]">
+          <a
+            href="https://cryptoconexion.com/"
+            target="_blank"
+            arial-label="Crypto Conexion website link"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718473550/Cryptoconexion_lstp2z.png"
+              alt="Vintage Crypto conexion purple message"
+              class="w-[5.5vw] relative rotate-[10deg]"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718473550/Cryptoconexion_hover_f8thoc.png"
+              alt="Vintage Crypto conexion purple message hover"
+              class="w-[5.5vw] absolute z-30 top-[0vw] -right-[1.1vw] opacity-0 -rotate-[5deg]"
+            />
+          </a>
+
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718226360/Aquasave_Hover_ui252o.png"
-            alt="Vintage post-it purple message hover"
-            class="w-[5.5vw] absolute z-30 top-[3.2vw] right-[19.2vw] opacity-0 -rotate-[5deg]"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Pin2_zcum7b.png"
+            alt="Vintage cork pin"
+            class="w-[1.5vw] absolute z-30 top-[0vw] right-[1.1vw] -rotate-[15deg]"
           />
-        </a>
+        </div>
 
-        <!-- PIN -->
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage cork pin"
-          class="w-[1.5vw] absolute z-30 top-[12.5vw] right-[6.4vw] -rotate-[15deg]"
-        />
-
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage cork pin"
-          class="w-[1.5vw] absolute z-30 top-[5.2vw] right-[8.6vw] -rotate-[15deg]"
-        />
-
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
-          alt="Vintage cork pin"
-          class="w-[1.5vw] absolute z-30 top-[11.3vw] right-[14.2vw] -rotate-[15deg]"
-        />
-
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Pin2_zcum7b.png"
-          alt="Vintage cork pin"
-          class="w-[1.5vw] absolute z-30 top-[3.3vw] right-[21.3vw] -rotate-[15deg]"
-        />
       </div>
 
       <div
@@ -266,37 +331,6 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
         />
       </div>
 
-      <!-- <div id="bookshelf-books-up" class="absolute bottom-[31.5vw] left-[2.5vw] w-[6vw] h-[12.5vw]">
-        <a href="https://www.soldev.app/" target="_blank" >
-          <img  
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289333/Blue_Book_qogwrt.png"
-            alt="Vintage blue book pixel art"
-            class="w-[3vw] absolute z-10 top-[0vw]"
-          />
-        </a>
-        <a href="https://www.soldev.app/" target="_blank" >
-          <img 
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289333/Red_Book_ui9oqa.png"
-            alt="Vintage red book pixel art"
-            class="w-[2.7vw] absolute z-10 left-[1.7vw] top-[0.95vw]"
-          />
-        </a>
-        <a href="https://www.soldev.app/" target="_blank" >
-          <img 
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289332/Green_Book_wfxtwg.png"
-            alt="Vintage green book pixel art"
-            class="w-[2.9vw] absolute z-10 left-[3.3vw] top-[0.2vw]"
-          />
-        </a>
-        <a href="https://www.soldev.app/" target="_blank" >
-          <img 
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704289332/Pink_Book_wuxdpf.png"
-            alt="Vintage green book pixel art"
-            class="w-[2.8vw] absolute z-10 left-[5vw] top-[0.55vw]"
-          />        
-        </a>
-      </div> -->
-
       <div
         id="terms-and-policies"
         class="absolute bottom-[31vw] left-[2.5vw] z-20 bp-font-retro-computer"
@@ -345,7 +379,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
 
       <div
         id="funko-builder"
-        class="absolute bottom-[35.4vw] left-[8vw] z-[50]"
+        class="absolute bottom-[35.4vw] left-[6.5vw] z-[50]"
       >
         <a
           href="https://heavyduty.builders"

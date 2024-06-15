@@ -13,7 +13,6 @@ export class ShowOnHoverDirective implements AfterViewInit {
   }
   
   ngAfterViewInit(): void {
-    console.log("entra");
     this.firstChild = this.el.nativeElement.childNodes[0];
     this.secondChild = this.el.nativeElement.childNodes[1];
     
