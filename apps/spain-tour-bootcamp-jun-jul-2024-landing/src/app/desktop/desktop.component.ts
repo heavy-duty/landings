@@ -224,14 +224,14 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718473550/Cryptoconexion_hover_f8thoc.png"
               alt="Vintage Crypto conexion purple message hover"
-              class="w-[5.5vw] absolute z-30 top-[0vw] -right-[1.1vw] opacity-0 -rotate-[5deg]"
+              class="w-[5.5vw] absolute z-30 top-[0vw] -right-[0.5vw] opacity-0 -rotate-[5deg]"
             />
           </a>
 
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705260583/Pin2_zcum7b.png"
             alt="Vintage cork pin"
-            class="w-[1.5vw] absolute z-30 top-[0vw] right-[1.1vw] -rotate-[15deg]"
+            class="w-[1.5vw] absolute z-30 top-[0vw] right-[2vw] -rotate-[15deg]"
           />
         </div>
 
