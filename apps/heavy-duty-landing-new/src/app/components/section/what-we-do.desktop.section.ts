@@ -5,7 +5,7 @@ import { ShowOnHoverDirective } from '../../utils';
   imports: [ShowOnHoverDirective],
   selector: 'hdb-what-we-do-desktop',
   template: `
-    <section class="relative py-[1.3vw] px-[3vw] mb-[6vw]">
+    <section id="what-we-do" class="relative py-[1.3vw] px-[3vw] mb-[6vw]">
       <img
         src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717074987/Bricks_Bricks_Section_2_lqjkaf.png"
         alt="Bloques completos"

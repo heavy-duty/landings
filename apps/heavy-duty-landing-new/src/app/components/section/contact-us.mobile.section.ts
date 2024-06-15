@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   imports: [],
   selector: 'hdb-contact-us-mobile',
   template: `
-    <section class="relative py-[1.3vw] px-[3vw] mb-[7vw]">
+    <section id="contact-us" class="relative py-[1.3vw] px-[3vw] mb-[7vw] pt-[20vw]">
       <img
         src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717672048/section_3_mobile_naso4r.png"
         alt="Bloques completos"
@@ -58,10 +58,10 @@ import { Component } from '@angular/core';
 
 
       <div
-        class="relative mt-[10vw] flex justify-center gap-[6vw] w-[100vw] z-[20]"
+        class="relative mt-[10vw] flex justify-center gap-[6vw] z-[20]"
       >
         <div
-          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.3vw] border-black"
+          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.7vw] border-black"
         >
           <a href="https://x.com/heavydutybuild" target="_blank">
             <img
@@ -73,7 +73,7 @@ import { Component } from '@angular/core';
         </div>
 
         <div
-          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.3vw] border-black"
+          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.7vw] border-black"
         >
           <a href="https://discord.com/invite/sbjg5YvYfM" target="_blank">
             <img
@@ -84,7 +84,7 @@ import { Component } from '@angular/core';
           </a>
         </div>
         <div
-          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.3vw] border-black"
+          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.7vw] border-black"
         >
           <a
             href="https://www.linkedin.com/company/heavyduty-builders"

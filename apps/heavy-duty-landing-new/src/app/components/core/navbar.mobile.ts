@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   selector: 'hdb-navbar-mobile',
   template: `
     <nav
-      class="flex justify-between bg-pixel-yellow py-[2vw] px-[4vw] border-b-[0.7vw] border-black"
+      class="flex flex-col items-center bg-pixel-yellow py-[2vw] px-[4vw] border-b-[0.7vw] border-black fixed w-[100vw] top-[0vw] z-[100]"
     >
       <div class="flex gap-[3.5vw] items-center text-[3vw]">
         <img
@@ -16,8 +16,16 @@ import { Component } from '@angular/core';
         <p>HEAVY DUTY BUILDERS</p>
       </div>
 
-      <div class="flex items-center text-[6.5vw]">
-        <p>=</p>
+      <div class="flex mt-[3vw] gap-[4vw] items-center text-[2.5vw]">
+        <a href="#about-us" aria-label="About us">
+          <p>About Us</p>
+        </a>
+        <a href="#what-we-do" aria-label="What we do">
+          <p>What We Do</p>
+        </a>
+        <a href="#contact-us" aria-label="Contact us">
+          <p>Contact Us</p>
+        </a>
       </div>
     </nav>
   `,

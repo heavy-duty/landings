@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   imports: [],
   selector: 'hdb-about-us-desktop',
   template: `
-    <section class="relative py-[1.3vw] px-[3vw] mb-[12vw]">
+    <section id="about-us" class="relative py-[1.3vw] px-[3vw] mb-[12vw]">
       <img
         src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1715130050/Bricks_Bricks_Section_1_swvdm2.png"
         alt="Bloques completos"

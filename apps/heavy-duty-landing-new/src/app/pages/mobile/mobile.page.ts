@@ -17,6 +17,7 @@ import { FooterMobileComponent } from '../../components/core/footer.mobile';
   ],
   selector: 'hdb-app-mobile',
   template: `
+  <div class="pt-[20vw]">
     <!-- Navbar -->
     <hdb-navbar-mobile></hdb-navbar-mobile>
 
@@ -34,6 +35,7 @@ import { FooterMobileComponent } from '../../components/core/footer.mobile';
 
     <!-- Footer -->
     <hdb-footer-mobile></hdb-footer-mobile>
+  </div>
   `,
   styles: ``,
 })

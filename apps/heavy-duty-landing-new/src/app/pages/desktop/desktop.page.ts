@@ -17,6 +17,7 @@ import { FooterDesktopComponent } from '../../components/core/footer.desktop';
   ],
   selector: 'hdb-app-desktop',
   template: `
+  <div class="pt-[5vw]">
     <!-- Navbar -->
     <hdb-navbar-desktop></hdb-navbar-desktop>
 
@@ -34,6 +35,7 @@ import { FooterDesktopComponent } from '../../components/core/footer.desktop';
 
     <!-- Footer -->
     <hdb-footer-desktop></hdb-footer-desktop>
+  </div>
   `,
   styles: ``,
 })

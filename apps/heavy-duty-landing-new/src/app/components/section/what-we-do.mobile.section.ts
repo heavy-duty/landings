@@ -5,7 +5,7 @@ import { ShowOnHoverDirective } from '../../utils';
   imports: [ShowOnHoverDirective],
   selector: 'hdb-what-we-do-mobile',
   template: `
-    <section class="relative mb-[12vw]">
+    <section id="what-we-do" class="relative pt-[20vw]">
       <img
         src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717582346/section_2_mobile_nsr4ed.png"
         alt="Bloques completos"
