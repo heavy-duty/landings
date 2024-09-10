@@ -12,6 +12,10 @@ module.exports = {
       colors: {
         'mid-black': '#101010'
       },
+      listStyleType: {
+        square: 'square',
+        roman: 'upper-roman',
+      }
     },
   },
   plugins: [],
