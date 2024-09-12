@@ -8,11 +8,7 @@ body {
   background-image: url("https://res.cloudinary.com/andresmgsl/image/upload/v1725923795/bootcamp-oct-2024/wallpaper.png");
   background-repeat: repeat;
   background-size: 100vw;
-  overflow: hidden;
-  width: 99.2vw;
-  height: 99.2vh;
-  position: fixed;
-  opacity: 0.25;
+  position: absolute;
 }
 
 #desktop-main-frame {

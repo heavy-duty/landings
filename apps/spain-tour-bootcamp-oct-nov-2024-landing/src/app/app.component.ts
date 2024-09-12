@@ -13,7 +13,7 @@ import { ActivatedRoute } from '@angular/router';
   standalone: true,
   selector: 'bootcamp-root',
   template: `
-    <div class="bp-bg-wall"></div>
+    <div class="z-[30]"></div>
       
     @if (!showMobile) {
       <bootcamp-app-desktop-component></bootcamp-app-desktop-component> 
