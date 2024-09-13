@@ -8,14 +8,14 @@ import { RouterModule } from '@angular/router';
   template: ` <section
       class="w-[100vw] h-[450px] bg-mid-black flex gap-[80px] justify-center items-center"
     >
-      <div class="w-[350px]">
+      <div class="max-w-[350px] w-[100%]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725729366/Asset_31_rsm8ah.png"
           class="relative w-full"
           alt="Logo oficial de la Familia"
         />
       </div>
-      <div class="w-[600px]">
+      <div class="max-w-[600px] w-[100%]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725977170/Asset_30_ytzfz6.png"
           class="relative w-full"
@@ -136,8 +136,8 @@ import { RouterModule } from '@angular/router';
 
     <div class="relative w-[100vw] flex justify-center">
       <div class="relative max-w-[2100px] w-[100%]">
-        <section class="flex w-100 h-[500px]">
-          <div class="basis-[33%] flex flex-col items-center p-16">
+        <section class="flex flex-wrap justify-between w-100 min-h-[500px]">
+          <div class=" flex flex-col items-center p-16">
             <h2 class="bp-lime-light-font text-4xl mb-[20px]">Nosotros</h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
@@ -178,7 +178,7 @@ import { RouterModule } from '@angular/router';
               </li>
             </ul>
           </div>
-          <div class="basis-[33%] flex flex-col items-center p-16">
+          <div class=" flex flex-col items-center p-16">
             <h2 class="bp-lime-light-font text-4xl mb-[20px]">Contribuidores</h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
@@ -199,7 +199,7 @@ import { RouterModule } from '@angular/router';
               </li>
             </ul>
           </div>
-          <div class="basis-[33%] flex flex-col items-center p-16">
+          <div class=" flex flex-col items-center p-16">
             <h2 class="bp-lime-light-font text-4xl mb-[20px]">Desarrolladores</h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
