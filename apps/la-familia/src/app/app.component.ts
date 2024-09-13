@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule],
   selector: 'la-familia-root',
   template: ` <section
-      class="w-[100vw] h-[450px] bg-mid-black flex gap-[100px] justify-center items-center"
+      class="w-[100vw] h-[450px] bg-mid-black flex gap-[80px] justify-center items-center"
     >
       <div class="w-[350px]">
         <img
