@@ -21,39 +21,57 @@ import { RouterModule } from '@angular/router';
           class="relative w-full"
           alt="Tag oficial de la Familia"
         />
-        <p class="bp-arima-font text-white text-lg font-thin w-[570px] text-justify relative mt-[-20px]">
-        “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut nisl fermentum, ullamcorper lorem et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut nisl fermentum, ullamcorper lorem .”
+        <p
+          class="bp-arima-font text-white text-lg font-thin w-[570px] text-justify relative mt-[-20px]"
+        >
+          “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut
+          nisl fermentum, ullamcorper lorem et. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Curabitur ut nisl fermentum, ullamcorper
+          lorem .”
         </p>
-        <p class="text-white text-sm bp-arima-font italic text-right mt-[20px] mr-[30px]">Andriu</p>
+        <p
+          class="text-white text-sm bp-arima-font italic text-right mt-[20px] mr-[30px]"
+        >
+          Andriu
+        </p>
       </div>
     </section>
 
     <div class="relative w-[100vw] flex justify-center">
       <div class="relative max-w-[2100px] w-[100%]">
-        <section class="flex w-100 h-[500px]">
+        <section class="flex w-100 min-h-[500px]">
           <div class="basis-[50%] p-16">
-            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Misión</h2>
-            <p class="mb-[20px] text-justify text-lg bp-arima-font">
-              We help the most promising projects in the Solana ecosystem launch
-              and grow. We are organized as a collective of creatives,
-              developers, and operators who are experienced in launching and
-              growing technology businesses.
+            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Conócenos</h2>
+            <p class="mb-[20px] text-justify text-md bp-arima-font">
+              La Familia busca consolidar una presencia sólida en el ecosistema
+              tecnológico español, creando una comunidad activa y conectada que
+              impulse el uso y desarrollo de la blockchain de Solana.
             </p>
-            <p class="mb-[20px] text-justify text-lg bp-arima-font">
-              We value the sovereignty that comes with founding a company, the
-              skin in the game that comes with investing, and the joy that comes
-              with getting sh*t done. In a pre-crypto world, we had to fit into
-              broiler categories — founder, investor, or employee. Crypto allows
-              us to be free-range and be all 3 at the same time.
+            <p class="mb-[20px] text-justify text-md bp-arima-font">
+              Queremos invitarte a unirte a un movimiento que trasciende la
+              tecnología, donde fomentamos la colaboración entre
+              desarrolladores, inversores, artistas, jugadores y entusiastas del
+              blockchain. Desde pequeños meetups hasta grandes congresos,
+              pasando por campañas y contenido en línea en español, queremos que
+              formes parte de una comunidad que comparte conocimientos, ideas y
+              proyectos.
             </p>
-            <p class="mb-[20px] text-justify text-lg bp-arima-font">
-              This workspace is raw, WIP, and meant for our community. We're
-              turning our organization inside-out so you can lurk, find
-              opportunities and join us on this adventure.
+            <p class="mb-[20px] text-justify text-md bp-arima-font">
+              Nos estamos asociando con universidades, influencers y empresas
+              locales para ofrecerte oportunidades de aprendizaje y desarrollo.
+              Desde cursos especializados hasta eventos que te permitirán
+              conectar con expertos y potenciales colaboradores. Nuestro
+              objetivo es posicionar a España como un referente clave para
+              Solana en el mundo hispanohablante, y tu participación puede
+              marcar la diferencia.
+            </p>
+            <p class="mb-[20px] text-justify text-md bp-arima-font">
+              Únete a La Familia y ayúdanos a escribir el próximo capítulo de la
+              blockchain en España.
             </p>
           </div>
           <div class="basis-[50%] p-16">
-            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Involúcrate </h2>
+            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Involúcrate</h2>
             <ul class="relative w-[100%] bp-arima-font">
               <li
                 class="relative w-[100%] bg-mid-black text-white py-[20px] px-[30px] mb-[15px]"
@@ -89,148 +107,122 @@ import { RouterModule } from '@angular/router';
     </div>
 
     <section
-      class="relative w-[100vw] h-[350px] bg-mid-black flex flex-col gap-[20px] justify-center items-center text-white"
+      class="relative w-[100vw] h-[430px] bg-mid-black flex flex-col gap-[20px] justify-center items-center text-white"
     >
       <h2 class="bp-lime-light-font text-4xl">
-        Building for the Radar Hackathon?
+        Construyendo para el Hackathon de RADAR
       </h2>
-      <p class="bp-arima-font">
-        Use La Familia to get more visibility and boost your chances of winning
-        a piece of that $1m prize pool.
-      </p>
-      <p class="bp-arima-font">
-        … and if that’s not enough, participants from India can also snag
-        exclusive local prizes worth $5,000+
-      </p>
-      <a href="https://www.colosseum.org/radar" target="_blank">
-        <p class="bp-arima-font">📢 Showcase Your Project</p>
-      </a>
+      <div class="w-[100%] max-w-[800px] text-center">
+        <p class="bp-arima-font mb-[20px]">
+          El Radar Global Hackathon es tu oportunidad para ganar experiencia en
+          Solana y competir con equipos de todo el mundo por premios acumulados de
+          $600K 🏆. Visita ColosseumOrg para registrarte y ser parte de esta
+          increíble experiencia.
+        </p>
+        <p class="bp-arima-font mb-[20px]">
+          Estamos en España y queremos que formes parte de esta oportunidad para
+          llevar tus ideas al siguiente nivel. ¡Vamos a construir juntos! 👷‍♀️👨‍🔧🧑‍💻
+        </p>
+        <p class="bp-arima-font mb-[20px]">
+          ¿No eres desarrollador? ¡No te preocupes! Conoce a tus futuros
+          compañeros de equipo en nuestros eventos o a través del portal del
+          Hackathon 💡.
+        </p>
+        <a href="https://www.colosseum.org/radar" target="_blank">
+          <p class="bp-arima-font">📢 ¡Muestra tu proyecto!</p>
+        </a>
+      </div>
     </section>
 
     <div class="relative w-[100vw] flex justify-center">
       <div class="relative max-w-[2100px] w-[100%]">
         <section class="flex w-100 h-[500px]">
           <div class="basis-[33%] flex flex-col items-center p-16">
-            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Lukers</h2>
+            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Nosotros</h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank">
-                  Events Calendar
+                  Discord
                 </a>
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank">
-                  Find Work
+                  Instagram
                 </a>
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank"
-                  >HandBook</a
+                  >X (Twitter)</a
                 >
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Learn</a
+                  >Escribenos</a
                 >
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Discord</a
+                  >Solana Spain Tour</a
                 >
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Podcast</a
+                  >Solana Ecosystem Call</a
                 >
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Values</a
+                  >Próximos Eventos</a
                 >
               </li>
             </ul>
           </div>
           <div class="basis-[33%] flex flex-col items-center p-16">
-            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Contributors</h2>
+            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Contribuidores</h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank">
-                  Events Calendar
+                  Superteam Earn
                 </a>
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank">
-                  Find Work
+                  Grants de Solana
                 </a>
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank"
-                  >HandBook</a
+                  >Se un contribuidor</a
                 >
               </li>
-              <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Learn</a
-                >
-              </li>
-              <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Discord</a
-                >
-              </li>
-              <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Podcast</a
-                >
-              </li>
-              <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Values</a
-                >
-              </li>
-            </ul> 
+            </ul>
           </div>
           <div class="basis-[33%] flex flex-col items-center p-16">
-            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Founders</h2>
+            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Desarrolladores</h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank">
-                  Events Calendar
+                  Documentos
                 </a>
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank">
-                  Find Work
+                  Bootcamp - Solana básico
                 </a>
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank"
-                  >HandBook</a
+                  >Blinks</a
                 >
               </li>
               <li class="mb-[10px]">
                 <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Learn</a
+                  >Heavy Duty Builders</a
                 >
-              </li>
-              <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Discord</a
-                >
-              </li>
-              <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Podcast</a
-                >
-              </li>
-              <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Values</a
-                >
-              </li>
+              </li> 
             </ul>
           </div>
         </section>
