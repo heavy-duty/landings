@@ -6,9 +6,9 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule],
   selector: 'la-familia-root',
   template: ` <section
-      class="w-[100vw] h-[450px] bg-mid-black flex gap-[80px] justify-center items-center"
+      class="w-[100vw] min-h-[450px] bg-mid-black flex flex-col md:flex-row gap-[40px] md:gap-[80px] items-center md:justify-center p-10"
     >
-      <div class="max-w-[350px] w-[100%]">
+      <div class="max-w-[150px] md:max-w-[380px] w-[100%] ">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725729366/Asset_31_rsm8ah.png"
           class="relative w-full"
@@ -22,26 +22,28 @@ import { RouterModule } from '@angular/router';
           alt="Tag oficial de la Familia"
         />
         <p
-          class="bp-arima-font text-white text-lg font-thin w-[570px] text-justify relative mt-[-20px]"
+          class="bp-arima-font text-white text-lg font-thin max-w-[570px] text-justify relative mt-[20px] md:mt-[-20px]"
         >
-          “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut
-          nisl fermentum, ullamcorper lorem et. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Curabitur ut nisl fermentum, ullamcorper
-          lorem .”
+          “La descentralización es el corazón de web3, y para abrazar
+          verdaderamente la promesa de web3, debe ser el núcleo inquebrantable
+          de todo lo que un proyecto haga. Código completamente de código
+          abierto. Toda la actividad en la cadena, Autocustodia y Propiedad
+          comunitaria.”
         </p>
         <p
           class="text-white text-sm bp-arima-font italic text-right mt-[20px] mr-[30px]"
         >
-          Andriu
+          La Familia
         </p>
       </div>
     </section>
+    
 
-    <div class="relative w-[100vw] flex justify-center">
+    <div class="relative w-[100vw] flex flex-col md:flex-row justify-center">
       <div class="relative max-w-[2100px] w-[100%]">
-        <section class="flex w-100 min-h-[500px]">
+        <section class="flex flex-col md:flex-row w-100 min-h-[500px]">
           <div class="basis-[50%] p-16">
-            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Conócenos</h2>
+            <h2 class="bp-lime-light-font text-4xl mb-[10px]">Conócenos</h2>
             <p class="mb-[20px] text-justify text-md bp-arima-font">
               La Familia busca consolidar una presencia sólida en el ecosistema
               tecnológico español, creando una comunidad activa y conectada que
@@ -76,29 +78,29 @@ import { RouterModule } from '@angular/router';
               <li
                 class="relative w-[100%] bg-mid-black text-white py-[20px] px-[30px] mb-[15px]"
               >
-                Complete 💰 Bounties to earn crypto and get community
-                membership.
-              </li>
-              <li
-                class="relative w-[100%] bg-mid-black text-white py-[20px] px-[30px] mb-[15px]"
-              >
-                Ready to join Web3 full-time? Check out our Job Board to find
-                work at high-growth startups.
-              </li>
-              <li
-                class="relative w-[100%] bg-mid-black text-white py-[20px] px-[30px] mb-[15px]"
-              >
-                Are you building on Solana?
+              
+                Completa 
                 <a
-                  href="https://airtable.com/applOdn4FW3olhhjh/shrGNt5J30e5YFdif"
+                  href="https://earn.superteam.fun"
                   target="_blank"
-                  >Reach out</a
-                >, we'd love to work with you.
+                  >
+                  retos
+                </a>
+                &nbsp;y gana crypto monedas en el proceso.
+              </li>
+              <li
+                class="relative w-[100%] bg-mid-black text-white py-[20px] px-[30px] mb-[15px]"
+              >
+                ¿Estas construyendo en Solana?
+                <a href="mailto:equipo@lafamilia.so" target="_blank">
+                  Contáctanos </a
+                >, Nos encantaría apoyarte.
               </li>
               <li
                 class="relative w-[100%] bg-mid-black text-white py-[20px] px-[30px] mb-[15px] italic"
               >
-                La familia is in experimental beta. Enter at your own risk.
+                La familia está en una fase inicial, muchas cosas pueden
+                cambiar. Juntos haremos crecer está comunidad hispana.
               </li>
             </ul>
           </div>
@@ -107,16 +109,16 @@ import { RouterModule } from '@angular/router';
     </div>
 
     <section
-      class="relative w-[100vw] h-[430px] bg-mid-black flex flex-col gap-[20px] justify-center items-center text-white"
+      class="relative w-[100vw] min-[]:h-[430px] bg-mid-black flex flex-col gap-[20px] justify-center items-center text-white p-10"
     >
-      <h2 class="bp-lime-light-font text-4xl">
+      <h2 class="bp-lime-light-font text-2xl md:text-4xl text-center">
         Construyendo para el Hackathon de RADAR
       </h2>
       <div class="w-[100%] max-w-[800px] text-center">
         <p class="bp-arima-font mb-[20px]">
           El Radar Global Hackathon es tu oportunidad para ganar experiencia en
-          Solana y competir con equipos de todo el mundo por premios acumulados de
-          $600K 🏆. Visita ColosseumOrg para registrarte y ser parte de esta
+          Solana y competir con equipos de todo el mundo por premios acumulados
+          de $600K 🏆. Visita ColosseumOrg para registrarte y ser parte de esta
           increíble experiencia.
         </p>
         <p class="bp-arima-font mb-[20px]">
@@ -136,99 +138,100 @@ import { RouterModule } from '@angular/router';
 
     <div class="relative w-[100vw] flex justify-center">
       <div class="relative max-w-[2100px] w-[100%]">
-        <section class="flex flex-wrap justify-between w-100 min-h-[500px]">
+        
+        <section class="flex flex-col md:flex-row flex-wrap justify-between w-100 min-h-[500px]">
           <div class=" flex flex-col items-center p-16">
-            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Nosotros</h2>
+            <h2 class="bp-lime-light-font text-2xl mb-[20px]">Nosotros</h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank">
+                <a href="https://discord.gg/qSSrqC2gZZ" target="_blank">
                   Discord
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank">
+                <a href="https://www.instagram.com/lafamilia.so/" target="_blank">
                   Instagram
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
+                <a href="https://x.com/LaFamilia_so" target="_blank"
                   >X (Twitter)</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
+                <a href="mailto:equipo@lafamilia.so" target="_blank"
                   >Escribenos</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
+                <a href="https://solanaspain.tours/" target="_blank"
                   >Solana Spain Tour</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
+                <a href="https://app.getriver.io/events/solana-ecosystem-call-september-ofg" target="_blank"
                   >Solana Ecosystem Call</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
+                <a href="https://lu.ma/user/lafamilia_so" target="_blank"
                   >Próximos Eventos</a
                 >
               </li>
             </ul>
           </div>
           <div class=" flex flex-col items-center p-16">
-            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Contribuidores</h2>
+            <h2 class="bp-lime-light-font text-2xl mb-[20px]">
+              Contribuidores
+            </h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank">
+                <a href="https://earn.superteam.fun" target="_blank">
                   Superteam Earn
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank">
-                  Grants de Solana
+                <a href="https://solana.org/grants-funding" target="_blank">
+                  Grants y funding
                 </a>
-              </li>
-              <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Se un contribuidor</a
-                >
               </li>
             </ul>
           </div>
           <div class=" flex flex-col items-center p-16">
-            <h2 class="bp-lime-light-font text-4xl mb-[20px]">Desarrolladores</h2>
+            <h2 class="bp-lime-light-font text-2xl mb-[20px]">
+              Desarrolladores
+            </h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank">
+                <a href="https://solana.com/es/docs" target="_blank">
                   Documentos
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank">
+                <a href="https://solanaspain.dev/" target="_blank">
                   Bootcamp - Solana básico
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
-                  >Blinks</a
+                <a href="https://github.com/heavy-duty/znap" target="_blank"
+                  >Blinks with Znap</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.colosseum.org/radar" target="_blank"
+                <a href="https://heavyduty.builders/" target="_blank"
                   >Heavy Duty Builders</a
                 >
-              </li> 
+              </li>
+            
             </ul>
           </div>
         </section>
 
         <section
-          class="relative w-[100vw] h-[60px] bg-mid-black flex justify-center items-center text-white overflow-x-hidden"
+          class="relative w-[100%] h-[60px] bg-mid-black flex justify-center items-center text-white overflow-x-hidden"
         >
           <p class="text-sm bp-arima-font">
             © La Familia 2024. All rights reserved.
