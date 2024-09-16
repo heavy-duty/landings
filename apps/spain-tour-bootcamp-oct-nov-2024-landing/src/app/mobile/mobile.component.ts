@@ -24,7 +24,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
               class="bg-[#6A4CB1] px-[4vw] py-[1.5vw] text-white text-[3.5vw] border-black border-[0.5vw]"
               aria-label="Botón de registro"
             >
-              <a href="https://forms.gle/tUYkF43kQ6pQF9eU9" target="_blank">
+              <a href="https://forms.gle/Vh4B584wP7keJmpj9" target="_blank">
                 REGISTRARME
               </a>
             </button>
