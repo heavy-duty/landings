@@ -5,7 +5,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
 @Component({
   selector: 'bootcamp-app-desktop-component',
   template: `
-    <div id="desktop-main-frame" class="relative bp-bg-wall">
+    <div id="desktop-main-frame" class="relative bp-bg-wall flex flex-col justify-end">
       
       <section class="relative w-[100vw] min-h-[33vw] z-[20]">
         <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923795/bootcamp-oct-2024/calendar_spanish.png" alt="calendar" class="absolute right-[2vw] top-[1.5vw] w-[20vw]" />
@@ -20,7 +20,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
 
         <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/pc.png" alt="pc monitor" class="absolute w-[28vw] top-[-25.9vw] left-[40vw] z-20" />
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923794/bootcamp-oct-2024/table.png"  alt="wooden-table" class="w-[100vw] absolute"/>
+        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923794/bootcamp-oct-2024/table.png"  alt="wooden-table" class="w-[100vw] relative"/>
       </section>
 
     </div>
