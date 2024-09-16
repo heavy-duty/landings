@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap');
+
+@font-face {
+	font-family: 'limelight';
+	src: local('../../assets/fonts/Limelight-Regular.ttf'),
+		local('../../assets/fonts/Limelight-Regular.ttf'),
+		url(../../assets/fonts/Limelight-Regular.ttf) format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Arima';
+	src: local('../../assets/fonts/Arima-VariableFont_wght.ttf'),
+		local('../../assets/fonts/Arima-VariableFont_wght.ttf'),
+		url(../../assets/fonts/Arima-VariableFont_wght.ttf) format('truetype');
+	font-display: swap;
+}
+
+.bp-lime-light-font {
+	font-family: 'limelight' !important;
+}
+
+.bp-arima-font {
+	font-family: 'arima' !important;
+}
