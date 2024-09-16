@@ -10,9 +10,9 @@ import { Component } from '@angular/core';
         <h1 class="text-[5.5vw] mt-[3.5vw] text-center">HEAVY DUTY <br/> BUILDERS<br/> COMMUNITY<br/></h1>
         <img class="w-[20vw]" src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717521334/hero_R_zsntgu.png" alt="bloques derechos"/>
       </div>
-      <div class="flex justify-center mb-[]">
+      <!-- <div class="flex justify-center mb-[]">
         <a href="https://solanaspain.dev" class=" bg-pixel-purple py-[2.2vw] px-[6.2vw] border-[0.5vw] border-black text-white text-[3.8vw]" target="_blank">JOIN THE BOOT CAMP</a>
-      </div>
+      </div> -->
     </section>
       `,
   styles: ``,
