@@ -4,7 +4,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
 @Component({
   selector: 'bootcamp-app-mobile-component',
   template: `
-    <div id="mobile-main-frame" class="relative overflow-x-hidden">
+    <div id="mobile-main-frame" class="relative overflow-x-hidden bp-bg-wall">
       <div id="main-art-welcome" class="relative flex justify-center top-[6vw]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704465536/Sign_yicmjg.png"
@@ -118,7 +118,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         </div>
 
         <!-- Rug Radio ES  -->
-        <div class="absolute z-30 bottom-[3.5vw] right-[32.5vw]">
+        <div class="absolute z-30 bottom-[5.5vw] right-[40.5vw]">
           <a
             href="https://twitter.com/RugRadioES"
             target="_blank"
@@ -139,7 +139,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         </div>
 
         <!-- Shyft Radio ES  -->
-        <div class="absolute z-30 bottom-[5.5vw] left-[27.5vw]">
+        <div class="absolute z-30 bottom-[5.5vw] left-[12.5vw]">
           <a
             href="https://shyft.to/"
             target="_blank"
@@ -160,7 +160,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         </div>
 
         <!-- Cryptoconexion  -->
-        <div class="absolute z-30 top-[15.5vw] left-[31vw]">
+        <div class="absolute z-30 top-[15.5vw] left-[21vw]">
           <a
             href="https://cryptoconexion.com/"
             target="_blank"
@@ -181,7 +181,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         </div>
 
         <!-- Aqua Save  -->
-        <div class="absolute z-30 top-[18.5vw] left-[9.5vw]">
+        <!-- <div class="absolute z-30 top-[18.5vw] left-[9.5vw]">
           <a
             href="https://aquasave.io/"
             target="_blank"
@@ -199,7 +199,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
             alt="Vintage cork pin"
             class="w-[4vw] absolute top-[1.5vw] left-[6vw]"
           />
-        </div>
+        </div> -->
       </div>
 
       <div class="relative flex justify-center mt-[16vw]">
