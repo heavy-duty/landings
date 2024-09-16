@@ -26,9 +26,7 @@ import { RouterModule } from '@angular/router';
         >
           “La descentralización es el corazón de web3, y para abrazar
           verdaderamente la promesa de web3, debe ser el núcleo inquebrantable
-          de todo lo que un proyecto haga. Código completamente de código
-          abierto. Toda la actividad en la cadena, Autocustodia y Propiedad
-          comunitaria.”
+          de todo lo haga que un proyecto.”
         </p>
         <p
           class="text-white text-sm bp-arima-font italic text-right mt-[20px] mr-[30px]"
