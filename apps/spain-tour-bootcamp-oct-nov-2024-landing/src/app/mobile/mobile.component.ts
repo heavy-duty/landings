@@ -37,7 +37,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         class="relative flex justify-center mt-[13vw]"
       >
         <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923795/bootcamp-oct-2024/calendar_spanish.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1726507356/bootcamp-oct-2024/calendar.png"
           alt="Vintage calendar june pixel art"
           class="relative w-[80vw] left-[1vw]"
         />

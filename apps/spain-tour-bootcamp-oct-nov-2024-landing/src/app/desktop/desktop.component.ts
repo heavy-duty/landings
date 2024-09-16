@@ -5,18 +5,62 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
 @Component({
   selector: 'bootcamp-app-desktop-component',
   template: `
-    <div id="desktop-main-frame" class="relative bp-bg-wall flex flex-col justify-end">
-      
-      <section class="relative w-[100vw] min-h-[35vw] z-[20]">
+    <div
+      id="desktop-main-frame"
+      class="relative bp-bg-wall flex flex-col justify-end"
+    >
+      <section class="relative w-[100vw] min-h-[35vw]">
+        <div class="absolute w-[25vw] top-[1vw] left-[39.6vw]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923793/bootcamp-oct-2024/fame.png"
+            alt="welcome sign"
+            class="relative"
+          />
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923793/bootcamp-oct-2024/fame.png" alt="welcome sign" class="absolute w-[25vw] top-[1vw] left-[39.6vw]" />
+          <div
+            class="absolute top-[2.2vw] w-[30vw] -left-[2.65vw] flex justify-center bp-font-retro-computer"
+          >
+            <div class="relative">
+              <h2 class="text-[0.95vw] text-black">
+                Bienvenido al Heavy Duty Camp
+              </h2>
+            </div>
+          </div>
+        </div>
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1726507356/bootcamp-oct-2024/calendar.png" alt="calendar" class="absolute right-[2vw] top-[1.5vw] w-[20vw]" />
+        <div class="absolute right-[24.5vw] top-[10vw] z-[100]">
+          <a
+            href="https://discord.com/invite/sbjg5YvYfM"
+            target="_blank"
+            arial-label="Heavy Duty Builders discord link"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Post-it_ity4kn.png"
+              alt="Vintage post-it purple message"
+              class="w-[8.5vw] z-30 top-[3vw] right-[19vw] rotate-[15deg]"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717014833/Post-it-hover._png_q0qzzs.png"
+              alt="Vintage post-it purple message hover"
+              class="w-[8.5vw] absolute z-30 top-[-0.2vw]  opacity-0 rotate-[15deg]"
+            />
+          </a>
+        </div>
 
-        <div class="relative w-[30vw] left-[5vw] top-[1.5vw]">
-          
-          <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923792/bootcamp-oct-2024/cork.png" alt="cork panel" class="absolute w-[100%]" />
-          
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1726507356/bootcamp-oct-2024/calendar.png"
+          alt="calendar"
+          class="absolute right-[2vw] top-[1.5vw] w-[20vw]"
+        />
+
+        <div class="relative w-[30vw] left-[5vw] top-[1.5vw] z-[100]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923792/bootcamp-oct-2024/cork.png"
+            alt="cork panel"
+            class="absolute w-[100%]"
+          />
+
           <a href="#" aria-label="collaborators text">
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
@@ -133,7 +177,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
           </div>
 
           <!-- Cryptoconexion  -->
-          <div class="absolute absolute z-30 top-[4.6vw] left-[3.2vw]">
+          <div class="absolute z-30 top-[4.6vw] left-[3.2vw]">
             <a
               href="https://cryptoconexion.com/"
               target="_blank"
@@ -158,40 +202,222 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
               class="w-[1.5vw] absolute z-30 top-[0vw] right-[2vw] -rotate-[15deg]"
             />
           </div>
-
         </div>
-
       </section>
 
       <section class="relative w-[100vw] min-h-[15vw] overscroll-contain">
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/backpack.png" alt="backpack madlads" class="absolute w-[10vw] top-[-21vw] left-[4.8vw] z-[20]" />
+        <div
+          id="red-backpack"
+          class="absolute w-[14vw] top-[-14vw] left-[19.2vw] z-[20]"
+        >
+          <a
+            href="https://backpack.app/"
+            target="_blank"
+            aria-label="Link to Backpack official website"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/v1725923820/bootcamp-oct-2024/web/backpack.png"
+              alt="Vintage backpack red pixel art"
+              class="w-[14vw]"
+            />
+            <img
+              id="red-backpack-image"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/v1725923820/bootcamp-oct-2024/web/backpack_hover.png"
+              alt="Vintage backpack red pixel art hover"
+              class="absolute w-[14vw] top-[0vw] opacity-0"
+            />
+          </a>
+        </div>
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1726502940/bootcamp-oct-2024/book_shell.png" alt="book shell" class="absolute w-[36vw] top-[-20.9vw] left-[-14.5vw] z-[10]" />
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1726502940/bootcamp-oct-2024/book_shell.png"
+          alt="book shell"
+          class="absolute w-[36vw] top-[-20.9vw] left-[-14.5vw] z-[10]"
+        />
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/pc.png" alt="pc monitor" class="absolute w-[28vw] top-[-25.9vw] left-[40vw] z-20" />
+        <div
+        id="computer-monitor"
+        class="absolute w-[28vw] top-[-25.9vw] left-[40vw] z-20"
+      >
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/pc.png"
+          alt="Vintage computer monitor pixel art"
+        />
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/l_speaker.png" alt="pc monitor speakers" class="absolute w-[9vw] top-[-10.5vw] left-[31.5vw] z-[15]" />
-
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/r_speaker.png" alt="pc monitor speakers" class="absolute w-[9vw] top-[-10.6vw] right-[24vw] z-20" />
-
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923789/bootcamp-oct-2024/bob.png" alt="Bob Funko" class="absolute w-[7vw] top-[6vw] left-[22.5vw] z-20" />
+        <div
         
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/alice.png" alt="Alice Funko" class="absolute w-[6.2vw] top-[-2vw] right-[8.5vw] z-20" />
+          class="absolute top-[9vw] flex justify-center bp-font-retro-computer"
+        >
+          <div class="text-left relative left-[5vw] max-w-[16vw]">
+            <h2 class="text-[1.2vw] text-[#00E805]">
+              > {{ introText }} <span class="terminal-cursor-desktop"></span>
+            </h2>
+            @if (true) {
+            <button
+              class="bg-[#00E805] ml-[0.6vw] mt-[1.5vw] px-[1vw] py-[0.5vw] text-black text-[1.1vw]"
+              aria-label="Botón de registro"
+            >
+              <a href="https://forms.gle/Vh4B584wP7keJmpj9" target="_blank">
+                REGISTRARME
+              </a>
+            </button>
+            }
+          </div>
+        </div>
+      </div>
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/v1725923794/bootcamp-oct-2024/keyboard.png" alt="pc Keyboard " class="absolute w-[30vw] top-[4.5vw] left-[35vw] z-[20] rotate-[-2deg]" />
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/l_speaker.png"
+          alt="pc monitor speakers"
+          class="absolute w-[7.5vw] top-[-8.8vw] left-[33.5vw] z-[15]"
+        />
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923794/bootcamp-oct-2024/table.png"  alt="wooden-table" class="w-[100vw] relative"/>
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/r_speaker.png"
+          alt="pc monitor speakers"
+          class="absolute w-[7.5vw] top-[-8.9vw] right-[26vw] z-20"
+        />
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923792/bootcamp-oct-2024/mousepad.png" alt="pc mouse mousepad" class="absolute w-[14vw] top-[4.2vw] right-[20vw] z-10" />
+        <div id="lamp" class="absolute -top-[6.5vw] left-[2.5vw] z-10">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1704141231/Lamp_m1fus3.png"
+            alt="Vintage  lamp with light pixel art"
+            class="w-[28vw]"
+          />
+        </div>
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923792/bootcamp-oct-2024/mouse.png" alt="pc mouser" class="absolute w-[14vw] top-[2vw] right-[24.8vw] z-[15]" />
+        <div
+          id="funko-builder"
+          class="absolute w-[9.5vw] top-[6vw] left-[22.5vw] z-20"
+        >
+          <a
+            href="https://heavyduty.builders"
+            target="_blank"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923821/bootcamp-oct-2024/web/bob.png"
+              alt="Vintage Bob funko builder pixel art"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923821/bootcamp-oct-2024/web/bob_hover.png"
+              alt="Vintage Bob funko builder pixel art hover"
+              class="absolute top-[0vw] w-[9.4vw] opacity-0"
+            />
+          </a>
+        </div>
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/pp_book_english.png" alt="temrs and conditions book" class="absolute top-[7vw] w-[15vw] z-20 left-[1vw]" />
+        <div
+          id="funko-builder-girl"
+          class="absolute w-[7.8vw] top-[-3vw] right-[10.5vw] z-20"
+        >
+          <a
+            href="https://heavyduty.builders"
+            target="_blank"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923817/bootcamp-oct-2024/web/alice.png"
+              alt="Vintage Alice funko builder pixel art"
+              class="w-[7.8vw] "
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923817/bootcamp-oct-2024/web/alice_hover.png"
+              alt="Vintage Alice funko builder pixel art hover"
+              class="absolute top-[0vw] w-[8.1vw] opacity-0"
+            />
+          </a>
+        </div>
 
-        <img src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923791/bootcamp-oct-2024/tc_book_spanish.png" alt="privacy policies book" class="absolute top-[9.2vw] w-[15vw] z-[15] left-[2vw]" />
-        
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/v1725923794/bootcamp-oct-2024/keyboard.png"
+          alt="pc Keyboard "
+          class="absolute w-[30vw] top-[4.5vw] left-[35vw] z-[20] rotate-[-2deg]"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923792/bootcamp-oct-2024/mousepad.png"
+          alt="pc mouse mousepad"
+          class="absolute w-[14vw] top-[4.2vw] right-[20vw] z-10"
+        />
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923792/bootcamp-oct-2024/mouse.png"
+          alt="pc mouser"
+          class="absolute w-[14vw] top-[2vw] right-[24.8vw] z-[15]"
+        />
+
+        <div
+          id="terms-and-policies"
+          class="absolute -top-[13.8vw] w-[15vw] z-20 left-[1.2vw]"
+        >
+          <a
+            href="https://solanaspain.dev/assets/privacy_policies.pdf"
+            target="_blank"
+            aria-label="privacy policies"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923818/bootcamp-oct-2024/web/pp_book.png"
+              alt="Privacy Politics book pixel art"
+              class="absolute w-[14.8vw] z-20"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923818/bootcamp-oct-2024/web/pp_book_hover.png"
+              alt="Privacy Politics book pixel art hover"
+              class="absolute -top-[0.15vw] left-[0.2vw] w-[14.8vw] z-20 opacity-0"
+            />
+          </a>
+          <a
+            href="https://solanaspain.dev/assets/terms_and_conditions.pdf"
+            target="_blank"
+            aria-label="privacy policies"
+            bootcampShowOnHover
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923819/bootcamp-oct-2024/web/tc_book.png"
+              alt="Terms and conditions book pixel art"
+              class="absolute top-[2.15vw] w-[15vw] z-[15] left-[1vw]"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923818/bootcamp-oct-2024/web/tc_book_hover.png"
+              alt="Terms and conditions book pixel art hover"
+              class="absolute top-[2vw] w-[15vw] z-[15] left-[1.2vw] opacity-0"
+            />
+          </a>
+        </div>
+
+        <div
+          id="cup-coffee"
+          class="absolute w-[7.5vw] right-[4vw] top-[7vw] z-20"
+        >
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1703957915/Smoke_Dark_hzsnah.gif"
+            alt="Vintage coffee smoke gif pixel art"
+            class="w-[6.7vw] absolute top-[-6.5vw] right-[1.1vw] opacity-25 z-[10]"
+          />
+
+          <a href="https://solana.com" target="_blank" bootcampShowOnHover>
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923820/bootcamp-oct-2024/web/coffee.png"
+              alt="Vintage solana cup of coffee pixel art"
+              class="w-[6.7vw] z-20"
+            />
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923819/bootcamp-oct-2024/web/cofee_hover.png"
+              alt="Vintage solana cup of coffee pixel art hover"
+              class="absolute top-[0vw] w-[6.61vw] opacity-0 z-20"
+            />
+          </a>
+        </div>
+
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923794/bootcamp-oct-2024/table.png"
+          alt="wooden-table"
+          class="w-[100vw] relative"
+        />
       </section>
-
     </div>
   `,
   standalone: true,
