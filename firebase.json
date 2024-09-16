@@ -108,7 +108,7 @@
     },
     {
       "target": "spain-bootcamp",
-      "public": "dist/apps/spain-tour-bootcamp-jun-jul-2024-landing/browser",
+      "public": "dist/apps/spain-tour-bootcamp-oct-nov-2024-landing/browser",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
         {
