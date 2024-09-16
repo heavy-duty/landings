@@ -8,11 +8,15 @@ body {
   min-height: 100vh;
 }
 
+.bp-bg-wall {
+  background-image: url("https://res.cloudinary.com/andresmgsl/image/upload/v1725923795/bootcamp-oct-2024/wallpaper.png");
+  background-repeat: repeat;
+
+}
+
 @media screen and (max-width: 767px) {
   .bp-bg-wall {
-    background-image: url("https://res.cloudinary.com/andresmgsl/image/upload/v1725923795/bootcamp-oct-2024/wallpaper.png");
-    background-repeat: repeat;
-    background-size: 100vw;
+    background-size: 300vw;
   }
 }
 
