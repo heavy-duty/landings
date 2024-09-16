@@ -42,7 +42,7 @@ import { ShowOnHoverDirective } from '../../utils';
 
       <div class="relative mt-[10vw] flex flex-col items-center gap-[2.5vw]">
         <a
-          href="https://solanaspain.tours"
+          href="https://solanaspain.dev/"
           class="relative"
           target="_blank"
         >
@@ -54,8 +54,8 @@ import { ShowOnHoverDirective } from '../../utils';
         </a>
 
         <div class="relative w-[81.5vw] bg-white border-[0.7vw] border-black p-[2.5vw]">
-          <h2 class="mb-[3vw] text-center text-[3.6vw]">Solana Spain Tour</h2>
-          <p class="leading-loose text-[2.5vw] text-justify">A tour around Spain to facilitate the initiation and building of our fellow devs in the Solana ecosystem. Feedback is always welcome!</p>
+          <h2 class="mb-[3vw] text-center text-[3.6vw]">Heavy Duty Camp</h2>
+          <p class="leading-loose text-[2.5vw] text-justify">Join thousands of devs around the world looking to become a heavy-duty builders in this exciting learning adventure!</p>
         </div> 
       </div>
     </section>
