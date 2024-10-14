@@ -208,7 +208,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
       <section class="relative w-[100vw] min-h-[15vw] overscroll-contain">
         <div
           id="red-backpack"
-          class="absolute w-[14vw] top-[-14vw] left-[19.2vw] z-[20]"
+          class="absolute w-[13.5vw] top-[-14.5vw] left-[19.2vw] z-[100]"
         >
           <a
             href="https://backpack.app/"
@@ -276,7 +276,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/r_speaker.png"
           alt="pc monitor speakers"
-          class="absolute w-[7.5vw] top-[-8.9vw] right-[26vw] z-20"
+          class="absolute w-[7.5vw] top-[-8.9vw] right-[27vw] z-20"
         />
 
         <div id="lamp" class="absolute -top-[6.5vw] left-[2.5vw] z-10">
@@ -303,7 +303,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923821/bootcamp-oct-2024/web/bob_hover.png"
               alt="Vintage Bob funko builder pixel art hover"
-              class="absolute top-[0vw] w-[9.4vw] opacity-0"
+              class="absolute top-[0.1vw] left-[0vw] w-[9.4vw] opacity-0"
             />
           </a>
         </div>
