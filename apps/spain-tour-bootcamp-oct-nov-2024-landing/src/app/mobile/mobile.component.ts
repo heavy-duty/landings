@@ -76,7 +76,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         </a>
 
         <!-- Solana -->
-        <div class="absolute z-30 top-[13vw] right-[25vw]">
+        <div class="absolute z-30 top-[19vw] right-[15vw]">
           <a
             href="https://solana.com/"
             target="_blank"
@@ -97,7 +97,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         </div>
 
         <!-- Solana FM  -->
-        <div class="absolute z-30 bottom-[8vw] right-[11vw] ">
+        <!-- <div class="absolute z-30 bottom-[8vw] right-[11vw] ">
           <a
             href="https://solana.fm/"
             target="_blank"
@@ -115,10 +115,10 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
             alt="Vintage cork pin"
             class="w-[4vw] absolute z-30 top-[0.5vw] right-[6vw] -rotate-[15deg]"
           />
-        </div>
+        </div> -->
 
         <!-- Rug Radio ES  -->
-        <div class="absolute z-30 bottom-[5.5vw] right-[40.5vw]">
+        <div class="absolute z-30 bottom-[8.5vw] right-[41.5vw]">
           <a
             href="https://twitter.com/RugRadioES"
             target="_blank"
@@ -139,7 +139,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         </div>
 
         <!-- Shyft Radio ES  -->
-        <div class="absolute z-30 bottom-[5.5vw] left-[12.5vw]">
+        <div class="absolute z-30 bottom-[19.5vw] left-[12.5vw]">
           <a
             href="https://shyft.to/"
             target="_blank"
@@ -160,7 +160,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
         </div>
 
         <!-- Cryptoconexion  -->
-        <div class="absolute z-30 top-[15.5vw] left-[21vw]">
+        <!-- <div class="absolute z-30 top-[15.5vw] left-[21vw]">
           <a
             href="https://cryptoconexion.com/"
             target="_blank"
@@ -178,7 +178,7 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
             alt="Vintage cork pin"
             class="w-[4vw] absolute top-[1.5vw] right-[5.2vw]"
           />
-        </div>
+        </div> -->
 
         <!-- Aqua Save  -->
         <!-- <div class="absolute z-30 top-[18.5vw] left-[9.5vw]">

@@ -70,7 +70,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
           </a>
 
           <!-- Solana -->
-          <div class="absolute z-30 top-[5vw] right-[2vw]">
+          <div class="absolute z-30 top-[6vw] right-[11vw]">
             <a
               href="https://solana.com/"
               target="_blank"
@@ -80,24 +80,24 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Solana_rctkla.png"
                 alt="Vintage Solana logo stickers"
-                class="w-[6.3vw] realtive z-30 right-[6.3vw]"
+                class="w-[7.3vw] realtive z-30 right-[6.3vw]"
               />
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717014249/Solana_Hover_jirt5k.png"
                 alt="Vintage Solana logo stickers hover"
-                class="w-[6.3vw] absolute top-[0vw] -rotate-[10deg] opacity-0"
+                class="w-[7.3vw] absolute top-[0vw] -rotate-[10deg] opacity-0"
               />
             </a>
 
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
               alt="Vintage cork pin"
-              class="w-[1.5vw] absolute top-[0.5vw] right-[2.3vw] -rotate-[15deg]"
+              class="w-[1.5vw] absolute top-[0.5vw] right-[2.8vw] -rotate-[15deg]"
             />
           </div>
 
           <!-- Solana FM  -->
-          <div class="absolute z-30 top-[10vw] right-[7.5vw]">
+          <!-- <div class="absolute z-30 top-[10vw] right-[7.5vw]">
             <a
               href="https://solana.fm/"
               target="_blank"
@@ -120,10 +120,10 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
               alt="Vintage cork pin"
               class="w-[1.5vw] absolute z-30 top-[0vw] right-[1.8vw] -rotate-[15deg]"
             />
-          </div>
+          </div> -->
 
           <!-- Shyft  -->
-          <div class="absolute z-30 top-[12vw] right-[15vw]">
+          <div class="absolute z-30 top-[8vw] right-[21vw]">
             <a
               href="https://shyft.to/"
               target="_blank"
@@ -133,24 +133,24 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Shyft_nfqbba.png"
                 alt="Vintage Shyft logo stickers"
-                class="w-[5.7vw] relative rotate-[15deg]"
+                class="w-[6.3vw] relative rotate-[15deg]"
               />
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Shyft_Hover_hipjxv.png"
                 alt="Vintage Shyft logo stickers hover"
-                class="w-[5.7vw] absolute top-[0vw] -right-[1vw] -rotate-[15deg] opacity-0"
+                class="w-[6.3vw] absolute top-[0vw] -right-[1vw] -rotate-[15deg] opacity-0"
               />
             </a>
 
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
               alt="Vintage cork pin"
-              class="w-[1.5vw] absolute z-30 top-[0.3vw] right-[1.4vw] -rotate-[15deg]"
+              class="w-[1.5vw] absolute z-30 top-[0.3vw] right-[1.7vw] -rotate-[15deg]"
             />
           </div>
 
           <!-- Rug Radio ES  -->
-          <div class="absolute z-30 top-[5vw] right-[12.5vw]">
+          <div class="absolute z-30 top-[9vw] right-[2.5vw]">
             <a
               href="https://twitter.com/RugRadioES"
               target="_blank"
@@ -160,24 +160,24 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718484312/RugRadio_qwrrh7.png"
                 alt="Vintage Rug Radio logo stickers"
-                class="w-[5.3vw] relative -rotate-[0deg]"
+                class="w-[6vw] relative -rotate-[0deg]"
               />
               <img
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718484312/RugRadio_Hover_dxafju.png"
                 alt="Vintage Rug Radio logo stickers hover"
-                class="w-[5.3vw] absolute top-[0vw] -right-[0.3vw] -rotate-[10deg] opacity-0"
+                class="w-[6vw] absolute top-[0vw] -right-[0.3vw] -rotate-[10deg] opacity-0"
               />
             </a>
 
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
               alt="Vintage cork pin"
-              class="w-[1.5vw] absolute z-30 top-[0.3vw] right-[1.8vw] -rotate-[15deg]"
+              class="w-[1.5vw] absolute z-30 top-[0.3vw] right-[2.2vw] -rotate-[15deg]"
             />
           </div>
 
           <!-- Cryptoconexion  -->
-          <div class="absolute z-30 top-[4.6vw] left-[3.2vw]">
+          <!-- <div class="absolute z-30 top-[4.6vw] left-[3.2vw]">
             <a
               href="https://cryptoconexion.com/"
               target="_blank"
@@ -201,7 +201,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
               alt="Vintage cork pin"
               class="w-[1.5vw] absolute z-30 top-[0vw] right-[2vw] -rotate-[15deg]"
             />
-          </div>
+          </div> -->
         </div>
       </section>
 
