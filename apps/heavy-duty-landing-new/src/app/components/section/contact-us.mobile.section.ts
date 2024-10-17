@@ -58,7 +58,7 @@ import { Component } from '@angular/core';
 
 
       <div
-        class="relative mt-[10vw] flex justify-center gap-[6vw] w-[100vw] z-[20]"
+        class="relative mt-[10vw] flex justify-center gap-[6vw] w-[100vw] -left-[3.2vw] z-[20]"
       >
         <div
           class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.6vw] border-black"
