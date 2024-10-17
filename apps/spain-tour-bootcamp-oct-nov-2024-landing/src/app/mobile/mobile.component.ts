@@ -117,15 +117,15 @@ import { INTRO_TEXT, SUCCESS_INSCRIPTION_TEXT } from '../utils';
           />
         </div> -->
 
-        <!-- Rug Radio ES  -->
+        <!-- Pulso Media ES  -->
         <div class="absolute z-30 bottom-[8.5vw] right-[41.5vw]">
           <a
-            href="https://twitter.com/RugRadioES"
+            href="https://x.com/PULSO_media"
             target="_blank"
-            aria-label="link to Rug radio ES official X account"
+            aria-label="link to Pulso Media ES official X account"
           >
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718484312/RugRadio_qwrrh7.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1729183917/bootcamp-oct-2024/web/PulsoMedia.png"
               alt="Vintage Rug Radio logo stickers"
               class="w-[18vw] realtive rotate-[15deg]"
             />

@@ -10,11 +10,11 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
       class="relative bp-bg-wall flex flex-col justify-end"
     >
       <section class="relative w-[100vw] min-h-[35vw]">
-        <div class="absolute w-[25vw] top-[1vw] left-[39.6vw]">
+        <div class="absolute top-[1vw] left-[39.6vw]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923793/bootcamp-oct-2024/fame.png"
             alt="welcome sign"
-            class="relative"
+            class="relative w-[25vw]"
           />
 
           <div
@@ -149,30 +149,30 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
             />
           </div>
 
-          <!-- Rug Radio ES  -->
-          <div class="absolute z-30 top-[9vw] right-[2.5vw]">
+          <!-- Pulso Media ES  -->
+          <div class="absolute z-30 top-[9vw] right-[2.3vw]">
             <a
-              href="https://twitter.com/RugRadioES"
+              href="https://x.com/PULSO_media"
               target="_blank"
-              aria-label="link to Rug radio ES official X account"
+              aria-label="link to Pulso Media ES official X account"
               bootcampShowOnHover
             >
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718484312/RugRadio_qwrrh7.png"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1729183917/bootcamp-oct-2024/web/PulsoMedia.png"
                 alt="Vintage Rug Radio logo stickers"
-                class="w-[6vw] relative -rotate-[0deg]"
+                class="w-[6.5vw] relative -rotate-[0deg]"
               />
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1718484312/RugRadio_Hover_dxafju.png"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1729183917/bootcamp-oct-2024/web/PulsoMedia_hover.png"
                 alt="Vintage Rug Radio logo stickers hover"
-                class="w-[6vw] absolute top-[0vw] -right-[0.3vw] -rotate-[10deg] opacity-0"
+                class="w-[6.5vw] absolute top-[0vw] -right-[0.3vw] -rotate-[10deg] opacity-0"
               />
             </a>
 
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
               alt="Vintage cork pin"
-              class="w-[1.5vw] absolute z-30 top-[0.3vw] right-[2.2vw] -rotate-[15deg]"
+              class="w-[1.5vw] absolute z-30 top-[0.1vw] right-[2.3vw] -rotate-[15deg]"
             />
           </div>
 
@@ -238,11 +238,12 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
 
         <div
         id="computer-monitor"
-        class="absolute w-[28vw] top-[-25.9vw] left-[40vw] z-20"
+        class="absolute top-[-25.9vw] left-[40vw] z-20"
       >
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/pc.png"
           alt="Vintage computer monitor pixel art"
+          class="w-[28vw]"
         />
 
         <div
@@ -289,7 +290,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
 
         <div
           id="funko-builder"
-          class="absolute w-[9.5vw] top-[6vw] left-[22.5vw] z-20"
+          class="absolute top-[6vw] left-[22.5vw] z-20"
         >
           <a
             href="https://heavyduty.builders"
@@ -299,11 +300,12 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923821/bootcamp-oct-2024/web/bob.png"
               alt="Vintage Bob funko builder pixel art"
+              class="w-[9.5vw]"
             />
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923821/bootcamp-oct-2024/web/bob_hover.png"
               alt="Vintage Bob funko builder pixel art hover"
-              class="absolute top-[0.1vw] left-[0vw] w-[9.4vw] opacity-0"
+              class="absolute top-[0vw] left-[0vw] w-[9.5vw] opacity-0"
             />
           </a>
         </div>
