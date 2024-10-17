@@ -61,7 +61,7 @@ import { Component } from '@angular/core';
         class="relative mt-[10vw] flex justify-center gap-[6vw] w-[100vw] z-[20]"
       >
         <div
-          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.3vw] border-black"
+          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.6vw] border-black"
         >
           <a href="https://x.com/heavydutybuild" target="_blank">
             <img
@@ -71,9 +71,8 @@ import { Component } from '@angular/core';
             />
           </a>
         </div>
-
         <div
-          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.3vw] border-black"
+          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.6vw] border-black"
         >
           <a href="https://discord.com/invite/sbjg5YvYfM" target="_blank">
             <img
@@ -84,7 +83,7 @@ import { Component } from '@angular/core';
           </a>
         </div>
         <div
-          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.3vw] border-black"
+          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.6vw] border-black"
         >
           <a
             href="https://www.linkedin.com/company/heavyduty-builders"
@@ -94,6 +93,21 @@ import { Component } from '@angular/core';
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717190451/LinkedIn_icon_yw8v3p.png"
               class="w-[8.5vw]"
               alt="LinkedIn logo"
+            />
+          </a>
+        </div>
+
+        <div
+          class="flex justify-center items-center bg-pixel-purple w-[15vw] h-[15vw] border-[0.6vw] border-black"
+        >
+          <a
+            href="https://www.instagram.com/heavydutybuild_/"
+            target="_blank"
+          >
+            <img
+              src="https://res.cloudinary.com/andresmgsl/image/upload/v1729184443/heavy%20duty%20builders/Instagram_icon.png"
+              class="w-[8.5vw]"
+              alt="Instagram logo"
             />
           </a>
         </div>

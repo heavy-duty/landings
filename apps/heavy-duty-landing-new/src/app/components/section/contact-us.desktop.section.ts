@@ -53,7 +53,7 @@ import { Component } from '@angular/core';
         </div>
 
         <div
-          class="absolute -bottom-[2vw] flex justify-center  gap-[1.5vw] left-[43vw] w-[20vw] z-[20]"
+          class="absolute -bottom-[2vw] flex justify-center  gap-[1.5vw] left-[43vw] w-[25vw] z-[20]"
         >
           <div
             class="flex justify-center items-center bg-pixel-purple w-[5vw] h-[5vw] border-[0.3vw] border-black"
@@ -66,7 +66,6 @@ import { Component } from '@angular/core';
               />
             </a>
           </div>
-
           <div
             class="flex justify-center items-center bg-pixel-purple w-[5vw] h-[5vw] border-[0.3vw] border-black"
           >
@@ -86,6 +85,18 @@ import { Component } from '@angular/core';
                 src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717190451/LinkedIn_icon_yw8v3p.png"
                 class="w-[4vw]"
                 alt="LinkedIn logo"
+              />
+            </a>
+          </div>
+
+          <div
+            class="flex justify-center items-center bg-pixel-purple w-[5vw] h-[5vw] border-[0.3vw] border-black"
+          >
+            <a href="https://www.instagram.com/heavydutybuild_/" target="_blank">
+              <img
+                src="https://res.cloudinary.com/andresmgsl/image/upload/v1729184443/heavy%20duty%20builders/Instagram_icon.png"
+                class="w-[4vw]"
+                alt="Instagram logo"
               />
             </a>
           </div>
