@@ -195,6 +195,16 @@ import { RouterModule } from '@angular/router';
                   Grants y funding
                 </a>
               </li>
+              <li class="mb-[10px]">
+                <a href="https://drive.google.com/file/d/1viv4ke7rw8PxzVxmv9ILrpVMiwgt9RfE/view?usp=sharing" target="_blank">
+                  La Familia Bounties
+                </a>
+              </li>
+              <li class="mb-[10px]">
+                <a href="https://drive.google.com/file/d/1le6k8Qacc65Cs-T1k2bAPvB7to0wnWPa/view?usp=drive_link" target="_blank">
+                  Members
+                </a>
+              </li>
             </ul>
           </div>
           <div class=" flex flex-col items-center p-16">
