@@ -8,18 +8,23 @@ import { RouterModule } from '@angular/router';
   template: ` <section
       class="w-[100vw] min-h-[450px] bg-mid-black flex flex-col md:flex-row gap-[40px] md:gap-[80px] items-center md:justify-center p-10"
     >
+      <h1
+        class="absolute w-[1px] h-[1px] m-[-1px] p-0 overflow-hidden border-0"
+      >
+        La Familia - Comunidad de Solana en españa
+      </h1>
       <div class="max-w-[150px] md:max-w-[380px] w-[100%] ">
         <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725729366/Asset_31_rsm8ah.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_380/q_auto/f_auto/v1725729366/Asset_31_rsm8ah.png"
           class="relative w-full"
-          alt="Logo oficial de la Familia"
+          alt="Logo sombrero oficial de la Familia"
         />
       </div>
       <div class="max-w-[600px] w-[100%]">
         <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725977170/Asset_30_ytzfz6.png"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_600/q_auto/f_auto/v1725977170/Asset_30_ytzfz6.png"
           class="relative w-full"
-          alt="Tag oficial de la Familia"
+          alt="Logo letras oficial de la Familia"
         />
         <p
           class="bp-arima-font text-white text-lg font-thin max-w-[570px] text-justify relative mt-[20px] md:mt-[-20px]"
@@ -35,9 +40,10 @@ import { RouterModule } from '@angular/router';
         </p>
       </div>
     </section>
-    
 
-    <div class="relative w-[100vw] flex flex-col md:flex-row justify-center">
+    <section
+      class="relative w-[100vw] flex flex-col md:flex-row justify-center"
+    >
       <div class="relative max-w-[2100px] w-[100%]">
         <section class="flex flex-col md:flex-row w-100 min-h-[500px]">
           <div class="basis-[50%] p-16">
@@ -76,14 +82,8 @@ import { RouterModule } from '@angular/router';
               <li
                 class="relative w-[100%] bg-mid-black text-white py-[20px] px-[30px] mb-[15px]"
               >
-              
-                Completa 
-                <a
-                  href="https://earn.superteam.fun"
-                  target="_blank"
-                  >
-                  retos
-                </a>
+                Completa
+                <a href="https://earn.superteam.fun" target="_blank"> retos </a>
                 &nbsp;y gana crypto monedas en el proceso.
               </li>
               <li
@@ -104,7 +104,7 @@ import { RouterModule } from '@angular/router';
           </div>
         </section>
       </div>
-    </div>
+    </section>
 
     <section
       class="relative w-[100vw] min-[]:h-[430px] bg-mid-black flex flex-col gap-[20px] justify-center items-center text-white p-10"
@@ -134,46 +134,70 @@ import { RouterModule } from '@angular/router';
       </div>
     </section>
 
-    <div class="relative w-[100vw] flex justify-center">
+    <section class="relative w-[100vw] flex justify-center">
       <div class="relative max-w-[2100px] w-[100%]">
-        
-        <section class="flex flex-col md:flex-row flex-wrap justify-between w-100 min-h-[500px]">
+        <section
+          class="flex flex-col md:flex-row flex-wrap justify-between w-100 min-h-[500px]"
+        >
           <div class=" flex flex-col items-center p-16">
             <h2 class="bp-lime-light-font text-2xl mb-[20px]">Nosotros</h2>
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
               <li class="mb-[10px]">
-                <a href="https://discord.gg/qSSrqC2gZZ" target="_blank">
+                <a
+                  href="https://discord.gg/qSSrqC2gZZ"
+                  target="_blank"
+                  class="darker"
+                >
                   Discord
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://www.instagram.com/lafamilia.so/" target="_blank">
+                <a
+                  href="https://www.instagram.com/lafamilia.so/"
+                  target="_blank"
+                  class="darker"
+                >
                   Instagram
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://x.com/LaFamilia_so" target="_blank"
+                <a
+                  href="https://x.com/LaFamilia_so"
+                  target="_blank"
+                  class="darker"
                   >X (Twitter)</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="mailto:equipo@lafamilia.so" target="_blank"
+                <a
+                  href="mailto:equipo@lafamilia.so"
+                  target="_blank"
+                  class="darker"
                   >Escribenos</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="https://solanaspain.tours/" target="_blank"
+                <a
+                  href="https://solanaspain.tours/"
+                  target="_blank"
+                  class="darker"
                   >Solana Spain Tour</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="https://app.getriver.io/events/solana-ecosystem-call-september-ofg" target="_blank"
+                <a
+                  href="https://app.getriver.io/events/solana-ecosystem-call-september-ofg"
+                  target="_blank"
+                  class="darker"
                   >Solana Ecosystem Call</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="https://lu.ma/user/lafamilia_so" target="_blank"
+                <a
+                  href="https://lu.ma/user/lafamilia_so"
+                  target="_blank"
+                  class="darker"
                   >Próximos Eventos</a
                 >
               </li>
@@ -186,23 +210,39 @@ import { RouterModule } from '@angular/router';
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
               <li class="mb-[10px]">
-                <a href="https://earn.superteam.fun" target="_blank">
+                <a
+                  href="https://earn.superteam.fun"
+                  target="_blank"
+                  class="darker"
+                >
                   Superteam Earn
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://solana.org/grants-funding" target="_blank">
+                <a
+                  href="https://solana.org/grants-funding"
+                  target="_blank"
+                  class="darker"
+                >
                   Grants y funding
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://drive.google.com/file/d/1viv4ke7rw8PxzVxmv9ILrpVMiwgt9RfE/view?usp=drive_link" target="_blank">
+                <a
+                  href="https://drive.google.com/file/d/1viv4ke7rw8PxzVxmv9ILrpVMiwgt9RfE/view?usp=drive_link"
+                  target="_blank"
+                  class="darker"
+                >
                   La Familia Bounties
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://drive.google.com/file/d/1N-3O_6h167HQPOc2lEcQ6Ysq4Xsqs6ne/view?usp=drive_link" target="_blank">
-                  Members
+                <a
+                  href="https://drive.google.com/file/d/1N-3O_6h167HQPOc2lEcQ6Ysq4Xsqs6ne/view?usp=drive_link"
+                  target="_blank"
+                  class="darker"
+                >
+                  Miembros
                 </a>
               </li>
             </ul>
@@ -214,26 +254,39 @@ import { RouterModule } from '@angular/router';
             <hr class="w-[25%] h-[1px] border-black mb-[30px]" />
             <ul class="list-square bp-arima-font text-lg">
               <li class="mb-[10px]">
-                <a href="https://solana.com/es/docs" target="_blank">
+                <a
+                  href="https://solana.com/es/docs"
+                  target="_blank"
+                  class="darker"
+                >
                   Documentos
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://solanaspain.dev/" target="_blank">
+                <a
+                  href="https://solanaspain.dev/"
+                  target="_blank"
+                  class="darker"
+                >
                   Bootcamp - Solana básico
                 </a>
               </li>
               <li class="mb-[10px]">
-                <a href="https://github.com/heavy-duty/znap" target="_blank"
+                <a
+                  href="https://github.com/heavy-duty/znap"
+                  target="_blank"
+                  class="darker"
                   >Blinks with Znap</a
                 >
               </li>
               <li class="mb-[10px]">
-                <a href="https://heavyduty.builders/" target="_blank"
+                <a
+                  href="https://heavyduty.builders/"
+                  target="_blank"
+                  class="darker"
                   >Heavy Duty Builders</a
                 >
               </li>
-            
             </ul>
           </div>
         </section>
@@ -246,7 +299,7 @@ import { RouterModule } from '@angular/router';
           </p>
         </section>
       </div>
-    </div>
+    </section>
 
     <router-outlet></router-outlet>`,
   styles: ``,
