@@ -1,0 +1,109 @@
+@import './core/fonts.scss';
+
+body {
+  background-color: #f7e1d9;
+}
+
+#desktop-main-frame {
+  min-height: 100vh;
+}
+
+.bp-bg-wall {
+  background-image: url("https://res.cloudinary.com/andresmgsl/image/upload/v1725923795/bootcamp-oct-2024/wallpaper.png");
+  background-repeat: repeat;
+
+}
+
+@media screen and (max-width: 767px) {
+  .bp-bg-wall {
+    background-size: 300vw;
+  }
+}
+
+.terminal-cursor-mobile {
+  width: 1.2vw;
+  height: 3.5vw;
+  background-color: #e8e814;
+  position: absolute;
+  margin-left: 1.6vw;
+  margin-top: 0.6vw;
+
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+.terminal-cursor-desktop {
+  width: 0.6vw;
+  height: 1.7vw;
+  background-color: #e8e814;
+  position: absolute;
+  margin-left: 0.8vw;
+  margin-top: 0.3vw;
+
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+
+// External form kit (cover kit)
+.formkit-close {
+  right: 0vw !important;
+  color: black !important;
+  font-size: 4vw !important;
+}
+
+.formkit-guarantee {
+  text-align: left !important;
+}
+
+.seva-modal.formkit-modal {
+  font-family: 'Retro Computer';
+}
+
+.grecaptcha-badge {
+  z-index: 1000;
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #242424;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+/**/
+
+/** Animations */
+
+#bookshelf-books-up > a > img {
+  transition: all 0.1s ease-in;
+}
+
+#bookshelf-books-up > a > img:hover {
+  top: -1vw;
+}
