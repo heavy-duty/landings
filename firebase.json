@@ -107,8 +107,8 @@
       ]
     },
     {
-      "target": "spain-bootcamp",
-      "public": "dist/apps/spain-tour-bootcamp-oct-nov-2024-landing/browser",
+      "target": "solana-bootcamp-january-2025",
+      "public": "dist/apps/spain-tour-bootcamp-ene-feb-2025-landing/browser",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
         {

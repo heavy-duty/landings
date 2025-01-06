@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "community-platform-55f52"
+    "default": "community-platform-55f52",
+    "solana-bootcamp-january-2025": "solana-bootcamp-january-2025"
   },
   "targets": {
     "community-platform-55f52": {
@@ -14,11 +15,15 @@
         "bootcamp-heavyduty": [
           "bootcamp-heavyduty"
         ],
-        "spain-bootcamp": [
-          "spain-bootcamp"
-        ],
         "heavy-duty-builders-new-landing": [
           "heavy-duty-builders-new-landing"
+        ]
+      }
+    },
+    "solana-bootcamp-january-2025": {
+      "hosting": {
+        "solana-bootcamp-january-2025": [
+          "solana-bootcamp-january-2025"
         ]
       }
     }
