@@ -1,13 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { PushPinIconComponent } from '../push-pin.icon';
-import { PostCardIconComponent } from '../post-card.icon';
 import { EventMoreInfoIconComponent } from '../event-more-info.icon';
 
 @Component({
   selector: 'spain-tour-fourth-event',
   imports: [
     PushPinIconComponent,
-    PostCardIconComponent,
     EventMoreInfoIconComponent,
   ],
   standalone: true,

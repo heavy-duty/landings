@@ -1,34 +1,18 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { PushPinIconComponent } from './components/push-pin.icon';
-import { RedLineIconComponent } from './components/red-line.icon';
-import { MainCardIconComponent } from './components/main-card.icon';
-import { PostCardIconComponent } from './components/post-card.icon';
-import { WebsiteLinkIconComponent } from './components/website-url.icon';
-import { FirstEventComponent } from './components/core/first-event.component';
-import { SecondEventComponent } from './components/core/second-event.component';
 import { ThirdEventComponent } from './components/core/third-event.component';
 import { FourthEventComponent } from './components/core/fourth-event.component';
 import { FooterEventComponent } from './components/core/footer.component';
 import { HeroSectionComponent } from './components/core/hero-section.component';
-import { EventMoreInfoIconComponent } from './components/event-more-info.icon';
 
 @Component({
   standalone: true,
   imports: [
     RouterModule,
-    PushPinIconComponent,
-    RedLineIconComponent,
-    MainCardIconComponent,
-    PostCardIconComponent,
-    WebsiteLinkIconComponent,
-    FirstEventComponent,
-    SecondEventComponent,
     ThirdEventComponent,
     FourthEventComponent,
     FooterEventComponent,
     HeroSectionComponent,
-    EventMoreInfoIconComponent,
   ],
   selector: 'spain-tour-root',
   template: `

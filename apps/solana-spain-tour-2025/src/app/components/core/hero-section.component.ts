@@ -19,22 +19,22 @@ import { PushPinIconComponent } from '../push-pin.icon';
       </div>
 
       <!-- 2024 Sticker -->
-      <div class="absolute top-[18vw] right-[25vw]">
-        <div class="w-[13vw] rotate-12">
+      <div class="absolute top-[18vw] right-[20vw]">
+        <div class="w-[18vw] rotate-12">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/w_250/q_auto/f_auto/v1708738651/2024_sticker_vxcmph.png"
-            alt="2023 sticker"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840556/tour-2025/2025.png"
+            alt="2025 sticker"
             class="w-full"
           />
         </div>
       </div>
 
       <!-- Spain Sticker -->
-      <div class="absolute top-[16vw] right-[45vw]">
-        <div class="w-[13vw] -rotate-12">
+      <div class="absolute top-[17vw] right-[42vw]">
+        <div class="w-[20vw] -rotate-12">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/w_250/q_auto/f_auto/v1692124514/spain_ihsaw2.png"
-            alt="2023 sticker"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840557/tour-2025/espa%C3%B1a.png"
+            alt="2023 Spain sticker"
             class="w-full"
           />
         </div>
@@ -46,7 +46,7 @@ import { PushPinIconComponent } from '../push-pin.icon';
           <div class="relative">
             <!-- paper -->
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708814502/spain-folded-blue_gjbqib.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738854750/tour-2025/map-blue-full.png"
               alt="Spain Mailand map in a paper"
               class="block w-full"
               width="1008"
@@ -85,17 +85,6 @@ import { PushPinIconComponent } from '../push-pin.icon';
                 [showHover]="true"
               ></spain-tour-push-pin-icon>
             </a>
-            <!-- line from barcelona to madrid -->
-            <div
-              class="absolute w-[23vw] top-[6vw] left-[21.5vw] rotate-[62deg]"
-            >
-              <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022342/red_thread_M-M_wegday.webp"
-                alt="connector between Madrid push pin to Malaga push pin"
-                class="w-full"
-              />
-            </div>
-            <!-- -->
             <a
               href="#fourth-event-section"
               title="Direct link fourth event section"
@@ -123,14 +112,14 @@ import { PushPinIconComponent } from '../push-pin.icon';
               />
             </a>
             <a
-              href="https://heavyduty.builders/"
+              href="https://lafamilia.so/"
               target="_blank"
-              aria-label="Official link to Heavy Duty Builders website"
+              aria-label="Official link to La Familia website"
             >
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1695149182/HDB_sticker_1_ibjklb.png"
-                class="absolute w-[14.5vw] top-[6vw] left-[13.5vw] rotate-12"
-                alt="Heavy Duty Builders logo sticker"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738855614/tour-2025/tag_parche_laa_faamilia.png"
+                class="absolute w-[11.5vw] top-[6vw] left-[14.5vw] rotate-12"
+                alt="La Familia logo sticker"
               />
             </a>
             <a
@@ -161,17 +150,12 @@ import { PushPinIconComponent } from '../push-pin.icon';
         <!-- Posts Sections -->
         <div class="relative w-[40vw]">
           <!-- first post-it-->
-          <div class="absolute w-[26vw] top-[4vw] right-[7vw]">
+          <div class="absolute w-[26vw] top-[0vw] right-[7vw]">
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_538/q_auto/f_auto/v1692122853/small_folded_paper2_y8vbis.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840556/tour-2025/Notas/01.png"
               class="relative w-full rotate-12"
               alt="blue Post-It third sponsor spot"
             />
-            <spain-tour-push-pin-icon
-              colorData="red"
-              [classPrefix]="'fifth-pin'"
-              class="absolute block w-[3vw] z-10 top-[.2vw] left-[13vw]"
-            ></spain-tour-push-pin-icon>
           </div>
 
           <!-- second post-it-->
@@ -191,17 +175,12 @@ import { PushPinIconComponent } from '../push-pin.icon';
           </div>
 
           <!-- third post-it-->
-          <div class="absolute w-[24vw] top-[50vw] left-[6vw]">
+          <div class="absolute w-[24vw] top-[45vw] left-[6vw]">
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1708796076/suport_note_desktop_1_ywmnzp.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840556/tour-2025/Notas/03.png"
               class="relative w-full left-[2vw] rotate-3"
               alt="white folded paper second sponsor spot"
             />
-            <spain-tour-push-pin-icon
-              colorData="red"
-              classPrefix="pin-drago"
-              class="absolute block w-[3vw] z-10 top-[.5vw] left-[12.5vw]"
-            ></spain-tour-push-pin-icon>
           </div>
         </div>
       </div>
