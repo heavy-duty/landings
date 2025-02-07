@@ -142,7 +142,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         <!-- Information text -->
         <div class="relative w-[24vw]">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/w_461/q_auto/f_auto/v1692122853/information_grxkq0.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840550/tour-2025/Palabras/informacion.png"
             class="w-full -rotate-3"
             alt="Information text on a paper"
           />

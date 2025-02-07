@@ -46,7 +46,7 @@ import { PushPinIconComponent } from '../push-pin.icon';
           <div class="relative">
             <!-- paper -->
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738854750/tour-2025/map-blue-full.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738949196/tour-2025/map-full-yellow.png"
               alt="Spain Mailand map in a paper"
               class="block w-full"
               width="1008"
@@ -60,39 +60,82 @@ import { PushPinIconComponent } from '../push-pin.icon';
             />
 
             <!-- Heavy Duty Sticker -->
-            <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_96/q_auto/f_auto/v1691707717/images/logo_heavyduty_pencil_dyy1dm.webp"
-              alt="heavy duty sticker top tape on Mainland map paper"
-              class="absolute bottom-[4vw] right-[3vw] w-[5vw] rotate-6"
-            />
-
+            <a href="https://heavyduty.builders" target="_blank">
+              <img
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738935776/tour-2025/logo.png"
+                alt="heavy duty sticker top tape on Mainland map paper"
+                class="absolute bottom-[4vw] right-[3vw] w-[5vw] rotate-6"
+              />
+            </a>
             <!-- Solana Sticker -->
-            <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/v1692022432/logo_solana_drawing_fnixsc.webp"
-              alt="solana sticker top tape on Mainland map paper"
-              class="absolute top-[2vw] right-[4vw] w-[3vw] -rotate-6"
-            />
-
+            <a href="https://solana.com" target="_blank">             
+              <img
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022432/logo_solana_drawing_fnixsc.webp"
+                alt="solana sticker top tape on Mainland map paper"
+                class="absolute top-[2vw] right-[4vw] w-[3vw] -rotate-6"
+              />
+            </a>
             <!-- Push Pins -->
+            <!-- Madrid -->
             <a
-              href="#first-event-section"
-              title="Direct link first event section"
+              href="#madrid-event-section"
+              title="Direct link to the Madrid event section"
             >
               <spain-tour-push-pin-icon
-                class="absolute block w-[3vw] top-[43%] left-[42%] z-10 cursor-pointer"
+                class="absolute block w-[3vw] top-[42.5%] left-[43.5%] z-10 cursor-pointer"
                 colorData="purple"
                 [classPrefix]="'map-madrid-pin'"
                 [showHover]="true"
               ></spain-tour-push-pin-icon>
             </a>
+            <!-- Barcelona -->
             <a
-              href="#fourth-event-section"
-              title="Direct link fourth event section"
+              href="#barcelona-event-section"
+              title="Direct link to the Barcelona event section"
             >
               <spain-tour-push-pin-icon
-                class="absolute block w-[3vw] top-[30%] right-[10.8%] z-10 cursor-pointer"
+                class="absolute block w-[3vw] top-[31.5%] right-[12%] z-10 cursor-pointer"
                 colorData="green"
                 [classPrefix]="'map-barcelona-pin'"
+                [showHover]="true"
+              ></spain-tour-push-pin-icon>
+            </a>
+
+            <!-- Galicia -->
+            <a
+              href="#galicia-event-section"
+              title="Direct link to the Galicia event section"
+            >
+              <spain-tour-push-pin-icon
+                class="absolute block w-[3vw] top-[16%] left-[9.5%] z-10 cursor-pointer"
+                colorData="lightBlue"
+                [classPrefix]="'map-galicia-pin'"
+                [showHover]="true"
+              ></spain-tour-push-pin-icon>
+            </a>
+
+            <!-- Marbella -->
+            <a
+              href="#marbella-event-section"
+              title="Direct link to the Marbella event section"
+            >
+              <spain-tour-push-pin-icon
+                class="absolute block w-[3vw] bottom-[15%] left-[32%] z-10 cursor-pointer"
+                colorData="red"
+                [classPrefix]="'map-marbella-pin'"
+                [showHover]="true"
+              ></spain-tour-push-pin-icon>
+            </a>
+
+            <!-- Málaga -->
+            <a
+              href="#malaga-event-section"
+              title="Direct link to the Malaga event section"
+            >
+              <spain-tour-push-pin-icon
+                class="absolute block w-[3vw] bottom-[18%] left-[37%] z-10 cursor-pointer"
+                colorData="blue"
+                [classPrefix]="'map-malaga-pin'"
                 [showHover]="true"
               ></spain-tour-push-pin-icon>
             </a>
@@ -160,18 +203,13 @@ import { PushPinIconComponent } from '../push-pin.icon';
 
           <!-- second post-it-->
           <div
-            class="absolute flex justify-center w-[25vw] top-[29vw] right-[8vw]"
+            class="absolute flex justify-center w-[25vw] top-[23vw] right-[8vw]"
           >
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_480/q_auto/f_auto/v1692122854/small_folded_paper3_e8u2os.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738935104/tour-2025/Notas/nota_02_sponosr.png"
               alt="green Post-It first sponsor spot"
               class="w-full -rotate-6"
             />
-            <spain-tour-push-pin-icon
-              class="absolute block w-[3vw] top-[0.4vw] mr-[2vw] z-10"
-              colorData="red"
-              [classPrefix]="'seven-pin'"
-            ></spain-tour-push-pin-icon>
           </div>
 
           <!-- third post-it-->

@@ -13,7 +13,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
   standalone: true,
   template: `
     <div
-      class="relative flex gap-[5vw] w-full pt-[5vw]"
+      class="relative flex gap-[5vw] w-full pt-[15vw]"
       id="first-event-section"
     >
       <!-- Postcard -->
@@ -143,9 +143,9 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
       <!-- Event Information -->
       <div class="relative">
         <!-- Information text -->
-        <div class="relative w-[24vw]">
+        <div class="relative w-[26vw]">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/w_461/q_auto/f_auto/v1692122853/information_grxkq0.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840550/tour-2025/Palabras/informacion.png"
             class="w-full rotate-3"
             alt="Information text on a paper"
           />
@@ -217,6 +217,49 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
             />
           </a>
         </div>
+      </div>
+
+      
+      <!-- Ballerina Sticker -->
+      <div class="absolute right-[1vw] top-[2vw]">
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692280284/Ballerina_f1euu4.png"
+          alt="Drawing bull"
+          class="w-[15vw] rotate-6"
+        />
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
+          alt="tape for drawing ballerina"
+          class="absolute w-[5vw] -rotate-[10deg] -top-[1vw] right-[5.7vw]"
+        />
+      </div>
+
+      <!-- Bull Sticker -->
+      <div class="absolute right-[22vw] top-[5vw]">
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_488/q_auto/f_auto/v1691707714/images/icons/bull_bsyz0y.webp"
+          alt="Drawing bull"
+          class="w-[17vw] rotate-6"
+        />
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
+          alt="tape for drawing bull"
+          class="absolute w-[7vw] rotate-[25deg] top-[1.3vw] right-[3vw]"
+        />
+      </div>
+
+      <!-- Wine -->
+      <div class="absolute right-[2vw] top-[20vw]">
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/v1692282122/Wine_ltvjuk.png"
+          alt="Drawing bull"
+          class="w-[10vw]"
+        />
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/w_134/q_auto/f_auto/v1691707717/images/tape_ogkfqm.webp"
+          alt="tape for drawing wine"
+          class="absolute w-[5vw] top-[.3vw] right-[3.5vw]"
+        />
       </div>
     </div>
   `,

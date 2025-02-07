@@ -11,8 +11,8 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
   standalone: true,
   template: `
     <div
-      class="relative flex gap-[5vw] w-full pt-[5vw]"
-      id="fourth-event-section"
+      class="relative flex gap-[5vw] w-full pt-[10vw]"
+      id="madrid-event-section"
     >
       <!-- Postcard -->
       <div

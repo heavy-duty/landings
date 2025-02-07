@@ -12,7 +12,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
   template: `
     <div
       class="relative flex gap-[5vw] w-full pt-[2vw] pb-[4vw]"
-      id="third-event-section"
+      id="barcelona-event-section"
     >
       <!-- Postcard -->
       <div class="relative -rotate-3 w-[60vw] h-[31.3vw] p-[2.5vw] right-0">
@@ -137,9 +137,9 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
       </div>
       <div class="relative">
         <!-- Information text -->
-        <div class="relative w-[24vw]">
+        <div class="relative w-[26vw]">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/w_461/q_auto/f_auto/v1692122853/information_grxkq0.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840550/tour-2025/Palabras/informacion.png"
             class="w-full rotate-3"
             alt="Information text on a paper"
           />
