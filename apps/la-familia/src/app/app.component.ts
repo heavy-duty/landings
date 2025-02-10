@@ -110,33 +110,16 @@ import { RouterModule } from '@angular/router';
       class="relative w-[100vw] min-[]:h-[430px] bg-mid-black flex flex-col gap-[20px] justify-center items-center text-white p-10"
     >
       <h2 class="bp-lime-light-font text-2xl md:text-4xl text-center">
-        Construyendo para el Hackathon de RADAR
+        Conoce A la Familia
       </h2>
-      <div class="w-[100%] max-w-[800px] text-center">
-        <p class="bp-arima-font mb-[20px]">
-          El Radar Global Hackathon es tu oportunidad para ganar experiencia en
-          Solana y competir con equipos de todo el mundo por premios acumulados
-          de $600K 🏆. Visita ColosseumOrg para registrarte y ser parte de esta
-          increíble experiencia.
-        </p>
-        <p class="bp-arima-font mb-[20px]">
-          Estamos en España y queremos que formes parte de esta oportunidad para
-          llevar tus ideas al siguiente nivel. ¡Vamos a construir juntos! 👷‍♀️👨‍🔧🧑‍💻
-        </p>
-        <p class="bp-arima-font mb-[20px]">
-          ¿No eres desarrollador? ¡No te preocupes! Conoce a tus futuros
-          compañeros de equipo en nuestros eventos o a través del portal del
-          Hackathon 💡.
-        </p>
-        <a href="https://www.colosseum.org/radar" target="_blank">
-          <p class="bp-arima-font">📢 ¡Muestra tu proyecto!</p>
-        </a>
+      <div class="w-[100%] max-w-[800px] flex justify-center">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/OzWr1DOoLZE?si=agXgt842ootGOMrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </section>
 
     <div class="relative w-[100vw] flex justify-center">
       <div class="relative max-w-[2100px] w-[100%]">
-        
+         
         <section class="flex flex-col md:flex-row flex-wrap justify-between w-100 min-h-[500px]">
           <div class=" flex flex-col items-center p-16">
             <h2 class="bp-lime-light-font text-2xl mb-[20px]">Nosotros</h2>
