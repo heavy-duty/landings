@@ -19,9 +19,9 @@ import { WebsiteLinkIconComponent } from '../website-url.icon';
             alt="Yellow sticker with footer information"
           />
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707712/images/logo_heavyduty_beware_ttafdg.webp"
-            class="absolute w-[65%] -top-[3vw] left-[3vw] -rotate-12"
-            alt="Beware Heavy Duty Builders sticker"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840555/tour-2025/Palabras/siguenos.png"
+            class="absolute w-[65%] -top-[2.5vw] left-[3vw] -rotate-6"
+            alt="Follow us Heavy Duty Builders sticker"
           />
           <!-- Socials -->
           <div
@@ -122,6 +122,20 @@ import { WebsiteLinkIconComponent } from '../website-url.icon';
             </a>
           </div>
 
+          <!-- Become Partner information-->
+          <div class="absolute w-[20vw] -top-[15vw] -right-[5vw]">
+            <a
+              href="mailto:andres@heavyduty.builders"
+              subject="Solana Spain Tour sponsorship information"
+            >
+              <img
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840554/tour-2025/Palabras/Partnergg.png"
+                class="relative w-full -top-[1.5vw] -left-[1vw] rotate-6"
+                alt="Become partner sticker"
+              />
+            </a>
+          </div>
+
           <!-- Heavy Duty Builders Sticker -->
           <div class="absolute w-[15vw] top-[4vw] right-[38vw]">
             <a
@@ -130,7 +144,7 @@ import { WebsiteLinkIconComponent } from '../website-url.icon';
               target="_blank"
             >
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/w_380/q_auto/f_auto/v1691707717/images/sponsors/logo_heavyduty_sticker_tpptvy.webp"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738935776/tour-2025/logo.png"
                 class="relative w-full -top-[1.5vw] -left-[1vw] -rotate-6"
                 alt="Heavy Duty Builders sticker"
               />
@@ -140,32 +154,27 @@ import { WebsiteLinkIconComponent } from '../website-url.icon';
           <!-- Next hackathon post-it -->
           <div class="relative">
             <a
-              href="https://solana.com/grizzlython"
+              href="https://solanaspain.dev"
               target="_blank"
               aria-label="Official link to Solana Grizzlython Hackathon website"
             >
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/w_326/q_auto/f_auto/v1692124821/post_it_orange_gyllqo.png"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840556/tour-2025/Notas/HDC.png"
                 class="w-full rotate-12"
                 alt="Next hackathon orange Post-it"
               />
             </a>
             <a
-              href="https://solana.com/"
+              href="https://backpack.app/"
               target="_blank"
-              aria-label="Official link to Solana website"
+              aria-label="Official link to Backpack website"
             >
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/w_115/q_auto/f_auto/v1691707712/images/logo_solana_sticker_mq5bru.webp"
-                class="absolute w-[6vw] -top-[3vw] -left-[1.5vw] -rotate-12"
-                alt="Solana logo sticker"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739296652/bootcamp-ene-2025/Backpack.png"
+                class="absolute w-[6vw] -top-[3.6vw] -left-[0.5vw] rotate-0"
+                alt="Backpack logo sticker"
               />
             </a>
-            <spain-tour-push-pin-icon
-              colorData="red"
-              [classPrefix]="'footer-pin'"
-              class="absolute block w-[3vw] z-10 top-[1vw] right-[1vw]"
-            ></spain-tour-push-pin-icon>
           </div>
         </div>
       </div>

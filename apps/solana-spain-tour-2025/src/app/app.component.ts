@@ -1,18 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ThirdEventComponent } from './components/core/third-event.component';
 import { FooterEventComponent } from './components/core/footer.component';
 import { HeroSectionComponent } from './components/core/hero-section.component';
-import { SecondEventComponent } from './components/core/second-event.component';
-import { FirstEventComponent } from './components/core/first-event.component';
+import { BarcelonaEventComponent } from './components/events/barcelona.component';
 
 @Component({
   standalone: true,
   imports: [
     RouterModule,
-    FirstEventComponent,
-    ThirdEventComponent,
-    SecondEventComponent,
+    BarcelonaEventComponent,
     FooterEventComponent,
     HeroSectionComponent,
   ],
@@ -54,8 +50,8 @@ import { FirstEventComponent } from './components/core/first-event.component';
 
     <!-- Events section -->
     <section class="relative px-[7vw] overflow-hidden pb-[5vw]">
-      <!-- Working here -->
-       
+      <spain-tour-barcelona-event></spain-tour-barcelona-event>
+      
     </section>
 
     <!-- Divider & Doubts text -->
@@ -72,8 +68,8 @@ import { FirstEventComponent } from './components/core/first-event.component';
 
       <div class="relative">
         <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/w_587/q_auto/f_auto/v1692122853/questions_qkolgf.png"
-          class="w-[28vw] -rotate-6"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840554/tour-2025/Palabras/preguntas.png"
+          class="w-[28vw] rotate-[3deg]"
           alt="Doubts text on a paper"
         />
       </div>
