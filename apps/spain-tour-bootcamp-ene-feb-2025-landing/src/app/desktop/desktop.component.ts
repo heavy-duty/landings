@@ -61,6 +61,22 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
             class="absolute w-[100%]"
           />
 
+          <div
+            class="absolute w-[4vw] right-[1.5vw] bg-red-300 -bottom-[1.5vw]"
+          >
+            <a
+              href="https://backpack.app/"
+              target="_blank"
+              aria-label="link to Backpack exchange oficial page"
+            >
+              <img
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739296652/bootcamp-ene-2025/Backpack.png"
+                alt="Backpack sticker"
+                class="absolute w-[3.5vw] -rotate-[10deg]"
+              />
+            </a>
+          </div>
+
           <a href="#" aria-label="collaborators text">
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705422202/Colaboradores_ca9jpy.png"
@@ -69,30 +85,30 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
             />
           </a>
 
-          <!-- Solana -->
+          <!-- La Familia -->
           <div class="absolute z-30 top-[6vw] right-[11vw]">
             <a
-              href="https://solana.com/"
+              href="https://lafamilia.so/"
               target="_blank"
-              aria-label="link to solana oficial page"
+              aria-label="link to La Familia oficial page"
               bootcampShowOnHover
             >
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1716748521/Solana_rctkla.png"
-                alt="Vintage Solana logo stickers"
-                class="w-[7.3vw] realtive z-30 right-[6.3vw]"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1736857299/bootcamp-ene-2025/LaFamilia.png"
+                alt="Vintage La Familia logo stickers"
+                class="w-[7.8vw] realtive z-30 right-[6.3vw]"
               />
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717014249/Solana_Hover_jirt5k.png"
-                alt="Vintage Solana logo stickers hover"
-                class="w-[7.3vw] absolute top-[0vw] -rotate-[10deg] opacity-0"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1736857299/bootcamp-ene-2025/LaFamilia-hover_2.png"
+                alt="Vintage La Familia logo stickers hover"
+                class="w-[7.8vw] absolute top-[0vw] -rotate-[10deg] opacity-0"
               />
             </a>
 
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
               alt="Vintage cork pin"
-              class="w-[1.5vw] absolute top-[0.5vw] right-[2.8vw] -rotate-[15deg]"
+              class="w-[1.5vw] absolute top-[0.5vw] right-[3vw] -rotate-[15deg]"
             />
           </div>
 
@@ -123,31 +139,31 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
             />
           </div>
 
-          <!-- Solana FM  -->
-          <!-- <div class="absolute z-30 top-[10vw] right-[7.5vw]">
+          <!-- Metapool  -->
+          <div class="absolute z-30 top-[10vw] right-[2.5vw]">
             <a
-              href="https://solana.fm/"
+              href="https://www.metapool.app/"
               target="_blank"
-              aria-label="link to SolanaFM official website"
+              aria-label="link to Metapool official website"
               bootcampShowOnHover
             >
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Solana_FM_rkwx20.png"
-                alt="Vintage SolanaFM logo stickers"
-                class="w-[4.5vw] relative -rotate-[15deg]"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1736857299/bootcamp-ene-2025/Metapool.png"
+                alt="Vintage Metapool logo stickers"
+                class="w-[6.5vw] relative -rotate-[15deg]"
               />
               <img
-                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1717679878/Solana_FM_Hover_gruima.png"
-                alt="Vintage SolanaFM logo stickers hover"
-                class="w-[4.5vw] absolute z-30 top-[0vw] right-[0.8vw] rotate-[15deg] opacity-0"
+                src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1736857299/bootcamp-ene-2025/Metapool-hover.png"
+                alt="Vintage Metapool logo stickers hover"
+                class="w-[6.5vw] absolute z-30 top-[0vw] right-[0.8vw] rotate-[15deg] opacity-0"
               />
             </a>
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1705184037/Pin_lsboby.png"
               alt="Vintage cork pin"
-              class="w-[1.5vw] absolute z-30 top-[0vw] right-[1.8vw] -rotate-[15deg]"
+              class="w-[1.5vw] absolute z-30 top-[0vw] right-[2.8vw] -rotate-[15deg]"
             />
-          </div> -->
+          </div>
 
           <!-- Cryptoconexion  -->
           <!-- <div class="absolute z-30 top-[4.6vw] left-[3.2vw]">
@@ -210,36 +226,36 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
         />
 
         <div
-        id="computer-monitor"
-        class="absolute top-[-25.9vw] left-[40vw] z-20"
-      >
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/pc.png"
-          alt="Vintage computer monitor pixel art"
-          class="w-[28vw]"
-        />
-
-        <div
-        
-          class="absolute top-[9vw] flex justify-center bp-font-retro-computer"
+          id="computer-monitor"
+          class="absolute top-[-25.9vw] left-[40vw] z-20"
         >
-          <div class="text-left relative left-[5vw] max-w-[16vw]">
-            <h2 class="text-[1.2vw] text-[#e8e814]">
-              > {{ introText }} <span class="terminal-cursor-desktop"></span>
-            </h2>
-            @if (true) {
-            <button
-              class="bg-[#e8e814] ml-[0.6vw] mt-[1.5vw] px-[1vw] py-[0.5vw] text-black text-[1.1vw]"
-              aria-label="Botón de registro"
-            >
-              <a href="https://forms.gle/D8uKuJhGSLUHErTu9" target="_blank">
-                REGISTRARME
-              </a>
-            </button>
-            }
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/pc.png"
+            alt="Vintage computer monitor pixel art"
+            class="w-[28vw]"
+          />
+
+          <div
+            class="absolute top-[9vw] flex justify-center bp-font-retro-computer"
+          >
+            <div class="text-left relative left-[5vw] max-w-[16vw]">
+              <h2 class="text-[1.2vw] text-[#e8e814]">
+                > {{ introText }} <span class="terminal-cursor-desktop"></span>
+              </h2>
+              @if (true) {
+              <button
+                class="bg-[#2a2a2a] ml-[0vw] mt-[2vw] px-[1vw] py-[0.5vw] text-[#a4a4a4] text-[0.8vw] cursor-not-allowed"
+                aria-label="Botón de registro"
+                disabled
+              >
+                <!-- <a href="#"> -->
+                  .REGISTRO FINALIZADO.
+                <!-- </a> -->
+              </button>
+              }
+            </div>
           </div>
         </div>
-      </div>
 
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1725923790/bootcamp-oct-2024/l_speaker.png"
@@ -261,10 +277,7 @@ import { ShowOnHoverDirective } from '../utils/hover.directive';
           />
         </div>
 
-        <div
-          id="funko-builder"
-          class="absolute top-[-3vw] right-[10.5vw] z-20"
-        >
+        <div id="funko-builder" class="absolute top-[-3vw] right-[10.5vw] z-20">
           <a
             href="https://heavyduty.builders"
             target="_blank"
