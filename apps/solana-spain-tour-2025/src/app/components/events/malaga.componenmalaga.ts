@@ -118,7 +118,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               />
               <div class="basis-[.7vw]"></div>
               <p class="bp-landing-font text-[1vw] font-light ">
-                10:00 - 15:00
+                18:00 - 21:00
               </p>
             </div>
 
