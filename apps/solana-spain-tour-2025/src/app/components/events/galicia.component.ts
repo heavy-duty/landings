@@ -4,7 +4,7 @@ import { PostCardIconComponent } from '../post-card.icon';
 import { EventMoreInfoIconComponent } from '../event-more-info.icon';
 
 @Component({
-  selector: 'spain-tour-madrid-event',
+  selector: 'spain-tour-galicia-event',
   imports: [
     PushPinIconComponent,
     PostCardIconComponent,
@@ -13,38 +13,38 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
   standalone: true,
   template: `
     <div
-      class="relative flex gap-[5vw] w-full pt-[12vw]"
-      id="madrid-event-section"
+      class="relative flex gap-[5vw] w-full pt-[5vw]"
+      id="galicia-event-section"
     >
       <!-- Postcard -->
       <div
-        class="relative bg-white bp-bg-paper-pattern rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] -right-[4vw] order-2"
+        class="relative bg-white bp-bg-paper-pattern -rotate-3 w-[50vw] h-[31.3vw] p-[2.5vw] right-0"
       >
         <spain-tour-push-pin-icon
-          colorData="purple"
-          [classPrefix]="'madrid-event-pint-1'"
+          colorData="blue"
+          [classPrefix]="'fourth-pin'"
           class="absolute block w-[3vw] z-10 top-[1.5vw] left-[2vw]"
         ></spain-tour-push-pin-icon>
         <spain-tour-push-pin-icon
-          colorData="purple"
-          [classPrefix]="'madrid-event-pint-2'"
           class="absolute block w-[3vw] z-10 top-[1.5vw] right-[2vw]"
+          colorData="blue"
+          [classPrefix]="'galicia-event-right-pin'"
         ></spain-tour-push-pin-icon>
         <spain-tour-post-card-icon
-          [classPrefix]="'-madrid-event'"
-          [firstColor]="'#00C2FF'"
-          [secondColor]="'#FFA463'"
+          [classPrefix]="'-galicia-event'"
+          [firstColor]="'#7e64ef'"
+          [secondColor]="'#fc55a6'"
           class="absolute block w-full top-0 left-0"
         ></spain-tour-post-card-icon>
 
         <div class="relative w-full h-full flex">
           <!-- Postcard image section-->
-          <div class="basis-[70%] h-full bp-bg-madrid-event"></div>
+          <div class="basis-[70%] h-full bp-bg-galicia-event"></div>
 
           <!-- Postcard info section -->
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p class="text-[3.8vw] bp-amatic-font text-left font-bold mb-[0vw]">
-              <span class="block">Madrid</span>
+              <span class="block">Galicia</span>
             </p>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -52,7 +52,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               <div class="basis-[.7vw]"></div>
               <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
-            <a href="https://maps.app.goo.gl/ZS1BjRTJqSb8abJK8" target="_blank">
+            <a href="https://maps.app.goo.gl/eoFWxrw3vP8azh7h8" target="_blank">
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
@@ -64,32 +64,35 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
                 />
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light">
-                  Distrito Telefónica,
+                  Av. Porto da Coruña
                 </p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">
-                  Edificio Norte 3,
+                <p class="bp-landing-font text-[1vw] font-light">
+                  3, 15003 
                 </p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light ">
-                  28050, Madrid.
+                <p class="bp-landing-font text-[1vw] font-light">
+                  A Coruña.
+                </p>
+              </div>
+              <div
+                class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
+              >
+                <div class="basis-[.7vw]"></div>
+
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
                 </p>
               </div>
             </a>
-            <div
-              class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
-            >
-              <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
-            </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
@@ -100,14 +103,16 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
                 alt="Calendar icon"
               />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">26/02/2025</p>
+              <p class="bp-landing-font text-[1vw] font-light">27/02/2025</p>
             </div>
+
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
             >
               <div class="basis-[.7vw]"></div>
               <p class="bp-landing-font text-[1vw] font-light text-white">.</p>
             </div>
+
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[2vw] gap-[1vw]"
             >
@@ -124,11 +129,12 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
 
             <div class="absolute w-full bottom-0 left-0 px-[1vw]">
               <!-- This is only necessary for max zoom 500% avoid moving-->
+
               <a
-                href="https://lu.ma/094baich"
+                href="https://lu.ma/fd7yz2ev"
                 target="_blank"
-                class="block w-full bp-amatic-font text-[2vw] p-[.3vw] bg-[#6BFF7D] border-[.1vw] border-gray-800 hover:bg-[#4ff963] text-center font-bold"
-                aria-label="Schedule madrid event action"
+                class="block w-full bp-amatic-font text-[2vw] p-[.3vw]  bg-[#98e6ff] border-[.1vw] border-gray-800 hover:bg-[#83dcf7] text-center font-bold"
+                aria-label="Schedule galicia event action"
               >
                 ¡Apúntate!
               </a>
@@ -140,29 +146,29 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
       <!-- Event Information -->
       <div class="relative">
         <!-- Information text -->
-        <div class="relative w-[24vw]">
+        <div class="relative w-[26vw]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840550/tour-2025/Palabras/informacion.png"
-            class="w-full -rotate-3"
+            class="w-full rotate-3"
             alt="Information text on a paper"
           />
         </div>
 
         <!-- Post-it information -->
-        <div class="relative w-[22vw] mt-[2vw] ml-[5vw] -rotate-6 order-1">
+        <div class="relative w-[22vw] mt-[2vw] ml-[5vw] rotate-6">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739371445/tour-2025/postales/Madrid/madrid.png"
-            alt="purple post-it with some information"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739306272/tour-2025/postales/galicia/galicia.png"
+            alt="green post-it with some information"
             class="relative w-full"
           />
           <a
-            href="https://lu.ma/094baich"
+            href="https://lu.ma/fd7yz2ev"
             target="_blank"
-            aria-label="Official link to the madrid tour event"
+            aria-label="Official link to the galicia tour event"
           >
             <spain-tour-event-more-info-icon
-              class="absolute w-[16vw] left-[2.5vw] bottom-[3vw] z-10"
-              [classPrefix]="'sixth-event243'"
+              class="absolute  w-[17vw] left-[1.7vw] bottom-[1.1vw] z-10"
+              [classPrefix]="'sixth-event0'"
             ></spain-tour-event-more-info-icon>
           </a>
         </div>
@@ -170,8 +176,8 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
     </div>
 
     <!-- Event sponsors -->
-    <div class="relative w-full flex flex-col items-end">
-      <!-- Sponsor text -->
+    <div class="relative w-full">
+      <!-- Parthers text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/w_307/q_auto/f_auto/v1692815512/Partners_qdxiud.png"
@@ -181,61 +187,73 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
       </div>
 
       <!-- Partners logos -->
-      <div
-        class="relative w-[85vw] mt-[2vw] left-[0vw] flex flex-col items-end"
-      >
-        <div class="relative w-[36vw] rotate-[8deg]">
+      <div class="relative w-[85vw] mt-[2vw] left-[0vw] ">
+        <div class="relative w-[30vw] h-[11vw] -rotate-[8deg]">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739368742/tour-2025/cultura_c3_logo.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739374543/tour-2025/Hi-logo.png"
             class="w-full"
-            alt="Official Cultura C3 logo"
+            alt="Official Hi Coruña logo"
           />
         </div>
-        <div
-          class="relative w-[16vw] -left-[10vw] mt-[2vw] h-[10vw] -rotate-[8deg]"
-        >
+        <div class="relative w-[26vw] left-[25vw] -top-[3vw] h-[5vw] rotate-[8deg]">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/w_511/q_auto/f_auto/v1694093991/42-madrid-sticker_mnw41q.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739374833/tour-2025/agabit_logo.png"
             class="w-full"
-            alt="Official 42 Madrid logo"
+            alt="Official Agalbit logo"
+          />
+        </div>
+        <div class="relative w-[26vw] left-[10vw] -top-[2vw] h-[10vw] -rotate-[5deg]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739371451/tour-2025/metalabs_logo.png"
+            class="w-full"
+            alt="Official Metalabs logo"
+          />
+        </div>
+        <div class="relative w-[16vw] left-[37vw] -mt-[6vw] h-[10vw] rotate-[3deg]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739374707/tour-2025/dextools.png"
+            class="w-full"
+            alt="Official Dextools logo"
+          />
+        </div>
+
+        
+      </div>
+
+      <!-- Connector line and sticker -->
+
+      <div class="relative">
+        <!-- line from third event to fourth event-->
+        <div class="relative w-full mb-[10vw] h-[5vw] rotate-[16deg]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707714/images/arrow_3-4_hbjenp.webp"
+            class="absolute w-[45vw] right-[1vw] -top-[35vw]"
+            alt="arrow from third postcard event to fourth postcard event"
+          />
+        </div>
+
+        <!-- train icon -->
+        <div class="absolute w-full mb-[16vw]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
+            class="absolute w-[16vw] right-[9vw] -top-[20vw] rotate-[5deg]"
+            alt="train sticker"
+          />
+        </div>
+      </div>
+
+      <!-- Blue zigzag divider -->
+      <div class="absolute w-full flex bottom-[5vw] -left-[4vw] z-10">
+        <div class="absolute w-[70vw] rotate-3">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707713/images/zigzag_blue_taamxn.webp"
+            class="w-full"
+            alt="Blue zigzag divider "
           />
         </div>
       </div>
     </div>
-
-    <!-- Cnnector line and sticker -->
-    <div class="relative h-[25vw]">
-      <!-- line from madrid event to other event-->
-      <div class="relative w-full -top-[38vw] -rotate-[20deg]">
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707711/images/arrow_2-3_pczd47.webp"
-          class="absolute w-[50vw] -left-[18vw] "
-          alt="arrow from madrid postcard event to third postcard event"
-        />
-      </div>
-
-      <!-- train icon -->
-      <div class="absolute w-full mb-[16vw]">
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
-          class="absolute w-[16vw] left-[6vw] top-[5vw] -rotate-12 scale-x-[-1]"
-          alt="train sticker"
-        />
-      </div>
-          <!-- Green zigzag divider -->
-    <div class="relative w-full flex left-0 z-10">
-      <div class="absolute w-[70vw] top-[3vw] -right-[6vw] -rotate-6">
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707713/images/zigzag_green_xtvnyq.webp"
-          class="w-full"
-          alt="Green zigzag divider "
-        />
-      </div>
-    </div>
-    </div>
-
-
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MadridEventComponent {}
+export class GaliciaEventComponent {}

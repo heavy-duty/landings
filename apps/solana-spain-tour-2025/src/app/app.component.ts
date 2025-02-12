@@ -4,6 +4,7 @@ import { FooterEventComponent } from './components/core/footer.component';
 import { HeroSectionComponent } from './components/core/hero-section.component';
 import { BarcelonaEventComponent } from './components/events/barcelona.component';
 import { MadridEventComponent } from './components/events/madrid.componen';
+import { GaliciaEventComponent } from './components/events/galicia.component';
 
 @Component({
   standalone: true,
@@ -11,6 +12,7 @@ import { MadridEventComponent } from './components/events/madrid.componen';
     RouterModule,
     BarcelonaEventComponent,
     MadridEventComponent,
+    GaliciaEventComponent,
     FooterEventComponent,
     HeroSectionComponent,
   ],
@@ -55,6 +57,8 @@ import { MadridEventComponent } from './components/events/madrid.componen';
       <spain-tour-barcelona-event></spain-tour-barcelona-event>
 
       <spain-tour-madrid-event></spain-tour-madrid-event>
+
+      <spain-tour-galicia-event></spain-tour-galicia-event>
       
     </section>
 

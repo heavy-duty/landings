@@ -134,7 +134,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
                 href="https://lu.ma/8ewg5c0i"
                 target="_blank"
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw]  bg-[#98e6ff] border-[.1vw] border-gray-800 hover:bg-[#83dcf7] text-center font-bold"
-                aria-label="Schedule first event action"
+                aria-label="Schedule barcelona event action"
               >
                 ¡Apúntate!
               </a>
@@ -164,7 +164,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           <a
             href="https://lu.ma/8ewg5c0i"
             target="_blank"
-            aria-label="Official link to the first tour event"
+            aria-label="Official link to the barcelona tour event"
           >
             <spain-tour-event-more-info-icon
               class="absolute  w-[17vw] left-[1.8vw] bottom-[1.2vw] z-10"
