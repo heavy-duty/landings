@@ -3,12 +3,14 @@ import { RouterModule } from '@angular/router';
 import { FooterEventComponent } from './components/core/footer.component';
 import { HeroSectionComponent } from './components/core/hero-section.component';
 import { BarcelonaEventComponent } from './components/events/barcelona.component';
+import { MadridEventComponent } from './components/events/madrid.componen';
 
 @Component({
   standalone: true,
   imports: [
     RouterModule,
     BarcelonaEventComponent,
+    MadridEventComponent,
     FooterEventComponent,
     HeroSectionComponent,
   ],
@@ -51,6 +53,8 @@ import { BarcelonaEventComponent } from './components/events/barcelona.component
     <!-- Events section -->
     <section class="relative px-[7vw] overflow-hidden pb-[5vw]">
       <spain-tour-barcelona-event></spain-tour-barcelona-event>
+
+      <spain-tour-madrid-event></spain-tour-madrid-event>
       
     </section>
 
