@@ -221,12 +221,12 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           />
         </div>
 
-        <!-- train icon -->
+        <!-- plane icon -->
         <div class="absolute w-full mb-[16vw]">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
-            class="absolute w-[16vw] right-[12vw] -top-[20.5vw] -rotate-[345deg]"
-            alt="train sticker"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/airplane_rjo8jo.webp"
+            class="absolute w-[12vw] right-[8vw] -top-[20.5vw] -rotate-[0deg]"
+            alt="plane sticker"
           />
         </div>
       </div>
