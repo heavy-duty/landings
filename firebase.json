@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "spain-islands-tour",
-      "public": "dist/apps/spain-tour-landing",
+      "public": "dist/apps/solana-spain-tour-2025",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
         {
