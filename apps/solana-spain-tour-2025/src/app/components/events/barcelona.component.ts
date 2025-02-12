@@ -40,7 +40,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         <div class="relative w-full h-full flex">
           <!-- Postcard image section-->
           <div class="basis-[70%] h-full bp-bg-barcelona-event"></div>
-          
+
           <!-- Postcard info section -->
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p class="text-[3.8vw] bp-amatic-font text-left font-bold mb-[0vw]">
@@ -61,10 +61,10 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
                   src="https://res.cloudinary.com/andresmgsl/image/upload/w_29/q_auto/f_auto/v1691707713/images/icons/location_l31pvh.webp"
                   class="absolute w-[1.5vw] left-[1vw]"
                   alt="Calendar icon"
-                />  
+                />
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light">
-                Carrer d'Albert
+                  Carrer d'Albert
                 </p>
               </div>
               <div
@@ -72,7 +72,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light">
-                Einstein, 11,
+                  Einstein, 11,
                 </p>
               </div>
               <div
@@ -80,17 +80,17 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light">
-                Nou Barris,
+                  08042 Barcelona
                 </p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                
-                <p class="bp-landing-font text-[1vw] font-light">
-                08042 Barcelona
-                  </p>
+
+                <p class="bp-landing-font text-[1vw] font-light text-white">
+                  .
+                </p>
               </div>
             </a>
             <div
@@ -131,7 +131,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               <!-- This is only necessary for max zoom 500% avoid moving-->
 
               <a
-                href="https://lu.ma/q4f98ei5"
+                href="https://lu.ma/8ewg5c0i"
                 target="_blank"
                 class="block w-full bp-amatic-font text-[2vw] p-[.3vw]  bg-[#98e6ff] border-[.1vw] border-gray-800 hover:bg-[#83dcf7] text-center font-bold"
                 aria-label="Schedule first event action"
@@ -162,7 +162,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
             class="relative w-full"
           />
           <a
-            href="https://lu.ma/q4f98ei5"
+            href="https://lu.ma/8ewg5c0i"
             target="_blank"
             aria-label="Official link to the first tour event"
           >
@@ -191,34 +191,54 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         />
       </div>
 
-      <!-- Sticker logos -->
-      <div class="relative h-[26vw]">
-        <div class="absolute w-[22vw] top-[2vw] left-[27vw] z-40">
-          <a
-            href="https://w3blab.io/"
-            aria-label="Web3Labs barcelona - Official Link "
-            target="_blank"
-          >
-            <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_511/q_auto/f_auto/v1692737035/web3Lab-barcelona_vjkagh.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] -rotate-3"
-              alt="Web3Labs barcelona logo sticker"
-            />
-          </a>
+      <!-- Partners logos -->
+      <div class="relative w-[85vw] mt-[2vw] left-[0vw] ">
+        <div class="relative w-[36vw] h-[11vw] -rotate-[8deg]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739368742/tour-2025/cultura_c3_logo.png"
+            class="w-full"
+            alt="Official Cultura C3 logo"
+          />
+        </div>
+        <div class="relative w-[16vw] left-[25vw] mt-[2vw] h-[10vw] rotate-[8deg]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694112133/42-barcelona-sticker_ceo6ih.png"
+            class="w-full"
+            alt="Official 42 Barcelona logo"
+          />
+        </div>
+      </div>
+
+      <!-- Connector line and sticker -->
+
+      <div class="relative">
+        <!-- line from third event to fourth event-->
+        <div class="relative w-full mb-[10vw] h-[5vw] rotate-[16deg]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707714/images/arrow_3-4_hbjenp.webp"
+            class="absolute w-[45vw] right-[1vw] -top-[35vw]"
+            alt="arrow from third postcard event to fourth postcard event"
+          />
         </div>
 
-        <div class="absolute w-[22vw] top-[8vw] left-[5vw] z-40">
-          <a
-            href="https://www.42barcelona.com/"
-            aria-label="Web3Labs barcelona - Official Link "
-            target="_blank"
-          >
-            <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/w_511/q_auto/f_auto/v1694093991/42-barcelona-sticker_mnw41q.png"
-              class="absolute w-full -top-[1.5vw] -left-[1vw] rotate-6"
-              alt="Web3Labs barcelona logo sticker"
-            />
-          </a>
+        <!-- train icon -->
+        <div class="absolute w-full mb-[16vw]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
+            class="absolute w-[16vw] right-[12vw] -top-[20.5vw] -rotate-[345deg]"
+            alt="train sticker"
+          />
+        </div>
+      </div>
+
+      <!-- Orange zigzag divider -->
+      <div class="absolute w-full flex bottom-[5vw] -left-[4vw] z-10">
+        <div class="absolute w-[70vw] rotate-3">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707714/images/zigzag_orange_tqiwna.webp"
+            class="w-full"
+            alt="Orange zigzag divider "
+          />
         </div>
       </div>
     </div>
