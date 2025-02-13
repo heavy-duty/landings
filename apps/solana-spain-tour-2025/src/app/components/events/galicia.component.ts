@@ -227,7 +227,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         <div class="relative w-full mb-[10vw] h-[5vw] rotate-[16deg]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707714/images/arrow_3-4_hbjenp.webp"
-            class="absolute w-[45vw] right-[1vw] -top-[35vw]"
+            class="absolute w-[50vw] right-[0vw] -top-[45vw]"
             alt="arrow from third postcard event to fourth postcard event"
           />
         </div>
@@ -236,7 +236,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         <div class="absolute w-full mb-[16vw]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
-            class="absolute w-[16vw] right-[9vw] -top-[20vw] rotate-[5deg]"
+            class="absolute w-[16vw] right-[9vw] -top-[26vw] rotate-[5deg]"
             alt="train sticker"
           />
         </div>

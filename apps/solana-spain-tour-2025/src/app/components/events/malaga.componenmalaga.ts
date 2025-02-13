@@ -72,7 +72,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light ">
-                  47, Campanillas, 
+                  47, Campanillas,
                 </p>
               </div>
               <div
@@ -161,7 +161,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
             aria-label="Official link to the malaga tour event"
           >
             <spain-tour-event-more-info-icon
-              class="absolute w-[16vw] left-[2.5vw] bottom-[3vw] z-10"
+              class="absolute w-[18vw] left-[2vw] bottom-[1.5vw] z-10"
               [classPrefix]="'sixth-event243'"
             ></spain-tour-event-more-info-icon>
           </a>
@@ -170,7 +170,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
     </div>
 
     <!-- Event sponsors -->
-    <div class="relative w-full flex flex-col items-end">
+    <div class="relative w-full flex flex-col items-end bg-yellow-200">
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
@@ -204,38 +204,26 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
     </div>
 
     <!-- Cnnector line and sticker -->
-    <div class="relative h-[25vw]">
+    <div class="relative h-[20vw] bg-blue-200">
       <!-- line from malaga event to other event-->
-      <div class="relative w-full -top-[38vw] -rotate-[20deg]">
+      <div class="relative w-full mb-[2vw] bg-red-300">
         <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707711/images/arrow_2-3_pczd47.webp"
-          class="absolute w-[50vw] -left-[18vw] "
-          alt="arrow from malaga postcard event to third postcard event"
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707714/images/arrow_1-2_dmfgl4.webp"
+          class="absolute w-[46vw] left-[0vw] -top-[32vw] scale-x-[-1] -rotate-[12deg]"
+          alt="arrow from first postcard event to second postcard event"
         />
       </div>
 
-      <!-- train icon -->
+      <!-- plane icon -->
       <div class="absolute w-full mb-[16vw]">
         <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/train_a0d2vt.webp"
-          class="absolute w-[16vw] left-[6vw] top-[5vw] -rotate-12 scale-x-[-1]"
-          alt="train sticker"
-        />
-      </div>
-          <!-- Green zigzag divider -->
-    <div class="relative w-full flex left-0 z-10">
-      <div class="absolute w-[70vw] top-[3vw] -right-[6vw] -rotate-6">
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707713/images/zigzag_green_xtvnyq.webp"
-          class="w-full"
-          alt="Green zigzag divider "
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/airplane_rjo8jo.webp"
+          class="absolute w-[13vw] -left-[1vw] -top-[8vw] -rotate-[16deg] scale-x-[-1]"
+          alt="plane sticker"
         />
       </div>
     </div>
-    </div>
-
-
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class malagaEventComponent {}
+export class MalagaEventComponent {}

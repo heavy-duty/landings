@@ -5,6 +5,7 @@ import { HeroSectionComponent } from './components/core/hero-section.component';
 import { BarcelonaEventComponent } from './components/events/barcelona.component';
 import { MadridEventComponent } from './components/events/madrid.componen';
 import { GaliciaEventComponent } from './components/events/galicia.component';
+import { MalagaEventComponent } from './components/events/malaga.componenmalaga';
 
 @Component({
   standalone: true,
@@ -13,6 +14,7 @@ import { GaliciaEventComponent } from './components/events/galicia.component';
     BarcelonaEventComponent,
     MadridEventComponent,
     GaliciaEventComponent,
+    MalagaEventComponent,
     FooterEventComponent,
     HeroSectionComponent,
   ],
@@ -59,6 +61,8 @@ import { GaliciaEventComponent } from './components/events/galicia.component';
       <spain-tour-madrid-event></spain-tour-madrid-event>
 
       <spain-tour-galicia-event></spain-tour-galicia-event>
+
+      <spain-tour-malaga-event></spain-tour-malaga-event>
       
     </section>
 

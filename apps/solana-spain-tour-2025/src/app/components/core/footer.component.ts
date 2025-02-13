@@ -123,7 +123,7 @@ import { WebsiteLinkIconComponent } from '../website-url.icon';
           </div>
 
           <!-- Become Partner information-->
-          <div class="absolute w-[20vw] -top-[15vw] -right-[5vw]">
+          <div class="absolute w-[26vw] -top-[15vw] -right-[7vw]">
             <a
               href="mailto:andres@heavyduty.builders"
               subject="Solana Spain Tour sponsorship information"
