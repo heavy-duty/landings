@@ -71,17 +71,13 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  3, 15003 
-                </p>
+                <p class="bp-landing-font text-[1vw] font-light">3, 15003</p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
               >
                 <div class="basis-[.7vw]"></div>
-                <p class="bp-landing-font text-[1vw] font-light">
-                  A Coruña.
-                </p>
+                <p class="bp-landing-font text-[1vw] font-light">A Coruña.</p>
               </div>
               <div
                 class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -168,10 +164,19 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           >
             <spain-tour-event-more-info-icon
               class="absolute  w-[17vw] left-[1.7vw] bottom-[1.1vw] z-10"
-              [classPrefix]="'sixth-event0'"
+              [classPrefix]="'galicia-event2702'"
             ></spain-tour-event-more-info-icon>
           </a>
         </div>
+      </div>
+
+      <!-- Extra Sticker detail -->
+      <div class="absolute top-[40vw] right-[4vw]">
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739495595/tour-2025/Wine_ltvjuk.png"
+          class="relative w-[10vw] "
+          alt="wine and olive sticker"
+        />
       </div>
     </div>
 
@@ -195,34 +200,42 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
             alt="Official Hi Coruña logo"
           />
         </div>
-        <div class="relative w-[26vw] left-[22vw] -top-[2.5vw] h-[5vw] rotate-[8deg]">
+        <div
+          class="relative w-[26vw] left-[22vw] -top-[2.5vw] h-[5vw] rotate-[8deg]"
+        >
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739374833/tour-2025/agabit_logo.png"
             class="w-full"
             alt="Official Agalbit logo"
           />
         </div>
-        <div class="relative w-[26vw] left-[3vw] -top-[4vw] h-[5vw] -rotate-[5deg]">
+        <div
+          class="relative w-[26vw] left-[3vw] -top-[4vw] h-[5vw] -rotate-[5deg]"
+        >
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739371451/tour-2025/metalabs_logo.png"
             class="w-full"
             alt="Official Metalabs logo"
           />
         </div>
-        <div class="relative w-[20vw] left-[24vw] -top-[2vw] h-[5vw] rotate-[3deg]">
+        <div
+          class="relative w-[20vw] left-[24vw] -top-[2vw] h-[5vw] rotate-[3deg]"
+        >
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739482029/tour-2025/dextools-logo-2.png"
             class="w-full"
             alt="Official Dextools logo"
           />
-        </div> 
-        <div class="relative w-[18vw] left-[2vw] -top-[6vw] h-[5vw] rotate-[3deg]">
+        </div>
+        <div
+          class="relative w-[18vw] left-[2vw] -top-[6vw] h-[5vw] rotate-[3deg]"
+        >
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739482030/tour-2025/web3lab-logo.png"
             class="w-full"
             alt="Official Web3Lab Community logo"
           />
-        </div>          
+        </div>
       </div>
 
       <!-- Connector line and sticker -->

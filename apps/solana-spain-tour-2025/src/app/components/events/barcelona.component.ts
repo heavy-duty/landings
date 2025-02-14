@@ -168,14 +168,9 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           >
             <spain-tour-event-more-info-icon
               class="absolute  w-[17vw] left-[1.8vw] bottom-[1.2vw] z-10"
-              [classPrefix]="'sixth-event0'"
+              [classPrefix]="'barcelona-event1902'"
             ></spain-tour-event-more-info-icon>
           </a>
-          <spain-tour-push-pin-icon
-            colorData="blue"
-            [classPrefix]="'ff-match-pin'"
-            class="absolute block w-[3vw] z-10 top-[.5vw] left-[9.8vw]"
-          ></spain-tour-push-pin-icon>
         </div>
       </div>
     </div>

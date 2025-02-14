@@ -100,7 +100,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
                 alt="Calendar icon"
               />
               <div class="basis-[.7vw]"></div>
-              <p class="bp-landing-font text-[1vw] font-light">26/02/2025</p>
+              <p class="bp-landing-font text-[1vw] font-light">07/03/2025</p>
             </div>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -162,10 +162,19 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           >
             <spain-tour-event-more-info-icon
               class="absolute w-[18vw] left-[2vw] bottom-[1.5vw] z-10"
-              [classPrefix]="'sixth-event243'"
+              [classPrefix]="'malaga-event0703'"
             ></spain-tour-event-more-info-icon>
           </a>
         </div>
+      </div>
+
+      <!-- Extra Sticker detail -->
+      <div class="absolute top-[50vw]">
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739495596/tour-2025/bull_bsyz0y.webp"
+          class="relative w-[9vw] left-[0vw] "
+          alt="bull sticker"
+        />
       </div>
     </div>
 
@@ -182,9 +191,9 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
 
       <!-- Partners logos -->
       <div
-        class="relative w-[85vw] mt-[2vw] right-[1vw] flex flex-col items-end"
+        class="relative w-[85vw] mt-[2vw] right-[0vw] flex flex-col items-end"
       >
-        <div class="relative w-[16vw] -rotate-[6deg]">
+        <div class="relative w-[17vw] -rotate-[6deg]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1694101554/Universidad-malaga-sticker_xcqtib.png"
             class="w-full"
@@ -192,7 +201,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           />
         </div>
         <div
-          class="relative w-[16vw] right-[17vw] -top-[10vw] h-[5vw] rotate-[5deg]"
+          class="relative w-[18vw] right-[22vw] -top-[14vw] h-[5vw] rotate-[5deg]"
         >
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739490970/tour-2025/unknown-gravity-logo.png"
@@ -201,7 +210,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           />
         </div>
         <div
-          class="relative w-[18vw] -left-[10vw] -top-[3vw] h-[5vw] -rotate-[8deg]"
+          class="relative w-[20vw] right-[17vw] -top-[8vw] h-[5vw] -rotate-[8deg]"
         >
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739493478/tour-2025/blockchain-malaga_jvqvau.png"
@@ -234,7 +243,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
 
       <!-- Purple zigzag divider -->
       <div class="relative w-full flex left-0 z-10">
-        <div class="absolute w-[70vw] -top-[1vw] -right-[6vw] -rotate-6">
+        <div class="absolute w-[70vw] -top-[4vw] -right-[6vw] -rotate-6">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739482018/tour-2025/zigzag_purple_tqiwna.png"
             class="w-full"

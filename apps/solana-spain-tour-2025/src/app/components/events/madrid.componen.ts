@@ -162,12 +162,22 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           >
             <spain-tour-event-more-info-icon
               class="absolute w-[16vw] left-[2.5vw] bottom-[3vw] z-10"
-              [classPrefix]="'sixth-event243'"
+              [classPrefix]="'madrid-event2602'"
             ></spain-tour-event-more-info-icon>
           </a>
         </div>
       </div>
+
+      <!-- Extra Sticker detail -->
+      <div class="absolute top-[62vw]">
+        <img
+          src="https://res.cloudinary.com/andresmgsl/image/upload/v1739495596/tour-2025/ballerina_zq5vsp.webp"
+          class="relative w-[13vw] left-[8vw] "
+          alt="woman dancer sticker"
+        />
+      </div>
     </div>
+
 
     <!-- Event sponsors -->
     <div class="relative w-full flex flex-col items-end">
