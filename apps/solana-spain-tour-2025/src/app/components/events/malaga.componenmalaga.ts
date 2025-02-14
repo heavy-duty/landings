@@ -32,8 +32,8 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         ></spain-tour-push-pin-icon>
         <spain-tour-post-card-icon
           [classPrefix]="'-malaga-event'"
-          [firstColor]="'#00C2FF'"
-          [secondColor]="'#FFA463'"
+          [firstColor]="'#46ea69'"
+          [secondColor]="'#14b4e5'"
           class="absolute block w-full top-0 left-0"
         ></spain-tour-post-card-icon>
 
@@ -80,7 +80,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
               >
                 <div class="basis-[.7vw]"></div>
                 <p class="bp-landing-font text-[1vw] font-light ">
-                  29019, malaga.
+                  29019, Málaga.
                 </p>
               </div>
             </a>
@@ -170,7 +170,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
     </div>
 
     <!-- Event sponsors -->
-    <div class="relative w-full flex flex-col items-end bg-yellow-200">
+    <div class="relative w-full flex flex-col items-end">
       <!-- Sponsor text -->
       <div class="relative w-[16vw] mt-[4vw]">
         <img
@@ -182,29 +182,38 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
 
       <!-- Partners logos -->
       <div
-        class="relative w-[85vw] mt-[2vw] left-[0vw] flex flex-col items-end"
+        class="relative w-[85vw] mt-[2vw] right-[1vw] flex flex-col items-end"
       >
-        <div class="relative w-[36vw] rotate-[8deg]">
+        <div class="relative w-[16vw] -rotate-[6deg]">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739368742/tour-2025/cultura_c3_logo.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1694101554/Universidad-malaga-sticker_xcqtib.png"
             class="w-full"
             alt="Official Cultura C3 logo"
           />
         </div>
         <div
-          class="relative w-[16vw] -left-[10vw] mt-[2vw] h-[10vw] -rotate-[8deg]"
+          class="relative w-[16vw] right-[17vw] -top-[10vw] h-[5vw] rotate-[5deg]"
         >
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/w_511/q_auto/f_auto/v1694093991/42-malaga-sticker_mnw41q.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739490970/tour-2025/unknown-gravity-logo.png"
             class="w-full"
-            alt="Official 42 malaga logo"
+            alt="Official unknown gravity logo"
+          />
+        </div>
+        <div
+          class="relative w-[18vw] -left-[10vw] -top-[3vw] h-[5vw] -rotate-[8deg]"
+        >
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739493478/tour-2025/blockchain-malaga_jvqvau.png"
+            class="w-full"
+            alt="Official blockchain malaga logo"
           />
         </div>
       </div>
     </div>
 
     <!-- Cnnector line and sticker -->
-    <div class="relative h-[20vw] bg-blue-200">
+    <div class="relative h-[20vw]">
       <!-- line from malaga event to other event-->
       <div class="relative w-full mb-[2vw] bg-red-300">
         <img
@@ -218,9 +227,20 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
       <div class="absolute w-full mb-[16vw]">
         <img
           src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/airplane_rjo8jo.webp"
-          class="absolute w-[13vw] -left-[1vw] -top-[8vw] -rotate-[16deg] scale-x-[-1]"
+          class="absolute w-[12vw] -left-[0vw] -top-[8vw] -rotate-[16deg] scale-x-[-1]"
           alt="plane sticker"
         />
+      </div>
+
+      <!-- Purple zigzag divider -->
+      <div class="relative w-full flex left-0 z-10">
+        <div class="absolute w-[70vw] -top-[1vw] -right-[6vw] -rotate-6">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739482018/tour-2025/zigzag_purple_tqiwna.png"
+            class="w-full"
+            alt="Purple zigzag divider "
+          />
+        </div>
       </div>
     </div>
   `,

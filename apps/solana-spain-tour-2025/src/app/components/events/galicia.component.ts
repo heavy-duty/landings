@@ -44,7 +44,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           <!-- Postcard info section -->
           <div class="relative basis-[30%] h-full  px-[1vw]">
             <p class="text-[3.8vw] bp-amatic-font text-left font-bold mb-[0vw]">
-              <span class="block">Galicia</span>
+              <span class="block">A Coruña</span>
             </p>
             <div
               class="flex items-center border-b-[.1vw] border-slate-400 mb-[.3vw] gap-[1vw]"
@@ -187,7 +187,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
       </div>
 
       <!-- Partners logos -->
-      <div class="relative w-[85vw] mt-[2vw] left-[0vw] ">
+      <div class="relative w-[85vw] mt-[2vw] left-[0vw]">
         <div class="relative w-[30vw] h-[11vw] -rotate-[8deg]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739374543/tour-2025/Hi-logo.png"
@@ -195,29 +195,34 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
             alt="Official Hi Coruña logo"
           />
         </div>
-        <div class="relative w-[26vw] left-[25vw] -top-[3vw] h-[5vw] rotate-[8deg]">
+        <div class="relative w-[26vw] left-[22vw] -top-[2.5vw] h-[5vw] rotate-[8deg]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739374833/tour-2025/agabit_logo.png"
             class="w-full"
             alt="Official Agalbit logo"
           />
         </div>
-        <div class="relative w-[26vw] left-[10vw] -top-[2vw] h-[10vw] -rotate-[5deg]">
+        <div class="relative w-[26vw] left-[3vw] -top-[4vw] h-[5vw] -rotate-[5deg]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739371451/tour-2025/metalabs_logo.png"
             class="w-full"
             alt="Official Metalabs logo"
           />
         </div>
-        <div class="relative w-[16vw] left-[37vw] -mt-[6vw] h-[10vw] rotate-[3deg]">
+        <div class="relative w-[20vw] left-[24vw] -top-[2vw] h-[5vw] rotate-[3deg]">
           <img
-            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739374707/tour-2025/dextools.png"
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739482029/tour-2025/dextools-logo-2.png"
             class="w-full"
             alt="Official Dextools logo"
           />
-        </div>
-
-        
+        </div> 
+        <div class="relative w-[18vw] left-[2vw] -top-[6vw] h-[5vw] rotate-[3deg]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739482030/tour-2025/web3lab-logo.png"
+            class="w-full"
+            alt="Official Web3Lab Community logo"
+          />
+        </div>          
       </div>
 
       <!-- Connector line and sticker -->

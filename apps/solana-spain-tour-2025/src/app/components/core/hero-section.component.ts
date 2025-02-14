@@ -46,7 +46,7 @@ import { PushPinIconComponent } from '../push-pin.icon';
           <div class="relative">
             <!-- paper -->
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738949196/tour-2025/map-full-yellow.png"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739479885/tour-2025/map-full-02.png"
               alt="Spain Mailand map in a paper"
               class="block w-full"
               width="1008"
@@ -114,7 +114,7 @@ import { PushPinIconComponent } from '../push-pin.icon';
               ></spain-tour-push-pin-icon>
             </a>
 
-            <!-- Marbella -->
+            <!-- Malaga -->
             <a
               href="#marbella-event-section"
               title="Direct link to the Marbella event section"
@@ -123,19 +123,6 @@ import { PushPinIconComponent } from '../push-pin.icon';
                 class="absolute block w-[3vw] bottom-[15%] left-[32%] z-10 cursor-pointer"
                 colorData="red"
                 [classPrefix]="'map-marbella-pin'"
-                [showHover]="true"
-              ></spain-tour-push-pin-icon>
-            </a>
-
-            <!-- Málaga -->
-            <a
-              href="#malaga-event-section"
-              title="Direct link to the Malaga event section"
-            >
-              <spain-tour-push-pin-icon
-                class="absolute block w-[3vw] bottom-[18%] left-[37%] z-10 cursor-pointer"
-                colorData="blue"
-                [classPrefix]="'map-malaga-pin'"
                 [showHover]="true"
               ></spain-tour-push-pin-icon>
             </a>
@@ -197,7 +184,7 @@ import { PushPinIconComponent } from '../push-pin.icon';
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840556/tour-2025/Notas/01.png"
               class="relative w-full rotate-12"
-              alt="blue Post-It third sponsor spot"
+              alt="second tour solana white folded paper "
             />
           </div>
 
@@ -206,8 +193,8 @@ import { PushPinIconComponent } from '../push-pin.icon';
             class="absolute flex justify-center w-[25vw] top-[23vw] right-[8vw]"
           >
             <img
-              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738935104/tour-2025/Notas/nota_02_sponosr.png"
-              alt="green Post-It first sponsor spot"
+              src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739479750/tour-2025/02.png"
+              alt="4 cities white folded paper"
               class="w-full -rotate-6"
             />
           </div>
@@ -217,7 +204,7 @@ import { PushPinIconComponent } from '../push-pin.icon';
             <img
               src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1738840556/tour-2025/Notas/03.png"
               class="relative w-full left-[2vw] rotate-3"
-              alt="white folded paper second sponsor spot"
+              alt="global sponsors white folded paper"
             />
           </div>
         </div>

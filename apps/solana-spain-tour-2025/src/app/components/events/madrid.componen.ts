@@ -222,19 +222,17 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
           alt="train sticker"
         />
       </div>
-          <!-- Green zigzag divider -->
-    <div class="relative w-full flex left-0 z-10">
-      <div class="absolute w-[70vw] top-[3vw] -right-[6vw] -rotate-6">
-        <img
-          src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707713/images/zigzag_green_xtvnyq.webp"
-          class="w-full"
-          alt="Green zigzag divider "
-        />
+      <!-- Green zigzag divider -->
+      <div class="relative w-full flex left-0 z-10">
+        <div class="absolute w-[70vw] top-[3vw] -right-[6vw] -rotate-6">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707713/images/zigzag_green_xtvnyq.webp"
+            class="w-full"
+            alt="Green zigzag divider "
+          />
+        </div>
       </div>
     </div>
-    </div>
-
-
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

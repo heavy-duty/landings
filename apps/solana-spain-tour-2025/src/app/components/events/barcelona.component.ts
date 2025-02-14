@@ -200,11 +200,18 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
             alt="Official Cultura C3 logo"
           />
         </div>
-        <div class="relative w-[16vw] left-[25vw] mt-[2vw] h-[10vw] rotate-[8deg]">
+        <div class="relative w-[16vw] left-[25vw] mt-[2vw] h-[5vw] rotate-[8deg]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/w_411/q_auto/f_auto/v1694112133/42-barcelona-sticker_ceo6ih.png"
             class="w-full"
             alt="Official 42 Barcelona logo"
+          />
+        </div>
+        <div class="relative w-[16vw] left-[5vw] -top-[4vw] h-[7vw] -rotate-[8deg]">
+          <img
+            src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1739490204/tour-2025/clean_471446580.png"
+            class="w-full"
+            alt=" Barcelona Rust logo"
           />
         </div>
       </div>
@@ -216,7 +223,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         <div class="relative w-full mb-[10vw] h-[5vw] rotate-[16deg]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1691707714/images/arrow_3-4_hbjenp.webp"
-            class="absolute w-[45vw] right-[1vw] -top-[35vw]"
+            class="absolute w-[50vw] right-[0vw] -top-[40vw]"
             alt="arrow from third postcard event to fourth postcard event"
           />
         </div>
@@ -225,7 +232,7 @@ import { EventMoreInfoIconComponent } from '../event-more-info.icon';
         <div class="absolute w-full mb-[16vw]">
           <img
             src="https://res.cloudinary.com/andresmgsl/image/upload/q_auto/f_auto/v1692022453/airplane_rjo8jo.webp"
-            class="absolute w-[12vw] right-[8vw] -top-[20.5vw] -rotate-[0deg]"
+            class="absolute w-[12vw] right-[6.5vw] -top-[20.5vw] rotate-[18deg]"
             alt="plane sticker"
           />
         </div>
